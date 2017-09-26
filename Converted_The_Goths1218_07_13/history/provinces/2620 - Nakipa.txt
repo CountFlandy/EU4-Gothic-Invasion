@@ -1,0 +1,18 @@
+owner = JEN
+controller = JEN
+add_core = JEN
+
+culture = japanese_explorer
+religion = shinto
+
+is_city = yes
+hre = no
+
+base_tax = 6
+base_production = 3
+base_manpower = 4
+trade_goods = iron
+
+discovered_by = north_american
+discovered_by = high_american
+

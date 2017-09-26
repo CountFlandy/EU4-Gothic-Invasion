@@ -1,0 +1,270 @@
+country_decisions = {
+
+	italian_nation = {
+		major = yes #Is it a colored decision?
+		potential = { #Can see if....
+			NOT = { exists = ITA } #italy cant already exist
+			NOT = { tag = PAP } #Cant be pope
+			NOT = { tag = HLR } #Cant be HRE
+			culture_group = latin #Must be Latin culture to form
+			OR = { #You must be a human, and if not, you need 15 territories.
+				ai = no
+				AND = { #If your an AI, you need 15 cities to form
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+			is_colonial_nation = no #Cant be a colony
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = { #Requirements to form
+			adm_tech = 10 #Must be Admin 10
+			is_subject = no #Cant be subject
+			is_at_war = no #Cant be at war
+			owns_core_province = 101	# Genoa
+			owns_core_province = 104	# Milan
+			owns_core_province = 106	# Modena
+			owns_core_province = 108	# Verona
+			owns_core_province = 109	# Mantua
+			owns_core_province = 116	# Firenze
+			owns_core_province = 117	# Siena
+			owns_core_province = 118	# Roma
+			owns_core_province = 119	# Ancona
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				emperor = {
+					add_opinion = {
+						who = root
+						modifier = opinion_left_empire
+					}
+				}
+				set_in_empire = no
+				emperor = {
+					country_event = { id = hre_event.5 }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			change_tag = ITA
+			italy_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ITA
+			}
+			add_prestige = 25
+			ITA = {
+				set_capital = 118
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	gods_kingdom = {
+		major = yes
+		potential = {
+			NOT = { exists = ITA }
+			tag = PAP
+			NOT = { has_country_modifier = kingdom_of_god }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			#Ecclesiastical provinces of Northern Italy
+			owns_core_province = 101	# Genoa
+			owns_core_province = 103	# Torino
+			owns_core_province = 104	# Milano
+			owns_core_province = 106	# Modena
+			owns_core_province = 110	# Trento
+			owns_core_province = 111	# Udine / Aquileia
+			owns_core_province = 112	# Venice
+			owns_core_province = 114	# Bologna + Ravenna
+			owns_core_province = 116	# Firenze
+			owns_core_province = 115	# Pisa
+			owns_core_province = 119	# Ancona + Fermo
+			owns_core_province = 2976	# Perugia
+			owns_core_province = 2977	# Pesaro
+		}
+		effect = {
+			add_country_modifier = {
+				name = "kingdom_of_god"
+				duration = -1
+			}
+			country_event  = { id = catholic_flavor.2 }
+			every_province = {
+				limit = {
+					region = italy_region
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#Useful effect ownership to learn from
+	tuscan_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			NOT = { tag = ITA }
+			NOT = { tag = TUS }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+					NOT = { exists = TUS }
+				}
+			}
+			primary_culture = tuscan
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			NOT = { exists = TUS }
+			owns_core_province = 2978	# Arezzo
+			owns_core_province = 116	# Firenze
+			owns_core_province = 115	# Pisa
+			owns_core_province = 117	# Siena
+
+		}
+		effect = {
+			change_tag = TUS
+			every_province = {
+				limit = {
+					culture = tuscan
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TUS
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = {
+					NOT = { has_idea_group = TUS_ideas }
+					is_playing_custom_nation = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_prestige = 25
+			hidden_effect = {
+				country_event = { id = flavor_tus.2 days = 50 random = 20 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}	
+
+	sardinia_piedmont_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = SPI }
+			#government = monarchy
+			OR = {
+				primary_culture = piedmontese
+				primary_culture = sardinian
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				primary_culture = piedmontese
+				primary_culture = sardinian
+			}
+			owns_core_province = 102		# Nice
+			owns_core_province = 103		# Piedmont
+			owns_core_province = 127		# Sardinia
+			owns_core_province = 205		# Savoie
+			owns_core_province = 1875		# Cuneo	
+		}
+		effect = {
+			change_tag = SPI
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 2
+					}
+				}
+				set_government_rank = 2
+			}
+			set_capital = 103		# Piedmont
+			add_prestige = 15
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	
+}

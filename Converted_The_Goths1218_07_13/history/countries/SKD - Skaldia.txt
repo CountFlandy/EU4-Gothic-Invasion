@@ -1,0 +1,20 @@
+# Skaldia
+government = vangarian_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = vangarian
+religion = black_sea_pagan
+
+capital = 2750 #Plovdiv
+
+1444.7.12 = {
+	monarch = {
+		name = "Jedvard"
+		birth_date = 1410.3.26
+		dynasty = "Skáld"
+		adm = 5
+		dip = 1
+		mil = 4
+	}
+}

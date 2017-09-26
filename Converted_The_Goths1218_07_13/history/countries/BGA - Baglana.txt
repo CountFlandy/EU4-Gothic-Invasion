@@ -1,0 +1,31 @@
+government = despotic_monarchy
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = malvi
+add_accepted_culture = gujarati
+capital = 2036	# Mayuragiri
+
+1431.1.1 = {
+	monarch = {
+		name = "Nanadeva II"
+		dynasty = "Rastraudha"
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+}
+
+1431.1.1 = {
+	heir = {
+		name = "Bhairava"
+		monarch_name = "Bhairava"
+		dynasty = "Rastraudha"
+		birth_Date = 1425.1.1
+		death_date = 1462.2.8
+		claim = 100
+		adm = 1
+		dip = 2
+		mil = 0
+	}
+}

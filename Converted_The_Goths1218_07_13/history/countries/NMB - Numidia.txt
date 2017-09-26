@@ -1,0 +1,18 @@
+#Numidia
+government = tribal_federation
+primary_culture = numidian
+religion = jewish
+technology_group = muslim
+capital = 341	# Tunis
+
+
+1444.7.13 = {
+	monarch = {
+		name = "Aleksander IV"
+		birth_date = 1404.4.17
+		dynasty = "Numidia"
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+}

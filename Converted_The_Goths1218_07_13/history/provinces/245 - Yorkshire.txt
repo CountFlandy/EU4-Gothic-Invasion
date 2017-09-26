@@ -1,0 +1,32 @@
+owner = CUM
+controller = CUM
+add_core = CUM
+
+culture = gaelic_cumbric
+religion = norse_religion_papacy
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 4
+	base_production = 4
+	base_manpower = 3
+	remove_core = NOL
+}
+1444.11.11 = {
+	owner = CUM
+	controller = CUM
+	culture = gaelic_cumbric
+	religion = norse_religion_papacy
+	
+	add_permanent_province_modifier = {
+		name = center_of_trade_modifier
+		duration = -1
+	}
+}

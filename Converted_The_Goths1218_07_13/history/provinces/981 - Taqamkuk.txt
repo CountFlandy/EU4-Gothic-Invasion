@@ -1,0 +1,14 @@
+owner = VIN
+controller = VIN
+add_core = VIN
+hre = no
+is_city = yes
+religion = norse_pagan_reformed
+culture = norse
+base_tax = 4
+base_production = 3
+base_manpower = 2
+trade_goods = fish
+
+discovered_by = high_american
+discovered_by = VIN

@@ -1,0 +1,265 @@
+# Brittany
+graphical_culture = westerngfx
+color = { 239 252 246 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	exploration_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Mélusine" "Alphonse" "Euphrosine" "Géraud" "Ramnulf" "Godefroy" "Adaltrud" "Rotrude" "Gauzbert" "Adélaïde" 
+	"Aurengarde" "Sybille" "Ebles" "Othon" "Belleassez" "Alice" "Ebbon" "Ermengarde" "Charles" "Guillaumette" 
+	"Emma" "Gilbert" "Bertrand" "Ermessinde" "Gaucher" "Thibault" "Carles" "Jeanne" "Ingelger" "Héloise" 
+	"Hildegard" "Adelaida" "Aude" "Tiburge" "Aliénor" "Cécile" "Benoîte" "Aldéric" "Bérengère" "Édouard" 
+	"Julien" "Adelinde" "Esclarmonde" "Duran" "Evrard" "Charlotte" "Mahaut" "Adelaide" "Echive" "Robert" 
+	"Valence" "Robin" "Bourgogne" "Henri" "Raimbaut" "Jaspert" "Léon" "Adalmode" "Adémar" "Cynan Meiriadog" 
+	"Gradlon" "Salomon" "Aldrien" "Budic" "Guérech" "Hoël" "Teudur" "Alan" "Samzun" "Beltram" 
+	"Leri" "Pêr" "Laorans" "Erwan" "Gilla-Críst" "Lothaire" "Renan" "Ildut" "Konwoion" "Alar" 
+	"Alor" "Alwen" "Andrev" "Anton" "Aodred" "Arc'hantael" "Arnald" "Arzhel" "Arzhur" "Baldoen" 
+	"Benabic" "Bernez" "Blaez" "Bodognous" "Bran" "Brendan" "Brevalaer" "Briac" "Brigacos" "Budoc" 
+	"Deniel" "Derrien" "Devi" "Donan" "Drogon" "Edern" "Edouarzh" "Eon" "Eozen" "Everard" 
+	"Ewen" "Felix" "Fragan" "Frañsez" "Gael" "Gallmau" "Gennovevs" "Girec" "Glen" "Govran" 
+	"Gralon" "Gregor" "Guimarc'h" "Guyomarc'h" "Gwilherm" "Hamon" "Helori" "Herri" "Heranal" "Hesdren" 
+	"Huiarnviu" "Ilan" "Iocilin" "Iusti" "Jafrez" "Jakez" "Jalm" "Jaoua" "Jehan" "Jermen" 
+	"Jilberzh" "Jord" "Jos" "Judikael" "Kado" "Kadvalaer" "Kaourantin" "Karadeg" "Karlz" "Kavan" 
+	"Klaoda" "Konan" "Kongar" "Koulizh" "Loeiz" "Lukaz" "Maelog" "Marrec" "Marzhin" "Mazhe" 
+	"Meriadeg" "Mihael" "Morvan" "Neven" "Nikolaz" "Olier" "Padrig" "Paol" "Riaged" "Riok" 
+	"Riwall" "Ronan" "Roparzh" "Seog" "Sian" "Stefen" "Tanet" "Treveur" "Tristan" "Tudual" 
+	"Turtoualdus" "Urvod" "Vinsant" "Vormvini" "Yann" }
+monarch_names = {
+	"Mélusine #1" = -19
+	"Alphonse #2" = 27
+	"Euphrosine #0" = -1
+	"Géraud #0" = 1
+	"Ramnulf #0" = 1
+	"Godefroy #0" = 1
+	"Adaltrud #0" = -1
+	"Rotrude #0" = -1
+	"Gauzbert #0" = 1
+	"Adélaïde #0" = -1
+	"Aurengarde #0" = -1
+	"Sybille #0" = -1
+	"Ebles #0" = 1
+	"Othon #0" = 1
+	"Belleassez #0" = -1
+	"Alice #0" = -1
+	"Ebbon #0" = 1
+	"Ermengarde #0" = -1
+	"Charles #0" = 1
+	"Guillaumette #0" = -1
+	"Emma #0" = -1
+	"Gilbert #0" = 1
+	"Bertrand #0" = 1
+	"Ermessinde #0" = -1
+	"Gaucher #0" = 1
+	"Thibault #0" = 1
+	"Carles #0" = 1
+	"Jeanne #0" = -1
+	"Ingelger #0" = 1
+	"Héloise #0" = -1
+	"Hildegard #0" = -1
+	"Adelaida #0" = -1
+	"Aude #0" = -1
+	"Tiburge #0" = -1
+	"Aliénor #0" = -1
+	"Cécile #0" = -1
+	"Benoîte #0" = -1
+	"Aldéric #0" = 1
+	"Bérengère #0" = -1
+	"Édouard #1" = 27
+	"Julien #0" = 1
+	"Adelinde #0" = -1
+	"Esclarmonde #0" = -1
+	"Duran #0" = 1
+	"Evrard #0" = 1
+	"Charlotte #0" = -1
+	"Mahaut #0" = -1
+	"Adelaide #0" = -1
+	"Echive #0" = -1
+	"Robert #1" = 18
+	"Valence #0" = -1
+	"Robin #0" = 1
+	"Bourgogne #0" = -1
+	"Henri #0" = 1
+	"Raimbaut #0" = 1
+	"Jaspert #1" = 21
+	"Léon #0" = 1
+	"Adalmode #0" = -1
+	"Adémar #0" = 1
+	"Cynan Meiriadog #1" = 0
+	"Gradlon #1" = 0
+	"Salomon #2" = 0
+	"Aldrien #1" = 0
+	"Budic #2" = 0
+	"Guérech #1" = 0
+	"Hoël #3" = 0
+	"Teudur #1" = 0
+	"Alan #2" = 0
+	"Samzun #1" = 0
+	"Beltram #1" = 0
+	"Leri #1" = 0
+	"Pêr #1" = 0
+	"Laorans #1" = 0
+	"Erwan #1" = 0
+	"Gilla-Críst #1" = 0
+	"Lothaire #1" = 0
+	"Renan #1" = 0
+	"Ildut #1" = 0
+	"Konwoion #1" = 0
+	"Alar #0" = 0
+	"Alor #0" = 0
+	"Alwen #0" = 0
+	"Andrev #0" = 0
+	"Anton #0" = 0
+	"Aodred #0" = 0
+	"Arc'hantael #0" = 0
+	"Arnald #0" = 0
+	"Arzhel #0" = 0
+	"Arzhur #0" = 0
+	"Baldoen #0" = 0
+	"Benabic #0" = 0
+	"Bernez #0" = 0
+	"Blaez #0" = 0
+	"Bodognous #0" = 0
+	"Bran #0" = 0
+	"Brendan #0" = 0
+	"Brevalaer #0" = 0
+	"Briac #0" = 0
+	"Brigacos #0" = 0
+	"Budoc #0" = 0
+	"Deniel #0" = 0
+	"Derrien #0" = 0
+	"Devi #0" = 0
+	"Donan #0" = 0
+	"Drogon #0" = 0
+	"Edern #0" = 0
+	"Edouarzh #0" = 0
+	"Eon #0" = 0
+	"Eozen #0" = 0
+	"Everard #0" = 0
+	"Ewen #0" = 0
+	"Felix #0" = 0
+	"Fragan #0" = 0
+	"Frañsez #0" = 0
+	"Gael #0" = 0
+	"Gallmau #0" = 0
+	"Gennovevs #0" = 0
+	"Girec #0" = 0
+	"Glen #0" = 0
+	"Govran #0" = 0
+	"Gralon #0" = 0
+	"Gregor #0" = 0
+	"Guimarc'h #0" = 0
+	"Guyomarc'h #0" = 0
+	"Gwilherm #0" = 0
+	"Hamon #0" = 0
+	"Helori #0" = 0
+	"Herri #0" = 0
+	"Heranal #0" = 0
+	"Hesdren #0" = 0
+	"Huiarnviu #0" = 0
+	"Ilan #0" = 0
+	"Iocilin #0" = 0
+	"Iusti #0" = 0
+	"Jafrez #0" = 0
+	"Jakez #0" = 0
+	"Jalm #0" = 0
+	"Jaoua #0" = 0
+	"Jehan #0" = 0
+	"Jermen #0" = 0
+	"Jilberzh #0" = 0
+	"Jord #0" = 0
+	"Jos #0" = 0
+	"Judikael #0" = 0
+	"Kado #0" = 0
+	"Kadvalaer #0" = 0
+	"Kaourantin #0" = 0
+	"Karadeg #0" = 0
+	"Karlz #0" = 0
+	"Kavan #0" = 0
+	"Klaoda #0" = 0
+	"Konan #0" = 0
+	"Kongar #0" = 0
+	"Koulizh #0" = 0
+	"Loeiz #0" = 0
+	"Lukaz #0" = 0
+	"Maelog #0" = 0
+	"Marrec #0" = 0
+	"Marzhin #0" = 0
+	"Mazhe #0" = 0
+	"Meriadeg #0" = 0
+	"Mihael #0" = 0
+	"Morvan #0" = 0
+	"Neven #0" = 0
+	"Nikolaz #0" = 0
+	"Olier #0" = 0
+	"Padrig #0" = 0
+	"Paol #0" = 0
+	"Riaged #0" = 0
+	"Riok #0" = 0
+	"Riwall #0" = 0
+	"Ronan #0" = 0
+	"Roparzh #0" = 0
+	"Seog #0" = 0
+	"Sian #0" = 0
+	"Stefen #0" = 0
+	"Tanet #0" = 0
+	"Treveur #0" = 0
+	"Tristan #0" = 0
+	"Tudual #0" = 0
+	"Turtoualdus #0" = 0
+	"Urvod #0" = 0
+	"Vinsant #0" = 0
+	"Vormvini #0" = 0
+	"Yann #0" = 0
+}
+ship_names = {
+	Achille Actif Active Admirable Aglaé
+	Aimable Alcide Algésiras Alose Amazone
+	Ambition Amphion Anémone Annibal Apollon
+	Argonaute Artésien Audacieux Auguste Avenant
+	Badine Barbue Beaumont Bécasse Belliqueux
+	Bergère Berryer "Bien Aimé" Bienfaisant Bon
+	Bretagne Bretonne Brillant Brutus Caché
+	Célèbre Centaure Chameau Comte Courageux
+	Défenseur Diadème Diamant Dictateur Diligent
+	Dragon Duc Elephant Elisabeth Emerillon
+	Entreprenant Eole Fleuron Formidable Fortuné
+	Foudroyant Fougueux Fourgon Furieux Glorieux
+	"Grande Hermine" Impétueux Indien Indomptable Jupiter
+	Léopard Loire Massiac Neptune Nestor
+	Orion Pégase "Petite Hermine" Portefaix Profond
+	Protée Rolland "Saint Guillaume" Sarcelle Sévère
+	Six-Corps Solide Solitaire Souverain Sphère
+	Sphinx Superbe Tardif Téméraire Terrible
+	Thésée Tonnant Triomphant Triton Union
+	Vaillant Vengeur Victoire Vigilant Volante
+}
+

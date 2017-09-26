@@ -1,0 +1,30 @@
+# Münster
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = oldenberger
+religion = norse_pagan_reformed
+clear_scripted_personalities = yes
+capital = 1758
+1444.7.12 = {
+	monarch = {
+		name = "Banzleib"
+		birth_date = 1414.6.18
+		dynasty = "Vulimi"
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+	heir = {
+		name = "Giselher"
+		monarch_name = "Giselher"
+		dynasty = "Vulimi"
+		birth_date = 1429.10.7
+		death_date = 1483.5.3
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

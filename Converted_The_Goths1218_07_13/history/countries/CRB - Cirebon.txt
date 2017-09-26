@@ -1,0 +1,16 @@
+government = despotic_monarchy
+technology_group = chinese
+primary_culture = javanese
+religion = mahayana
+capital = 624	# Banten
+
+
+1426.1.1 = {
+	monarch = {
+		name = "Ki Gedeng Tapa"
+		dynasty = "Muara Jati"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

@@ -1,0 +1,34 @@
+# Fylkirate
+government = norse_papal_government
+government_rank = 3
+mercantilism = 0.1
+technology_group = western
+primary_culture = norse_saxon
+add_accepted_culture = danziger
+add_accepted_culture = norse_polish
+add_accepted_culture = schlesian
+add_accepted_culture = pommeranian
+add_accepted_culture = holsteinian
+add_accepted_culture = oldenberger
+add_accepted_culture = berlin_culture
+add_accepted_culture = rigan
+religion = norse_religion_papacy
+clear_scripted_personalities = yes
+capital = 41
+1404.8.29 = {
+	monarch = {
+		name = "Volkwin"
+		birth_date = 1066.1.1
+		dynasty = "Vulimi"
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = immortal_personality
+	add_ruler_personality = tactical_genius_personality
+}
+1444.11.11 = {
+	capital = 41
+	add_treasury = 187
+	add_prestige = 50
+}

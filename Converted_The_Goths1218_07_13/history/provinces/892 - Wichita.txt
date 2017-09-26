@@ -1,0 +1,1 @@
+culture = wichitareligion = totemismcapital = "Wichita"#is_city = yeshre = notrade_goods = unknownbase_tax = 1base_production = 1base_manpower = 1native_size = 20native_ferocity = 3native_hostileness = 8discovered_by = north_american

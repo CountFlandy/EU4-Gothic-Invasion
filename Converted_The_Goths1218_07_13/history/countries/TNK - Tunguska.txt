@@ -1,0 +1,18 @@
+#Tunguska
+
+government = sbasque_group_native_council
+primary_culture = tungus
+religion = tengri_pagan_reformed
+technology_group = chinese
+capital = 1059	# East Tunguska
+
+
+1431.1.1 = {
+	monarch = {
+		name = "Tunkas"
+		dynasty = "Tunguska"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+}

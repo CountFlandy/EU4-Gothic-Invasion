@@ -1,0 +1,27 @@
+owner = CIR
+controller = CIR
+add_core = CIR
+
+culture = alan
+religion = apostolic
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 1
+	base_production = 1
+	base_manpower = 2
+	remove_core = GAZ
+}
+1444.11.11 = {
+	owner = CIR
+	controller = CIR
+	culture = alan
+	religion = apostolic
+}

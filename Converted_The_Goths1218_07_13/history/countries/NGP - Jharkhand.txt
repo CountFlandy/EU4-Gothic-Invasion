@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = jharkhandi
+add_accepted_culture = bengali
+technology_group = indian
+religion = jain
+capital = 560 # Jharkhand
+
+#Chero Nagas of Kokrah:
+1440.1.1 = {
+	monarch = {
+		name = "Maharato"
+		dynasty = "Nagavamsi"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

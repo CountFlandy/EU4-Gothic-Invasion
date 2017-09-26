@@ -1,0 +1,29 @@
+government = iqta
+primary_culture = yemeni_culture
+religion = sunni
+technology_group = muslim
+capital = 390	# Sana'a
+
+1400.1.1 = {
+	monarch = {
+		name = "Saladin Ahmad"
+		dynasty = "Rasulid"
+		adm = 0
+		dip = 2
+		mil = 0
+	}
+}
+
+1400.1.1 = {
+	heir = {
+		name = "'Abdallah"
+		monarch_name = "'Abdallah"
+		dynasty = "Rasulid"
+		birth_date = 1400.1.1
+		death_date = 1492.1.1
+		claim = 100
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}

@@ -1,0 +1,212 @@
+country_decisions = {
+
+	form_north_norse_saxon_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = GER }
+			NOT = { exists = NGF }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			culture_group = saxon_group
+			OR = {
+				religion = norse_protestant
+				#religion = norse_pagan_reformed -Old Germans, typically in far north, Iceland, and Vinland. 
+				religion = norse_religion_papacy
+				religion = norse_wincest
+			}	
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 12
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 45   # Lubeck
+			owns_core_province = 1874 # Bremen
+			owns_core_province = 50   # Berlin
+			owns_core_province = 59   # Wittenberg
+			owns_core_province = 43   # Danzig
+			owns_core_province = 264  # Breslau
+			owns_core_province = 57   # Brunswick
+			owns_core_province = 1775 # Holstein 
+			owns_core_province = 41   # Koingsberg
+			owns_core_province = 257  # Warsaw
+			owns_core_province = 86   # Munster NOT IRELAND
+			owns_core_province = 98   # Utrecht 
+			owns_core_province = 97   # Holland
+			owns_core_province = 2994 # Greifswald
+			owns_core_province = 1758 # Hannover
+		}
+		effect = {
+			change_tag = NGF
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			netherlands_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NGF
+			}
+			west_prussia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NGF
+			}
+			east_prussia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NGF
+			}
+			pomerelia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NGF
+			}			
+			frisia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NGF
+			}
+			north_german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NGF
+			}			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	form_frisian_kingdom = { 
+		major = yes 
+		potential = { 
+			#tag = TEM #Tag is Templar
+			religion_group = "pagan"
+			owns_core_province = 97
+			NOT = { tag = FRS } 
+			NOT = { exists = FRS }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+		}
+		allow = { 
+			NOT = { exists = FRS } 
+			adm_tech = 7
+			religion_group = "pagan"
+			owns_core_province = 100		
+			owns_core_province = 97		
+			owns_core_province = 1744 	
+			owns_core_province = 90
+			owns_core_province = 99
+			owns_core_province = 98
+			owns_core_province = 96
+			owns_core_province = 95
+			owns_core_province = 92
+			owns_core_province = 1865
+			stability = 1 
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+		}
+		effect = { 
+			change_tag = FRS #Change tag to Frisia
+			if = {
+				limit = { 
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = { 
+					limit = { 
+						is_part_of_hre = yes
+					}
+					set_in_empire = no 
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = { 
+				name = "centralization_modifier"
+				duration = 3650 
+			}
+			add_prestige = 25
+			change_government = feudal_monarchy 
+			change_primary_culture = laglendian 
+			frisia_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } #Is not owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			flanders_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			netherlands_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			brabant_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			wallonia_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			luxemburg_liege_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			}
+		ai_will_do = { 
+			factor = 1
+		}
+
+	}	
+	
+}

@@ -1,0 +1,24 @@
+#843 - Belize
+
+owner = ITZ
+controller = ITZ
+add_core = ITZ
+
+culture = yucatec
+religion = mesoamerican_religion
+
+capital = "Belize" 
+hre = no 
+is_city = yes
+
+base_tax = 4 
+base_production = 4 
+base_manpower = 1
+trade_goods = sugar 
+
+add_local_autonomy = 25
+
+
+
+discovered_by = mesoamerican
+

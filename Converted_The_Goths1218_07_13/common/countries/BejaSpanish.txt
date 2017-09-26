@@ -1,0 +1,165 @@
+# Beja
+graphical_culture = westerngfx
+color = { 239 195 35 }
+
+
+historical_idea_groups = {
+	defensive_ideas
+	innovativeness_ideas
+	maritime_ideas
+	exploration_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+leader_names = {
+
+	"Gamila" "Ahmad" "Wahida" "Naila" "Ahu" "Abdul-Aziz" "Fahra" "Sancho" "Nadia" "Mubashir" 
+	"Tahira" "Suleyman" "Karima" "Salma" "Muyahid" "Aliyah" "Abdul-Hakam" "Malika" "Rashid" "Rasiq" 
+	"Balashk" "Isra" "Tifilwit" "Abdul-Razzaq" "Shakira" "Amr" "Hilal" "Abu" "Munya" "Musa" 
+	"Zahida" "Kera" "Sanyo" "Nur" "Abu-Bakr" "Ayyub" "Galind" "Zahra" "Utman" "Abda" 
+	"Abdul-Rahman" "Fadl" "Safiya" "Siddray" "Ibtisam" "Raisa" "Abril" "Álvaro" "Ângelo" "Abel" 
+	"Afonso" "Aires" "Alexandre" "Alvito" "António" "Bermudo" "Bernardo" "Damião" "Dinis" "Diogo" 
+	"Duarte" "Egas" "Estêvão" "Eugénio" "Filipe" "Fernão" "Fernando" "Francisco" "Frederico" "Garcia" 
+	"Gil" "Gonçalo" "Gregório" "Guilherme" "Heitor" "Henrique" "Hermenegildo" "Hermígio" "Hugo" "Igor" 
+	"Inácio" "Júlio" "Jerónimo" "João" "José" "Julião" "Lopo" "Lucídio" "Luís" "Manoel" 
+	"Manuel" "Marcelo" "Marco" "Martim" "Martinho" "Mem" "Mendo" "Miguel" "Monio" "Muno" 
+	"Nuno" "Octávio" "Ordonho" "Paio" "Pedro" "Pero" "Raimundo" "Ramiro" "Ricardo" "Roberto" 
+	"Rodrigo" "Rui" "Sebastião" "Soeiro" "Telmo" "Tiago" "Tomás" "Vasco" "Vicente" "Vímara" 
+	"Xelmirio" }
+monarch_names = {
+	"Gamila #0" = -1
+	"Ahmad #0" = 1
+	"Wahida #0" = -1
+	"Naila #0" = -1
+	"Ahu #0" = -1
+	"Abdul-Aziz #0" = 1
+	"Fahra #0" = -1
+	"Sancho #1" = 18
+	"Nadia #0" = -1
+	"Mubashir #0" = 1
+	"Tahira #0" = -1
+	"Suleyman #0" = 1
+	"Karima #0" = -1
+	"Salma #0" = -1
+	"Muyahid #0" = 1
+	"Aliyah #0" = -1
+	"Abdul-Hakam #0" = 1
+	"Malika #0" = -1
+	"Rashid #0" = 1
+	"Rasiq #0" = 1
+	"Balashk #0" = 1
+	"Isra #0" = -1
+	"Tifilwit #0" = 1
+	"Abdul-Razzaq #0" = 1
+	"Shakira #0" = -1
+	"Amr #0" = 1
+	"Hilal #0" = 1
+	"Abu #0" = 1
+	"Munya #0" = -1
+	"Musa #0" = 1
+	"Zahida #0" = -1
+	"Kera #0" = -1
+	"Sanyo #2" = 30
+	"Nur #0" = -1
+	"Abu-Bakr #1" = 24
+	"Ayyub #0" = 1
+	"Galind #0" = 1
+	"Zahra #0" = -1
+	"Utman #0" = 1
+	"Abda #0" = -1
+	"Abdul-Rahman #0" = 1
+	"Fadl #0" = 1
+	"Safiya #0" = -1
+	"Siddray #0" = 1
+	"Ibtisam #0" = -1
+	"Raisa #0" = -1
+	"Abril #0" = 0
+	"Álvaro #0" = 0
+	"Ângelo #0" = 0
+	"Abel #0" = 0
+	"Afonso #0" = 0
+	"Aires #0" = 0
+	"Alexandre #0" = 0
+	"Alvito #0" = 0
+	"António #0" = 0
+	"Bermudo #0" = 0
+	"Bernardo #0" = 0
+	"Damião #0" = 0
+	"Dinis #0" = 0
+	"Diogo #0" = 0
+	"Duarte #0" = 0
+	"Egas #0" = 0
+	"Estêvão #0" = 0
+	"Eugénio #0" = 0
+	"Filipe #0" = 0
+	"Fernão #0" = 0
+	"Fernando #0" = 0
+	"Francisco #0" = 0
+	"Frederico #0" = 0
+	"Garcia #0" = 0
+	"Gil #0" = 0
+	"Gonçalo #0" = 0
+	"Gregório #0" = 0
+	"Guilherme #0" = 0
+	"Heitor #0" = 0
+	"Henrique #0" = 0
+	"Hermenegildo #0" = 0
+	"Hermígio #0" = 0
+	"Hugo #0" = 0
+	"Igor #0" = 0
+	"Inácio #0" = 0
+	"Júlio #0" = 0
+	"Jerónimo #0" = 0
+	"João #0" = 0
+	"José #0" = 0
+	"Julião #0" = 0
+	"Lopo #0" = 0
+	"Lucídio #0" = 0
+	"Luís #0" = 0
+	"Manoel #0" = 0
+	"Manuel #0" = 0
+	"Marcelo #0" = 0
+	"Marco #0" = 0
+	"Martim #0" = 0
+	"Martinho #0" = 0
+	"Mem #0" = 0
+	"Mendo #0" = 0
+	"Miguel #0" = 0
+	"Monio #0" = 0
+	"Muno #0" = 0
+	"Nuno #0" = 0
+	"Octávio #0" = 0
+	"Ordonho #0" = 0
+	"Paio #0" = 0
+	"Pedro #0" = 0
+	"Pero #0" = 0
+	"Raimundo #0" = 0
+	"Ramiro #0" = 0
+	"Ricardo #0" = 0
+	"Roberto #0" = 0
+	"Rodrigo #0" = 0
+	"Rui #0" = 0
+	"Sebastião #0" = 0
+	"Soeiro #0" = 0
+	"Telmo #0" = 0
+	"Tiago #0" = 0
+	"Tomás #0" = 0
+	"Vasco #0" = 0
+	"Vicente #0" = 0
+	"Vímara #0" = 0
+	"Xelmirio #0" = 0
+}
+

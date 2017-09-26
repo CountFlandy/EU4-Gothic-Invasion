@@ -1,0 +1,25 @@
+#2432 - Chulym
+
+culture = siberian
+religion = tengri_pagan_reformed
+
+capital = "Igarka"
+is_city = yes
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = fur
+
+discovered_by = STU
+discovered_by = VAH
+discovered_by = TYU
+discovered_by = YUA
+discovered_by = OSY
+discovered_by = KET
+discovered_by = KUZ
+discovered_by = ORD
+discovered_by = BAA
+discovered_by = TNK
+discovered_by = YKT

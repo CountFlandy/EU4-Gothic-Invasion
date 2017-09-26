@@ -1,0 +1,23 @@
+
+owner = JSL
+controller = JSL
+add_core = JSL
+culture = rajput
+religion = hinduism
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+1444.11.11 = {
+	hre = no
+	base_tax = 4
+	base_production = 6
+	base_manpower = 4
+}
+1444.11.11 = {
+	owner = JSL
+	controller = JSL
+	culture = rajput
+	religion = hinduism
+}

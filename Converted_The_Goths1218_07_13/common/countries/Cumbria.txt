@@ -1,0 +1,197 @@
+# Cumbria
+
+graphical_culture = westerngfx
+color = { 82 92 157 }
+
+
+historical_idea_groups = {
+	plutocracy_ideas
+	naval_ideas
+	exploration_ideas
+	trade_ideas
+	economic_ideas
+	religious_ideas
+	offensive_ideas
+	defensive_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+
+}
+
+
+leader_names = {
+
+	"Eadweard" "Earnwine" "Cynewulf" "Ecgwynn" "Æthelswith" "Oswald" "Gislswith" "Leofflæd" "Sigerun" "Beorngyth" 
+	"Wulfgifu" "Ecgthryth" "Cwenthryth" "Eadberht" "Beocca" "Botwulf" "Æthelbald" "Hrothmund" "Æthelhere" "Eadfrith" 
+	"Æthelwulf" "Cynefrith" "Osræd" "Ingburh" "Eabbe" "Wulfthryth" "Leofwynn" "Osric" "Mildgyth" "Eadræd" 
+	"Bothere" "Cuthburh" "Bregoswith" "Æscgyth" "Ælflæd" "Ælfthryth" "Seaxburh" "Cyneheard" "Æscflæd" "Ælfgifu" 
+	"Eomer" "Hereswith" "Beorhtwynn" "Cwenburh" "Beorhtnoth" "Freawine" "Eadric" "Ælffrith" "Ælfwynn" "Beorhtsige" 
+	"Godmund" "Ælfflæd" "Cynethryth" "Leofwald" "Godgifu" "Beornflæd" "Hextilda" "Wulfgyth" "Uhtræd" "Burhflæd" 
+	"Ecgwulf" "Hungifu" "Sæberht" "Gislmær" "Earnwulf" "Ælfswith" "Ealdhun" "Eanswith" "Wulfhere" "Bote" 
+	"Wulfflæd" "Eadburh" "Æschild" "Wærburh" "Æthelthryth" "Beorhtwine" "Beorhtgifu" "Æscberht" "Rædwulf" "Ealhflæd" 
+	"Ceolflæd" "Ceolgar" "Cyneleof" "Æthelnoth" "Sæwald" "Beorn" "Eadgifu" "Wulfwynn" "Ceolwulf" "Eardwulf" 
+	"Cynehild" "Cearl" "Ælfnoth" "Heregyth" "Ælfgyth" "Theodric" "Ingwulf" "Hugh" "Deodat" "Aliotus" 
+	"Ardun" "Artgal" "Arthuis" "Asaph" "Beli" "Ceredig" "Cinuit" "Clinoch" "Coel" "Cubricht" 
+	"Cynfarch" "Deiniol" "Dunod" "Dyfnwal" "Elfin" "Eochaid" "Ernwin" "Eugein" "Gureit" "Gwallog" 
+	"Llaennog" "wMar" "Masgwid" "Meirchion" "Neithon" "Ohan" "Owain" "Pabo" "Riderc" "Rotri" 
+	"Rhun" "Sawyl" "Taudar" "Teudebur" "Tothail" "Tutagual" "Tysilio" "Urien" }
+monarch_names = {
+	"Eadweard #0" = 1
+	"Earnwine #0" = 1
+	"Cynewulf #0" = 1
+	"Ecgwynn #0" = -1
+	"Æthelswith #0" = -1
+	"Oswald #0" = 1
+	"Gislswith #0" = -1
+	"Leofflæd #0" = -1
+	"Sigerun #0" = -1
+	"Beorngyth #0" = -1
+	"Wulfgifu #0" = -1
+	"Ecgthryth #0" = -1
+	"Cwenthryth #0" = -1
+	"Eadberht #1" = 21
+	"Beocca #0" = 1
+	"Botwulf #1" = 33
+	"Æthelbald #0" = 1
+	"Hrothmund #0" = 1
+	"Æthelhere #0" = 1
+	"Eadfrith #0" = 1
+	"Æthelwulf #0" = 1
+	"Cynefrith #0" = 1
+	"Osræd #0" = 1
+	"Ingburh #0" = -1
+	"Eabbe #0" = -1
+	"Wulfthryth #0" = -1
+	"Leofwynn #0" = -1
+	"Osric #0" = 1
+	"Mildgyth #0" = -1
+	"Eadræd #0" = 1
+	"Bothere #0" = 1
+	"Cuthburh #0" = -1
+	"Bregoswith #0" = -1
+	"Æscgyth #0" = -1
+	"Ælflæd #0" = -1
+	"Ælfthryth #0" = -1
+	"Seaxburh #0" = -1
+	"Cyneheard #0" = 1
+	"Æscflæd #0" = -1
+	"Ælfgifu #0" = -1
+	"Eomer #0" = 1
+	"Hereswith #0" = -1
+	"Beorhtwynn #0" = -1
+	"Cwenburh #0" = -1
+	"Beorhtnoth #0" = 1
+	"Freawine #0" = 1
+	"Eadric #0" = 1
+	"Ælffrith #0" = 1
+	"Ælfwynn #0" = -1
+	"Beorhtsige #0" = 1
+	"Godmund #0" = 1
+	"Ælfflæd #0" = -1
+	"Cynethryth #0" = -1
+	"Leofwald #0" = 1
+	"Godgifu #0" = -1
+	"Beornflæd #0" = -1
+	"Hextilda #0" = -1
+	"Wulfgyth #0" = -1
+	"Uhtræd #0" = 1
+	"Burhflæd #0" = -1
+	"Ecgwulf #0" = 1
+	"Hungifu #0" = -1
+	"Sæberht #0" = 1
+	"Gislmær #0" = 1
+	"Earnwulf #0" = 1
+	"Ælfswith #0" = -1
+	"Ealdhun #0" = 1
+	"Eanswith #0" = -1
+	"Wulfhere #0" = 1
+	"Bote #0" = -1
+	"Wulfflæd #0" = -1
+	"Eadburh #0" = -1
+	"Æschild #0" = -1
+	"Wærburh #0" = -1
+	"Æthelthryth #0" = -1
+	"Beorhtwine #0" = 1
+	"Beorhtgifu #0" = -1
+	"Æscberht #0" = 1
+	"Rædwulf #0" = 1
+	"Ealhflæd #0" = -1
+	"Ceolflæd #0" = -1
+	"Ceolgar #0" = 1
+	"Cyneleof #0" = 1
+	"Æthelnoth #0" = 1
+	"Sæwald #0" = 1
+	"Beorn #0" = 1
+	"Eadgifu #0" = -1
+	"Wulfwynn #0" = -1
+	"Ceolwulf #0" = 1
+	"Eardwulf #0" = 1
+	"Cynehild #0" = -1
+	"Cearl #0" = 1
+	"Ælfnoth #0" = 1
+	"Heregyth #0" = -1
+	"Ælfgyth #0" = -1
+	"Theodric #1" = 0
+	"Ingwulf #1" = 0
+	"Hugh #1" = 0
+	"Deodat #1" = 0
+	"Aliotus #0" = 0
+	"Ardun #0" = 0
+	"Artgal #0" = 0
+	"Arthuis #0" = 0
+	"Asaph #0" = 0
+	"Beli #0" = 0
+	"Ceredig #0" = 0
+	"Cinuit #0" = 0
+	"Clinoch #0" = 0
+	"Coel #0" = 0
+	"Cubricht #0" = 0
+	"Cynfarch #0" = 0
+	"Deiniol #0" = 0
+	"Dunod #0" = 0
+	"Dyfnwal #0" = 0
+	"Elfin #0" = 0
+	"Eochaid #0" = 0
+	"Ernwin #0" = 0
+	"Eugein #0" = 0
+	"Gureit #0" = 0
+	"Gwallog #0" = 0
+	"Llaennog #0" = 0
+	"wMar #0" = 0
+	"Masgwid #0" = 0
+	"Meirchion #0" = 0
+	"Neithon #0" = 0
+	"Ohan #0" = 0
+	"Owain #0" = 0
+	"Pabo #0" = 0
+	"Riderc #0" = 0
+	"Rotri #0" = 0
+	"Rhun #0" = 0
+	"Sawyl #0" = 0
+	"Taudar #0" = 0
+	"Teudebur #0" = 0
+	"Tothail #0" = 0
+	"Tutagual #0" = 0
+	"Tysilio #0" = 0
+	"Urien #0" = 0
+}
+

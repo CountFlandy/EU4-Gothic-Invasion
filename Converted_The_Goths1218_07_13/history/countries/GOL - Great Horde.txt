@@ -1,0 +1,29 @@
+government = steppe_horde
+primary_culture = mishary
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 472	# Saratov
+
+1432.1.1 = {
+	monarch = {
+		name = "Küchük"
+		dynasty = "Genghisid"
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+
+1435.1.1 = {
+	heir = {
+		name = "Küchük"
+		monarch_name = "Küchük II"
+		dynasty = "Genghisid"
+		birth_date = 1435.1.1
+		death_date = 1495.5.7
+		claim = 95
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}

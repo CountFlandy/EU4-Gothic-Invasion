@@ -1,0 +1,20 @@
+#1138 - Kumasi
+
+owner = ASH
+controller = ASH
+add_core = ASH
+
+culture = aka
+religion = shamanism #Fetishism
+
+capital = "Akyem Kotoko"
+#capital = "Kumasi"
+is_city = yes 
+hre = no
+
+trade_goods = gold
+base_tax = 4 
+base_production = 4
+base_manpower = 1
+
+discovered_by = sub_saharan

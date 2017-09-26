@@ -1,0 +1,16 @@
+government = despotic_monarchy
+primary_culture = astrakhani
+religion = tengri_pagan_reformed
+technology_group = eastern
+capital = 464	# Astrakhan
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Alan"
+		dynasty = "Genghisid"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

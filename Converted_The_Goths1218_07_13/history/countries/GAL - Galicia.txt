@@ -1,0 +1,23 @@
+# Galicia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = galician
+add_accepted_culture = leonese
+religion = catholic
+historical_rival = NAV
+capital = 206
+1434.3.10 = {
+	monarch = {
+		name = "Álvaro"
+		birth_date = 1399.2.26
+		dynasty = "Chevreuse"
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}
+1444.11.11 = {
+	capital = 206
+}

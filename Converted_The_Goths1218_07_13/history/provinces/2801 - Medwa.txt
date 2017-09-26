@@ -1,0 +1,20 @@
+#2801 - Medwa
+owner = DAR
+controller = DAR
+culture = acholi
+religion = shamanism #Fetishism
+capital = "Medowa"
+add_core = DAR
+
+
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+discovered_by = sub_saharan
+discovered_by = muslim
+is_city = yes
+discovered_by = east_african
+trade_goods = slaves
+

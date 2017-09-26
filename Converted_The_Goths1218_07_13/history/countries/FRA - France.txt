@@ -1,0 +1,21 @@
+# France
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+historical_rival = BRI
+#historical_rival = TOU
+primary_culture = cosmopolitan_french
+religion = catholic
+capital = 183
+
+1405.1.17 = {
+	monarch = {
+		name = "Foulques"
+		birth_date = 1395.7.20
+		dynasty = "Ventimiglia"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}

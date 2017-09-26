@@ -1,0 +1,24 @@
+owner = NGA
+controller = NGA
+add_core = NGA
+culture = rajput
+religion = hinduism
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 5
+	base_production = 6
+	base_manpower = 3
+}
+1444.11.11 = {
+	owner = NGA
+	controller = NGA
+	culture = rajput
+	religion = hinduism
+}

@@ -1,0 +1,18 @@
+culture = kiowa
+religion = totemism
+
+capital = "Salinan" 
+#is_city = yes
+hre = no 
+
+trade_goods = unknown #wool
+base_tax = 1 
+base_production = 1
+base_manpower = 1 
+
+native_size = 5 
+native_ferocity = 1 
+native_hostileness = 3 
+
+discovered_by = north_american
+

@@ -1,0 +1,24 @@
+# Parma
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = lombard
+religion = catholic
+capital = 105
+1444.2.23 = {
+	monarch = {
+		name = "Liliana"
+		birth_date = 1396.8.23
+		dynasty = "di Medici"
+		female = yes
+		adm = 2
+		dip = 5
+		mil = 2
+	}
+}
+1444.11.11 = {
+	capital = 105
+	add_treasury = 0
+	add_prestige = 0
+}

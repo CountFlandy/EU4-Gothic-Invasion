@@ -1,0 +1,6 @@
+government = despotic_monarchy
+primary_culture = yi
+religion = pacific_pagan
+technology_group = chinese
+capital = 675	# Umung
+

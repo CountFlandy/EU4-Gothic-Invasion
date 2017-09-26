@@ -1,0 +1,35 @@
+# Pontus
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = pontic_greek
+add_accepted_culture = cappadocian_greek
+add_accepted_culture = greek
+add_accepted_culture = cretan
+historical_rival = CAP
+religion = orthodox
+capital = 328
+
+1444.7.13 = {
+	monarch = {
+		name = "Kallinikos"
+		birth_date = 1425.12.27
+		dynasty = "Komnenoi"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Tiberios"
+		monarch_name = "Tiberios III"
+		dynasty = "Komnenoi"
+		birth_date = 1441.3.1
+		death_date = 1534.4.7
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+
+}

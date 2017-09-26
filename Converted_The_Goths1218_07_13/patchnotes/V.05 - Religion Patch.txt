@@ -1,0 +1,111 @@
+
+V.05
+NEW ADDITIONS: #Religion Creation
+- Added a Baltic culture group to seperate the Baltic nations, as they were neither purely Slavic, or Norse.
+- Finally added the Flykirate! (Norse, Saxon-Norse, Western, Empire.)
+- Added Saxony, the main Saxon culture group controller. (Can't have a religious-head being the culture head too.)
+- Started work on Norse_religion_papacy (The Starting norse religion) Modifiers will come later.
+- Added Norse_protestant. (Norse Religion, but with the modifiers of the protestants, special aspects will come later.) Only triggers after the reformation.
+- Added Norse_wincest. (Norse Religion, but with fetishist cults) (Just for logan.) Cults yet to be modified
+- Added norse_syncretic. (Norse Religion, but with syncretic mechanics.)
+- Added event to split Flykirate up on Volkwin's death, with 5 options. Bug however exists where the last two options do NOT change your government.
+- Added event to spawn the norse religions
+- Added Qasim! (Mordvin, Eastern, Slavic nation.)
+- Added Baleares! (Releaseable nation, Catalan, Western, Catholic.)
+- Added Tula! (Moscovite, Eastern, Slavic)
+- Added Cantabria! (Releasable, Leonese, Western, Catholic.)
+- Added Norfolk! (Releaseable, Anglo-Saxon, Western, Catholic.)
+- Added Oxford! (Releaseable, Anglo-Saxon, Western, Catholic.)
+- Added Sorpron (Releaseable, Hungarian, Western, Orthodox. Reusing Alsace's TAG.)
+- Added extinct culture group! (Different from Vanilla's lost) so players can play their favorite culture I killed!
+- Started work on a WIP animal culture group
+- Started work on a WIP Assyrian culture
+- Moved Horse and Jan Mayenese to Animal group
+- Added Egyptian culture group
+- Moved Egyptian, Old Egyptian, Nubian, Beja, and Acholi to Egyptian culture group
+- Added Mameluks as primary for Old Egyptian, plus cores
+- Overhauled the Nubian region (Changed to Coptic, and Nubian, Bejan, or Acholi cultures.)
+- Overhauled Ethiopian Region!
+- Added a few new nations to East Africa
+- Added the Greek colony-thing (really, I dont know how it spawned there) to Somalia.
+- Added Numidian culture to Maghreeb, in an effort to remove the generic berber culture thats everywhere
+- Added Numidian nation (NMB) (Numidian, Shamanism, Muslim) (Custom religion??)
+- Added Tibet
+- Added the North_african_pagan religion (name WIP)
+- Added Pacific Pagan religion
+- Moved Pacific_pagan religion to its own group (asian_pagans) to prevent strange oddities such as Sampi PU'ing Hawaii or something strange.
+- Added a bunch of southeast asian nations that existed in later starts, but not in 1444
+- Added the mediterranean culture group
+- Moved Sicillian, Sardinian, Maltanese, Macaronesian, and Balearic into the mediterranean group (seperated strange cultures that didn't fit into their respective homes)
+- Added Baleric culture to the Baleric isles to represent how much it changed hands
+- Added (TEST) culture that splits up the huge greek culture, to represent how divided they are
+- Added Vinland (Norse, Norse, North American.)
+- Added a special government for the Flykirate norse_papal_government with localization (Flykir for male, Flykirette for female.) Currently based off the Papal states, the Flykirate can however make their ruler a general. It SHOULD use legitimacy if I did it correctly.
+- Added a special government for The Greek Alliance based off the Ambrosian republic. 
+- Added a special Government for The Fatimids based off the Ottoman Government
+- Added a special Government for Logan's nation based off the Dutch Republic!
+- Added a special Government for the Vangarian Guard nations based off the Prussian Monarchy Government!
+- Added a special Government for the Vangarian Republic
+- Added a special Government for the Sunni Caliph 
+- Added Carribean Pagan
+
+CHANGES:
+- The Azores are now Visigothic in culture, to enable a player to swap to them if wished to restore them to their former glory!
+- The Samoyeds are now Uralic religion-wise, as Slavic did not make sense there. 
+- Perm is now half Tengri half Slavic to display the divide between them.
+- Lithuanian, Estonian, and Latvian moved to Baltic Group
+- Livonia is now Slavic Religion, and Sakala is now Norse religion, to show the divide between the cultures. Both accept Estonian culture, but not lithuanian
+- Bohemia re-added. Exists only in prague, has cores on former czech land. (Catholic, Czech (Slavic) Western.)
+- Silesia gained land, but lost prague
+- HRE official religion is now Pagan, starting as Slavic.
+- Finnish, Slavic, Norse, Norse_Papacy, and Tengrist can win the league war now. (under Triggered Modifiers)
+- Laid the foundation for changing trade goods modifiers
+- Added the Vulimi Dynasty to 5 Norse Saxon group nations
+- Moved around Imperial cities and electors
+- Changed around Russian dynastys somewhat
+- Moved Castillian from basque_group (defunct) to Basque group. 
+- Added  1 core for Castile
+- Moved Aquillia's culture to Latin, for balance reasons.
+- Old Egyptian is now Southern Egypt's culture
+- Southern Egypt is now Coptic religion
+- Removed Sudanese group (Combined with new Egyptian group.)
+- Moved around Ethiopian cultures, religions and nations.
+- Maderia is now Visigothic, as opposed to some random italians settling there and calling themselves something already existing
+- Added African Pagan Group
+- Added North American Pagan Group
+- Greenland is now properly Norse_pagan_reformed (generic norse faith)
+- The Old Egyptians and Numidians are now part of the new North_african_pagan religion
+- Berber culture now only will remain in Morocco area
+- Moved Numidian culture from Maghreeb group to Egyptian group (balance reasons, to give Egypt a chance of SOME ally, since they're different from EVERYONE around them.)
+- Fezzan is now Numidian/North_african_pagan
+- Changed all (that I found) pacific animists to pacific_pagans (with the exception of Phillipines and Ryuku/Ainu)
+- Changed Ainu to Shinto (for now)
+- Changed Ryuku to Shinto (for now)
+- Added two Phillipine nations that already existed at later dates
+- Gave Tidore and Ternate another territory each
+- Changed Southeast asia to remove all traces of Animist from it
+- Removed Sunni's from southeast asia, as in this time-line they didn't get farther then Delhi
+- Removed Hindu's from southeast asia (because I can)
+- East Coast of Africa is almost completly free of Muslim rule.
+- Updated North AND South America to be (mostly) what it is in Vanilla EU4. Because in this timeline, the Aztecs do NOT invade.
+- The Animists in northern mexico are now Nahuatl
+- Started work on the Generic South American Pagan religion
+- Nation designer now allows use of Peasant Republic
+- Moved Manchurian to Altaic group 
+- Adjusted colors of Governments a little
+- South America is now completly South_american_pagan
+- Adjusted colors of Religions a little.
+- Started changing Peria's religion
+- Converted the siberian Tribes to ainu_pagan
+
+REWORKS:
+
+BUG FIXES:
+- Volga is now properly out of the HRE
+- Novgorod is now proper Emperor
+- Finally fixed the 1.19 african nations not being in the mod.
+
+
+SELF NOTES:
+- Currently editing religion file trying to make norse papacy, couldnt find the papal modifiers that are used from papal points.
+- Remove catholic events that disable the papacy?

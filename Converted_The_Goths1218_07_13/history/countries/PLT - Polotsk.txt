@@ -1,0 +1,21 @@
+government = feudal_monarchy
+primary_culture = byelorussian
+religion = slavic_pagan_reformed
+technology_group = eastern
+capital = 275	# Polotsk
+
+1409.4.14 = {
+	monarch = {
+		name = "Yeremey"
+		birth_date = 1402.11.12
+		dynasty = "Paskevich"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+1444.11.11 = {
+	capital = 275
+	add_prestige = 10
+	elector = no
+}

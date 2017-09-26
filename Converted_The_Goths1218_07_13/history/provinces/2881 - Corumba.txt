@@ -1,0 +1,4 @@
+religion = south_american_pagan
+culture = guarani
+
+

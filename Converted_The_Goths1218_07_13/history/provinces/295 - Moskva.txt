@@ -1,0 +1,23 @@
+owner = MOS
+controller = MOS
+add_core = MOS
+culture = russian
+religion = slavic_pagan_reformed
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = yes
+	base_tax = 2
+	base_production = 2
+	base_manpower = 1
+}
+1444.11.11 = {
+	owner = MOS
+	controller = MOS
+	culture = russian
+	religion = slavic_pagan_reformed
+}

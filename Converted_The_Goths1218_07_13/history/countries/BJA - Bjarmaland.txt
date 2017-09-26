@@ -1,0 +1,23 @@
+# Bjarmaland
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = samoyed
+religion = finnish_pagan_reformed
+clear_scripted_personalities = yes
+capital = 313
+1430.6.27 = {
+	monarch = {
+		name = "Sviatopolk"
+		birth_date = 1400.2.14
+		dynasty = "Khovansky"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1444.11.11 = {
+	capital = 4122
+	elector = yes
+}

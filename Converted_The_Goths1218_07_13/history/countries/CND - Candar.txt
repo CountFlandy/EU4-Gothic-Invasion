@@ -1,0 +1,28 @@
+#Thracesia
+government = despotic_monarchy
+government_rank = 1
+primary_culture = ionian
+add_accepted_culture = cappadocian_greek
+add_accepted_culture = pontic_greek
+add_accepted_culture = cretan
+religion = orthodox
+technology_group = eastern
+capital = 318
+
+1443.1.1 = {
+	monarch = {
+		name = "Alex"
+		dynasty = "Thracesia"
+		birth_date = 1423.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1444.11.11 = {
+	primary_culture = ionian
+	add_accepted_culture = cappadocian_greek
+	technology_group = eastern
+	religion = orthodox
+}

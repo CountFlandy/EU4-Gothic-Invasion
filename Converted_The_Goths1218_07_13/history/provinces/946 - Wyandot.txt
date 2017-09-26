@@ -1,0 +1,2 @@
+culture = mesquakie
+discovered_by = high_american

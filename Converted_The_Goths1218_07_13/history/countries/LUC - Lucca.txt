@@ -1,0 +1,18 @@
+# Lucca
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = lombard
+religion = catholic
+capital = 2980
+1444.7.13 = {
+	monarch = {
+		name = "Oreste"
+		birth_date = 1409.5.15
+		dynasty = "di Lombardia"
+		adm = 6
+		dip = 3
+		mil = 2
+	}
+}

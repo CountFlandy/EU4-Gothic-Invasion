@@ -1,0 +1,31 @@
+government = iqta
+primary_culture = omani_culture
+religion = ibadi
+technology_group = muslim
+capital = 400	# Muscat
+
+#Rulers of Suhar
+
+1380.1.1 = {
+	monarch = {
+		name = "Mahzum"
+		dynasty = "Nabhan"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+
+1430.1.1 = {
+	heir = {
+		name = "Sulaymân"
+		monarch_name = "Sulaymân"
+		dynasty = "Nabhan"
+		birth_date = 1430.1.1
+		death_date = 1496.5.2
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

@@ -1,0 +1,29 @@
+government = steppe_horde
+technology_group = nomad_group
+primary_culture = manchu
+religion = tengri_pagan_reformed
+capital = 2108
+
+1433.1.1 = {
+	monarch = {
+		name = "Cungsan"
+		dynasty = "Aisin Gioro"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}
+
+1433.1.1 = {
+	heir = {
+		name = "Tolo"
+		monarch_name = "Tolo"
+		dynasty = "Aisin Gioro"
+		birth_date = 1433.1.1
+		death_date = 1506.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

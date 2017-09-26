@@ -1,0 +1,57 @@
+V.03 #The Black Sea Patch
+NEW ADDITIONS
+-Added Pontus!
+-Added Cappadocia!
+-Added Alania!
+-Added Cilcia! Armenian nation on anatolia's coast!
+-Added Bithynia to northern anatolia!
+-Added Lycia to Anatolia!
+-Added Thracesia to Anatolia!
+-Added Sophene to Anatolia!(Vassal of Armenia)
+-Added Theodosiopolis to Anatolia!
+-Added Gothic Culture! (Split from Crimean Gothic)
+-Added black_sea_tch Tech group! Specifically for Greeks and the Goths! (Modeled after Anatolian.)
+-Added eastern_slavic tech group!
+-Added eastern_balkan tech group!
+-Added western_scandanvian tech group!
+-Added muslim_north_african tech group!
+-Added muslim_arabian tech group!
+-Added muslim_iranian tech group
+-Added Astrakan! Another Genghisid dynasty that's Tengri Alania.
+-Added 2 new Steppe groups! (Temp names) Alan and Central Steppe! Altaic now only contains those near Mongolia.
+-Added Pecheneg! (Only existing in cores) (Replacing Kazan)
+-Added Cumania! (Replacing Bashkiria!, only cores)
+-Finally added Strymon! (The nation controlling constantanopole) Norse Vangarian Merchant Republic that rose from the ashes of the collapse of the vangarian rebellion.
+
+CHANGES
+-Moved Maltanese to Occantian group
+-Removed Turkish cores on anatolia
+-Any land inside Asia and Africa can now join the HRE!
+-Removed Anatolian Turk cores from Anatolia
+-Removed Ottoman cores
+-Sapmi are no longer Fetishist
+-Lithaen is no longer Catholic
+-Brimar is no longer Catholic
+-Alania is now Tengrist
+-Gazikumukh renamed to Dagestan
+-Removed cores of QAR and AKK
+-Removed GAZ cores on Alania
+-Removed SHI cores on Alania
+-Removed GOL cores on Alania
+-The Goths accept all the Gothic Cultures now. Even the extinct ones.
+-Zaprozhie is now a Gothic Breakaway state
+-Crimea is now a Gothic Breakaway state.
+-Lith no longer has cores on ALL of russia
+-Adjusted defines.lua slightly
+-Removed golden horde cores on all of the steppes
+
+
+REWORKS
+-Reworked European Culture order to fix similar colored cultures bordering
+
+
+BUG FIXES
+-Fixed missing messein core on dresden
+-Fixed Moldova's dynasty name
+-Fixed strange bug where Milan didn't have a core on Milan
+-Fixed various crashes caused by the code gremlins

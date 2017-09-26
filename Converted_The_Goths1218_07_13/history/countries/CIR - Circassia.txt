@@ -1,0 +1,21 @@
+#Alania
+government = despotic_monarchy
+government_rank = 2
+primary_culture = alan
+religion = apostolic
+technology_group = eastern
+capital = 2201 # Alania
+
+1444.1.1 = {
+	monarch = {
+		name = "Attila"
+		dynasty = "Genghisid"
+		adm = 4
+		dip = 0
+		mil = 6
+	}
+}
+1444.11.11 = {
+	religion = apostolic
+	primary_culture = alan
+}

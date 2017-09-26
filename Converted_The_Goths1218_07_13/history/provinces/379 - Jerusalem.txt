@@ -1,0 +1,19 @@
+owner = KOK
+controller = KOK
+add_core = KOK
+#add_core = ISR
+
+culture = palestinian
+religion = sunni
+
+is_city = yes
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 3
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

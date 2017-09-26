@@ -1,0 +1,18 @@
+# Thessaly
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = thessalan
+religion = orthodox
+capital = 147
+1419.12.8 = {
+	monarch = {
+		name = "Kallinikos"
+		birth_date = 1418.12.19
+		dynasty = "Larissa"
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}

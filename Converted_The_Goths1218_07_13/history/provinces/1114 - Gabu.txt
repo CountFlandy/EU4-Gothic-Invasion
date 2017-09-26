@@ -1,0 +1,20 @@
+#1114 - Gabu
+
+owner = MAL
+controller = MAL
+add_core = MAL
+add_core = KBU
+
+culture = senegambian
+religion = shamanism #Fetishism
+capital = "Kansala"
+is_city = yes
+hre = no
+
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+trade_goods = ivory
+
+discovered_by = sub_saharan
+add_local_autonomy = 50

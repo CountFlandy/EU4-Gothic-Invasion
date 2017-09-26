@@ -1,0 +1,2 @@
+culture = shawnee
+discovered_by = high_american

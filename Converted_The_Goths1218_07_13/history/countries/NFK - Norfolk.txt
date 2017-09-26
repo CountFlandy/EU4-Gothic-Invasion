@@ -1,0 +1,19 @@
+# Norfolk
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = anglo_saxon
+religion = lollard
+capital = 1860
+
+1444.7.13 = {
+	monarch = {
+		name = "Henry II"
+		birth_date = 1404.4.17
+		dynasty = "Oxford"
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+}

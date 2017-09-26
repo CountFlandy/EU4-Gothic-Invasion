@@ -1,0 +1,15 @@
+government = despotic_monarchy
+technology_group = chinese
+religion = shinto
+primary_culture = ryukuan
+capital = 1015	# Shuri
+
+1444.1.1 = {
+	monarch = {
+		name = "Shitatsu"
+		dynasty = "Sho"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}

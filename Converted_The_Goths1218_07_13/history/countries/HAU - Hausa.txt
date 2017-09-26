@@ -1,0 +1,18 @@
+# Hausaland
+government = tribal_kingdom
+government_rank = 2
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = songhai
+religion = shamanism
+capital = 1142
+1444.2.12 = {
+	monarch = {
+		name = "Sveinn"
+		birth_date = 1422.6.20
+		dynasty = "Audgi"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}

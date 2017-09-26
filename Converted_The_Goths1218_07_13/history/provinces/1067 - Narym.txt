@@ -1,0 +1,32 @@
+#1067 - Narym
+culture = tungus
+religion = tengri_pagan_reformed 
+
+capital = "Turukhan"
+#is_city = yes
+hre = no
+
+trade_goods = unknown
+base_tax = 1
+base_production = 3
+base_manpower = 2
+
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+
+discovered_by = nomad_group
+discovered_by = STU
+discovered_by = VAH
+discovered_by = TYU
+discovered_by = YUA
+discovered_by = OSY
+discovered_by = KET
+discovered_by = KUZ
+discovered_by = ORD
+discovered_by = BAA
+discovered_by = TNK
+discovered_by = YKT

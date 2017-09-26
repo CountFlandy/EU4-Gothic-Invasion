@@ -1,0 +1,18 @@
+owner = TAB
+controller = TAB
+add_core = TAB
+
+culture = mazandarani
+religion = zoroastrian
+
+is_city = yes
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 1
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

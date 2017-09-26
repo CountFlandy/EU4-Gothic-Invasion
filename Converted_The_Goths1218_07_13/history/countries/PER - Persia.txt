@@ -1,0 +1,16 @@
+government = iqta
+primary_culture = persian
+religion = shiite
+technology_group = muslim
+capital = 416 # Tabriz
+
+
+1448.1.1 = {
+	monarch = {
+		name = "Haidar"
+		dynasty = "Safavid"
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+}

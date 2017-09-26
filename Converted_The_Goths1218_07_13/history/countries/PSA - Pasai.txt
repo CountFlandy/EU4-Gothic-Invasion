@@ -1,0 +1,15 @@
+government = despotic_monarchy
+primary_culture = sumatran
+religion = buddhism
+technology_group = chinese
+capital = 2673	# Pasai
+
+1412.1.1 = {
+	monarch = {
+		name = "Malik"
+		dynasty = "Pasai"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

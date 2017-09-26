@@ -1,0 +1,18 @@
+# Bourbon
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = auvergnese
+religion = catholic
+capital = 190
+1403.4.13 = {
+	monarch = {
+		name = "Lothaire VI"
+		birth_date = 1391.7.26
+		dynasty = "Karling"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}

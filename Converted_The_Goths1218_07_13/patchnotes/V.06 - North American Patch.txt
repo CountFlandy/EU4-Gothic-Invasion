@@ -1,0 +1,129 @@
+V.06 
+
+NEW ADDITIONS #North American/Religion Update!
+	
+	Governments
+
+	Religions
+
+		- Added black_sea_pagan, the religion of nords around the black sea, they're much more violent than regular nords
+		- Added Dieties to Slavic paganism, complete with modifiers. Images for leaders and localisaition still needed
+		- Finnish pagans have the Mesoamerican system of idea purcheasing. WIP still
+		- Added Dieties to black_sea_pagan. They worship the christian pantheon. Yes, I said pantheon
+		- Jewish faith given holy sites mechanics
+
+	Cultures
+		- Tibetan culture group added
+		- Moved Nepal, Bhutanese, Tibetan, Uyghur, Kashmiri to the new Tibetan Culture Group
+		- Moved siberian culture to the eastern siberian culture group, and renamed it to siberian Group
+		- Ainu moved to Japanese group
+		- Renamed the Steppe culture groups
+		- Overhauled the native american culture groups. NORTH AMERICA NO LONGER MAKES ME CRY! (visually)
+		- Added the potomac culture, and siouan culture.
+		- Added Ryukan culture
+
+
+	Events
+
+	Flavor
+		- Started work on giving nations basic ideas
+
+	Countries
+		- Added the Dakota, Algonquin, Catawaba, Chipewyan Tribes.
+		- Added lost Rome
+
+	Misc
+
+CHANGES
+
+	Major
+		- Overhauled North America
+
+	Governments 
+		- Changed norse_papacy to use monarchy = yes, will have to test and see if it gives and major bugs.
+		- North American Natives now have proper government types
+
+	Decisions
+		- Created the "Form the Kingdom of Serbia" decision
+		- Created the "Form the Kingdom of Anatolia" decision
+		- Created the "Form the Kingdom of Hispania" decision (WIP)
+
+	Nations
+		- Poland and Novgorod are now Historical Rivals
+		- Poland starts as Emperor of HRE (??)
+		- Turkestan is now properly Turkish culture
+		- Yarkand is now vajrayana
+		- Many new nations exist in Northern India!
+		- Kebab is now Manichean
+		- Khitans are now Manichean
+		- Adjusted European Dynasties. Now there are less dynastys overall in Europe.
+		- Adjusted European borders, some countries are now only releasable.
+
+
+	Land
+		- Land is now Properly Turkish Culture in Northern Persia
+		- Yorkshire is now Norse_Pagan_reformed
+		- Converted parts of Iraq to Shiite
+		- Parts of Serbia are now Orthodox
+		- The Non-Zoroastrian parts of Persia in the west are now Shiite
+		- Birjand and Quetta are now Zunnist
+		- India now has no Muslims outside of the border with Persia
+		- There are now no Buddhists in India, only Jain and Hindu
+		- All norse_pagan_reformed nations/land around the black sea is now black_sea_pagan
+		- Converted gothic culture lands in hungary to black_sea_pagan
+		- All Uyghur land is now vajrayana (possibly not due to land bug)
+		- Gave Baluchistan 5 more provinces
+		- All Afghan territories are now Sunni
+		- All Baluchi culture territories are now Sunni
+		- All Persian culture teritories are now Shiite or Zoroastrian
+		- Most Khorasani territories are now Zoroastrian, some are Shiite
+		- Redid the History files of India. All of them. Some nations were missed.
+		- Ainu received 2 new provinces at 1444
+		
+
+	Localization
+		- Organized Religious localization Document
+		- Renamed Old Norse Heretics to "Loki's Trickesters"
+		- Renamed norse_pagan_reformed to "Old Norse"
+		- Renamed norse_religion_papacy to "Norse"
+
+	Bug Fixes
+		- Used the Validator to clean up a FEW THINGS. NOT ALL 12 HOURS+ OF THEM.
+		- Fixed strange error where there were two Holsteins and two Rugens
+		- Added missing provinces to history/provinces
+		- Removed duplicate province ID's from history/provinces
+		- Removed junk provinces from history/provinces		
+		- Fixed bug where Meath was owned by a non-existant nation, flipping to Cumbria on start
+		- Removed junk country files
+		- Fixed Bythnia being turkish culture (hold over from Karaman reuse)
+
+	History
+		- Removed all history past 1444 from the newly added provinces, hopefully cutting down on file-size. Removed as this mod only has one start date.
+
+
+	Religion
+		- Added Manichean in Northern Persia
+		- Added a few more Zunnists
+		- Added a few more Jains
+		- Added Shinto to Ainu and Ryuku
+		- Removed Ainu_Pagan religion
+		- Removed all muslim religions except Ismaili, Ibadi, Shiite, and Sunni
+		- North Africa is now Ismaili and Shiite
+		- Egypt is now Sunni
+		- Oman is now Ibadi
+		- The Berbers are now Sunni
+		- Added a single Nestorian in Syria
+		- Removed excess Christian Religions
+		- Traplandia is now Messalian
+		- Socotra is now Nestorian
+		- Armenia and Caucus is now apostolic
+		- Alania is apostolic
+		- Yorkshire is now Norse
+		- Most of the British isles are now Lollard, save for Kent, London, and Hampshire.
+		
+
+
+	Culture
+
+
+

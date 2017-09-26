@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = norse_saxon
+religion = norse_religion_papacy
+capital = 50	# Berlin
+
+
+
+1440.9.21 = {
+	monarch = {
+		name = "Friedrich II"
+		dynasty = "Vulimi"
+		birth_date = 1413.11.19
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

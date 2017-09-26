@@ -1,0 +1,31 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = oldenberger
+religion = norse_pagan_reformed
+technology_group = western
+capital = 55	# Oldenburg
+
+1440.2.14 = {
+	monarch = {
+		name = "Christian VI"
+		dynasty = "Vulimi"
+		birth_date = 1426.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1440.2.14 = {
+	heir = {
+		name = "Gerhard"
+		monarch_name = "Gerhard the Unholy"
+		dynasty = "Vulimi"
+		birth_date = 1430.1.1
+		death_date = 1495.9.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

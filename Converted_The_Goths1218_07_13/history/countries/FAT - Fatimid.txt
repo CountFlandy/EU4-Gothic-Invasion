@@ -1,0 +1,38 @@
+# Fatimid
+government = fatimid_government
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = al_misr_arabic
+add_accepted_culture = old_egyptian
+historical_rival = IRQ
+religion = sunni
+capital = 361
+1428.5.12 = {
+	monarch = {
+		name = "Isa IV"
+		birth_date = 1426.1.19
+		dynasty = "Fatimid"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+
+}
+1442.3.23 = {
+	heir = {
+		name = "Isa"
+		monarch_name = "Isa V"
+		dynasty = "Fatimid"
+		birth_date = 1442.3.23
+		death_date = 1512.2.23
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1444.11.11 = {
+	capital = 361
+
+}

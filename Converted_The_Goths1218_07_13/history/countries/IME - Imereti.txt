@@ -1,0 +1,16 @@
+government = feudal_monarchy
+primary_culture = norse_georgian
+religion = black_sea_pagan
+technology_group = eastern
+capital = 462 # Kutaisi
+
+1444.1.1 = {
+	monarch = {
+		name = "Bagrat II"
+		dynasty = "Skáld"
+
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}

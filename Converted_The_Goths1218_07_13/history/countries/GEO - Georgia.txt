@@ -1,0 +1,19 @@
+# Georgia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = georgian
+religion = orthodox
+capital = 422
+
+1444.7.13 = {
+	monarch = {
+		name = "Malkhazi"
+		birth_date = 1417.12.6
+		dynasty = "ve Hârlau"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}

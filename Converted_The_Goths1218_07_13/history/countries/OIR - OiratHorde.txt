@@ -1,0 +1,19 @@
+government = steppe_horde
+technology_group = nomad_group
+religion = tengri_pagan_reformed
+primary_culture = oirats
+capital = 718
+historical_rival = KHA
+historical_rival = SHY
+
+
+1438.1.1 = {
+	monarch = {
+		name = "Esen"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 3
+		mil = 5
+		birth_date = 1393.1.1
+	}
+}

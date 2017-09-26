@@ -1,0 +1,22 @@
+owner = TLD
+controller = TLD
+add_core = TLD
+remove_core = CAS
+remove_core = LON
+
+culture = moorish
+religion = shiite
+
+is_city = yes
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 3
+
+add_local_autonomy = -40
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

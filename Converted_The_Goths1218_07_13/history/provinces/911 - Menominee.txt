@@ -1,0 +1,2 @@
+culture = anishinabe
+discovered_by = high_american

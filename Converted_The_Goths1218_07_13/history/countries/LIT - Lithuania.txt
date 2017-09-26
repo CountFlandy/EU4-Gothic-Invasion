@@ -1,0 +1,24 @@
+# Lithaen
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = lithuanian
+religion = norse_religion_papacy
+clear_scripted_personalities = yes
+capital = 1936
+
+1440.6.19 = {
+	monarch = {
+		name = "Ulv"
+		birth_date = 1422.10.8
+		dynasty = "Vulimi"
+		adm = 1
+		dip = 0
+		mil = 1
+	}
+}
+
+1444.11.11 = {
+religion = norse_religion_papacy
+}

@@ -1,0 +1,17 @@
+government = despotic_monarchy
+primary_culture = tigray
+religion = coptic
+technology_group = east_african
+unit_type = sub_saharan
+capital = 2766		# Mendefera
+
+
+1396.1.1 = {
+	monarch = {
+		name = "Menas I"
+		dynasty = "Bahrid"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}

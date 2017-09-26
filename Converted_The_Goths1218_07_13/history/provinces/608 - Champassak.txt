@@ -1,0 +1,31 @@
+#608 - Champasak
+
+owner = LXA
+controller = LXA
+add_core = LXA
+culture = lao
+religion = buddhism
+capital = "Champasak"
+trade_goods = tea
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+
+1707.1.1 = {
+	owner = VIE
+	controller = VIE
+	add_core = VIE
+} # Lan Xangs declared itself independent, partitioned into three kingdoms; Vientiane, Champasak & Luang Prabang
+1713.1.1 = {
+	owner = CHK
+	controller = CHK
+	add_core = CHK
+}

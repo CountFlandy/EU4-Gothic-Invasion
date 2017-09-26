@@ -1,0 +1,8 @@
+owner = XXX
+controller = XXX
+remove_core = MIK
+
+trade_goods = unknown
+discovered_by = high_american
+discovered_by = VIN
+

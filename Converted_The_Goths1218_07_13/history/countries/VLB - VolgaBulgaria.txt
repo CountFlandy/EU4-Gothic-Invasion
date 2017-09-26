@@ -1,0 +1,41 @@
+# Volga Bulgaria
+government = steppe_horde
+government_rank = 3
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = bolghar
+religion = tengri_pagan_reformed
+clear_scripted_personalities = yes
+capital = 2444
+1414.5.4 = {
+	monarch = {
+		name = "Kuvrat"
+		birth_date = 1398.3.14
+		dynasty = "Volga"
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+1444.1.1 = {
+	heir = {
+		name = "Kushluk"
+		monarch_name = "Kushluk XI"
+		dynasty = "Volga"
+		birth_date = 1444.1.1
+		death_date = 1532.5.3
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 1
+	
+	}
+
+
+
+}
+1444.11.11 = {
+	capital = 2444
+	add_treasury = 0
+	add_prestige = 40
+}

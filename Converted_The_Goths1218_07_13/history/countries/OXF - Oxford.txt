@@ -1,0 +1,20 @@
+#Oxford
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = anglo_saxon
+religion = lollard
+capital = 237
+
+1425.8.26 = {
+	monarch = {
+		name = "Róen II"
+		birth_date = 1399.12.16
+		dynasty = "Oxford"
+		adm = 1
+		dip = 2
+		mil = 5
+	}
+}
+	

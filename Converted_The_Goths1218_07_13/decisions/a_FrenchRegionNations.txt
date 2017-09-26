@@ -1,0 +1,213 @@
+country_decisions = {
+
+	french_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = HLR }
+			NOT = { tag = FRA }
+			NOT = { tag = PAP }
+			#NOT = { tag = SPA }		# Basque is a valid culture for both FRA and SPA
+			NOT = { exists = FRA }
+			culture_group = french
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no			
+			NOT = { exists = FRA }
+			owns_core_province = 177	# Maine
+			owns_core_province = 179	# Berry
+			owns_core_province = 182	# Vermandois
+			owns_core_province = 183	# Paris
+			owns_core_province = 184	# Orléannais
+			owns_core_province = 185	# Nemours
+			owns_core_province = 186	# Champagne		
+			owns_core_province = 1879	# Alencon
+			owns_core_province = 178	# Anjou		
+		}
+		effect = {
+			change_tag = FRA
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			seine_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FRA
+			}
+			loire_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FRA
+			}
+			normandy_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FRA
+			}
+			bourgogne_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = FRA
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			FRA = {
+				set_capital = 183
+			}
+			if = {
+				limit = {
+					has_custom_ideas = no
+					OR = {
+						ai = no
+						AND = {
+							ai = yes
+							has_idea_group = default_ideas
+						}
+					}
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	occitanian_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = HLR } #No, the HRE cant form occitaia just because its new
+			NOT = { tag = FRA } #Why should France be able to form what it has oppressed?
+			NOT = { tag = PAP } #Nope Pope-man needs to stay pope-man
+			NOT = { tag = SPA }	#If Catalan cultured nations formed Spain/Basque Nation, dont let them form Occitania too!
+			NOT = { exists = OCC } #Cant form an existing nation. Wouldnt that cause the game to crash, or you to take over an existing nation?
+			culture_group = occitain_group #Gotta be occitain to form Occitania
+			is_colonial_nation = no #Sorry guys
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no			
+			NOT = { exists = OCC }
+			owns_core_province = 190	# Bourbon 
+			owns_core_province = 199	# Auvergne
+			owns_core_province = 201	# Provence
+			owns_core_province = 2753	# Narbonne
+			owns_core_province = 174	# Bordeaux
+			owns_core_province = 176	# Bearn
+			owns_core_province = 4111	# Saintonge	
+			owns_core_province = 204	# Dauphine
+			owns_core_province = 197	# Roussillon 		
+		}
+		effect = {
+			change_tag = OCC
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			guyenne_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			pyrenees_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			massif_central_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			savoy_dauphine_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			provence_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			languedoc_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = OCC
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			OCC = {
+				set_capital = 198 #Rouergue
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	
+}

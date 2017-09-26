@@ -1,0 +1,22 @@
+owner = SHY
+controller = SHY
+add_core = SHY
+remove_core = KZH
+
+culture = uzbehk
+religion = tengri_pagan_reformed
+
+is_city = yes
+hre = no
+
+trade_goods = wool
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+1444.11.11 = {
+	owner = SHY
+	controller = SHY
+	culture = uzbehk
+	religion = tengri_pagan_reformed
+}

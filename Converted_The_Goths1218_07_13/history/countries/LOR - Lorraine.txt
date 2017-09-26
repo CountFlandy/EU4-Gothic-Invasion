@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = rhine_rhenish
+religion = catholic
+technology_group = western
+capital = 189	# Nancy
+
+historical_rival = PAL
+
+1400.1.1 = {
+	monarch = {
+		name = "Charles II"
+		dynasty = "de Metz"
+		birth_date = 1400.1.1
+		adm = 5
+		dip = 2
+		mil = 3
+	}
+}

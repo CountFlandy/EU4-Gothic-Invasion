@@ -1,0 +1,29 @@
+# Norway
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = norwegian
+religion = norse_religion_papacy
+capital = 10
+1444.7.12 = {
+	monarch = {
+		name = "Atko"
+		birth_date = 1420.6.18
+		dynasty = "Goði"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Arnkjell"
+		monarch_name = "Arnkjell"
+		dynasty = "Goði"
+		birth_date = 1443.10.28
+		death_date = 1499.5.7
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

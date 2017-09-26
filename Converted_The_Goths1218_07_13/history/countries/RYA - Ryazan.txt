@@ -1,0 +1,27 @@
+# Ryazan
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = ryazanian
+add_accepted_culture = russian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 301
+
+1441.8.16 = {
+	monarch = {
+		name = "Tyushten"
+		birth_date = 1417.10.27
+		dynasty = "Rurikovich"
+		adm = 1
+		dip = 1
+		mil = 4
+	}
+}
+1444.11.11 = {
+	capital = 301
+	add_treasury = 0
+	add_prestige = 0
+	elector = no
+}

@@ -1,0 +1,16 @@
+owner = CAY
+controller = CAY
+add_core = CAY
+
+culture = iroquois
+religion = totemism
+
+is_city = yes
+hre = no
+
+base_tax = 4
+base_production = 3
+base_manpower = 1
+trade_goods = fur
+
+discovered_by = north_american

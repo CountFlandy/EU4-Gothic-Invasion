@@ -1,0 +1,6 @@
+vassal = {
+	first = BRI
+	second = NRM
+	start_date = 1430.1.1
+	end_date = 1440.1.1
+}

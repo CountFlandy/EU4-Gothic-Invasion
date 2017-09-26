@@ -1,0 +1,17 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = oldenberger
+religion = norse_religion_papacy
+technology_group = western
+capital = 57
+
+
+1411.1.1 = {
+	monarch = {
+		name = "Georg"
+		dynasty = "Vulimi"
+		dip = 2
+		adm = 2
+		mil = 2
+	}
+}

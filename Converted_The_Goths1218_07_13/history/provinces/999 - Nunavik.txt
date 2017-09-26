@@ -1,0 +1,4 @@
+
+culture = inuit
+discovered_by = high_american
+

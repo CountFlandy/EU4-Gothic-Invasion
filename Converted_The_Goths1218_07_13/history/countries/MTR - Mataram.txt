@@ -1,0 +1,16 @@
+government = despotic_monarchy
+primary_culture = javanese
+religion = mahayana
+technology_group = chinese
+capital = 626	# Karta
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Rajasavardhana"
+		dynasty = "Matarama"
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}

@@ -1,0 +1,19 @@
+owner = SHR
+controller = SHR
+add_core = OMA
+add_core = SHR
+
+culture = omani_culture
+religion = ibadi
+
+is_city = yes
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

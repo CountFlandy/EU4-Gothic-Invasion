@@ -1,0 +1,21 @@
+government = feudal_monarchy
+mercantilism = 10
+primary_culture = novgorodian
+religion = slavic_pagan_reformed
+technology_group = eastern
+historical_rival = POL
+capital = 310	# Novgorod
+
+
+1429.1.1 = {
+	monarch = {
+		name = "Evfimy II"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+1444.1.1 = {
+
+elector = yes
+}

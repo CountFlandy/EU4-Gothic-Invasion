@@ -1,0 +1,16 @@
+government = steppe_horde
+primary_culture = siberian
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 1074	# Chimgi-Tura
+
+
+1431.1.1 = {
+	monarch = {
+		name = "Ibak"
+		dynasty = "Genghisid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

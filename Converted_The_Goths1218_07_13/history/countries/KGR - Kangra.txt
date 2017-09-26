@@ -1,0 +1,16 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = indian
+primary_culture = kashmiri
+religion = vajrayana
+capital = 509	# Kangra
+
+1430.1.1 = {
+	monarch = {
+		name = "Sansar Chand I"
+		dynasty = "Katoch"
+		DIP = 1
+		ADM = 1
+		MIL = 1
+	}
+}

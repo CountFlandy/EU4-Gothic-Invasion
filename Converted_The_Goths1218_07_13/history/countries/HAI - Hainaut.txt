@@ -1,0 +1,22 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = flemish
+capital = 91	
+historical_rival = BRB
+historical_rival = FLA
+
+
+
+
+1417.1.1 = {
+	monarch = {
+		name = "Jacquette"
+		dynasty = "Van Vladderen"
+		adm = 2
+		dip = 1
+		mil = 1
+		female = yes
+	}
+}

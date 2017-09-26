@@ -1,0 +1,30 @@
+# Holtsetaland
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = holsteinian
+religion = norse_religion_papacy
+capital = 45
+
+1444.1.1 = {
+	monarch = {
+		name = "Byorn"
+		birth_date = 1416.7.25
+		dynasty = "Vulimi"
+		adm = 6
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Byorn"
+		monarch_name = "Byorn II"
+		dynasty = "Vulimi"
+		birth_date = 1432.12.19
+		death_date = 1503.3.3
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

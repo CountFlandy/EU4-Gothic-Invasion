@@ -1,0 +1,19 @@
+#Crimea
+government = despotic_monarchy
+technology_group = eastern
+religion = black_sea_pagan
+primary_culture = crimean_goths
+add_accepted_culture = goths
+capital = 2413	
+
+1444.1.1 = {
+	monarch = {
+		name = "Theodoro"
+		dynasty = Giray
+		birth_date = 1401.1.1
+		adm = 3
+		dip = 4
+		mil = 4
+	}
+	set_global_flag = death_of_haji_giray #Blocks succession event after this point.
+}

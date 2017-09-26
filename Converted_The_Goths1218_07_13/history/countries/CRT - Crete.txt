@@ -1,0 +1,21 @@
+# Crete
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = cretan
+add_accepted_culture = greek
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 163
+
+1444.7.12 = {
+	monarch = {
+		name = "Athanasios"
+		birth_date = 1416.7.25
+		dynasty = "Smyrnaios"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

@@ -1,0 +1,22 @@
+#4212 - Jiazhou
+
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CXI
+add_core = SHU
+
+culture = sichuanese
+religion = confucianism
+
+capital = "Jiazhou"
+is_city = yes
+hre = no
+
+trade_goods = tea
+base_tax = 3 
+base_production = 2
+base_manpower = 2
+
+discovered_by = chinese
+discovered_by = nomad_group

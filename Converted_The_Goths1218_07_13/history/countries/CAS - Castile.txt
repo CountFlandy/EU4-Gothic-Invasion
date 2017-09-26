@@ -1,0 +1,8 @@
+government = feudal_monarchy
+primary_culture = castillian
+add_accepted_culture = leonese
+add_accepted_culture = basque
+add_accepted_culture = aragonese
+religion = catholic
+technology_group = western
+capital = 219 # Toledo

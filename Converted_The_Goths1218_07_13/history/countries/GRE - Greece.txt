@@ -1,0 +1,30 @@
+# The Greek Alliance
+government = greek_republic
+government_rank = 3
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+add_accepted_culture = cretan
+add_accepted_culture = epirote
+add_accepted_culture = achean
+add_accepted_culture = thessalan
+add_accepted_culture = athenian
+
+religion = orthodox
+
+historical_friend = ACH
+historical_rival = VEN
+
+capital = 146
+
+1444.7.13 = {
+	monarch = {
+		name = "Savarics"
+		birth_date = 1414.2.27
+		dynasty = "Kassiopi"
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+	
+}

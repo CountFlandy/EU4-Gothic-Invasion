@@ -1,0 +1,20 @@
+owner = ARM
+controller = ARM
+add_core = ARM
+add_core = GEO
+remove_core = QAR
+
+culture = georgian
+religion = orthodox
+
+is_city = yes
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 3
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

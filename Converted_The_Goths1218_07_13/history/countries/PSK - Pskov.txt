@@ -1,0 +1,16 @@
+government = imperial_city
+government_rank = 1
+mercantilism = 25
+primary_culture = novgorodian
+religion = slavic_pagan_reformed
+technology_group = eastern
+capital = 274	# Pskov
+
+1421.1.1 = {
+	monarch = {
+		name = "Aleksandr IV"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

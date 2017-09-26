@@ -1,0 +1,20 @@
+government = imperial_city
+government_rank = 1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = rostovite
+capital = 308	# Yaroslavl
+
+1434.1.1 = {
+	monarch = {
+		name = "Alexandr Bryukhatiy"
+		dynasty = "Rurikovich"
+		birth_date = 1400.1.1
+		dip = 3
+		adm = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+
+}
+

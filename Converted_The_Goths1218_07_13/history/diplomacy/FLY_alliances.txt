@@ -1,0 +1,13 @@
+vassal = {
+	first = FLY
+	second = MAZ
+	start_date = 1401.1.1
+	end_date = 1900.1.1
+}
+vassal = {
+	first = FLY
+	second = SIL
+	start_date = 1415.1.1
+	end_date = 1900.1.1
+}
+ # Add RAU?

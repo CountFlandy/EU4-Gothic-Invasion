@@ -1,0 +1,733 @@
+country_decisions = {
+
+
+
+#Full Germany. Not finished yet
+	german_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = GER }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+					adm_tech = 20
+				}
+			}
+			culture_group = germanic
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 20
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			is_emperor = no
+			owns_core_province = 44	# Hamburg
+			owns_core_province = 46	# Rostock
+			owns_core_province = 50	# Berlin
+			owns_core_province = 57	# Brunswick
+			owns_core_province = 61	# Dresden
+			owns_core_province = 63	# Thüringen
+			owns_core_province = 65	# München
+			owns_core_province = 67	# Nürnberg
+			owns_core_province = 81	# Hessen
+			owns_core_province = 85	# Köln
+			owns_core_province = 1761 # Worms
+			owns_core_province = 1868 # Augsburg
+			owns_core_province = 1876 # Frankfurt
+			OR = {
+				owns_core_province = 41	# Königsberg
+				owns_core_province = 75	# Strassburg
+			}
+		}
+		effect = {
+			change_tag = GER
+			emperor = {
+				add_opinion = {
+					who = root
+					modifier = opinion_left_empire
+				}
+			}
+			set_in_empire = no
+			emperor = {
+				country_event = { id = hre_event.5 }
+			}
+			set_government_rank = 3
+			north_german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GER
+			}
+			south_german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GER
+			}			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#Form Lotharingia
+	form_lotharingia_kingdom = { 
+		major = yes 
+		potential = { 
+			OR = {
+				religion = catholic
+				religion = protestant
+				}
+			NOT = { tag = LTH } 
+			NOT = { exists = LTH }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			OR = {
+			primary_culture = flemish
+			primary_culture = wallonian
+			primary_culture = rhine_rhenish
+			primary_culture = burgundian
+			primary_culture = frankish
+			primary_culture = hessian
+			primary_culture = franconian
+			primary_culture = swiss
+			primary_culture = ulm_culture
+			primary_culture = swabian			
+			}
+		}
+		allow = { 
+			NOT = { exists = LTH } 
+			adm_tech = 7
+			OR = { 
+				religion = "protestant"
+				religion = "catholic"
+			}
+			owns_core_province = 187		
+			owns_core_province = 189		
+			owns_core_province = 90
+			owns_core_province = 97
+			owns_core_province = 1744
+			owns_core_province = 1878
+			owns_core_province = 94
+			owns_core_province = 192
+			owns_core_province = 201
+			stability = 1
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+		}
+		effect = { 
+			change_tag = LTH #Change tag to Lotharinga
+			if = {
+				limit = { 
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = { 
+					limit = { 
+						is_part_of_hre = yes
+					}
+					set_in_empire = no 
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = { 
+				name = "centralization_modifier"
+				duration = 3650 
+			}
+			add_prestige = 25
+			add_legitimacy = 25
+			change_government = feudal_monarchy 
+			#change_primary_culture = rhine_rhineish
+			brabant_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } #Is not owned by decision taking nation.
+				}
+				add_permanent_claim = LTH #Give Perma claim to lotharinga
+			}
+			netherlands_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = LTH #Give Perma claim to lotharinga
+			}
+			flanders_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = LTH #Give Perma claim to lotharinga
+			}
+			luxemburg_liege_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			wallonia_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			north_rhine_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			lower_rhineland_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			lorraine_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			bourgogne_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			savoy_dauphine_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			provence_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = FRS #Give Perma claim to Frisia
+			}
+			}
+		ai_will_do = { 
+			factor = 1
+		}
+
+	}	
+#Reform Austria
+	habsburg_nation = {
+		major = yes
+		potential = {
+			primary_culture = austrian
+			NOT = { tag = HAB }
+			NOT = { exists = HAB }
+		}
+		allow = {
+			NOT = { exists = HAB }
+			has_regency = no
+			is_subject = no
+			is_nomad = no			
+			is_at_war = no
+			owns = 134
+			num_of_cities = 12
+			adm_tech = 7
+			
+		}
+		effect = {
+			change_tag = HAB
+			add_prestige = 25
+			change_government = feudal_monarchy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+#German Germans. Not Norse-Germans.
+	form_south_german_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = GER }
+			NOT = { exists = SGF }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			culture_group = germanic
+			religion_group = christian
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 12
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 134 # Wein
+			owns_core_province = 1880 # Sundagu
+			owns_core_province = 79	# Wurzburg
+			owns_core_province = 2967 # Eger
+			owns_core_province = 1872 # Ulm
+			owns_core_province = 63	# Thüringen
+			owns_core_province = 65	# München
+			owns_core_province = 67	# Nürnberg
+			owns_core_province = 81	# Hessen
+			owns_core_province = 70	# Wurttemberg
+			owns_core_province = 1761 # Worms
+			owns_core_province = 1868 # Augsburg
+			owns_core_province = 1876 # Frankfurt
+			owns_core_province = 128 # Karnten
+			owns_core_province = 1870 # St. Gallen
+		}
+		effect = {
+			change_tag = SGF
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			hesse_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SGF
+			}
+			thuringia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SGF
+			}
+			south_german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SGF
+			}			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#Form the Lowlands nation
+	lowlands_nation = {
+		major = yes
+		potential = {
+			OR = {
+				NOT = { exists = NED }
+				ai = no
+			}
+			NOT = { tag = PAP }
+			NOT = { tag = NED }
+			NOT = { tag = HLR }
+			OR = {
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = wallonian
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 3
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			NOT = { exists = NED }
+			owns_core_province = 91 # Hainaut
+			owns_core_province = 93 # Liege
+			owns_core_province = 92 # Brabant
+			owns_core_province = 87 # Calis
+			owns_core_province = 90 # Flanders
+			owns_core_province = 1744 # Antwerp
+			owns_core_province = 89 # Picarde		
+			owns_core_province = 1866 # Namur
+			owns_core_province = 181 # Rethel			
+		}
+	 	effect = {
+			if = {
+				limit = {
+					any_owned_province = {
+						is_part_of_hre = yes
+					}
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			change_tag = NED
+			low_countries_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { province_id = 1931 }
+					NOT = { province_id = 96 }
+					NOT = { province_id = 97 }
+					NOT = { province_id = 100 }
+					NOT = { province_id = 99 }
+					NOT = { province_id = 98 }
+				}
+				add_permanent_claim = NED
+			}
+			picardy_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = NED
+			}
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 2
+					}
+				}
+				set_government_rank = 2
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+#Form Prussia -Removed Brandenburg and Teutonic specific varriants
+	prussian_nation_general = {
+		major = yes
+		potential = {
+			religion_group = christian
+			primary_culture = prussian
+			NOT = { tag = PRU }
+			NOT = { exists = PRU }
+			NOT = { tag = GER }
+			NOT = { tag = HLR }
+}
+		allow = {
+			NOT = { exists = PRU }
+			adm_tech = 10
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			religion_group = christian
+			owns_core_province = 1761			# Pfalz
+			owns_core_province = 79			# Wurzburg
+			owns_core_province = 71			# Ansbach
+			owns_core_province = 77			# Heidelberg
+			owns_core_province = 78			# Mainz
+			owns_core_province = 1876		# Frankfurt
+			owns_core_province = 67			# Nurnberg
+			num_of_cities = 15
+		}
+		effect = {
+			change_tag = PRU
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+					government = monarchy
+				}
+				set_government_rank = 2
+			}
+			palatinate_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = PRU
+			}
+			franconia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = PRU
+			}
+			lower_swabia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = PRU
+			}
+			if = {
+				limit = { has_dlc = "Rights of Man" }
+				change_government = prussian_monarchy
+			}
+			if = {
+				limit = { NOT = { has_dlc = "Rights of Man" } }
+				change_government = administrative_monarchy
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					has_custom_ideas = no
+					NOT = { has_idea_group = PRU_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+#NotChangedYet	
+	hannoverian_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = GER }
+			NOT = { tag = PRU }
+			NOT = { tag = HSA }
+			NOT = { exists = HAN }
+			primary_culture = hannoverian #Westphalian
+			is_colonial_nation = no
+			OR = {
+				ai = no
+				AND = {
+					owns_core_province = 53	# Lüneburg
+					owns_core_province = 54	# Stade
+					owns_core_province = 1758	# Hannover
+					owns_core_province = 2971	# Hoya
+				}
+			}			
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				NOT = { is_part_of_hre = yes }
+				is_elector = yes
+			}
+			owns_core_province = 53	# Lüneburg
+			owns_core_province = 54	# Stade
+			owns_core_province = 1758	# Hannover
+			owns_core_province = 2971	# Hoya
+		}
+		effect = {
+			change_tag = HAN
+			1758 = {
+				add_base_tax = 1
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			every_province = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					OR = {
+						#province_id = 53 # Luneburg
+						#province_id = 54 # Stade
+						province_id = 55 # Oldenburg
+						province_id = 56 # Osnabruck
+						province_id = 57 # Brunswick
+						#province_id = 1758 # Hannover
+						province_id = 1874 #Bremen
+						province_id = 1931 # East Frisia
+						#province_id = 2971 # Hoya
+					}
+				}
+				add_permanent_claim = HAN
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			HAN = {
+				set_capital = 1758 # Hannover
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_part_of_hre = yes
+				is_elector = no	
+			}
+		}
+	}
+#Not Changed yet	
+	westfalian_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = HLR }
+			NOT = { tag = HAN }
+			NOT = { tag = PAP }
+			NOT = { tag = GER }
+			NOT = { tag = PRU }
+			NOT = { tag = SWI }
+			NOT = { exists = WES }
+			OR = {
+				primary_culture = hannoverian #Westphalian
+				primary_culture = hessian
+				capital_scope = {
+					area = westphalia_area
+				}
+			}
+			NOT = { has_country_flag = formed_westphalia }
+			is_colonial_nation = no
+			OR = {
+				ai = no
+				AND = {
+					owns_core_province = 52	# Magdeburg
+					owns_core_province = 82	# Westfalen
+					owns_core_province = 1758	# Hannover
+					owns_core_province = 1762	# Kassel
+					owns_core_province = 2972	# Paderborn
+				}
+			}			
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				is_elector = yes
+				NOT = { is_part_of_hre = yes }
+			}
+			capital_scope = {
+				area = westphalia_area
+			}
+			owns_core_province = 52	# Magdeburg
+			owns_core_province = 82	# Westfalen
+			owns_core_province = 1758	# Hannover
+			owns_core_province = 1762	# Kassel
+			owns_core_province = 2972	# Paderborn
+		}
+		effect = {
+			change_tag = WES
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			random_owned_province = {
+				add_base_tax = 1
+			}
+			add_country_modifier = {
+				name = "decentralization_modifier"
+				duration = 7300
+			}
+			westphalia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = WES
+			}
+			lower_saxony_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = WES
+			}
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 52
+						province_id = 81
+						province_id = 1762
+						province_id = 2964
+					}
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = WES
+			}
+			add_prestige = 25
+			change_government = administrative_monarchy
+			WES = {
+				set_capital = 1762 # Kassel
+			}
+			set_country_flag = formed_westphalia
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_part_of_hre = yes
+				is_elector = no	
+			}
+		}
+	}	
+}

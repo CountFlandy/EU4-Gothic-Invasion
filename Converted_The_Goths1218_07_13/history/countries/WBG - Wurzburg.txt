@@ -1,0 +1,15 @@
+government = theocratic_government
+government_rank = 1
+technology_group = western
+primary_culture = franconian
+religion = catholic
+capital = 79	# Würzburg
+1444.11.3 = {
+	monarch = {
+		name = "Gottfried IV"
+		birth_date = 1404.1.26
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

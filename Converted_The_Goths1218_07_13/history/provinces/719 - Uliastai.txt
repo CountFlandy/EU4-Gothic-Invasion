@@ -1,0 +1,10 @@
+owner = KHA
+controller = KHA
+add_core = KHA
+remove_core = OIR 
+1444.11.11 = {
+	owner = KHA
+	controller = KHA
+	culture = oirats
+	religion = tengri_pagan_reformed
+}

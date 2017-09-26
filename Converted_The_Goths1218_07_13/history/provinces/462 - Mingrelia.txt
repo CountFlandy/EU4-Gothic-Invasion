@@ -1,0 +1,25 @@
+owner = IME
+controller = IME
+add_core = IME
+
+culture = norse_georgian
+religion = black_sea_pagan
+
+is_city = yes
+hre = no
+
+base_tax = 8
+base_production = 8
+base_manpower = 4
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
+

@@ -1,0 +1,3 @@
+culture = highland_mayan
+religion = mesoamerican_religion
+discovered_by = high_american

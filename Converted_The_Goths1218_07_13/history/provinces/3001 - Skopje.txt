@@ -1,0 +1,30 @@
+owner = THE
+controller = THE
+add_core = THE
+
+culture = vangarian
+religion = black_sea_pagan
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 4
+	base_production = 4
+	base_manpower = 3
+	remove_core = BYZ
+	remove_core = BUL
+	remove_core = SER
+	remove_core = TUR
+}
+1444.11.11 = {
+	owner = THE
+	controller = THE
+	culture = vangarian
+	religion = black_sea_pagan
+}

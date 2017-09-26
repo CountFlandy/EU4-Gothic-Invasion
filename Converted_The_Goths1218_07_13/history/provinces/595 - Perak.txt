@@ -1,0 +1,24 @@
+#595 - Perak
+
+owner = PRK
+controller = PRK
+add_core = PRK
+culture = malayan
+religion = jain
+capital = "Perak"
+trade_goods = copper
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 2
+is_city = yes
+remove_core = MLC
+
+
+
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+

@@ -1,0 +1,22 @@
+#owner = ASI
+#controller = ASI
+#add_core = ASI
+#Not Anymore
+
+culture = nakota
+religion = totemism
+
+capital = "Bungi"
+#is_city = yes
+hre = no
+
+trade_goods = fur
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+native_size = 5
+native_ferocity = 2
+native_hostileness = 6
+
+discovered_by = north_american

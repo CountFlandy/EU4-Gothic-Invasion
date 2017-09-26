@@ -1,0 +1,18 @@
+#2446 - Chara
+
+owner = MYR
+controller = MYR
+add_core = BRT
+add_core = MYR
+culture = buryat
+religion = tengri_pagan_reformed
+capital = "Chara"
+trade_goods = wool
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+discovered_by = nomad_group
+discovered_by = BRT

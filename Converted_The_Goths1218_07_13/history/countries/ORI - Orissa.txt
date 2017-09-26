@@ -1,0 +1,16 @@
+government = despotic_monarchy
+primary_culture = oriya
+religion = hinduism
+technology_group = indian
+capital = 552	# Cuttack
+
+
+1434.1.1 = {
+	monarch = {
+		name = "Kapilendra"
+		dynasty = "Gajapati" #Suryavamshi
+		ADM = 4
+		DIP = 5
+		MIL = 6
+	}
+}

@@ -1,0 +1,19 @@
+# Mali
+government = tribal_kingdom
+government_rank = 1
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = mali
+religion = shamanism
+capital = 1114
+
+1444.7.13 = {
+	monarch = {
+		name = "Sandaki"
+		birth_date = 1404.8.28
+		dynasty = "Kiffa"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

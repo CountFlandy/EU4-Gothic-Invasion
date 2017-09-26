@@ -1,0 +1,16 @@
+owner = HET
+controller = HET
+add_core = HET
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = unknown
+
+is_city = yes
+hre = no
+
+religion = south_american_pagan
+culture = het
+
+discovered_by = south_american

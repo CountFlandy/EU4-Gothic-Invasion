@@ -1,0 +1,440 @@
+country_decisions = {
+
+#Form the Arabian Kingdom
+	arab_kingdom_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ARB }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			culture_group = arabian_group
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			adm_tech = 7
+			owns_core_province = 2336			#Falaj
+			owns_core_province = 393			#Jabal Shammar
+			owns_core_province = 2340			#Grane
+			owns_core_province = 384			#Medina
+			owns_core_province = 385			#Mecca
+			owns_core_province = 388			#Aden
+			owns_core_province = 390			#Sanaa
+			owns_core_province = 392			#Al-Arid
+			owns_core_province = 394			#Qatif
+			owns_core_province = 400			#Muscat
+			owns_core_province = 403			#Nizwa
+			owns_core_province = 383			#Tabuk
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			arabia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ARB
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			change_tag = ARB
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Form the Arabian Empire
+	arabia_restore_nation = {
+		major = yes
+		potential = {
+			adm_tech = 7
+			num_of_cities = 10
+			NOT = { exists = ARE }
+			religion_group = muslim
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				culture_group = middle_east_group
+				culture_group = arabian_group
+				primary_culture = al_misr_arabic
+				culture_group = maghrebi
+				culture_group = moorish
+			}
+		}
+		allow = {
+			is_subject = no
+			is_at_war = no
+			adm_tech = 15
+			num_of_cities = 50
+			owns_core_province = 358			#Alexandria
+			owns_core_province = 361			#Cairo
+			owns_core_province = 377			#Aleppo
+			owns_core_province = 379			#Jerusalem
+			owns_core_province = 382			#Damascus
+			owns_core_province = 384			#Medina
+			owns_core_province = 385			#Mecca
+			owns_core_province = 388			#Aden
+			owns_core_province = 390			#Sanaa
+			owns_core_province = 392			#Al-Arid
+			owns_core_province = 394			#Qatif
+			owns_core_province = 400			#Muscat
+			owns_core_province = 403			#Nizwa
+			owns_core_province = 410			#Baghdad
+			owns_core_province = 341			#Tunisia
+			owns_core_province = 1751			#Ceuta
+			owns_core_province = 2754			#La Mancha
+			owns_core_province = 2459			#Titteri
+			owns_core_province = 343			#Fez
+		}
+		effect = {
+			change_tag = ARE
+			#Add special caliphate government type here in the future possibly
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			mashriq_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ARE
+			}
+			egypt_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { area = lower_nubia_area }
+				}
+				add_permanent_claim = ARE
+			}
+			arabia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ARE
+			}
+			maghreb_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ARE
+			}
+			upper_andalucia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ARE
+			}
+			lower_andalucia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ARE
+			}
+			alentejo_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ARE
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#Form Persia
+	persian_nation = {
+		major = yes
+		potential = {
+			OR = {
+				ai = no
+				NOT = { exists = PER }
+			}
+			NOT = { tag = MUG }
+			NOT = { tag = PER }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			NOT = { tag = PAP }
+			NOT = { tag = TUR }
+			NOT = { tag = BYZ }
+			NOT = { exists = PER }
+			culture_group = iranian
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			is_tribal = no
+			owns_core_province = 2218		# Shiraz
+			owns_core_province = 414		# Hamadan
+			owns_core_province = 416		# Tabriz	
+			owns_core_province = 426		# Mazandaran
+			owns_core_province = 429		# Isfahan
+			owns_core_province = 2215		# Qazvin
+			owns_core_province = 433		# Yazd
+		}
+		effect = {
+			change_tag = PER
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			persia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = PER
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			
+			change_primary_culture = persian
+			if = {
+				limit = {
+					technology_group = nomad_group
+				}
+				change_technology_group = muslim
+				change_unit_type = muslim
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	kingdom_of_jerusalem = {
+		major = yes
+		potential = {
+			NOT = { exists = KOJ }
+			religion = catholic
+			owns_core_province = 379 #Jerusalem
+			#NOT = { government = republic }
+			NOT = { is_year = 1650 } #end of crusades
+		}
+		allow = {
+			is_at_war = no
+			owns_core_province = 1854 #Nablus
+			owns_core_province = 364 #Gaza
+			owns_core_province = 379 #Jerusalem
+			
+		}
+		effect = {
+			add_prestige = 30
+			if = { #code event to form it or release it
+				limit = {
+					NOT = { tag = KNI }
+					NOT = { tag = CYP }
+				}
+				KOJ = {
+					add_core = 379
+					add_core = 1854
+					add_core = 364
+				}
+				release = KOJ
+				KOJ = { change_primary_culture = ROOT }
+			}
+			if = {
+				limit = {
+					OR = {
+						tag = KNI
+						tag = CYP
+					}
+				}
+				change_tag = KOJ
+				if = {
+					limit = { has_custom_ideas = no }
+					country_event = { id = ideagroups.1 } #Swap Ideas
+				}
+			}
+			if = {
+				limit = { tag = KNI }
+				set_country_flag = knights_formed_jerusalem
+			}
+			KOJ = {
+				set_capital = 379
+				change_religion = catholic
+				change_government = feudal_monarchy #Give choice to take this or holy order?
+				if = {
+					limit = {
+						NOT = { government_rank = 2 }
+					}
+					set_government_rank = 2
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+#Egypt. Religion requirements might not be correct
+	egyptian_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = TUR }
+			NOT = { tag = ARB }
+			NOT = { exists = EGY }
+			OR = {
+				primary_culture = al_misr_arabic
+				primary_culture = old_egyptian
+				}
+			OR = {
+				religion = north_african_pagan
+				religion_group = muslim
+			}
+			capital = 361 # Cairo
+
+		}
+		allow = {
+			adm_tech = 12
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 361 # Cairo
+			owns_core_province = 362 # Rashid
+			owns_core_province = 363 # Dumyat
+			owns_core_province = 358 # Alexandria
+			owns_core_province = 359 # Faiyum
+			OR = {
+				OR = {	
+					religion_group = muslim
+					egypt_region = {
+						type = all
+						NOT = { owner = { religion = north_african_pagan } }
+					}
+				}
+				OR = {
+					religion = north_african_pagan
+					egypt_region = {
+						type = all
+						NOT = { owner = { religion_group = muslim } }
+					}
+				}
+			}
+		}
+		effect = {
+			change_tag = EGY
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			#Add code to change culture of either Arab Egyptians or Kemetic Egyptians to the other culture
+			change_government = despotic_monarchy
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			random_owned_province = {
+				limit = {
+						OR = {
+							culture = al_misr_arabic 
+							culture = old_egyptian
+							}
+						}
+				add_base_tax = 1
+			}
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+	
+	}

@@ -1,0 +1,27 @@
+# The Goths
+government = despotic_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = goths
+add_accepted_culture = crimean_goths
+add_accepted_culture = visigoths
+add_accepted_culture = ostrogoths
+religion = black_sea_pagan
+clear_scripted_personalities = yes
+capital = 284
+1444.7.13 = {
+	monarch = {
+		name = "Konstantinos"
+		birth_date = 1418.2.14
+		dynasty = "Yurom"
+		adm = 5
+		dip = 0
+		mil = 5
+	}
+}
+1444.11.11 = {
+	capital = 284
+	add_treasury = 0
+	add_prestige = 0
+}

@@ -1,0 +1,25 @@
+owner = CHY
+controller = CHY
+add_core = CHY
+remove_core = ARP #Not Anymore
+
+culture = cheyenne
+religion = totemism
+
+capital = "Itscheabine"
+is_city = yes
+hre = no
+
+
+base_tax = 1
+base_manpower = 1
+base_production = 1
+trade_goods = unknown #fur
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+discovered_by = north_american
+
+

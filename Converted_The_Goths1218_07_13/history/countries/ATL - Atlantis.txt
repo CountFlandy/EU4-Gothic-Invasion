@@ -1,0 +1,25 @@
+#Atlantis
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = north_american
+unit_type = western
+primary_culture = atlantean
+
+
+religion = hellenic_pagan
+
+
+capital = 501
+
+1444.7.13 = {
+	monarch = {
+		name = "Arkantos"
+		birth_date = 1414.2.27
+		dynasty = "Troy"
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+	
+}

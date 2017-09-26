@@ -1,0 +1,20 @@
+government = feudal_monarchy
+primary_culture = croatian
+add_accepted_culture = bosnian
+add_accepted_culture = serbian
+religion = catholic
+technology_group = eastern
+capital = 131
+historical_rival = TEM
+historical_rival = NAP
+historical_rival = ACH
+
+1444.1.1 = {
+	monarch = {
+		name = "Ivan"
+		dynasty = "Hunyadi"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

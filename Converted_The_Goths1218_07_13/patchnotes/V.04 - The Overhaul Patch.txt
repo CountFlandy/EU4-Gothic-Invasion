@@ -1,0 +1,66 @@
+V.04 #The Overhaul Patch
+NEW ADDITIONS:
+-North Africa Overhauled!
+-Russia overhauled!
+-Arabia (Slightly) redone!
+-Middle East overhauled!
+-Fez is here in northern Morocco! (Zaydi Moroccan Muslim)
+-Sus is here in western Morocco! (Zaydi Moroccan Muslim)
+-Kablyia is here in East Algeria! (Zaydi Algerian Muslim)
+-Tlemcen is here in West Algeria! (Zaydi Berber Muslim)
+-Tunis is back! (Zaydi Tunisian Muslim)
+-Tripoli is here! (Zaydi Tunisian Muslim)
+-Tafilalt is here in South Eastern Morocco! (Zaydi Moroccan Muslim)
+-Added Cryenacia (Greek, Orthodox, Eastern) in Lybia!
+-Added Fatimids! (Egyptian, Ibadi, Muslim)
+-Added Jordan and Palestine! (And their respective cultures)
+-Added a Lebanese culture for lebanon
+-Added Kurdistan! (ARD) (Kurdish, Yazidi, Muslim, only cores asside from Mosul)
+-Added Hejazi culture!
+-Re-added the Ottomans! They reside in Northern Persia, and are Steppe Nomads that are Tengrist!
+-Added Volga Bulgaria! The Steppe Nation that once conquored from Persia to Scandanavia!(Bolghar, Tengrist, Steppe Nomad. Most of his land is Slavic currently, however.)
+-Say hello to our first 100% custom nation! Ostyak! A tribe in northern Russia, complete with a flag photoshopped to proper size and all! (It's even Finnish pagan!)
+-Finnish Paganism makes its return
+-Added the Rostovite, byelorussian Severian, and Dregovitchian cultures. 
+-Severia is finally its own country! (Severian, Slavic, Eastern)
+-Added Sakala in south Latvia (Latvian, Slavic, Eastern)
+-Dregovich joins the fray! (Dregovichian, Slavic, Eastern, ELECTOR) 4/6/5 Ruler (age 45)
+-Added Vladimir! (Moscovite, Slavic, Eastern, ELECTOR.)
+-Added Rostov! (Rostovite, Slavic, Eastern, IMPERIAL CITY.)
+-Galacia-Volyhnia rejoins the fray! (Volyhnian, Slavic, Eastern, ELECTOR) 
+-Polotsk joins the fray! (Byelorussian, Slavic, Eastern)
+-Re-added Livonia in north Latvia (Latvian, Slavic, Eastern)
+-Yaroslav joins the fray! (Rostovite, Slavic, Eastern, IMPERIAL CITY)
+-Odoyev joins the fray! (Moscovite, Slavic, Eastern)
+-Nizhny Novgorod joins the fray! (Moscovite, Slavic, Eastern. Has 3 cores on Volga, and 2 on Vladimir.)
+-Podonye joins the fray! (Ryzanian, Slavic, Eastern. Has 2 cores on Volga.)
+-Voronezh joins the fray! (Ryzanian, Slavic, Eastern)
+
+CHANGES:
+-Morocco and parts of North Africa are now Zaydi
+-North Africa (Region) is now Moroccan/Algerian/Berber/Tunisian culture (Berber in interier, others on coast)
+-In Sus the Coast is Moroccan, however the interier is Berber still
+-Fez got 2 more territories (Zaydi Berber Muslim)
+-Djerid gained 2 territories (Zaydi Tunisian Muslim)
+-Mzab gained 4 more territories (Zaydi Berber Muslim)
+-Moved around cores on North Africa
+-Adjusted balance in europe a little
+-Added another Yazidi provence in Iraq, to represent they're a dominant sunni power but are struggling
+-The pope annexed the territory of Oujdan in North Africa
+-Albania is a vassal of Croatia now
+-Haasa is released (Sunni Bedouin Muslim)
+-Sharaj is released (Sunni Bedouin Muslim)
+-Horse Island is now Messalin (as it should be)
+-Iraq received 5 new territories (culture/religion remains the same in them)
+-Added a few historical rivals for iraq
+-Readded the Turkish culture
+-Tweaked cores in steppes more
+-Re-added Ostyak culture
+-Moved Samoyed culture back to where it belongs
+-Karellia is now Finnish Pagan, as is all their land
+-The Sapmi people are now (mostly) finnish pagan!
+-The native people of Finland are now Finnish Pagans!
+-Moved around russian cultures for better balance
+-Pskov and Severia are now Imperial Cities
+-Lith lost their land and claims in Latvia (Balance)
+-Moscovy is now an imperial city! (Lost all land but Moscow, and lost all cores/claims except Moscow.)

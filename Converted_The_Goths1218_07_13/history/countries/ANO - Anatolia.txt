@@ -1,0 +1,25 @@
+#Anatolia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = cappadocian_greek
+add_accepted_culture = cretan
+add_accepted_culture = ionian
+add_accepted_culture = pontic_greek
+add_accepted_culture = greek
+add_accepted_culture = armenian
+religion = orthodox
+capital = 2301
+
+1444.1.1 = {
+	monarch = {
+		name = "Savarics"
+		birth_date = 1414.2.27
+		dynasty = "Kassiopi"
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+	
+}

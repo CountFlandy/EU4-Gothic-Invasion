@@ -1,0 +1,15 @@
+government = despotic_monarchy
+primary_culture = javanese
+technology_group = chinese
+religion = mahayana
+capital = 2687	# Pakuan
+
+1482.1.1 = {
+	monarch = {
+		name = "Sri Baduga Maharaja"
+		dynasty = "Sunda"
+		ADM = 5
+		DIP = 5
+		MIL = 4
+	}
+}

@@ -1,0 +1,33 @@
+owner = STR
+controller = STR
+add_core = STR
+remove_core = TUR
+remove_core = BYZ
+
+culture = vangarian #Constantanopole fell in the year 903 AD, no sense in greeks STILL being there
+religion = black_sea_pagan
+
+is_city = yes
+hre = no
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 11
+	base_production = 16
+	base_manpower = 10
+}
+1444.11.11 = {
+	owner = STR
+	controller = STR
+	culture = vangarian
+	religion = black_sea_pagan
+
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
+}

@@ -1,0 +1,24 @@
+owner = TUL
+controller = TUL
+add_core = TUL
+culture = russian
+religion = slavic_pagan_reformed
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = yes
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+	remove_core = MOS
+}
+1444.11.11 = {
+	owner = TUL 
+	controller = TUL
+	culture = russian
+	religion = slavic_pagan_reformed
+}

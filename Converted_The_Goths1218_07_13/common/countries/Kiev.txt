@@ -1,0 +1,157 @@
+# Kiev
+
+graphical_culture = easterngfx
+color = { 166 176 159 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	administrative_ideas
+	religious_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	hungarian_hussar
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	polish_winged_hussar
+	russian_lancer
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+
+
+leader_names = {
+
+	"Roman" "Dobrava" "Dyre" "Tatimir" "Mechislav" "Vadim" "Demid" "Rostislav" "Svetozar" "Vladimir" 
+	"Sveinn" "Alexandros" "Theophanes" "Philaretos" "Pelagios" "Zenon" "Theodoulos" "Bardas" "Anthemios" "Niphon" 
+	"Iordanes" "Khachigun" "Afanasiy" "Alexandr" "Alexei" "Andrei" "Boris" "Briachislav" "Daniil" "Davyd" 
+	"Dmitriy" "Dobrynia" "Fedot" "Feodor" "Gavriil" "Gleb" "Grigoriy" "Iakov" "Igor" "Iliya" 
+	"Ingvar" "Ivan" "Iziaslav" "Kirill" "Konstantin" "Koz'ma" "Lev" "Matfei" "Mikhail" "Mitrofan" 
+	"Mstislav" "Nikita" "Oleg" "Pavel" "Putiata" "Radoslav" "Rodislav" "Rogvolod" "Rurik" "Ruslan" 
+	"Stanislav" "Stepan" "Sudislav" "Sviatopolk" "Sviatoslav" "Terentiy" "Trifon" "Vasiliy" "Vasilko" "Viacheslav" 
+	"Vladislav" "Voislav" "Volodar" "Vseslav" "Vsevolod" "Vyshata" "Vysheslav" "Yaropolk" "Yaroslav" "Yefimiy" 
+	"Yelisey" "Yemelyan" "Yeremey" "Yevstafiy" "Yuriy" }
+monarch_names = {
+	"Roman #1" = 18
+	"Dobrava #1" = -1
+	"Dyre #1" = 0
+	"Tatimir #2" = 0
+	"Mechislav #1" = 0
+	"Vadim #1" = 0
+	"Demid #1" = 0
+	"Rostislav #1" = 0
+	"Svetozar #1" = 0
+	"Vladimir #1" = 0
+	"Sveinn #1" = 0
+	"Alexandros #1" = 0
+	"Theophanes #1" = 0
+	"Philaretos #2" = 0
+	"Pelagios #1" = 0
+	"Zenon #2" = 0
+	"Theodoulos #1" = 0
+	"Bardas #1" = 0
+	"Anthemios #1" = 0
+	"Niphon #1" = 0
+	"Iordanes #2" = 0
+	"Khachigun #1" = 0
+	"Afanasiy #0" = 0
+	"Alexandr #0" = 0
+	"Alexei #0" = 0
+	"Andrei #0" = 0
+	"Boris #0" = 0
+	"Briachislav #0" = 0
+	"Daniil #0" = 0
+	"Davyd #0" = 0
+	"Dmitriy #0" = 0
+	"Dobrynia #0" = 0
+	"Fedot #0" = 0
+	"Feodor #0" = 0
+	"Gavriil #0" = 0
+	"Gleb #0" = 0
+	"Grigoriy #0" = 0
+	"Iakov #0" = 0
+	"Igor #0" = 0
+	"Iliya #0" = 0
+	"Ingvar #0" = 0
+	"Ivan #0" = 0
+	"Iziaslav #0" = 0
+	"Kirill #0" = 0
+	"Konstantin #0" = 0
+	"Koz'ma #0" = 0
+	"Lev #0" = 0
+	"Matfei #0" = 0
+	"Mikhail #0" = 0
+	"Mitrofan #0" = 0
+	"Mstislav #0" = 0
+	"Nikita #0" = 0
+	"Oleg #0" = 0
+	"Pavel #0" = 0
+	"Putiata #0" = 0
+	"Radoslav #0" = 0
+	"Rodislav #0" = 0
+	"Rogvolod #0" = 0
+	"Rurik #0" = 0
+	"Ruslan #0" = 0
+	"Stanislav #0" = 0
+	"Stepan #0" = 0
+	"Sudislav #0" = 0
+	"Sviatopolk #0" = 0
+	"Sviatoslav #0" = 0
+	"Terentiy #0" = 0
+	"Trifon #0" = 0
+	"Vasiliy #0" = 0
+	"Vasilko #0" = 0
+	"Viacheslav #0" = 0
+	"Vladislav #0" = 0
+	"Voislav #0" = 0
+	"Volodar #0" = 0
+	"Vseslav #0" = 0
+	"Vsevolod #0" = 0
+	"Vyshata #0" = 0
+	"Vysheslav #0" = 0
+	"Yaropolk #0" = 0
+	"Yaroslav #0" = 0
+	"Yefimiy #0" = 0
+	"Yelisey #0" = 0
+	"Yemelyan #0" = 0
+	"Yeremey #0" = 0
+	"Yevstafiy #0" = 0
+	"Yuriy #0" = 0
+
+
+	"Dobrava #0" = -1
+	"Yekaterina #0" = -1
+	"Yefimia #0" = -1
+	"Rogneda #0" = -1
+}
+ship_names = {
+	"Arka Noego"
+        "Bialy Orzel" Burza "Bialy Lew" "Brzesko-Kujawskie" Belzkie Braclawskie
+        Charitas "Czarny Orzel" "Czarny Kruk" Chelminskie Czernichowskie
+        Fortuna
+        Gryf Gwiazda Gnieznienskie
+	Inoworclawskie
+	"Król Dawid" Kaliskie Krakowskie Kijowskie Kraków
+        Lublin "Latajacy Jelen" Lwów Leczyckie Lubelskie
+        "Maly Bialy Orzel" Malborskie Mazowieckie
+        Niewrazliwy "Nowy Czarny Orzel"
+        "Prorok Samuel" "Panna Wodna" Plomien Poznanskie Plockie Podlaskie Podolskie
+	"Rycerz Swiety Jerzy" Rawskie Ruskie
+        Strzelec Suwerenny "Swiety Piotr" Sieradzkie Sandomierskie "Swiety Kazimierz"
+        "Wielkie Slonce" Wodnik Warminskie Wolynskie Warszawa
+        Zwyciestwo "Zólty Lew"
+}
+

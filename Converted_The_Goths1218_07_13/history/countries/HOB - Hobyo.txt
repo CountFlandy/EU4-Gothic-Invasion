@@ -1,0 +1,17 @@
+government = tribal_kingdom
+technology_group = east_african
+unit_type = sub_saharan
+religion = shamanism
+primary_culture = somali
+capital = 2783 #Hobyo
+
+
+1444.1.1 = {
+	monarch = {
+		name= "Yusuf"
+		dynasty = "Kenadid"
+		dip = 1
+		mil = 1
+		adm = 1
+	}
+}

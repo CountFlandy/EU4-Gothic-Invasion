@@ -1,0 +1,30 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = gaelic_norse
+capital = 375	# Cork
+
+1444.1.1 = {
+	monarch = {
+		name = "Turlough IV"
+		dynasty = "O'Brien"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Tadhg"
+		monarch_name = "Tadhg IV"
+		dynasty = "O'Brien"
+		birth_date = 1434.1.1 
+		death_date = 1466.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

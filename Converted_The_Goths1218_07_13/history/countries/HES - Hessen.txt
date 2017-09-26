@@ -1,0 +1,29 @@
+# Hesse
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = hessian
+religion = catholic
+capital = 83
+1420.8.26 = {
+	monarch = {
+		name = "Eberhart"
+		birth_date = 1386.7.11
+		dynasty = "von Sponheim"
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+	heir = {
+		name = "Hartman"
+		monarch_name = "Hartman II"
+		dynasty = "von Sponheim"
+		birth_date = 1408.9.19
+		death_date = 1468.9.21
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}

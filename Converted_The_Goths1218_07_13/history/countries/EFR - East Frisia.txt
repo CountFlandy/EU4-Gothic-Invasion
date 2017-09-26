@@ -1,0 +1,37 @@
+#Brimar
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = oldenberger
+religion = norse_religion_papacy
+clear_scripted_personalities = yes
+capital = 1874
+1437.4.2 = {
+	monarch = {
+		name = "Balder"
+		birth_date = 1403.6.13
+		dynasty = "Vulimi"
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+}
+1440.4.7 = {
+	heir = {
+		name = "Abel"
+		monarch_name = "Abel"
+		dynasty = "Vulimi"
+		birth_date = 1440.4.7
+		death_date = 1532.4.7
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1444.11.11 = {
+religion = norse_religion_papacy
+primary_culture = oldenberger
+}

@@ -1,0 +1,18 @@
+#Orda
+
+government = sbasque_group_native_council
+primary_culture = siberian
+religion = tengri_pagan_reformed
+technology_group = chinese
+capital = 480	# Yugan
+
+
+1431.1.1 = {
+	monarch = {
+		name = "Natsch"
+		dynasty = "Pegaya"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}

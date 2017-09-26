@@ -1,0 +1,3 @@
+discovered_by = high_american
+
+religion = carribean_pagan

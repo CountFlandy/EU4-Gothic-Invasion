@@ -1,0 +1,38 @@
+V.02
+
+NEW ADDITIONS
+-Added Hannover, replacing Munster. They are a vanilla rehash with a new flag!
+-Added Lyneborg, replacing Anhalt. Vanilla rehash of Luneberg, with a Danish localized name.
+-Added Ostrogoths! Receiving 3 cores in Hungary, they are a Tengri Gothic nation. Save the nearly extinct people of the Ostrogoths! lead them to Glory!
+-Vangaria added! The representation of the remains of the Vangarian Guard are finally here! (Flavor coming soon)
+-New norse-georgian culture added! It still needs a name!
+-Added The Goths! 
+-Added Bosnian culture
+
+CHANGES
+-Changed around North German Dynastys
+-Fixed Irish Dynastys. Somehow the Celts had a Nordic name, and the Nords had a Celtic name.
+-Mazovia starts as a Vassal of Flykirate, can be integrated by 1450.
+-At Logans request, changed Lubeck to Niziny Holandia.
+-Changed Lowlands Norse culture to go with the new nation name.
+-Changed flags around for nations
+-Changed Luneburg to Lyneborg, just so I could reuse vanilla nations
+-Lubeck received a new flag
+-Teutonic Orders culture was changed, from Prussian to Austrian. Now Teutonic Order can fight Bavaria to restore the glory of the Habsburgs!
+-Knights Templar are now Serbian Culture! Soon they will also be able to form serbia if they convert to protestant! (Decision a WIP)
+-The Greek Aliance now uses the GRE tag, now making them the main greek nation.
+-Greek Alliance has cores on Cyprus and Chios now.
+-All the Greek Alliance breakaway states are now properly Eastern Greek (Or Cretan) Orthodox nations
+-Changed the "NEW" North German nations to be replacers of vanilla nations.
+-Added Wallachia Cores
+-Merged Hungarian culture Group with Croatian Group to create a Slavic-Maygar Group
+-moved albanian to Slavic-Maygar Group
+-Moved alan to Altic group
+-moved Armenian and Georgian to Byzantine Group
+-Imeretti released, and given cores on Georgian coast, receiving the new Norse-Georgian culture
+-Theodoro given cores on Crimea and Caffa
+
+BUG FIXES
+-Fixed strange bug where nations wouldn't be renamed by removing all country tags from text_l_english and moving them properly to countries_l_english
+-Fixed strange bug where the citizens of Szabolcs worshiped Tengri as their culture, and followed the teachings of christ too.
+-Restored the rightful heir of wallachia's throne, after a long fight with some turkish cockroaches

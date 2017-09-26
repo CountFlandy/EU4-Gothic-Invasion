@@ -1,0 +1,4 @@
+culture = howler_monkey
+religion = south_american_pagan
+discovered_by = high_american
+

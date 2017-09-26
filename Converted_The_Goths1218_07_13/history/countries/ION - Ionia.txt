@@ -1,0 +1,19 @@
+# Ionia
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = ionian
+religion = orthodox
+capital = 318
+
+1419.12.8 = {
+	monarch = {
+		name = "Peter"
+		birth_date = 1418.12.19
+		dynasty = "Ionios"
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}

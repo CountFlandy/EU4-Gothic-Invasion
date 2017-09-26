@@ -1,0 +1,30 @@
+owner = PAR
+controller = PAR
+add_core = PAR
+remove_core = MLO
+
+culture = lombard
+religion = catholic
+
+is_city = yes
+hre = no
+
+add_local_autonomy = -40
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 5
+	base_production = 5
+	base_manpower = 3
+	remove_core = MLO
+}
+1444.11.11 = {
+	owner = PAR
+	controller = PAR
+	culture = lombard
+	religion = catholic
+}

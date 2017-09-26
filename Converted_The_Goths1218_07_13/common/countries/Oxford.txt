@@ -1,0 +1,258 @@
+# Oxford
+graphical_culture = westerngfx
+color = { 17 93 112 }
+historical_idea_groups = { 
+	naval_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+
+historical_units = { 
+	western_medieval_infantry
+	western_medieval_knights
+	gaelic_galloglaigh
+	gaelic_mercenary
+	gaelic_free_shooter
+	irish_charge
+	anglofrench_line
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Uillam" "Asgaill" "Somerled" "Caisséne" "Róen" "Lasairfíona" "Artgal" "Blacaire" "Mauda" "Eysteinn" 
+	"Dervorgilla" "Seonaid" "Shitrig" "Cathán" "Amlaíb" "Ualtar" "Gormflaith" "Solvor" "Húndólf" "Bragi" 
+	"Herstein" "Atli" "Alfr" "Holmstein" "Guðröðr" "Hallstein" "Solveig" "Hroðulfr" "Hroðgar" "Þorgil" 
+	"Edla" "Aleta" "Anundr" "Guðrun" "Holmfrid" "Fredrik" "Sigrid" "Jedvard" "Vigdis" "Helena" 
+	"Bodil" "Birgitta" "Bersi" "Linda" "Aralt" "Lorcán" "Astrid" "Artúr" "Cináed" "Goraidh" 
+	"Siobán" "Demmán" "Eilionora" "Róis" "Torcuil" "Áine" "Alis" "Sébdann" "Deirdre" "Lerthan" 
+	"Thorstein" "Eldrid" "Báetán" "Arailt" "Gunnhild" "Derbáil" "Matudán" "Máiread" "Conall Corc" "Nad-Froich" 
+	"Ailill" "Crimthann" "Eochaid" "Éndae" "Coirpre Cromm" "Amalgaid" "Garbán" "Feidlimid" "Cathal" "Cúán" 
+	"Cathal Cú-Cen-Máthair" "Eterscél" "Cathussach" "Máel-Dúin" "Ólchobar" "Artrí" "Tuathal" "Cenn-Fáelad" "Eógan" "Ualgarg" 
+	"Art" "Bleddyn" "Áed" "Áedán" "Áengus" "Éamonn" "Éicnechán" "Énna" "Énri" "Óengus" 
+	"Ainmere" "Ardgar" "Augaire" "Blathmac" "Bran" "Brandub" "Brian" "Bróen" "Carlus" "Cathalán" 
+	"Cellach" "Cennétig" "Cerball" "Coirpre" "Colmán" "Conall" "Conchobar" "Congalach" "Conn" "Constantín" 
+	"Cormac" "Crundmáel" "Dabíd" "Diarmait" "Domnall" "Donnchad" "Donncuan" "Dúnchad" "Dúngal" "Dúnlaing" 
+	"Echmarcach" "Fáelán" "Fáelbe" "Fergal" "Fergus" "Fedlimid" "Fedelmid" "Fiachnae" "Fingen" "Finn" 
+	"Finnsnechtae" "Flaithbertach" "Flann" "Fogartach" "Gabrán" "Gilla-Íosa" "Gilla-Brígte" "Gilla-Coluim" "Gilla-Comgáin" "Gilla-Críst" 
+	"Gilla-na-Náem" "Gilla-Pátraic" "Gilla-Ruad" "Iacob" "Indrechtach" "Liam" "Lóeguire" "Loingsech" "Lugaid" "Lochlann" 
+	"Máel-Brígte" "Máel-Ciaráin" "Máél-Dúin" "Máel-Íosa" "Máel-Máedóc" "Máel-Martain" "Máel-Mórda" "Máel-Pátraic" "Máel-Ruanaid" "Máel-Sechlainn" 
+	"Máel-Sechnaill" "Mathgamain" "Muirchertach" "Muiredach" "Murchad" "Niall" "Pátraic" "Pilib" "Ricard" "Ruaidrí" 
+	"Ruarc" "Seán" "Selbach" "Seoán" "Túathal" "Tadg" "Tigernán" "Toirrdelbach" "Tomás" "Uilliam" }
+monarch_names = {
+	"Uillam #0" = 1
+	"Asgaill #0" = 1
+	"Somerled #0" = 1
+	"Caisséne #0" = -1
+	"Róen #2" = 30
+	"Lasairfíona #0" = -1
+	"Artgal #0" = 1
+	"Blacaire #0" = 1
+	"Mauda #0" = -1
+	"Eysteinn #0" = 1
+	"Dervorgilla #0" = -1
+	"Seonaid #0" = -1
+	"Shitrig #1" = 24
+	"Cathán #0" = -1
+	"Amlaíb #0" = 1
+	"Ualtar #0" = 1
+	"Gormflaith #0" = -1
+	"Solvor #0" = -1
+	"Húndólf #0" = 1
+	"Bragi #0" = 1
+	"Herstein #0" = 1
+	"Atli #0" = 1
+	"Alfr #0" = 1
+	"Holmstein #0" = 1
+	"Guðröðr #0" = 1
+	"Hallstein #0" = 1
+	"Solveig #0" = -1
+	"Hroðulfr #0" = 1
+	"Hroðgar #0" = 1
+	"Þorgil #0" = 1
+	"Edla #0" = -1
+	"Aleta #0" = -1
+	"Anundr #1" = 18
+	"Guðrun #0" = -1
+	"Holmfrid #0" = -1
+	"Fredrik #2" = 21
+	"Sigrid #0" = -1
+	"Jedvard #1" = 18
+	"Vigdis #0" = -1
+	"Helena #0" = -1
+	"Bodil #0" = -1
+	"Birgitta #0" = -1
+	"Bersi #1" = 18
+	"Linda #0" = -1
+	"Aralt #1" = 21
+	"Lorcán #0" = 1
+	"Astrid #0" = -1
+	"Artúr #0" = 1
+	"Cináed #0" = 1
+	"Goraidh #0" = 1
+	"Siobán #0" = -1
+	"Demmán #3" = 24
+	"Eilionora #0" = -1
+	"Róis #0" = -1
+	"Torcuil #1" = 18
+	"Áine #0" = -1
+	"Alis #0" = -1
+	"Sébdann #0" = -1
+	"Deirdre #0" = -1
+	"Lerthan #0" = -1
+	"Thorstein #0" = 1
+	"Eldrid #0" = -1
+	"Báetán #0" = 1
+	"Arailt #0" = 1
+	"Gunnhild #0" = -1
+	"Derbáil #0" = -1
+	"Matudán #0" = 1
+	"Máiread #0" = -1
+	"Conall Corc #1" = 0
+	"Nad-Froich #1" = 0
+	"Ailill #1" = 0
+	"Crimthann #2" = 0
+	"Eochaid #1" = 0
+	"Éndae #1" = 0
+	"Coirpre Cromm #1" = 0
+	"Amalgaid #1" = 0
+	"Garbán #1" = 0
+	"Feidlimid #1" = 0
+	"Cathal #2" = 0
+	"Cúán #1" = 0
+	"Cathal Cú-Cen-Máthair #1" = 0
+	"Eterscél #1" = 0
+	"Cathussach #1" = 0
+	"Máel-Dúin #1" = 0
+	"Ólchobar #2" = 0
+	"Artrí #1" = 0
+	"Tuathal #1" = 0
+	"Cenn-Fáelad #1" = 0
+	"Eógan #1" = 0
+	"Ualgarg #1" = 0
+	"Art #1" = 0
+	"Bleddyn #1" = 0
+	"Áed #0" = 0
+	"Áedán #0" = 0
+	"Áengus #0" = 0
+	"Éamonn #0" = 0
+	"Éicnechán #0" = 0
+	"Énna #0" = 0
+	"Énri #0" = 0
+	"Óengus #0" = 0
+	"Ainmere #0" = 0
+	"Ardgar #0" = 0
+	"Augaire #0" = 0
+	"Blathmac #0" = 0
+	"Bran #0" = 0
+	"Brandub #0" = 0
+	"Brian #0" = 0
+	"Bróen #0" = 0
+	"Carlus #0" = 0
+	"Cathalán #0" = 0
+	"Cellach #0" = 0
+	"Cennétig #0" = 0
+	"Cerball #0" = 0
+	"Coirpre #0" = 0
+	"Colmán #0" = 0
+	"Conall #0" = 0
+	"Conchobar #0" = 0
+	"Congalach #0" = 0
+	"Conn #0" = 0
+	"Constantín #0" = 0
+	"Cormac #0" = 0
+	"Crundmáel #0" = 0
+	"Dabíd #0" = 0
+	"Diarmait #0" = 0
+	"Domnall #0" = 0
+	"Donnchad #0" = 0
+	"Donncuan #0" = 0
+	"Dúnchad #0" = 0
+	"Dúngal #0" = 0
+	"Dúnlaing #0" = 0
+	"Echmarcach #0" = 0
+	"Fáelán #0" = 0
+	"Fáelbe #0" = 0
+	"Fergal #0" = 0
+	"Fergus #0" = 0
+	"Fedlimid #0" = 0
+	"Fedelmid #0" = 0
+	"Fiachnae #0" = 0
+	"Fingen #0" = 0
+	"Finn #0" = 0
+	"Finnsnechtae #0" = 0
+	"Flaithbertach #0" = 0
+	"Flann #0" = 0
+	"Fogartach #0" = 0
+	"Gabrán #0" = 0
+	"Gilla-Íosa #0" = 0
+	"Gilla-Brígte #0" = 0
+	"Gilla-Coluim #0" = 0
+	"Gilla-Comgáin #0" = 0
+	"Gilla-Críst #0" = 0
+	"Gilla-na-Náem #0" = 0
+	"Gilla-Pátraic #0" = 0
+	"Gilla-Ruad #0" = 0
+	"Iacob #0" = 0
+	"Indrechtach #0" = 0
+	"Liam #0" = 0
+	"Lóeguire #0" = 0
+	"Loingsech #0" = 0
+	"Lugaid #0" = 0
+	"Lochlann #0" = 0
+	"Máel-Brígte #0" = 0
+	"Máel-Ciaráin #0" = 0
+	"Máél-Dúin #0" = 0
+	"Máel-Íosa #0" = 0
+	"Máel-Máedóc #0" = 0
+	"Máel-Martain #0" = 0
+	"Máel-Mórda #0" = 0
+	"Máel-Pátraic #0" = 0
+	"Máel-Ruanaid #0" = 0
+	"Máel-Sechlainn #0" = 0
+	"Máel-Sechnaill #0" = 0
+	"Mathgamain #0" = 0
+	"Muirchertach #0" = 0
+	"Muiredach #0" = 0
+	"Murchad #0" = 0
+	"Niall #0" = 0
+	"Pátraic #0" = 0
+	"Pilib #0" = 0
+	"Ricard #0" = 0
+	"Ruaidrí #0" = 0
+	"Ruarc #0" = 0
+	"Seán #0" = 0
+	"Selbach #0" = 0
+	"Seoán #0" = 0
+	"Túathal #0" = 0
+	"Tadg #0" = 0
+	"Tigernán #0" = 0
+	"Toirrdelbach #0" = 0
+	"Tomás #0" = 0
+	"Uilliam #0" = 0
+}
+ship_names = {
+	Aoife
+	Ciara Connacht
+	Eithne Emer
+	Leinster
+	Munster
+	Niamh
+	Orla
+	Roisin
+	Ulster
+}
+

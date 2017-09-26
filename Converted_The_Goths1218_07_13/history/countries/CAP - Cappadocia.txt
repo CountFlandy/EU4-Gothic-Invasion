@@ -1,0 +1,34 @@
+# Cappadocia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = cappadocian_greek
+add_accepted_culture = pontic_greek
+add_accepted_culture = greek
+add_accepted_culture = cretan
+historical_rival = IRQ
+historical_rival = PON
+religion = orthodox
+capital = 2301
+1444.7.12 = {
+	monarch = {
+		name = "Gregor"
+		birth_date = 1421.9.17
+		dynasty = "Satala"
+		adm = 5
+		dip = 2
+		mil = 6
+	}
+	heir = {
+		name = "Gregor"
+		monarch_name = "Gregor II"
+		dynasty = "Satala"
+		birth_date = 1434.7.17
+		death_date = 1474.8.1
+		claim = 95
+		adm = 1
+		dip = 6
+		mil = 4
+	}
+}

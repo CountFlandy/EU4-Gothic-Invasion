@@ -1,0 +1,29 @@
+owner = GUY
+controller = GUY
+add_core = GUY
+remove_core = FRA
+
+culture = breton_occitain
+religion = catholic
+
+is_city = yes
+hre = no
+
+add_local_autonomy = -50
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+1444.11.11 = {
+	base_tax = 4
+	base_production = 4
+	base_manpower = 2
+	remove_core = FRA
+}
+1444.11.11 = {
+	owner = GUY
+	controller = GUY
+	culture = breton_occitain
+	religion = catholic
+}

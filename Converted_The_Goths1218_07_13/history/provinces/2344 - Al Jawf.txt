@@ -1,0 +1,24 @@
+owner = ADE
+controller = ADE
+add_core = ADE
+
+culture = yemeni_culture
+religion = sunni
+
+is_city = yes
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 6
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}
+

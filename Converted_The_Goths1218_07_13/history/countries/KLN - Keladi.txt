@@ -1,0 +1,30 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = kannada
+religion = jain
+technology_group = indian
+capital = 2032	# Ikkeri 
+
+1424.1.1 = {
+	monarch = {
+		name = "Chaudappa Nayaka"
+		dynasty = "Keladi"
+		ADM = 1
+		DIP = 0
+		MIL = 3
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Sadashiva"
+		monarch_name = "Sadashiva Nayaka"
+		dynasty = "Keladi"
+		birth_date = 1440.1.1
+		death_date = 1444.12.31
+		claim = 90
+		ADM = 1
+		DIP = 2
+		MIL = 3
+	}
+}

@@ -1,0 +1,15 @@
+# No previous file for Muniyo
+
+owner = KBO
+controller = KBO
+add_core = KBO
+is_city = yes
+culture = kanuri 
+religion = shamanism
+capital = "Muniyo"
+trade_goods = grain
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 2
+discovered_by = sub_saharan

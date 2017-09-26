@@ -1,0 +1,233 @@
+# Strymon
+
+graphical_culture = westerngfx
+color = { 0 86 148 }
+
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+
+
+leader_names = {
+
+	"Saga" "Gunnhildr" "Baldr" "Dyre" "Ofeig" "Gyrið" "Hafrid" "Rögnfrið" "Gloð" "Björg" 
+	"Botulfr" "Ivar" "Birger" "Frirek" "Rikissa" "Svanhildr" "Sif" "Hroðgar" "Helgi" "Yngvar" 
+	"Sæmundr" "Falki" "Fredrik" "Ulfr" "Þorolfr" "Styrbjörn" "Inga" "Haukr" "Kjartan" "Alfr" 
+	"Alvör" "Jarizleifr" "Rögnhildr" "Hrörekr" "Yrsa" "Guðrun" "Alfhildr" "Hakon" "Holmfrid" "Ulfhildr" 
+	"Maer" "Barid" "Malmfrið" "Gerðr" "Asa" "Asta" "Elisabet" "Gurli" "Kol" "Gyða" 
+	"Refil" "Skuld" "Toste" "Sigrid" "Hæsteinn" "Kettil" "Gyla" "Leon" "Bertil" "Guðröðr" 
+	"Alfgeir" "Gnupa" "Sturla" "Brandr" "Þorsteinn" "Hrafn" "Sigtrygg" "Þordr" "Dag" "Holmger" 
+	"Tryggve" "Ale" "Anders" "Anlaufr" "Anundr" "Arnbjörn" "Arngrimr" "Arni" "Arnfast" "Asbjörn" 
+	"Bagge" "Bengt" "Bersi" "Björn" "Bo" "Borkvard" "Bragi" "Buðli" "Dan" "Eilif" 
+	"Egill" "Emund" "Einarr" "Eirikr" "Eskild" "Faste" "Filip" "Froði" "Freyr" "Folki" 
+	"Gandalfr" "Geirr" "Georg" "Gorm" "Greger" "Grimr" "Guðfrið" "Guðmundr" "Gunnarr" "Halsten" 
+	"Haraldr" "Hemming" "Hrolfr" "Hrane" "Hjalmar" "Hroðulfr" "Hysing" "Inge" "Ingemar" "Ingjald" 
+	"Jedvard" "Jon" "Karl" "Kettilmund" "Klas" "Knut" "Kolbjörn" "Markus" "Mats" "Nils" 
+	"Niklas" "Oddr" "Olafr" "Ormr" "Ottarr" "Refr" "Ragnarr" "Rikulfr" "Rögnvaldr" "Skuli" 
+	"Snorri" "Sigbjörn" "Sigurðr" "Starkaðr" "Steinn" "Styrkar" "Suni" "Sveinn" "Sverker" "Sölvi" 
+	"Sörkver" "Tjudmund" "Toke" "Tolir" "Þorbjörn" "Þorfinn" "Þorbrandr" "Þorgil" "Totil" "Tyke" 
+	"Vagn" "Valdemar" "Åke" "Örvar" "Öysteinn" }
+monarch_names = {
+	"Saga #0" = -1
+	"Gunnhildr #0" = -1
+	"Baldr #1" = 18
+	"Dyre #1" = 21
+	"Ofeig #2" = 21
+	"Gyrið #0" = -1
+	"Hafrid #0" = -1
+	"Rögnfrið #0" = -1
+	"Gloð #0" = -1
+	"Björg #0" = -1
+	"Botulfr #0" = 1
+	"Ivar #5" = 27
+	"Birger #2" = 24
+	"Frirek #1" = 21
+	"Rikissa #0" = -1
+	"Svanhildr #0" = -1
+	"Sif #0" = -1
+	"Hroðgar #0" = 1
+	"Helgi #0" = 1
+	"Yngvar #1" = 18
+	"Sæmundr #0" = 1
+	"Falki #2" = 24
+	"Fredrik #1" = 21
+	"Ulfr #0" = 1
+	"Þorolfr #1" = 21
+	"Styrbjörn #1" = 18
+	"Inga #0" = -1
+	"Haukr #1" = 18
+	"Kjartan #0" = 1
+	"Alfr #0" = 1
+	"Alvör #0" = -1
+	"Jarizleifr #0" = 1
+	"Rögnhildr #0" = -1
+	"Hrörekr #3" = 21
+	"Yrsa #0" = -1
+	"Guðrun #0" = -1
+	"Alfhildr #0" = -1
+	"Hakon #1" = 21
+	"Holmfrid #0" = -1
+	"Ulfhildr #0" = -1
+	"Maer #0" = -1
+	"Barid #0" = 1
+	"Malmfrið #0" = -1
+	"Gerðr #0" = -1
+	"Asa #0" = -1
+	"Asta #0" = -1
+	"Elisabet #0" = -1
+	"Gurli #0" = -1
+	"Kol #0" = 1
+	"Gyða #0" = -1
+	"Refil #1" = 18
+	"Skuld #0" = -1
+	"Toste #0" = 1
+	"Sigrid #0" = -1
+	"Hæsteinn #0" = 1
+	"Kettil #0" = 1
+	"Gyla #0" = -1
+	"Leon #1" = 0
+	"Bertil #2" = 0
+	"Guðröðr #1" = 0
+	"Alfgeir #1" = 0
+	"Gnupa #1" = 0
+	"Sturla #1" = 0
+	"Brandr #1" = 0
+	"Þorsteinn #1" = 0
+	"Hrafn #2" = 0
+	"Sigtrygg #1" = 0
+	"Þordr #1" = 0
+	"Dag #1" = 0
+	"Holmger #1" = 0
+	"Tryggve #1" = 0
+	"Ale #0" = 0
+	"Anders #0" = 0
+	"Anlaufr #0" = 0
+	"Anundr #0" = 0
+	"Arnbjörn #0" = 0
+	"Arngrimr #0" = 0
+	"Arni #0" = 0
+	"Arnfast #0" = 0
+	"Asbjörn #0" = 0
+	"Bagge #0" = 0
+	"Bengt #0" = 0
+	"Bersi #0" = 0
+	"Björn #0" = 0
+	"Bo #0" = 0
+	"Borkvard #0" = 0
+	"Bragi #0" = 0
+	"Buðli #0" = 0
+	"Dan #0" = 0
+	"Eilif #0" = 0
+	"Egill #0" = 0
+	"Emund #0" = 0
+	"Einarr #0" = 0
+	"Eirikr #0" = 0
+	"Eskild #0" = 0
+	"Faste #0" = 0
+	"Filip #0" = 0
+	"Froði #0" = 0
+	"Freyr #0" = 0
+	"Folki #0" = 0
+	"Gandalfr #0" = 0
+	"Geirr #0" = 0
+	"Georg #0" = 0
+	"Gorm #0" = 0
+	"Greger #0" = 0
+	"Grimr #0" = 0
+	"Guðfrið #0" = 0
+	"Guðmundr #0" = 0
+	"Gunnarr #0" = 0
+	"Halsten #0" = 0
+	"Haraldr #0" = 0
+	"Hemming #0" = 0
+	"Hrolfr #0" = 0
+	"Hrane #0" = 0
+	"Hjalmar #0" = 0
+	"Hroðulfr #0" = 0
+	"Hysing #0" = 0
+	"Inge #0" = 0
+	"Ingemar #0" = 0
+	"Ingjald #0" = 0
+	"Jedvard #0" = 0
+	"Jon #0" = 0
+	"Karl #0" = 0
+	"Kettilmund #0" = 0
+	"Klas #0" = 0
+	"Knut #0" = 0
+	"Kolbjörn #0" = 0
+	"Markus #0" = 0
+	"Mats #0" = 0
+	"Nils #0" = 0
+	"Niklas #0" = 0
+	"Oddr #0" = 0
+	"Olafr #0" = 0
+	"Ormr #0" = 0
+	"Ottarr #0" = 0
+	"Refr #0" = 0
+	"Ragnarr #0" = 0
+	"Rikulfr #0" = 0
+	"Rögnvaldr #0" = 0
+	"Skuli #0" = 0
+	"Snorri #0" = 0
+	"Sigbjörn #0" = 0
+	"Sigurðr #0" = 0
+	"Starkaðr #0" = 0
+	"Steinn #0" = 0
+	"Styrkar #0" = 0
+	"Suni #0" = 0
+	"Sveinn #0" = 0
+	"Sverker #0" = 0
+	"Sölvi #0" = 0
+	"Sörkver #0" = 0
+	"Tjudmund #0" = 0
+	"Toke #0" = 0
+	"Tolir #0" = 0
+	"Þorbjörn #0" = 0
+	"Þorfinn #0" = 0
+	"Þorbrandr #0" = 0
+	"Þorgil #0" = 0
+	"Totil #0" = 0
+	"Tyke #0" = 0
+	"Vagn #0" = 0
+	"Valdemar #0" = 0
+	"Åke #0" = 0
+	"Örvar #0" = 0
+	"Öysteinn #0" = 0
+}
+ship_names = {
+	Hydra
+	Lesbos Limnos
+	Mikonios
+	Pezopoulos
+	Salamis Samos Simitzopoulos
+	Themistoklis
+	Votsis
+}
+

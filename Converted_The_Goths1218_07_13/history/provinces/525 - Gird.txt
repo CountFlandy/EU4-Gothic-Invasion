@@ -1,0 +1,25 @@
+owner = GWA
+controller = GWA
+add_core = GWA
+culture = avadhi
+religion = jain
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 5
+	base_production = 5
+	base_manpower = 4
+
+}
+1444.11.11 = {
+	owner = GWA
+	controller = GWA
+	culture = avadhi
+	religion = jain
+}

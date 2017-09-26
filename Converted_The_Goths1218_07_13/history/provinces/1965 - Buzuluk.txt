@@ -1,0 +1,29 @@
+owner = VLB
+controller = VLB
+add_core = VLB
+culture = bolghar
+religion = tengri_pagan_reformed
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+1444.11.11 = {
+	hre = yes
+	base_tax = 4
+	base_production = 4
+	base_manpower = 2
+	remove_core = KAZ
+	remove_core = NOG
+}
+1444.11.11 = {
+	owner = VLB
+	controller = VLB
+	culture = bolghar
+	religion = tengri_pagan_reformed
+
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}
+}

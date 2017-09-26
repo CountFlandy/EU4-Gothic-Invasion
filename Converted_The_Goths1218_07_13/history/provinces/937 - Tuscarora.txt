@@ -1,0 +1,3 @@
+culture = powhatan
+discovered_by = high_american
+

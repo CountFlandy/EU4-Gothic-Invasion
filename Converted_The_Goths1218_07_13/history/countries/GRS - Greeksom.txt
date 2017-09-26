@@ -1,0 +1,25 @@
+# Greek Somalia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+
+capital = 2413
+1444.7.13 = {
+	monarch = {
+		name = "Aleksander"
+		birth_date = 1419.11.8
+		dynasty = "Kassiopi"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+
+}
+1444.11.11 = {
+	capital = 2413
+	add_treasury = 40
+	add_prestige = 30
+}

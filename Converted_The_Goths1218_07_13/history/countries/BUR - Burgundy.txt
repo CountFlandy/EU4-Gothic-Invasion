@@ -1,0 +1,34 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = burgundian
+religion = catholic
+technology_group = western
+capital = 192	# Dijon
+
+
+
+
+1419.9.11 = {
+	monarch = {
+		name = "Philippe III"
+		dynasty = "de Metz"
+		birth_date = 1396.7.31
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+1433.11.10 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles I"
+		dynasty = "de Metz"
+		birth_date = 1433.11.10
+		death_date = 1498.4.19
+		claim = 95
+		adm = 2
+		dip = 0
+		mil = 4
+	}
+}

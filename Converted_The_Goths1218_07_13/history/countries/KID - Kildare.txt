@@ -1,0 +1,6 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = gaelic_norse
+religion = catholic
+capital = 4120	# Kildare

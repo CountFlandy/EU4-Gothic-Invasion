@@ -1,0 +1,21 @@
+#1245 - Manokwari
+add_core = TID
+owner = TID
+controller = TID
+culture = papuan
+religion = pacific_pagan
+capital = "Manokwari"
+trade_goods = spices
+hre = no
+is_city = yes
+base_tax = 5
+base_production = 3
+base_manpower = 4
+
+
+
+
+discovered_by = MKS
+discovered_by = TER
+discovered_by = TID
+

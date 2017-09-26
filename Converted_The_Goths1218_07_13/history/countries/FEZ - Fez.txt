@@ -1,0 +1,29 @@
+government = iqta
+primary_culture = moroccan
+religion = shiite
+technology_group = muslim
+capital = 343	# Fez
+
+1444.1.1 = {
+	monarch = {
+		name = "Muhammad I"
+		dynasty = "Idrisiyún"
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Muhammad II"
+		monarch_name = "Muhammad II"
+		dynasty = "Idrisiyún"
+		birth_date = 1440.1.1
+		death_date = 1509.9.5
+		claim = 95
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}

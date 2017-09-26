@@ -1,0 +1,9 @@
+# Occitania
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+historical_rival = FRA
+primary_culture = occitain
+religion = catholic
+capital = 198

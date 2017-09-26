@@ -1,0 +1,15 @@
+government = despotic_monarchy
+technology_group = indian
+religion = jain
+primary_culture = telegu
+capital = 542	# Golcanda 
+
+1444.1.1 = {
+	monarch = {
+		name = "Quli Qutb-ul-Mulk"
+		dynasty = "Qutb Shahi"
+		DIP = 3
+		ADM = 5
+		MIL = 6
+	}
+}

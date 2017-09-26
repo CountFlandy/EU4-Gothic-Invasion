@@ -1,0 +1,6 @@
+government = theocratic_government
+government_rank = 1
+primary_culture = berber
+religion = jewish
+technology_group = muslim
+capital = 2457	# Mzab

@@ -1,0 +1,24 @@
+# Dregovich
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = dregovichian
+religion = slavic_pagan_reformed
+capital = 276
+
+1415.11.14 = {
+	monarch = {
+		name = "Volodar"
+		birth_date = 1399.3.25
+		dynasty = "Dregovich"
+		adm = 4
+		dip = 6
+		mil = 5
+	}
+}
+1444.11.11 = {
+	add_treasury = 100
+	add_prestige = 19
+	elector = yes
+}

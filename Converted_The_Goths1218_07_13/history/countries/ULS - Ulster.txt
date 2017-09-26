@@ -1,0 +1,19 @@
+# Ulster
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = irish
+religion = lollard
+
+capital = 4121
+1412.2.17 = {
+	monarch = {
+		name = "Fáelán III"
+		birth_date = 1388.4.21
+		dynasty = "O 'Clearly"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

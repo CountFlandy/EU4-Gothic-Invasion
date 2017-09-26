@@ -1,0 +1,18 @@
+#652 - Maguindanao
+owner = LNO
+add_core = LNO
+controller = LNO
+culture = filipino
+religion = mahayana
+capital = "Maguindanao"
+trade_goods = spices
+hre = no
+is_city = yes
+base_tax = 6
+base_production = 4
+base_manpower = 5
+
+
+
+
+discovered_by = chinese

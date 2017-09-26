@@ -1,0 +1,18 @@
+# Teutonic Order
+government = monastic_order_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = austrian
+religion = catholic
+capital = 1770
+1444.7.13 = {
+	monarch = {
+		name = "Kornél"
+		birth_date = 1417.4.13
+		dynasty = "von Habsburg"
+		adm = 4
+		dip = 0
+		mil = 6
+	}
+}

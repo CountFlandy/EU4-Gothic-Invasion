@@ -1,0 +1,178 @@
+# Cantabria
+graphical_culture = westerngfx
+color = { 229 189 89 }
+
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+leader_names = {
+
+	"Jyad" "Rasiq" "Umm" "Sa'd" "Ahu" "Zahra" "Aliyah" "Isma'il" "Fath" "Balashk" 
+	"Naila" "Amr" "Lubb" "Salma" "Rashid" "Shakira" "Garsiya" "Isra" "Habiba" "Kera" 
+	"Ya'far" "Abdul-Hakam" "Butayna" "Raisa" "Abu" "Ramón" "Tahira" "Beltrán" "Tariq" "Randa" 
+	"Sancha" "Wahida" "Diego" "Fortun" "Hakam" "Abdul-Aziz" "Fadl" "Aurelio" "Alifonso" "Álvar" 
+	"Álvaro" "Andrés" "Ansur" "Antonio" "Antonino" "Arias" "Artal" "Aznar" "Benito" "Berenguel" 
+	"Bernardo" "Blasco" "Bosón" "Carlos" "Chaime" "Chimeno" "Chorche" "Chuan" "Chuan-Alifonso" "Chuan-Carlos" 
+	"Chulián" "Chusé" "Dominche" "Eduardo" "Esteban" "Facundo" "Fadrique" "Felipe" "Ferran" "Ferrando" 
+	"Flaín" "Fruela" "Galindo" "García" "Gil" "Gonzalo" "Gundemaro" "Guillén" "Gustio" "Gutierre" 
+	"Guzmán" "Henrique" "Hermenegildo" "Lorenzo" "Lope" "Loís" "Manrique" "Manuel" "Martín" "Menendo" 
+	"Mendo" "Muño" "Nuño" "Osorio" "Ordoño" "Oveco" "Pero" "Pelayo" "Piñolo" "Ponce" 
+	"Raimundo" "Remiro" "Ricardo" "Rodrigo" "Román" "Rosendo" "Sancho" "Sebastián" "Tello" "Teobaldo" 
+	"Vela" "Velasco" "Vermudo" }
+monarch_names = {
+	"Jyad #1" = 27
+	"Rasiq #0" = 1
+	"Umm #0" = -1
+	"Sa'd #0" = 1
+	"Ahu #0" = -1
+	"Zahra #0" = -1
+	"Aliyah #0" = -1
+	"Isma'il #1" = 33
+	"Fath #0" = 1
+	"Balashk #0" = 1
+	"Naila #0" = -1
+	"Amr #0" = 1
+	"Lubb #0" = 1
+	"Salma #0" = -1
+	"Rashid #0" = 1
+	"Shakira #0" = -1
+	"Garsiya #0" = 1
+	"Isra #0" = -1
+	"Habiba #0" = -1
+	"Kera #0" = -1
+	"Ya'far #0" = 1
+	"Abdul-Hakam #0" = 1
+	"Butayna #0" = -1
+	"Raisa #0" = -1
+	"Abu #0" = 1
+	"Ramón #0" = 1
+	"Tahira #0" = -1
+	"Beltrán #0" = 1
+	"Tariq #1" = 18
+	"Randa #0" = -1
+	"Sancha #0" = -1
+	"Wahida #0" = -1
+	"Diego #1" = 0
+	"Fortun #1" = 0
+	"Hakam #3" = 0
+	"Abdul-Aziz #1" = 0
+	"Fadl #1" = 0
+	"Aurelio #3" = 0
+	"Alifonso #0" = 0
+	"Álvar #0" = 0
+	"Álvaro #0" = 0
+	"Andrés #0" = 0
+	"Ansur #0" = 0
+	"Antonio #0" = 0
+	"Antonino #0" = 0
+	"Arias #0" = 0
+	"Artal #0" = 0
+	"Aznar #0" = 0
+	"Benito #0" = 0
+	"Berenguel #0" = 0
+	"Bernardo #0" = 0
+	"Blasco #0" = 0
+	"Bosón #0" = 0
+	"Carlos #0" = 0
+	"Chaime #0" = 0
+	"Chimeno #0" = 0
+	"Chorche #0" = 0
+	"Chuan #0" = 0
+	"Chuan-Alifonso #0" = 0
+	"Chuan-Carlos #0" = 0
+	"Chulián #0" = 0
+	"Chusé #0" = 0
+	"Dominche #0" = 0
+	"Eduardo #0" = 0
+	"Esteban #0" = 0
+	"Facundo #0" = 0
+	"Fadrique #0" = 0
+	"Felipe #0" = 0
+	"Ferran #0" = 0
+	"Ferrando #0" = 0
+	"Flaín #0" = 0
+	"Fruela #0" = 0
+	"Galindo #0" = 0
+	"García #0" = 0
+	"Gil #0" = 0
+	"Gonzalo #0" = 0
+	"Gundemaro #0" = 0
+	"Guillén #0" = 0
+	"Gustio #0" = 0
+	"Gutierre #0" = 0
+	"Guzmán #0" = 0
+	"Henrique #0" = 0
+	"Hermenegildo #0" = 0
+	"Lorenzo #0" = 0
+	"Lope #0" = 0
+	"Loís #0" = 0
+	"Manrique #0" = 0
+	"Manuel #0" = 0
+	"Martín #0" = 0
+	"Menendo #0" = 0
+	"Mendo #0" = 0
+	"Muño #0" = 0
+	"Nuño #0" = 0
+	"Osorio #0" = 0
+	"Ordoño #0" = 0
+	"Oveco #0" = 0
+	"Pero #0" = 0
+	"Pelayo #0" = 0
+	"Piñolo #0" = 0
+	"Ponce #0" = 0
+	"Raimundo #0" = 0
+	"Remiro #0" = 0
+	"Ricardo #0" = 0
+	"Rodrigo #0" = 0
+	"Román #0" = 0
+	"Rosendo #0" = 0
+	"Sancho #0" = 0
+	"Sebastián #0" = 0
+	"Tello #0" = 0
+	"Teobaldo #0" = 0
+	"Vela #0" = 0
+	"Velasco #0" = 0
+	"Vermudo #0" = 0
+}
+ship_names = {
+
+	"Blanca Aurora" "Sant Jacob" Flama Lleona Falcó "La Bonaventura" "Sant Antoni" 
+
+	"Sant Miquel" "Sant Bernat" "Sant Francesc" "Santa Ágata" "Santa Eulàlia" 
+
+	"Sant Gabriel" "Sant Climent" "Sant Jordi" "La Reial" Trinitat "Santa Creu" 
+
+	"Santa Maria" "Santa Caterina" "Sant Joan Evangelista" "Santa Bàrbara" 
+
+	"Sant Pere de Roma" "La Gasela" "Santa Magdalena" "Sant Víctor" Magnana 
+
+	"Santa Ventura" "Santa Coloma" "Sant Ambrós" "La Garsa"  
+
+}
+

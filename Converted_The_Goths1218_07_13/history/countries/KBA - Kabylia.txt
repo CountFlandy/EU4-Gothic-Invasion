@@ -1,0 +1,16 @@
+government = iqta
+government_rank = 1
+primary_culture = algerian
+religion = ismaili
+technology_group = muslim
+capital = 339	# Kabylia
+
+1440.1.1 = {
+	monarch = {
+		name = "Abderrahmane"
+		dynasty = "Tifan"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

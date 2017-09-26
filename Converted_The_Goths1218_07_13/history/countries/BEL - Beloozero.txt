@@ -1,0 +1,25 @@
+# Beloozero
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rostovite
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 312
+1444.7.13 = {
+	monarch = {
+		name = "Sudislav II"
+		birth_date = 1420.5.23
+		dynasty = "Totma"
+		adm = 4
+		dip = 1
+		mil = 3
+	}
+}
+1444.11.11 = {
+	capital = 312
+	add_treasury = 0
+	add_prestige = 0
+	elector = no
+}

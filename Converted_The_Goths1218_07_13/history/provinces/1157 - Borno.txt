@@ -1,0 +1,21 @@
+#1157 - Borno
+
+owner = KBO
+controller = KBO
+add_core = KBO
+culture = kanuri
+religion = shamanism
+capital = "Gatiga"
+is_city = yes
+base_manpower = 1
+trade_goods = grain
+hre = no
+base_tax = 4 
+base_production = 4
+discovered_by = sub_saharan
+fort_15th = yes
+
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}

@@ -1,0 +1,30 @@
+owner = VLB
+controller = VLB
+add_core = VLB
+add_core = FCH
+
+culture = chuds
+religion = finnish_pagan_reformed
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = yes
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+	remove_core = MOS
+	remove_core = PRM
+	remove_core = KAZ
+}
+1444.11.11 = {
+	owner = VLB
+	controller = VLB
+	culture = chuds
+	religion = finnish_pagan_reformed
+}

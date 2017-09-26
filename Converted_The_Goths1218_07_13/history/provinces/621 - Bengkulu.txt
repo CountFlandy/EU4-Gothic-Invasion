@@ -1,0 +1,19 @@
+#621 - Bengkulu
+owner = PLB
+add_core = PLB
+controller = PLB
+culture = sumatran
+religion = mahayana
+capital = "Bengkulu"
+trade_goods = cloth
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 4
+is_city = yes
+
+
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

@@ -1,0 +1,18 @@
+#655 - Palawan
+owner = BEI
+add_core = BEI
+controller = BEI
+culture = filipino
+religion = buddhism
+capital = "Palawan"
+trade_goods = fish
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 5
+is_city = yes 
+
+
+
+discovered_by = chinese
+

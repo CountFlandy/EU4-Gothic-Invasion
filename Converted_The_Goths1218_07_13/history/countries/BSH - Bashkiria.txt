@@ -1,0 +1,12 @@
+#Cumania
+government = steppe_horde
+primary_culture = cuman
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 475	# Bashkortostan
+
+1444.11.11 = {
+primary_culture = cuman
+religion = tengri_pagan_reformed
+
+}

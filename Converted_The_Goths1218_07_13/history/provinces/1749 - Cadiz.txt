@@ -1,0 +1,30 @@
+owner = GRA
+controller = GRA
+add_core = GRA
+remove_core = CAS
+
+culture = andalucian
+religion = shiite
+
+is_city = yes
+hre = no
+
+add_local_autonomy = -40
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 3
+	base_production = 3
+	base_manpower = 4
+	remove_core = CAS
+}
+1444.11.11 = {
+	owner = GRA
+	controller = GRA
+	culture = andalucian
+	religion = shiite
+}

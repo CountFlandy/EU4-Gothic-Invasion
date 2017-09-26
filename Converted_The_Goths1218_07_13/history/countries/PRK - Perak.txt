@@ -1,0 +1,31 @@
+government = despotic_monarchy
+primary_culture = malayan
+religion = jain
+technology_group = chinese
+capital = 595	# Perak
+
+# Melaka Dynasty
+
+1444.1.1 = {
+	monarch = {
+		name = "Muzaffar Shâh I"
+		dynasty = "Melaka"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Mansûr Shâh"
+		monarch_name = "Mansûr Shâh"
+		dynasty = "Melaka"
+		birth_date = 1430.1.1
+		death_date = 1495.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

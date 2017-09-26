@@ -1,0 +1,16 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = malayan
+religion = mahayana
+technology_group = chinese
+capital = 593	# Nakhon Si Thammarat
+
+1440.1.1 = {
+	monarch = {
+		name = "Sam Agi" # Fictional
+		dynasty = "Ligor"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

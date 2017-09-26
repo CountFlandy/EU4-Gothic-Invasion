@@ -1,0 +1,78 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new dieties, make sure they are uniquely named.
+
+isis_kemetic = { #Motherhood, protection, magic, funerary rites
+	diplomatic_reputation = 1
+	diplomats = 1
+	
+	allow = { religion = north_african_pagan }
+	sprite = 7
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+ra_kemetic = { #Creation, afterlife, Ruler of gods
+	legitimacy = 1
+	horde_unity = 0.5
+	republican_tradition = 0.03
+	devotion = 0.5
+	stability_cost_modifier = -0.1
+	
+	allow = { religion = north_african_pagan }
+	sprite = 8
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+osiris_kemetic = { #Death, resurrection, rules underworld
+	global_manpower_modifier = 0.1
+	land_attrition = -0.2
+	
+	allow = { religion = north_african_pagan }
+	sprite = 9
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+set_kemetic = { #Chaos, Strength
+	infantry_power = 0.1
+	cavalry_power = 0.1
+	global_regiment_recruit_speed = -0.3
+	
+	allow = { religion = north_african_pagan }
+	sprite = 10
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+horus_kemetic = { #Kingship, healing, Protection
+	defensiveness = 0.15
+	heir_chance = 0.5
+	
+	allow = { religion = north_african_pagan }
+	sprite = 11
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+bast_kemetic = { #Cat lady
+	technology_cost = -0.075
+	development_cost = -0.05
+	
+	allow = { religion = north_african_pagan }
+	sprite = 12
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

@@ -1,0 +1,19 @@
+government = merchant_republic
+government_rank = 1
+mercantilism = 0.2
+technology_group = muslim
+religion = ismaili
+primary_culture = tripolian
+capital = 354	# Tripoli
+
+
+1444.7.13 = {
+	monarch = {
+		name = "Amennay"
+		birth_date = 1425.4.21
+		dynasty = "Baddid"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}

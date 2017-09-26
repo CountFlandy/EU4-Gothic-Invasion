@@ -1,0 +1,4 @@
+culture = navajo
+discovered_by = high_american
+
+

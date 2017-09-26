@@ -1,0 +1,15 @@
+government = despotic_monarchy
+primary_culture = bornean
+technology_group = chinese
+religion = mahayana
+capital = 638	# Kutai
+
+1429.1.1 = {
+	monarch = {
+		name = "Kertabumi" # fictional
+		dynasty = "Kartanegara"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,10 @@
+owner = CHG
+controller = CHG
+add_core = CHG
+
+1444.11.11 = {
+	owner = CHG
+	controller = CHG
+	culture = kirgiz
+	religion = tengri_pagan_reformed
+}

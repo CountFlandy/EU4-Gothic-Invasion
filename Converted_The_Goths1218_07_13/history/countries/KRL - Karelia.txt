@@ -1,0 +1,19 @@
+#Karelia
+government = feudal_monarchy
+government_rank = 2
+technology_group = eastern
+religion = finnish_pagan_reformed
+primary_culture = karelian
+capital = 32
+
+1444.11.11 = {
+	monarch = {
+		name = "Edla"
+		birth_date = 1432.12.31
+		dynasty = "Khovansky"
+		female = yes
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}

@@ -1,0 +1,29 @@
+# Baden
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = swabian
+religion = catholic
+capital = 74
+1444.7.12 = {
+	monarch = {
+		name = "Wolfram"
+		birth_date = 1398.3.29
+		dynasty = "Bouillon"
+		adm = 2
+		dip = 3
+		mil = 5
+	}
+	heir = {
+		name = "Wolfram"
+		monarch_name = "Wolfram II"
+		dynasty = "Bouillon"
+		birth_date = 1432.5.12
+		death_date = 1512.5.12
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

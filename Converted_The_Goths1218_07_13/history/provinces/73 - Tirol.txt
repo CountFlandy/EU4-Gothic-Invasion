@@ -1,0 +1,29 @@
+owner = BAV
+controller = BAV
+add_core = BAV
+culture = tirolian
+religion = catholic
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 7
+	base_production = 7
+	base_manpower = 5
+	remove_core = HAB
+}
+1444.11.11 = {
+	owner = BAV
+	controller = BAV
+	culture = tirolian
+	religion = catholic
+
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}
+}

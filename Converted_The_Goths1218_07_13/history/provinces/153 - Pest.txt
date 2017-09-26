@@ -1,0 +1,22 @@
+owner = HUN
+controller = HUN
+add_core = HUN
+culture = hungarian
+religion = catholic
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+1444.11.11 = {
+	hre = no
+	base_tax = 6
+	base_production = 6
+	base_manpower = 4
+}
+1444.11.11 = {
+	owner = HUN
+	controller = HUN
+	culture = hungarian
+	religion = catholic
+}

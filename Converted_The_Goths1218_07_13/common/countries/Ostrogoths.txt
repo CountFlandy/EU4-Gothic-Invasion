@@ -1,0 +1,119 @@
+# Ostrogoths
+
+graphical_culture = easterngfx
+color = { 92 152 160 }
+
+
+historical_idea_groups = {
+
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	administrative_ideas
+	religious_ideas
+
+}
+
+historical_units = {
+
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	hungarian_hussar
+	polish_musketeer
+	polish_hussar
+	polish_tercio
+	polish_winged_hussar
+	russian_lancer
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+leader_names = {
+
+	"Konstantinos" "Hippolytos" "Godarz" "Khachigun" "Agilas" "Aligernos" "Amalaphridos" "Amalarichos" "Andreas" "Atalarichos" 
+	"Ataoulph" "Athanachildos" "Athanarichos" "Bessas" "Chintilas" "Erarichos" "Eutharichos" "Georgios" "Gibal" "Gotthos" 
+	"Gregorios" "Goundoulph" "Iakobos" "Ildibados" "Indoulph" "Ioannes" "Ioseph" "Isaakios" "Kyrillos" "Laurentios" 
+	"Leon" "Loukas" "Markos" "Matthaios" "Niketas" "Nikolaos" "Ouitiges" "Oulphilas" "Paulos" "Petros" 
+	"Philippos" "Phreiderichos" "Prokopios" "Ragnaris" "Richaridos" "Roderichos" "Sabbas" "Samouel" "Sergios" "Souintilas" 
+	"Skipouar" "Stephanos" "Symeon" "Teias" "Theodatos" "Theodemir" "Theodorichos" "Theudis" "Theudiselos" "Thourismoundos" 
+	"Totilas" "Toulgas" }
+monarch_names = {
+	"Konstantinos #1" = 18
+	"Hippolytos #1" = 0
+	"Godarz #1" = 0
+	"Khachigun #1" = 0
+	"Agilas #0" = 0
+	"Aligernos #0" = 0
+	"Amalaphridos #0" = 0
+	"Amalarichos #0" = 0
+	"Andreas #0" = 0
+	"Atalarichos #0" = 0
+	"Ataoulph #0" = 0
+	"Athanachildos #0" = 0
+	"Athanarichos #0" = 0
+	"Bessas #0" = 0
+	"Chintilas #0" = 0
+	"Erarichos #0" = 0
+	"Eutharichos #0" = 0
+	"Georgios #0" = 0
+	"Gibal #0" = 0
+	"Gotthos #0" = 0
+	"Gregorios #0" = 0
+	"Goundoulph #0" = 0
+	"Iakobos #0" = 0
+	"Ildibados #0" = 0
+	"Indoulph #0" = 0
+	"Ioannes #0" = 0
+	"Ioseph #0" = 0
+	"Isaakios #0" = 0
+	"Kyrillos #0" = 0
+	"Laurentios #0" = 0
+	"Leon #0" = 0
+	"Loukas #0" = 0
+	"Markos #0" = 0
+	"Matthaios #0" = 0
+	"Niketas #0" = 0
+	"Nikolaos #0" = 0
+	"Ouitiges #0" = 0
+	"Oulphilas #0" = 0
+	"Paulos #0" = 0
+	"Petros #0" = 0
+	"Philippos #0" = 0
+	"Phreiderichos #0" = 0
+	"Prokopios #0" = 0
+	"Ragnaris #0" = 0
+	"Richaridos #0" = 0
+	"Roderichos #0" = 0
+	"Sabbas #0" = 0
+	"Samouel #0" = 0
+	"Sergios #0" = 0
+	"Souintilas #0" = 0
+	"Skipouar #0" = 0
+	"Stephanos #0" = 0
+	"Symeon #0" = 0
+	"Teias #0" = 0
+	"Theodatos #0" = 0
+	"Theodemir #0" = 0
+	"Theodorichos #0" = 0
+	"Theudis #0" = 0
+	"Theudiselos #0" = 0
+	"Thourismoundos #0" = 0
+	"Totilas #0" = 0
+	"Toulgas #0" = 0
+
+
+	"Anemais #0" = -1
+	"Maria #0" = -1
+	"Amalaphrida #0" = -1
+	"Eusebia #0" = -1
+	"Matasountha #0" = -1
+}
+

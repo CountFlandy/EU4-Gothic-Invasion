@@ -1,0 +1,17 @@
+government = theocratic_government
+government_rank = 1
+technology_group = muslim
+religion = sunni
+primary_culture = hejaz_arabic
+capital = 385	# Jiddah
+
+
+1424.1.1 = {
+	monarch = {
+		name = "Hasan II"
+		dynasty = "Sa'ud"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

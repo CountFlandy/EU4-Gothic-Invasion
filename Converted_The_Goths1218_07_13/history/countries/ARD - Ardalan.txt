@@ -1,0 +1,17 @@
+#Kurdistan
+government = despotic_monarchy
+government_rank = 1
+primary_culture = kurdish
+religion = yazidi
+technology_group = muslim
+capital = 411 # Ardalan
+
+1399.1.1 = {
+	monarch = {
+		name = "Ajin"
+		dynasty = "Ardalan"
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}

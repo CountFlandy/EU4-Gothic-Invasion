@@ -1,0 +1,138 @@
+# Alodia
+
+graphical_culture = muslimgfx
+color = { 175 100 80 }
+
+
+historical_idea_groups = {
+
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	religious_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+
+	african_spearmen
+	african_abyssinian_light_cavalry
+	bantu_tribal_warfare
+	ethiopian_mountain_warfare
+	ethiopian_gunpowder_warfare
+	westernized_ethiopian
+	ethiopian_guerilla_warfare
+	african_somali_cavalry
+	african_abyssinian_cavalry
+	african_mossi_horsemen
+	african_hussar
+	african_dragoon	
+
+}
+
+leader_names = {
+
+	"Nuraddin" "Asabysos" "Dauid" "Gabriel" "Shamumun" "Zakharias" "Raphael" "Agathos" "Ammonios" "Hashmaddin" 
+	"Nasraddin" "Abdul-Azeem" "Ghazi" "Isa" "Seyfullah" "Khudayar" "Nuri" "Abdak" "Adam" "Ahmed" 
+	"Ali-Baba" "Ankwaana" "Ar" "Aririit" "Baba" "Balami" "Balwia" "Baraka" "Barnaba" "Bishar" 
+	"Danimay" "Digna" "Dura" "Fias" "Haddan" "Hashim" "Hitatih" "Hukwuma" "Ishaq" "Kahil" 
+	"Kajart" "Kanun" "Karrar" "Kharamadoye" "Khawr" "Kilar" "Kilaz" "Kuk" "Kurib" "Kwassaana" 
+	"Kwina" "Kwire" "Marwan" "Matiaat" "Mortada" "Muha" "Musa" "Ni" "Nos" "Omar" 
+	"Omda" "Ood" "Oofaash" "Osman" "Qamhat" "Salah" "Salih" "Shaat" "Shallagea" "Suluman" 
+	"Surkina" "Taha" "Tak" "Tigre" "Tirik" "Ufash" "Uthman" "Yaas" "Yahya" "Yaqub" 
+	"Yin" "Yusuf" }
+monarch_names = {
+	"Nuraddin #1" = 18
+	"Asabysos #1" = 0
+	"Dauid #2" = 0
+	"Gabriel #1" = 0
+	"Shamumun #1" = 0
+	"Zakharias #1" = 0
+	"Raphael #2" = 0
+	"Agathos #1" = 0
+	"Ammonios #2" = 0
+	"Hashmaddin #2" = 0
+	"Nasraddin #2" = 0
+	"Abdul-Azeem #1" = 0
+	"Ghazi #1" = 0
+	"Isa #2" = 0
+	"Seyfullah #1" = 0
+	"Khudayar #1" = 0
+	"Nuri #1" = 0
+	"Abdak #0" = 0
+	"Adam #0" = 0
+	"Ahmed #0" = 0
+	"Ali-Baba #0" = 0
+	"Ankwaana #0" = 0
+	"Ar #0" = 0
+	"Aririit #0" = 0
+	"Baba #0" = 0
+	"Balami #0" = 0
+	"Balwia #0" = 0
+	"Baraka #0" = 0
+	"Barnaba #0" = 0
+	"Bishar #0" = 0
+	"Danimay #0" = 0
+	"Digna #0" = 0
+	"Dura #0" = 0
+	"Fias #0" = 0
+	"Haddan #0" = 0
+	"Hashim #0" = 0
+	"Hitatih #0" = 0
+	"Hukwuma #0" = 0
+	"Ishaq #0" = 0
+	"Kahil #0" = 0
+	"Kajart #0" = 0
+	"Kanun #0" = 0
+	"Karrar #0" = 0
+	"Kharamadoye #0" = 0
+	"Khawr #0" = 0
+	"Kilar #0" = 0
+	"Kilaz #0" = 0
+	"Kuk #0" = 0
+	"Kurib #0" = 0
+	"Kwassaana #0" = 0
+	"Kwina #0" = 0
+	"Kwire #0" = 0
+	"Marwan #0" = 0
+	"Matiaat #0" = 0
+	"Mortada #0" = 0
+	"Muha #0" = 0
+	"Musa #0" = 0
+	"Ni #0" = 0
+	"Nos #0" = 0
+	"Omar #0" = 0
+	"Omda #0" = 0
+	"Ood #0" = 0
+	"Oofaash #0" = 0
+	"Osman #0" = 0
+	"Qamhat #0" = 0
+	"Salah #0" = 0
+	"Salih #0" = 0
+	"Shaat #0" = 0
+	"Shallagea #0" = 0
+	"Suluman #0" = 0
+	"Surkina #0" = 0
+	"Taha #0" = 0
+	"Tak #0" = 0
+	"Tigre #0" = 0
+	"Tirik #0" = 0
+	"Ufash #0" = 0
+	"Uthman #0" = 0
+	"Yaas #0" = 0
+	"Yahya #0" = 0
+	"Yaqub #0" = 0
+	"Yin #0" = 0
+	"Yusuf #0" = 0
+
+
+	"Alia #0" = -1
+	"Hamoot #0" = -1
+	"Mariam #0" = -1
+	"Fatima #0" = -1
+	"Takat #0" = -1
+}
+

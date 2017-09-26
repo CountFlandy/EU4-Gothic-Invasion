@@ -1,0 +1,15 @@
+government = iqta
+primary_culture = dagestani
+religion = apostolic
+technology_group = eastern
+capital = 2198
+
+1420.1.1 = {			
+	monarch = {
+		name = "Shamkhal"
+		dynasty = "Kumukh"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

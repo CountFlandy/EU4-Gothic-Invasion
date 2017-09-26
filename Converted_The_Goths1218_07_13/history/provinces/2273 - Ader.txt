@@ -1,0 +1,18 @@
+# No previous file for Ader
+
+owner = AIR
+controller = AIR
+add_core = AIR
+is_city = yes
+culture = tuareg 
+religion = shamanism
+capital = "Tahoua"
+trade_goods = wool
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+
+
+
+discovered_by = sub_saharan

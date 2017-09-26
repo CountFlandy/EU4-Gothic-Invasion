@@ -1,0 +1,18 @@
+owner = ARP
+controller = ARP
+add_core = ARP
+
+culture = arapaho
+religion = totemism
+
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+is_city = yes
+hre = no
+
+discovered_by = high_american
+discovered_by = north_american
+

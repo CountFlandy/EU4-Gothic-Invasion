@@ -1,0 +1,7 @@
+government = tribal_despotism
+government_rank = 1
+primary_culture = tunisian
+religion = ismaili
+technology_group = muslim
+capital = 2456	# Touggourt
+fixed_capital = 2456 # Cannot move capital away from this province & no power cost to move to it

@@ -1,0 +1,19 @@
+# Sophene
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = armenian
+religion = apostolic
+capital = 2306
+
+1444.7.13 = {
+	monarch = {
+		name = "Vartan"
+		birth_date = 1420.7.3
+		dynasty = "ve Juma"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

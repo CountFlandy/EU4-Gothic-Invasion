@@ -1,0 +1,16 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = gondi
+religion = hinduism
+technology_group = indian
+capital = 547	# Bastar
+
+1410.1.1 = {
+	monarch = {
+		name = "Bhaitai Deo"
+		dynasty = "Bhanja"
+		ADM = 1
+		DIP = 2
+		MIL = 1
+	}
+}

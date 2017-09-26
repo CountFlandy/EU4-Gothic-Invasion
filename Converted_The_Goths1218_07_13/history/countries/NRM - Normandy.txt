@@ -1,0 +1,23 @@
+# Normandy
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = normand
+religion = catholic
+capital = 168
+1444.7.12 = {
+	monarch = {
+		name = "Brevalaer"
+		birth_date = 1411.5.12
+		dynasty = "Blois"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+1444.11.11 = {
+	capital = 167
+	add_treasury = 0
+	add_prestige = 0
+}

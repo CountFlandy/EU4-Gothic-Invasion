@@ -1,0 +1,5 @@
+government = feudal_monarchy
+primary_culture = gaelic_highland_scottish
+religion = lollard
+technology_group = western
+capital = 253 # Inverness

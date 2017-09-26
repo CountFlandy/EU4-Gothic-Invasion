@@ -1,0 +1,31 @@
+government = despotic_monarchy 
+primary_culture = arakanese
+religion = buddhism
+capital = 579	# Mrauk U
+technology_group = chinese
+
+
+
+1433.5.9 = {
+	monarch = {
+		name = "'Khayi"
+		dynasty = "Mrauk-U"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1433.5.9 = {
+	heir = {
+		name = "Ba Saw Phyu"
+		monarch_name = "Ba Saw Phyu"
+		dynasty = "Mrauk-U"
+		birth_date = 1430.3.1
+		death_date = 1482.8.5
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}

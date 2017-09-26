@@ -1,0 +1,19 @@
+# Leinster
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = gaelic_norse
+religion = lollard
+clear_scripted_personalities = yes
+capital = 373
+1444.7.12 = {
+	monarch = {
+		name = "Gilla-Comgáin"
+		birth_date = 1411.12.7
+		dynasty = "O 'Ivarsson"
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}

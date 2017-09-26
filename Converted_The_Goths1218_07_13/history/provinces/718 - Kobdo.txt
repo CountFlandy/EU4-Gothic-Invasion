@@ -1,0 +1,10 @@
+owner = CHG
+controller = CHG
+add_core = CHG
+remove_core = OIR
+1444.11.11 = {
+	owner = CHG
+	controller = CHG
+	culture = oirats
+	religion = tengri_pagan_reformed
+}

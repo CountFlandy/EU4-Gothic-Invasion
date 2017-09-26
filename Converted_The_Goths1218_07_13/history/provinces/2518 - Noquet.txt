@@ -1,0 +1,21 @@
+owner = FOX
+controller = FOX
+add_core = FOX
+
+culture = chiwere
+religion = totemism
+
+capital = "Noquet"
+is_city = yes
+hre = no
+
+base_tax = 1
+base_manpower = 1
+base_production = 1
+trade_goods = unknown
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+discovered_by = north_american

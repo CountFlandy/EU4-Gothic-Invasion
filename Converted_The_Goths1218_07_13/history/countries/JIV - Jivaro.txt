@@ -1,0 +1,16 @@
+government = native_council
+primary_culture = jivaro
+religion = south_american_pagan
+technology_group = south_american
+unit_type = south_american
+capital = 822 
+
+1444.11.11 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

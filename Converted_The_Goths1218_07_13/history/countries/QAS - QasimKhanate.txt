@@ -1,0 +1,32 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = eastern
+primary_culture = mordvin
+religion = slavic_pagan_reformed
+capital = 1778	# Kasimov
+
+
+#Khans
+1441.1.1 = {
+	monarch = {
+		name = "Qasim"
+		dynasty = "Qasim"
+		birth_date = 1411.1.12
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}
+
+1445.7.7 = {
+	heir = {
+		name = "Daniyal"
+		monarch_name = "Qasim"
+		birth_date = 1440.1.1
+		death_date = 1454.4.3
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

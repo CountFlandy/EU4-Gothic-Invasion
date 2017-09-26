@@ -1,0 +1,336 @@
+"Religion"
+NEW ADDITIONS
+
+	General
+		- Overhauled South America (Culture, religion, additional nations)
+		- Overhauled Siberia (culture, additional nations, formables)
+
+	Nations
+		- Khiva was repurposed into Kara-Khitai
+		- Yarkand was repurposed into Uyghur
+		- Added Rhodes, Ionia and Macedonia tags
+		- Added CRW COO (Oh and not Zero) APP TUT MSK TSK tags
+		- Added LTH Lotharingia tag (AND I LEARNED ITS LOTHARINGIA! NOT LORITHINGIA!)
+		- Replaced Vangaria with Skaldia (Vangaria is being recycled into a formable tag
+		- Vanilla ideas restored!!!!
+		- Added OCC, PLS, KVS, KBL, TIA, FRS, ONE, ONO, PUP, ANC, MOH, SNC, CAY tags
+		- AAC changed into Union of the Lowlands
+		- Added Poland-Slovak formable
+		- Added Kievan-Rus Formable
+		- Added Tarnovo and Karvuna greek/bulgarian releaseable nations in Skaldia
+		- Added Tamazgha tag (formable for Berber culture non sunni nations)
+		- Added Ilkhanate formable nation
+		- Added Formable Celtic Empire tag (CLT)
+		- Added Atlantis to the new world
+
+	Governments
+
+	Religions
+
+	Cultures
+		- Added Tripolian culture in Tripoli
+		- Added Fezzan culture to Fezzan (in Berber Group)
+		- Added Greek-Somalian culture to Somalia
+
+
+	Events
+
+	Flavor
+		- Added SMI ideas (Varriant of European Tribal Ideas)
+		- Edited SWE, Karling, ENG, GOT, and NOR ideas
+		- Added Cumbria, Icelandic, and Flykirate ideas
+
+		- Readded decisions to form Byzantium, Maya, Egypt, Scandanavia, Golden Horde, Ireland, Sardinia-Piedmont, Great Britian, Iceland, Italy, Scandanavia, Kurland, Persia, Croatia, Poland, Morocco, Algeria, Tunis, Tripoli, Andalucia, France, Prussia (Completly Different), Austria (Completly differnet), Romania , Arabia , England,   #Finished and edited from vanilla
+		- Added decisions to form Macedonia, Ionia, Aztec, Zaptopec, Lotharinga, Jerusalem, Occitania, Wallachia, Vangaria, Bulgaria, and Frisia #Kingdom/Duchy tags
+		- Added decisions to form Iroquois, Creek, Pueblo and Cherokee nations  #Native nations
+		- Added decisions to form the Bukhara, Yugoslavia, Tamazgha, Arabian Empire, Ilkhanate, South German Federation and North German Federation #Larger "Empire" tags
+
+		- Readded decisions to form nations in the new world without RNW on. (Will look into formables for RNW much later on)
+
+	Countries
+		- Added new Sibir Tribes (Yugan, Ket, Tyumen, Tura, Vah, Orda, Kuznetsk, Barnual, Tunguska, Yakut)
+		
+	Misc
+
+	Flags
+		- Added new flags for SPA, GLH, OCC, ARD, YUG, OXF, MAC,  Some edited from Vanilla flags, others used from existing ones on Wikipedia. All Wiki used ones should be public domain.
+		- Added some new flags for BAA, SHY, ACH, PMC and VOR. Some curtosy of HIP and its submods that existed on conversion. Some were taken from there and edited down to be more fitting. 
+CHANGES
+
+	Major
+		- Overhauled the Steppes (Added new nations, removed Kazakh, ect)
+		- Removed tech group changes (From V.2-3) on account of my expected changes to tech groups soon
+		- Set Autonomy for the French, Italy, and Spanish Regions
+		- Set Historical friends/rivals in the French, Spain, Italy, and Lowlands Regions
+		- Changed colors of all nations in the French, Italy and Spanish regions (Softer colors)
+
+	Countries
+		- Finally added Thessaly cores on Thessaly. (It was one of the first new nations I added. Whoops!
+		- Readjusted Balkan cores and ownerships
+		- Knights annexed Djerid
+		- Papal State gained Ancona
+		- Croatia gained another teritory in Naples, to show the remains of their expansion
+		- The rightful holders of the Caliphate have been restored.
+		- Any Berber based nation is now Jewish. (Alt-History. A sooth-sayer tried to prevent the arab invasion of North Africa but failed. She succeeded here. They were mostly Jewish before the invasion.)
+		- Cherokee and Creek have been replaced by 6 tribes.
+		- Georgia was annexed by Armenia. Half of Georgias land became apostolic. 
+		- Split up Pueblo, Iroquois, Creek, and Cherokee
+		- Removed all old Y and Z countries
+		- Cumbria changed to Norse_religion_papacy, with 3 territories following its new faith
+
+	Governments
+
+	Decisions
+		- Commented out italy leaving the HRE decision
+		- Organized decisions better
+	Nations
+		- Kazakh gained some land and lost some land
+		- Oirat was annexed by Mongolia, Changtai, Karadel, and Zunghar
+		- Gothic Breakaways are now black_sea_pagan
+		- Hebrew culture is now the primary of Israel/likewise for culture
+		- Tweaked nations colors in the French Region.
+		- 
+	Land 
+		- Parts of North Africa are now Jewish
+
+	Ideas
+		- Changed KNI, BRI, KON, IRO, HUR, CHE, PUE, CRE, CHI, TRE, GEN, POL, VEN, TUR, LIT
+		- Checked over the following ideas: Tau, Ori, PUN, 
+		- Added ideas for HSA, BJS, 
+
+	Localization
+		- Mod now includes SOME changes to Spanish French and German localization. Not supported at all, but I started it. #JustADHDThings
+		- Added localisation for SOME new cultures (still lacking for others. Whoops.)
+		- north_africa_pagan renamed to kemetic
+		- black_sea_pagan renamed to Gothic Paganity (name WIP?)
+		- pacific_pagan renamed to Polynesian Paganism (PLEASE GIVE A MORE SPECIFIC NAME?)
+		- south_american_pagan renamed to Animism (Any suggestions for a specific name?)
+		- Finnish Paganism renamed to Suomenusko
+		- carribean_pagan renamed to Carribean Paganism
+		- Rhineish (french group) renamed to Lorrainian
+		- Aachener (finally) renamed to Rhineish
+		- All CK2 Vanilla Pagan religions have proper heresies (no more Old Slavic, ect.) Based around their "Evil" god(s)
+		- Moved a lot of religious localisation to the religious localisaion folder (for easy access later)
+		- Renamed Strymon to Miklagard
+		- England renamed to Angland
+		- Laglendian renamed to Frisian
+		- Spain renamed to Hispania
+		- Added some localisation to the new decisions
+		- Organized some of the new localisation
+
+
+	History
+		- Removed the Muslim named rulers from Golden Horde in 1444 
+	Religion
+		- Until the bugs are worked out, the Jewish religion uses patriarch authority instead of Holy Sites
+		- Manichean uses Patriarch Authority (May get changed to buddhist mechanics soon)
+		- Apostolic's modifiers were changed (Hostile Atrition 1 and syncretics get Hostile Atrition 1 and build cost -15%)
+		- Orthodox and Apostolitic can now switch between the two religions
+		- Messalian's modifiers were buffed, syncretic modifiers were changed (diplomatic_upkeep = 2, heir_chance = 1.5)
+		- Nestorian's Modifiers were buffed and changed (state_maintenance_modifier = -0.25, prestige_decay = -0.01)
+		- Sunni's Modifiers were buffed and changed (legitimacy = 1, heir_chance = 1.0, (SYNCRETIC) tolerance_own = 2)
+		- Shiite's Modifiers were changed (technology_cost = -0.05)
+		- Ibadi's Modifiers were changed (global_ship_trade_power = 0.15)
+		- Ismaili's Modifiers were changed (yearly_corruption = -0.05, (SYNCRETIC) embracement_cost = -0.2)
+		- Theravada Buddhists modifiers were changed and buffed (tolerance_heretic = 3, prestige = 1)
+		- Vajrayana Buddhists Modifiers were changed and buffed (tolerance_heretic = 3, stability_cost_modifier = -0.1 (SYNCRETIC) global_unrest = -3, ae_impact = -0.05 )
+		- Mahayana Buddhists Modifiers were changed and buffed (tolerance_heretic = 3 (SYNCRETIC) advisor_pool = 1, spy_offence = 0.2 )
+		- The 3 Buddhists can now swap religions between the 3 just like catholics can. (For now, this might lead to abuse to keep karma in specific places)
+		- Jain Hindu and Sikh's can now convert between the 3
+		- Jain's province modifiers were changed (local_institution_spread = 0.2)
+		- Hinduism's Syncretic Modifiers were changed (discipline = 0.025, cavalry_cost = -0.1)
+		- Sikhism's Modifiers were changed (technology_cost = -0.1, defensiveness = 0.25 (SYNCRETIC) technology_cost = -0.05, hostile_attrition = 1)
+		- Zunism now has dieties
+		- Yazidi received Syncretic mechancis until it can be decided on which mechanic fits it best
+		- Yazidi's Modifiers were buffed and changed (war_exhaustion = -0.03, free_leader_pool = 1)
+		- Manichean received Karma mechanics now that they are now horrible
+		- Manichean's Modifiers were changed (diplomatic_upkeep = 1, advisor_cost = -0.15)
+		- Zoroastrian's Modifiers were changed (legitimacy = 2, heir_chance = 1)
+		- Kemetic's Modifiers were changed (production_efficiency = 0.1, global_tax_modifier = 0.05, embracement_cost = -0.2)
+		- Kemetic got dieties
+		- Fetishism's Modifiers were changed (loot_amount = 0.25, global_unrest = -2)
+		- Fetishism received additional province modifiers (local_colonial_growth = 15)
+		- Hellenic Pagans received a diety system with special modifiers
+		- Hellenic Pagans Modifiers were changed (build_cost = -0.15, embracement_cost = -0.25)
+		- Finnish Pagans Modifiers were changed (defensiveness = 0.2, land_attrition = -0.15) (Mechanics still broken, WIP still)
+		- Gothic Paganity Modifiers were changed (army_tradition_from_battle = 1.0, unjustified_demands = -0.15)
+		- Gothic Paganity received a new religious icon
+		- Gothic Paganity's Province Modifiers were changed (local_manpower_modifier = 0.1)
+		- Tengrism's Modifiers were buffed (global_regiment_cost = -0.15)
+		- Apostolic received a new (existing) icon
+		- Slavic Pagans province modifier was changed (local_build_time = -0.25)
+		- Slavic Pagans Modifiers were changed and buffed (culture_conversion_cost = -0.15, num_accepted_cultures = 2)
+		- norse_pagan_reformed (old norse, iceland ect)'s Modifiers were changed (army_tradition_decay = -0.02 , loot_amount = 0.25 (SYNCRETIC) raze_power_gain = 0.2, loot_amount = 0.25)
+		- old norse's province modifiers were changed (local_institution_spread = -0.1)
+		- Removed the ability of norse_pagan_reformed to convert to other religions manually
+		- norse_wincest's province modifiers were changed (local_regiment_cost = -0.075)
+		- norse_wincest's modifiers were changed (heir_chance = 2.00, trade_efficiency = 0.1)
+		- Black sea, and the 4 norse religions now get the ability to raid.
+		- norse_wincest's heretics practice monogomy and dont inbreed
+		- removed norse_wincest's ability to convert
+		- Kemetic Pagans, Jews, Fetishist, Yazdi, Hellenic, Zoroastrian, norse_protestant, norse_papacy, norse_wincest, Pacific Paganism, Slavic, Jain, Old Norse, Gothic Paganity, received new colors (Many adjustments were made)
+		- Swapped Jewish and Messalian colors. (THE HOT PINK LIVES!)
+		- Finnish Paganism no longer is the most pointless religion ever (Saddly this involves removing the nahua mechanics from them until I can learn how to fix it)
+		- Norse_Religion_papacy's Modifiers were adjusted (diplomats = 1, prestige = 0.5)
+		- Norse_protestant's Modifiers were adjusted (trade_efficiency = 0.1 , prestige_from_land = 0.5)
+		- Sunni's Provence Values were buffed (local_unrest = -1.5 ontop of the existing modifier)
+		- Jain's Religious Modifiers were changed (land_morale = -0.10, ae_impact = -0.15, defensiveness = 0.15 (SYNCRETIC) diplomatic_reputation = 2, ae_impact = -0.15)
+		- norse_protestantism received new aspects
+		- norse_protestantism should spawn in more locations
+		- norse_wincest now has aspects, and all aspects are changed from vanilla somewhat
+		- Black_sea_pagan's now have new dietiy modifiers
+		- Updated the rest of the religions colors except for the 3 Buddhists, Confucism, Shinto, Sikhism, Tengri Pagan, Black Sea Pagan, Jewish, nestorian, catholicapostolic, and coptic.
+	Events
+		- Removed the triggering of the "Surrender of Maine" event
+		- Removed junk code from various Events that resulted from changes this mod made
+		- Removed event(s) to spawn Fulo from flavorMAL.txt
+		- Disabled a handful of events that describe something that did not occur in this timeline
+		- Removed Milan's Ambrosian Republic Event.
+		- Removed Mamluke events related to cyprus
+		- Removed various Native events to add spread of disease to natives 
+		- Removed various events that were triggered by Austria being the emperor
+		- Removed Hungary's events that were related to their starting situation
+		- Removed Persian events relating to the Ottoman Empire
+		- Removed most of The Ottoman's events
+
+		
+	Culture
+		- Removed Nogai Culture
+		- Moved Kazah culture further south
+		- Moved siberian around in Siberia
+		- Removed Kazakh culture
+		- Moved Golden Hordes culture to Central siberian
+		- Reorganized South American Cultures and groups
+		- Moved Berber and Numidian to new Berber Group 
+		- Moved Hebrew from "Lost Cultures" to "Jewish_culture_group"
+		- Moved Roman from "Lost Cultures" to "Latin"
+		- Re-added Aquitaine culture to southern france
+		- Removed "Rhineish" (Hannoverian) culture. There were too many germanic cultures, and this one was strangen and in the way.
+		- Renamed "Lorrainian" to Rhineish
+		- Renamed "Brimaric" to "East Frisian" (Temp change while I think of a better name.)
+		- Renamed "Holtslanders" to "Holsteinian" (Moving away from cultures in their native language) 
+		- Renamed "Berliner" to "Saxon" (Needed a name thats not a city)
+		- Renamed "Saxon" (Norse-Saxon) back to "Norse-Saxon" 
+		- Removed "Group" and whatnot from culture groups names
+		- Renamed "Ugric" to "Finnish-Ugric"
+		- Renamed "Ryanzanian" to "Voronezhin". It no longer was in Ryanzan. However due to lack of my understanding of Russian linguistics, someone needs to correct its name.
+		- Renamed "Bolgharian" culture to "Volga". It refers to the cultures in the river Volga, as opposed to the Bulghar culture.
+		- Renamed "Mashriqi" to "Iraqi"
+		- Renamed "Middle Eastern" group to "Levant"
+		- Added Caucasus culture group
+		- Added "West Armenian" culture
+		- Added Alan, Georgian, and Armenian to "Caucasus" culture group
+		- Renamed "Audgian" to "Moldovian"
+		- Renamed "Draculish" to "Wallachian"
+		- Added Nubian and Somali groups
+		- Moved Acholi, Beja, and Nubian to Nubian Group
+		- Moved Somali and Greek-Somalian to Somalian Group
+		- Added North Somali culture
+		- Renamed "Cushitic" culture to "Ethiopian"
+
+
+	Provinces
+		- Added a (testing mostly) straight between Leinster and Glamorganshire. (So, that the Irish have another option to expand to)
+		- Added Nenets and Yamal as provinces and not wastelands 
+		- Readjusted areas in northern Russia to account for new land (Added Nenets to Pomorye, moved Ustyug to Perm, moved Perm to Kama. Moved Yamal into Kara.)
+
+	Disasters
+		- Set Count's Feud (Denmark) to never occur (for now)
+		- Set Castillian Civil War (Castile) to never occur (for now)
+		- Set war of the roses (England) to never occur (for now) 
+		- Time of troubles no longer requires being Russia/Moscovy, but can never occur (for now)
+		- Dacke feud (Sweden) can never occur (for now)
+		- Janissary_Decadence (Ottomans) can never occur (for now)
+		- 
+		
+	Game Rules
+		- Elective_Local_monarch_max_bonus = 2 (from 1)
+		- Elective_foreign_monarch_max_bonus = 1 (from 0)
+		- Abdicate_age_threshold = 50 (from 60)
+		- Maximum_condottieri = 25 (from 20)
+		- allow_estate_in_capital = 1 (from 0) #To do: Make downsides to this. More infulence?
+		- ESTATE_PROVINCE_HAPPINESS_CHANGE_MAX_NEG = 10 (from 20)
+		- ESTATE_PROVINCE_HAPPINESS_CHANGE_MAX_POS = 40 (from 30)
+		- MIN_DEV_FOR_FREE_CITY = 6
+		- RANDOM_LUCKY_SLOW_TECH_PENALTY = 0 (from 1) #Because more love to the horrible nations elsewhere in world.
+		- MAX_ACTIVE_POLICIES = 6 (from 5)
+		- MINIMUM_POLICY_TIME = 4 (from 8)
+		- MAX_WAR_EXHAUSTION = 30 (From 20) #Because you cant die quick enough fucker
+		- PIETY_PERCENTAGE_AT_NEW_RULER = 0 (from .25) #Because I want to keep it in line with other religions that reset your diety on death. Each different ruler has different piety. 
+		- PIETY_DECREASE_AT_BAD_WAR = -0.25 (From -0.33) #To bring it in line with increase in good war
+		- ADVISOR_CUT_OFF_AGE = 25 (From 30) #So you can have young fuckers that die sooner. 
+		- MONARCH_DEATH_LEADER_STABILITY_PENALTY = 0 (from 1) #Imo no more point in it being worth to keep this with the ability to kill your rulers at will. 
+		- MAX_TOLERANCE_HERETIC = 6, MAX_TOLERANCE_HEATHEN = 6, (Up from 3) #So tolerance is more worthwhile. Might be adjusted for balance later.
+		- MERCHANT_REPUBLIC_SIZE_LIMIT = 25 (from 20) #Balance purposes. So Merchant republics are not worthless.
+		- PS_BUY_IDEA = 360, (from 400) #Balance purposes. Aim is to let more nations pick ideas and development. Tweaks needed.
+		- PS_BUY_General, Admiral, Explorer, Conquistador = 40 (from 50) #More power to the people
+		- PS_ASSAULT = 0, (from 5) #Why pay power to throw lives away? DOesnt effect player decisions at all. Might change depending on how AI functions with.
+		- PS_DeMAND_NON_WARGOAL_PEACE_PRIMITIVES = 15 (From 0) #Primitives are people too!
+		- PS_MOVE_TRADE_PORT = 150, (from 200) #Balance (Mostly to let smaller nations move it without big impact)
+		- PS_REPLACE_RIVAL = 25 (from 100) #Tempted to make it free
+		- PS_SEIZE_COLONY = 20 (from 25)
+		- PS_ATTACK_NATIVES = 10 (from 5) #To encourage native survival
+		- PS_CHANGE_GOVERNMENT = 75 (from 100) #Who actually remembers to change it?
+		- PS_RAISE_WAR_TAXES = 30 (from 50) #You want to kill  your nation with War Exhastion? Be my guest.
+		- PS_IMPROVE_PROVINCE_CAPITAL_DISCOUNT = 0.08, (From .05) #More OPM love, and love to big empires with an op capital and shit everything else i guess
+		- PS_ADD_ACCEPTED_CULTURE = 75 (from 100) #Why is it the same cost to make a culture your main culture?
+		- PS_REMOVE_ACCEPTED_CULTURE = 25 (From 50) #I wish I could remove the power cost and only make modifiers. This will do for now.
+		- PS_REMOVE_ACCEPTED_CULTURE_UNREST_DURATION = 10 (From 5) #Why would they just forget in a few years?
+		- STRENGTHEN_GOVERNMENT_REPUBLICAN_TRADITION = 4 (From 3) #Might be too op. Might change back depending.
+		- WAREXHAUSTION_REDUCTION = 2.50 (From 2) #Well, now that you can reach 30 WE might as well not completly hate players, right?
+		- RECENT_UPRISING_IN_MONTHS = 96 (From 120) #So that rebels are a bit more painful
+		- CLAIM_THRONE_PRESTIGE_PENALTY = -10.0 (From 15) 
+		- BREAK_VASSAL_PRESTIGE_PENALTY = -15.0 (from 30) 
+		- BREAK_MARRIAGE_PRESTIGE_PENALTY = -5 (From 20)
+		- CLAIM_LOSE = 20 (From 25)
+		- CORE_LOSE_PRESTIGE = 0.0 (From -10) #I didnt like this. It doesn't add any penalty to it. Only punishes losing nations really.
+		- ABANDON_IDEAGROUP_REFUND = 0.25 (From .10) 
+		- MAX_QUEEN_AGE = 40 (From 35)
+		- MAX_EXTRA_PERSONALITIES = 4 (From 2) #Why? I think its fair that a ruler thats ruled for a long time will get better. Encourages people to keep long reigning rulers and not kill them when they get a better one.
+		- MIGRATION_BOOST = 80 (From 60) #Gogogo super natives
+		- LIBERTY_DESIRE_ENFORCE_PEACE = 0.0 (From .01) #This applys only to Japan, right?
+		- LIBERTY_DESIRE_MARCH = -20 (From -15)
+		- LIBERTY_DESIRE_GREAT_POWER_VASSAL = 40 (From 50) #50 felt too much
+		- LIBERTY_DESIRE_HORDE = 5 (From 10) #Makes horde vassals worthless in long term. I didnt like that.
+		- OVERSEAS_MIN_AUTONOMY = 0 (From 75) #Feels more fair
+		- COLONY_MIN_AUTONOMY = 30 (From 50)
+		- MISSION_PICK_CHANCE = 45 (AI, From 33)
+		- DEVELOPMENT_CAP_BASE = 50 (From 25)
+		- MIN_PROVINCES_FOR_NAME_ON_MAP = 1 (From 2) #Gotta see dat name
+		- SACRIFICE_COOLDOWN = 0 (From 3) #Want to piss them off? Be my guest.
+		- MAX_CARDINALS_PER_COUNTRY = 24 (From 7) #Half value of Max Cardinals
+		- MAX_PAPAL_INFLUENCE = 300.0 (From 200) #Why waste it?
+		- MINIMUM_DEVELOPMENT_ALLOWED = 5.0 (From 10) #Let the 3 dev OPMS have cardinals
+		- RULER_MIN_AGE = 16 (From 20)
+		- RULER_MAX_AGE = 80 (From 60) #Better say bye to grandpa, looks like he's gonna die any moment
+		- HEIR_MAX_AGE = 60 (From 40) #Old people can be heirs too
+		- CONSORT_MAX_AGE = 80 (From 60) #Dont know why you'd want this
+		- TECH_GROUP_NO_NEIGHBOUR_COST = 50 (from 20) #No more Westerns in Asia
+		- IDEAS_PERCENTAGE_LIMIT = 80 (From 50) #Let nations have what they want
+		- MAX_DISTANCE_TO_OWNER_AREA = 600 (From 400) #Let people own what they want
+		- ALL_FEMALE_MALE_CHANCE = 10 (From 0) #No Comment
+		- ALL_MALE_MALE_CHANCE = 90 (From 100) #No Comment
+		- GOVERNMENT_RANK_COST_3 = 40 (From 30) 
+		- local_institution_spread = 0.12 (From 10) #Should have it spread faster to more dense coastal cities
+		- diplomatic_upkeep = 5 (From 4)
+		- num_accepted_cultures = 3 (From 2)	
+		- (Lucky Nations) ae_impact = -0.20 (From 25)
+		- (Lucky Nations) interest = -0.5 (From 1) #Cant have Gotlands everywhere, can we?
+		- (Lucky Nations improve_relation_modifier = 0.20 (From .25)
+		- karma_just_right = stability_cost_modifier = -.20 AND discipline = .05
+		- karma_too_high = diplomatic_reputation = 2 AND global_unrest = -2
+		- karma_too_low = global_manpower_modifier = 0.05 AND unjustified_demands = -0.25
+		- Rapid_collapse_of_society CHANGED negative modifier to NO LONGER mean you PAY MORE POWER
+		- Being excommunicated now only gives you tolerance_own = -1 instead of -3
+		- 
+
+	MISC
+		- Removed MY SMI idea group as one already existed in vanilla
+
+BUG FIXES
+
+	- Fixed Various Africans and North Americans starting with Feudalism.
+	- Fixed various crashes
+	- Fixed various crashes caused by nation forming (aka flandys poor coding)
+	- Fixed a bit of start-up lag after selecting nation.
+	- Fixed names of (1000 currently) converted provinces, that were either incorrect, blank, or _conv

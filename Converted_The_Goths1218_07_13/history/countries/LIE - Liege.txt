@@ -1,0 +1,32 @@
+# Liège
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = wallonian
+religion = catholic
+capital = 2974
+
+1409.6.4 = {
+	monarch = {
+		name = "Adalbreht II"
+		birth_date = 1392.12.8
+		dynasty = "Bouillon"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+1413.4.1 = {
+	heir = {
+		name = "Wulff"
+		monarch_name = "Wulff II"
+		dynasty = "Bouillon"
+		birth_date = 1413.4.1
+		death_date = 1503.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

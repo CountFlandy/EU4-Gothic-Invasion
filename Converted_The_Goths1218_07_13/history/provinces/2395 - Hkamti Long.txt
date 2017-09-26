@@ -1,0 +1,21 @@
+#2395 - Hkamti Long
+
+owner = MYA
+controller = MYA
+add_core = MYA
+add_core = CDL
+
+culture = kachin
+religion = pacific_pagan
+
+capital = "Hkamti Long"
+is_city = yes
+hre = no
+
+trade_goods = grain
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+
+discovered_by = chinese
+discovered_by = indian

@@ -1,0 +1,31 @@
+owner = KHI
+controller = KHI
+add_core = KHI
+
+culture = khitan
+religion = manichean
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 11
+	base_production = 12
+	base_manpower = 5
+}
+1444.11.11 = {
+	owner = KHI
+	controller = KHI
+	culture = khitan
+	religion = manichean
+
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}
+}

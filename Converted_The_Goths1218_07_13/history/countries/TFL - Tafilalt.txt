@@ -1,0 +1,18 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = berber
+#add_accepted_culture = berber
+religion = jewish
+technology_group = muslim
+capital = 346	# Tafilalt
+
+1430.1.1 = {
+	monarch = {
+		name = "David"
+		dynasty = "Takirwan"
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+

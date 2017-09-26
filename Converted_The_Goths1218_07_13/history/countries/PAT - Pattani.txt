@@ -1,0 +1,16 @@
+government = despotic_monarchy
+technology_group = chinese
+religion = mahayana
+primary_culture = malayan
+capital = 594	# Pattani
+
+
+1440.1.1 = {
+	monarch = {
+		name = "Raja Emas Kelantan" # Fictional
+		dynasty = "Inland"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

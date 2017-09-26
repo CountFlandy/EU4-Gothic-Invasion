@@ -1,0 +1,35 @@
+owner = PAP
+controller = PAP
+add_core = PAP
+add_core = SIE
+
+culture = tuscan
+religion = catholic
+
+is_city = yes
+hre = no
+
+add_local_autonomy = 19
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 8
+	base_production = 8
+	base_manpower = 5
+	
+}
+1444.11.11 = {
+	owner = PAP
+	controller = PAP
+	culture = tuscan
+	religion = catholic
+
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
+}

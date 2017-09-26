@@ -1,0 +1,31 @@
+# Trebizond
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+capital = 330
+
+1444.7.13 = {
+	monarch = {
+		name = "Tiberios"
+		birth_date = 1395.12.15
+		dynasty = "Paspalas"
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+	heir = {
+		name = "Niketas"
+		monarch_name = "Niketas"
+		dynasty = "Paspalas"
+		birth_date = 1435.6.27
+		death_date = 1515.6.27
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+

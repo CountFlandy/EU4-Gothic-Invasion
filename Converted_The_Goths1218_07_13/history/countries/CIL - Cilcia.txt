@@ -1,0 +1,19 @@
+# Cilcia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = west_armenian
+religion = orthodox
+capital = 2302
+
+1444.7.13 = {
+	monarch = {
+		name = "Varnah"
+		birth_date = 1407.9.4
+		dynasty = "Konya"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

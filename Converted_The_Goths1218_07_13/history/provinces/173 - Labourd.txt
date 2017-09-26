@@ -1,0 +1,34 @@
+owner = TOU
+controller = TOU
+add_core = TOU
+remove_core = FRA
+remove_core = GUY
+remove_core = ENG
+
+culture = aquitaine
+religion = catholic
+
+is_city = yes
+hre = no
+
+add_local_autonomy = -32
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 5
+	base_production = 5
+	base_manpower = 2
+	remove_core = ENG
+	remove_core = FRA
+	remove_core = GUY
+}
+1444.11.11 = {
+	owner = TOU
+	controller = TOU
+	culture = aquitaine
+	religion = catholic
+}

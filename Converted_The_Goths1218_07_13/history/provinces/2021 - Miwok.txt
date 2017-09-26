@@ -1,0 +1,16 @@
+add_core = KIO
+owner = KIO
+controller = KIO
+trade_goods = unknown
+culture = kiowa
+religion = totemism
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+is_city = yes
+hre = no
+
+
+discovered_by = high_american

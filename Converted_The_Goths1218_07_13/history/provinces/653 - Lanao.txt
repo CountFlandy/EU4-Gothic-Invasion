@@ -1,0 +1,17 @@
+#653 - Lanao
+add_core = MGD
+controller = MGD
+owner = MGD
+culture = filipino
+religion = mahayana
+capital = "Marawi"
+trade_goods = spices
+hre = no
+is_city = yes
+base_tax = 3 
+base_production = 4
+base_manpower = 5
+
+
+
+discovered_by = chinese

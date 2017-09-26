@@ -1,0 +1,30 @@
+government = daimyo
+government_rank = 1
+primary_culture = togoku
+religion = shinto
+technology_group = chinese
+capital = 4131 # Mutsu
+
+1430.1.1 = {
+	monarch = {
+		name = "Tokimasa" 
+		dynasty = "Nanbu"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1430.1.1 = {
+	heir = {
+		name = "Michitsugu"
+		monarch_name = "Michitsugu"
+		dynasty = "Nanbu"
+		birth_date = 1429.1.1
+		death_date = 1484.1.1
+		claim = 90
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

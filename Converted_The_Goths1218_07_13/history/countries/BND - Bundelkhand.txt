@@ -1,0 +1,17 @@
+government = despotic_monarchy
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = avadhi
+capital = 559	# Bundelkhand
+
+
+1439.1.1 = {
+	monarch = {
+		name = "Nasir Khan"
+		dynasty = "Malikzada"
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+}

@@ -1,0 +1,30 @@
+owner = KNI
+controller = KNI 
+add_core = GHD
+add_core = KNI
+remove_core = TUN
+remove_core = TRP
+
+culture = tripolian
+religion = ismaili
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 3
+	base_production = 3
+	base_manpower = 3
+	remove_core = TUN
+	remove_core = TRP
+}
+1444.11.11 = {
+	owner = KNI
+	controller = KNI
+	culture = tripolian
+	religion = ismaili
+}

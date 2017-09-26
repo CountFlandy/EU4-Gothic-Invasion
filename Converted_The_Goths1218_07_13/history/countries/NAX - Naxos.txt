@@ -1,0 +1,22 @@
+#Naxos
+government = feudal_monarchy
+government_rank = 1
+primary_culture = cretan
+add_accepted_culture = athenian
+add_accepted_culture = ionian
+religion = orthodox
+technology_group = eastern
+capital = 164	# Naxos
+
+
+1433.1.1 = {
+	monarch = {
+		name = "Ronald"
+		dynasty = "Kassiopi"
+		birth_date = 1426.1.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+
+}

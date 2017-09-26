@@ -1,0 +1,125 @@
+# Bjarmaland
+graphical_culture = easterngfx
+color = { 163 39 80 }
+
+
+historical_idea_groups = {
+	maritime_ideas
+	religious_ideas
+	defensive_ideas
+	administrative_ideas
+	trade_ideas
+	quality_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+leader_names = {
+
+	"Volodar" "Boleslava" "Gradislava" "Sudislav" "Terentiy" "Ingvar" "Sviatopolk" "Feodosia" "Yevdokia" "Yefimia" 
+	"Dobronega" "Viacheslav" "Dobroslava" "Malusha" "Zabava" "Marina" "Igor" "Vasilko" "Rogvolod" "Tokhtaman" 
+	"Roman" "Vysheslav" "Briachislav" "Dobrynia" "Nikita" "Rodislav" "Boris" "Dobrava" "Prebrana" "Alexei" 
+	"Fedot" "Rostislav" "Vyshata" "Zenti" "Kaleva" "Ilmari" "Ahti" "Kuuro" "Roukku" "Tiuru" 
+	"Valto" "Viimo" "Hukka" "Jänis" "Orava" "Orttjo" "Sulo" "Rebo" "Unto" "Väinö" 
+	"Väinämö" "Urho" "Lembo" "Toivettu" "Ukko" "Miska" "Valit" "Kullervo" "Tapio" "Nyyrikki" 
+	"Suzi" "Päivö" "Auno" "Seppo" "Otso" "Ohto" "Osmo" "Tauno" "Pekko" "Ilpo" 
+	"Jouko" "Tenho" "Toivo" "Touko" "Kalervo" "Kaukomieli" "Kerkko" }
+monarch_names = {
+	"Volodar #0" = 1
+	"Boleslava #0" = -1
+	"Gradislava #0" = -1
+	"Sudislav #0" = 1
+	"Terentiy #0" = 1
+	"Ingvar #0" = 1
+	"Sviatopolk #1" = 18
+	"Feodosia #0" = -1
+	"Yevdokia #0" = -1
+	"Yefimia #0" = -1
+	"Dobronega #0" = -1
+	"Viacheslav #0" = 1
+	"Dobroslava #0" = -1
+	"Malusha #0" = -1
+	"Zabava #0" = -1
+	"Marina #0" = -1
+	"Igor #0" = 1
+	"Vasilko #0" = 1
+	"Rogvolod #0" = 1
+	"Tokhtaman #0" = 1
+	"Roman #0" = 1
+	"Vysheslav #0" = 1
+	"Briachislav #0" = 1
+	"Dobrynia #0" = 1
+	"Nikita #1" = 21
+	"Rodislav #0" = 1
+	"Boris #0" = 1
+	"Dobrava #0" = -1
+	"Prebrana #0" = -1
+	"Alexei #1" = 0
+	"Fedot #1" = 0
+	"Rostislav #1" = 0
+	"Vyshata #1" = 0
+	"Zenti #1" = 0
+	"Kaleva #0" = 0
+	"Ilmari #0" = 0
+	"Ahti #0" = 0
+	"Kuuro #0" = 0
+	"Roukku #0" = 0
+	"Tiuru #0" = 0
+	"Valto #0" = 0
+	"Viimo #0" = 0
+	"Hukka #0" = 0
+	"Jänis #0" = 0
+	"Orava #0" = 0
+	"Orttjo #0" = 0
+	"Sulo #0" = 0
+	"Rebo #0" = 0
+	"Unto #0" = 0
+	"Väinö #0" = 0
+	"Väinämö #0" = 0
+	"Urho #0" = 0
+	"Lembo #0" = 0
+	"Toivettu #0" = 0
+	"Ukko #0" = 0
+	"Miska #0" = 0
+	"Valit #0" = 0
+	"Kullervo #0" = 0
+	"Tapio #0" = 0
+	"Nyyrikki #0" = 0
+	"Suzi #0" = 0
+	"Päivö #0" = 0
+	"Auno #0" = 0
+	"Seppo #0" = 0
+	"Otso #0" = 0
+	"Ohto #0" = 0
+	"Osmo #0" = 0
+	"Tauno #0" = 0
+	"Pekko #0" = 0
+	"Ilpo #0" = 0
+	"Jouko #0" = 0
+	"Tenho #0" = 0
+	"Toivo #0" = 0
+	"Touko #0" = 0
+	"Kalervo #0" = 0
+	"Kaukomieli #0" = 0
+	"Kerkko #0" = 0
+}
+

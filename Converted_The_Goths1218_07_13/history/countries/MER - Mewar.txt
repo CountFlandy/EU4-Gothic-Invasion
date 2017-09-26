@@ -1,0 +1,15 @@
+government = feudal_monarchy
+primary_culture = rajput
+religion = hinduism
+technology_group = indian
+capital = 518	# Chittogarh
+
+1433.1.1 = {
+	monarch = {
+		name = "Kumbhakarna Singh"
+		dynasty = "Sisodiya"
+		DIP = 4
+		MIL = 6
+		ADM = 4
+	}
+}

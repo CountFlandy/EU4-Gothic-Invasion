@@ -1,0 +1,27 @@
+# Tambov
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = mordvin
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 302
+
+1444.7.13 = {
+	monarch = {
+		name = "Saksa"
+		birth_date = 1416.11.5
+		dynasty = "Kirdi"
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+
+}
+1444.11.11 = {
+	capital = 302
+	add_treasury = 0
+	add_prestige = 0
+	elector = no
+}

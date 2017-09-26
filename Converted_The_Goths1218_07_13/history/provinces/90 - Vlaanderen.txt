@@ -1,0 +1,29 @@
+owner = FLA
+controller = FLA
+add_core = FLA
+remove_core = BUR
+
+culture = flemish
+religion = catholic
+
+is_city = yes
+hre = no
+
+add_local_autonomy = -30
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 6
+	base_production = 6
+	base_manpower = 3
+}
+1444.11.11 = {
+	owner = FLA
+	controller = FLA
+	culture = flemish
+	religion = catholic
+}

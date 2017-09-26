@@ -1,0 +1,16 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = rajput
+religion = hinduism
+technology_group = indian
+capital = 513	# Jaisalmer
+
+1444.1.1 = {
+	monarch = {
+		name = "Bhanwar"  # "Grandson" Haven't been able to find dynastic info before 1530
+		dynasty = "Yadava Bhati"
+		DIP = 0
+		MIL = 1
+		ADM = 0
+	}
+}

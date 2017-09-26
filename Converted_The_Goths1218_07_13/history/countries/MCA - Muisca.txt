@@ -1,0 +1,32 @@
+government = tribal_kingdom
+primary_culture = muisca
+religion = inti #Some similarities with Andean religions, better fit than animism.
+technology_group = andean
+unit_type = south_american
+capital = 825 #Bogota
+
+#Zipas of Bacatá
+1444.1.1 = {
+	monarch = {
+		name = "Meicuchuca"
+		dynasty = "Bacatá"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+
+1444.1.1 = {
+	heir = {
+		name = "Saguamanchica"
+		monarch_name = "Saguamanchica"
+		dynasty = "Bacatá"
+		birth_date = 1425.1.1
+		death_date = 1475.4.5
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

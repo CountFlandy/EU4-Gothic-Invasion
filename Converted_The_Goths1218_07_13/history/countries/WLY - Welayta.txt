@@ -1,0 +1,31 @@
+government = despotic_monarchy
+primary_culture = sidamo
+religion = shamanism
+technology_group = east_african
+capital = 2756		# Welayta
+unlock_cult = mwari_cult
+unlock_cult = central_african_ancestor_cult
+unlock_cult = cwezi_cult
+unlock_cult = christianity_cult
+unlock_cult = islam_cult
+
+1444.1.1 = {
+	monarch = {
+		name = "Kote"
+		dynasty = "Tegra`i"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	heir = {
+		name = "Gaga"
+		monarch_name = "Gaga"
+		dynasty = "Tegra`i"
+		birth_date = 1430.1.1
+		death_date = 1499.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,36 @@
+owner = BRI
+controller = BRI
+add_core = NRM
+add_core = BRI
+remove_core = FRA
+remove_core = ENG
+remove_core = PRO
+
+culture = normand
+religion = catholic
+
+is_city = yes
+hre = no
+
+add_local_autonomy = -60
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 4
+	base_production = 4
+	base_manpower = 2
+	remove_core = FRA
+	remove_core = ENG
+	remove_core = PRO
+}
+1444.11.11 = {
+	owner = BRI
+	controller = BRI
+	culture = normand
+	religion = catholic
+}

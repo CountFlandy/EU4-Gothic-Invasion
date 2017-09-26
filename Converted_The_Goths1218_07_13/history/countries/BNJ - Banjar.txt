@@ -1,0 +1,30 @@
+government = despotic_monarchy
+primary_culture = bornean
+religion = mahayana
+technology_group = chinese
+capital = 639	# Banjar
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Suriansyah"
+		dynasty = "Negara Daha"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Rahmatullah"
+		monarch_name = "Rahmatullah"
+		dynasty = "Negara Daha"
+		birth_date = 1444.1.1
+		death_date = 1523.4.19
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

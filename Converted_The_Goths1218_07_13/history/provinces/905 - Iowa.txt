@@ -1,0 +1,5 @@
+culture = pawnee
+
+discovered_by = high_american
+
+

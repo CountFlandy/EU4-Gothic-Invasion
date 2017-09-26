@@ -1,0 +1,29 @@
+government = feudal_monarchy
+primary_culture = kashmiri
+religion = vajrayana
+technology_group = indian
+capital = 508	# Srinagar
+
+1420.6.1 = {
+	monarch = {
+		name = "Zayn al-'Abidin"
+		dynasty = "Shah Miri"
+		ADM = 4
+		DIP = 4
+		MIL = 3
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Haydar Shah"
+		monarch_name = "Haydar Shah"
+		dynasty = "Shah Miri"
+		birth_date = 1440.1.1
+		death_date = 1497.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}

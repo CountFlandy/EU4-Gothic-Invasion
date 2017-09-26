@@ -1,0 +1,24 @@
+# Jomsvikings
+government = monastic_order_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = swedish
+add_accepted_culture = estonian
+religion = norse_religion_papacy
+capital = 35
+1444.7.13 = {
+	monarch = {
+		name = "Kaugemeel"
+		birth_date = 1410.4.25
+		dynasty = "Kauping"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+1444.11.11 = {
+	capital = 35
+	add_treasury = 100
+	add_prestige = 0
+}

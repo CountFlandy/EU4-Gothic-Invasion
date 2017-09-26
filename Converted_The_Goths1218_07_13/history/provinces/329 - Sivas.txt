@@ -1,0 +1,28 @@
+owner = CAP
+controller = CAP
+add_core = CAP
+
+culture = cappadocian_greek
+religion = orthodox
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 6
+	base_production = 6
+	base_manpower = 2
+	remove_core = TUR
+	remove_core = ERE
+}
+1444.11.11 = {
+	owner = CAP
+	controller = CAP
+	culture = cappadocian_greek
+	religion = orthodox
+}

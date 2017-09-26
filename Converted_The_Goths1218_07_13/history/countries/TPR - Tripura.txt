@@ -1,0 +1,17 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = chin
+religion = pacific_pagan
+technology_group = indian
+capital = 2091 # Tripura
+
+
+1410.1.1 = {
+	monarch = {
+		name = "Pratap"
+		dynasty = "Manikya"
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}

@@ -1,0 +1,29 @@
+# Mongol Empire
+government = steppe_horde
+government_rank = 2
+mercantilism = 0.1
+technology_group = nomad_group
+primary_culture = mongol
+religion = tengri_pagan_reformed
+capital = 723
+1444.7.13 = {
+	monarch = {
+		name = "Khagatai IV"
+		birth_date = 1401.12.10
+		dynasty = "Genghisid"
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+	heir = {
+		name = "Chiledu"
+		monarch_name = "Chiledu"
+		dynasty = "Genghisid"
+		birth_date = 1408.8.17
+		death_date = 1488.8.17
+		claim = 100
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}

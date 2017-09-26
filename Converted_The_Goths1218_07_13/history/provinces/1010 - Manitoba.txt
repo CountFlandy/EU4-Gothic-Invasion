@@ -1,0 +1,3 @@
+culture = cheyenne
+discovered_by = high_american
+

@@ -1,0 +1,33 @@
+# Cumbria
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = gaelic_cumbric
+religion = norse_religion_papacy
+capital = 246
+1444.7.12 = {
+	monarch = {
+		name = "Eadberht"
+		birth_date = 1389.9.9
+		dynasty = "Hrothing"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Eadberht"
+		monarch_name = "Eadberht II"
+		dynasty = "Hrothing"
+		birth_date = 1412.6.24
+		death_date = 1499.2.24
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1444.11.11 = {
+	capital = 246
+
+}

@@ -1,0 +1,522 @@
+#These are formable nations for people of the greek/byzantine/armenian culture groups
+country_decisions = { 
+	
+	#Moved from RestoreByzantineEmpire.txt for common sense
+	restore_byzantine_empire = {
+		major = yes
+		potential = {
+			NOT = { exists = BYZ }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			NOT = { tag = TUR }
+			NOT = { tag = VAN }
+			NOT = { tag = TEM }
+			culture_group = byzantine
+			religion = orthodox
+		}
+		allow = {
+			adm_tech = 7
+			stability = 1
+			owns = 151 # Constantinople
+			owns = 149	# Edirne
+			owns = 144  # Epiros
+			owns = 147	# Salonica
+			owns = 148	# Macedonia
+			owns = 146	# Athens
+			owns = 145	# Morea
+			owns = 1773	# Achea
+			owns = 316	# Bithynia
+			owns = 317	# Bursa
+			owns = 318	# Smyrna
+			owns = 1853	# Kozani
+			owns = 2296	# Biga
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+		}
+		effect = {
+			change_tag = BYZ
+			every_province = {
+				limit = {
+					OR = {
+						province_id = 149	# Edirne
+						province_id = 147	# Salonica
+						province_id = 148	# Macedonia
+						province_id = 146	# Athens
+						province_id = 145	# Morea
+						province_id = 1773	# Achea
+						province_id = 316	# Bithynia
+						province_id = 317	# Bursa
+						province_id = 318	# Smyrna
+						province_id = 163	# Crete
+						province_id = 164	# Naxos
+						province_id = 320	# Rhodes
+						province_id = 321	# Cyprus
+						province_id = 322	# Anatolia
+						province_id = 323	# Konya
+						province_id = 319	# Antalya
+						province_id = 329	# Sivas
+						province_id = 324	# Karaman
+						province_id = 325	# Kastamon
+						province_id = 326	# Angora
+						province_id = 327	# Adana
+						province_id = 332	# Mus
+						province_id = 328	# Sinope
+						province_id = 330	# Trebizon
+						province_id = 285	# Kaffa
+						province_id = 142	# Corfu
+						province_id = 143	# Albania
+						province_id = 144	# Janina
+						province_id = 1765	# Nis
+						province_id = 150	# Bulgaria
+						province_id = 1764	# Burgas
+						province_id = 159	# Silistria
+						province_id = 1846	# Yazgod
+						province_id = 1848	# Hamid
+						province_id = 1853	# Kozani
+						province_id = 2296	# Biga
+						province_id = 2297	# Saruhan
+						province_id = 2298	# Teke
+						province_id = 2299	# Bolu
+						province_id = 2300	# Bozok
+						province_id = 2301	# Kayseri
+						province_id = 2302	# Icel
+						province_id = 2303	# Malatya
+						province_id = 2304	# Canik
+						province_id = 2348	# Chios
+						province_id = 2410	# Theodoro
+						province_id = 2750	# Plovdiv
+					}
+					NOT = { is_core = BYZ }
+				}
+				add_permanent_claim = BYZ
+			}
+#			random_owned_province = {
+#				limit = { culture = greek }
+#				add_base_tax = 1
+#			}
+#			random_owned_province = {
+#				limit = { culture = greek }
+#				add_base_tax = 1
+#			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 30
+			BYZ = {
+				set_capital = 151 # Constantinople
+				add_core = 151 # Constantinople
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = { has_global_flag = hagia_sophia_now_mosque }
+				clr_global_flag = hagia_sophia_now_mosque
+				show_ambient_object = hagia_sophia
+				hide_ambient_object = hagia_sophia_minarets
+			}
+			set_government_rank = 3
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Greek Formable moved from misc to GreekNations.txt for common sense, and not to confuse people. Organization is nice and key!
+	greek_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = TUR }
+			NOT = { tag = BYZ }
+			NOT = { exists = BYZ }
+			NOT = { exists = GRE }
+			OR = {
+				primary_culture = greek
+				primary_culture = thessalan
+				primary_culture = epirote
+				primary_culture = achean
+				primary_culture = athenian
+				primary_culture = ionian
+				primary_culture = cyrenaican
+				primary_culture = cretan
+				primary_culture = griko
+			}
+			is_colonial_nation = no
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 5
+				}
+			}			
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 7
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 144 #Epirus
+			owns_core_province = 145 #Morea
+			owns_core_province = 146 #Athens
+			owns_core_province = 164 #Naxos
+			owns_core_province = 1773 #Achea
+			owns_core_province = 3003 #Euboea
+			owns_core_province = 30 #Corfu
+			owns_core_province = 147 #Thessaly
+		}
+		effect = {
+			change_tag = GRE
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			random_owned_province = {
+				limit = { culture = greek }
+				add_base_tax = 1
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			western_aegean_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { province_id = 143 }
+				}
+				add_permanent_claim = GRE
+			}
+			northern_greece_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { province_id = 143 }
+				}
+				add_permanent_claim = GRE
+			}
+			morea_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { province_id = 143 }
+				}
+				add_permanent_claim = GRE
+			}
+			macedonia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { province_id = 143 }
+				}
+				add_permanent_claim = GRE
+			}
+			add_prestige = 25
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = { area = morea_area }
+						capital_scope = { area = northern_greece_area }
+						capital_scope = { area = macedonia_area }
+					}
+				}
+				set_capital = 146
+			}
+			if = {
+				limit = {
+					NOT = { has_idea_group = greek_ideas } 
+					is_playing_custom_nation = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+	#Form Anatolia!
+	form_anatolian_kingdom = { 
+		major = yes 
+		potential = { 
+			OR = {
+				primary_culture = "cappadocian_greek"
+				primary_culture = "pontic_greek"
+				primary_culture = "ionian"			
+				}
+			NOT = { tag = ANO } 
+			NOT = { exists = ANO }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+		}
+		allow = { 
+			NOT = { exists = ANO } 
+			is_at_war = no 
+			is_subject = no
+			adm_tech = 7
+			religion = "orthodox"
+			stability = 1 
+			owns_core_province = 2301 #Kayseri
+			owns_core_province = 317 #Hudavenigar
+			owns_core_province = 319 #Mentese
+			owns_core_province = 327 #Andana
+			owns_core_province = 328 #Sinop
+			owns_core_province = 326 #Ankara
+			owns_core_province = 330 #Trebizond
+			owns_core_province = 316 #Kocaeli
+
+
+		}
+		effect = { 
+			change_tag = ANO 
+			add_prestige = 25
+			if = {
+				limit = { 
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = { 
+					limit = { 
+						is_part_of_hre = yes
+					}
+					set_in_empire = no 
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			random_owned_province = { 
+				limit = { 
+					OR = { 
+						culture = pontic_greek
+						culture = cappadocian_greek
+						culture = ionian
+						culture = armenian
+					}
+				}
+				add_base_tax = 1
+				add_base_manpower = 1
+				add_base_production = 1
+			}
+			add_country_modifier = { 
+				name = "centralization_modifier"
+				duration = 3650 
+			}
+			anatolia_region = {
+				limit = {
+					NOT = { area = eastern_mediterrenean_islands_area }
+					NOT = { area = north_kurdistan_area }
+				}
+				add_permanent_claim = ANO
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+		
+	}
+
+	#Form Macedonia!
+	form_macedonian_kingdom = { 
+		major = yes 
+		potential = { 
+			primary_culture = thessalan
+			NOT = { tag = MAC } 
+			NOT = { exists = MAC } 
+			NOT = { tag = PAP } #Pope stays pope
+			NOT = { tag = HLR } #NO.
+			NOT = { tag = TEM } #Holy order forming Macedonia? Ehh, maybe?
+			NOT = { tag = BUL } #Sorry for pan-slavic fans
+			NOT = { tag = VAN } #Why would the vangarians go form Macedonia after forming Vangaria?
+			NOT = { tag = GRE } #Why would greece go form Macedonia?
+			NOT = { tag = ION } #They formed Ionia, so why go form Macedonia too? Pick one. # Sorry for people like me who go form things like tibet, then arabia, then spain, then prussia.
+		}
+		allow = { 
+			NOT = { exists = MAC } 
+			adm_tech = 7 
+			primary_culture = thessalan
+			owns_core_province = 148 #Macedonia		
+			owns_core_province = 1853 #Kastoria
+			owns_core_province = 147 #Thessaly
+			owns_core_province = 3001 #Skopje
+			owns_core_province = 149 #Edrine
+			stability = 1 
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+		}
+		effect = { 
+			change_tag = MAC
+			if = {
+				limit = { 
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = { 
+					limit = { 
+						is_part_of_hre = yes
+					}
+					set_in_empire = no 
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = { 
+				name = "centralization_modifier"
+				duration = 3650 
+			}
+			add_prestige = 25 
+			change_primary_culture = thessalan
+			thrace_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } #Is not owned by decision taking nation.
+				}
+				add_permanent_claim = MAC #Give Perma claim to Macedonia
+			}
+			macedonia_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = MAC #Give Perma claim to Macedonia
+			}
+			northern_greece_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = MAC #Give Perma claim to Macedonia
+			}
+		
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+
+	#Form Ionia!
+	form_ionian_kingdom = { 
+		major = yes 
+		potential = { 
+			NOT = { tag = ION } 
+			NOT = { exists = ION } 
+			NOT = { tag = PAP } #Pope stays pope
+			NOT = { tag = HLR } #NO.
+			NOT = { tag = TEM } #Holy order forming Ionia? Ehh, maybe?
+			NOT = { tag = BUL } #Sorry for pan-slavic fans
+			NOT = { tag = VAN } #Why would the Vangarians go form Ionia after forming Vangaria?
+			NOT = { tag = GRE } #Why would greece go form Ionia?
+			NOT = { tag = MAC } #They formed Macedonia, so why go form Ionia too? Pick one. # Sorry for people like me who go form things like tibet, then arabia, then spain, then prussia.
+			primary_culture = ionian
+		}
+		allow = { 
+			NOT = { exists = ION } 
+			adm_tech = 7 
+			primary_culture = ionian
+			owns_core_province = 2296 #Biga		
+			owns_core_province = 318 #Sulga		
+			owns_core_province = 319 #Mentese
+			owns_core_province = 2298 #Tekke
+			owns_core_province = 2348 #Chios!
+			owns_core_province = 320 #Rhodes
+			owns_core_province = 2297 #Saruhan
+			owns_core_province = 1848 #Hamid
+			stability = 1 
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+		}
+		effect = { 
+			change_tag = ION #Change tag to Ionia
+			if = {
+				limit = { 
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = { 
+					limit = { 
+						is_part_of_hre = yes
+					}
+					set_in_empire = no 
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = { 
+				name = "centralization_modifier"
+				duration = 3650 
+			}
+			add_prestige = 25 
+			change_primary_culture = ionian
+			aydin_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } #Is not owned by decision taking nation.
+				}
+				add_permanent_claim = ION #Give Perma claim to Ionia
+			}
+			eastern_mediterrenean_islands_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = ION #Give Perma claim to Ionia
+			}
+			hudavendigar_area= { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = ION #Give Perma claim to Ionia
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+
+	}
+}

@@ -1,0 +1,32 @@
+owner = PAP
+controller = PAP
+add_core = TLC
+add_core = PAP
+
+culture = algerian
+religion = shiite
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 7
+	base_production = 7
+	base_manpower = 5
+}
+1444.11.11 = {
+	owner = PAP
+	controller = PAP
+	culture = algerian
+	religion = shiite
+
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
+}

@@ -1,0 +1,350 @@
+# Bar
+graphical_culture = westerngfx
+color = { 38 24 109 }
+
+
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+leader_names = {
+
+	"Engelbreht" "Amelie" "Stéphanie" "Louis" "Lothaire" "Pierre" "Acalan" "Miztli" "Cuauhtemoc" "Topiltzin" 
+	"Opochtli" "Yaotl" "Iquehuacatzin" "Yayauhqui" "Chimalpilli" "Florens" "Bruno" "Cozahtli" "Foulques" "Bodognous" 
+	"Gevehard" "Abbo" "Adaco" "Adalbero" "Adalbold" "Adalbreht" "Adalfrid" "Adalgar" "Adalgod" "Adalhard" 
+	"Adalwin" "Adam" "Adelelm" "Adelmer" "Adelrad" "Adelric" "Adeluuard" "Adolf" "Alberno" "Albger" 
+	"Albreht" "Albric" "Aldolf" "Aldric" "Alexandri" "Alnodo" "Alold" "Alsten" "Altet" "Amelric" 
+	"Andreas" "Ansfrid" "Anshelm" "Ansuin" "Arnold" "Arnolf" "Asolf" "Avo" "Azelin" "Azo" 
+	"Balderic" "Baldeuuin" "Baltheri" "Bartholomei" "Bavo" "Benno" "Benzo" "Berengero" "Bernard" "Bernher" 
+	"Bernold" "Bernulf" "Bertold" "Bertolf" "Bertrici" "Bonefatius" "Boso" "Bovo" "Brunhard" "Burchard" 
+	"Cono" "Conrad" "Constantino" "Dodo" "Drogo" "Ecbreht" "Einulf" "Ekgehard" "Embrico" "Engelbold" 
+	"Engelfrid" "Engelram" "Eppo" "Erembold" "Eremfrid" "Erkenbold" "Erkenbreht" "Ernust" "Esulf" "Etto" 
+	"Eustaes" "Everhard" "Everwacker" "Floris" "Folcbreht" "Folcbold" "Folchard" "Folcmar" "Folcrad" "Folcric" 
+	"Folcwin" "Franko" "Fridehard" "Frideric" "Geldolf" "Gelo" "Gerbold" "Gerbrand" "Gerbreht" "Gerold" 
+	"Gerolf" "Gerungo" "Gervasij" "Gherard" "Ghiselbreht" "Godebreht" "Godefrid" "Godescalki" "Godizo" "Godzelin" 
+	"Goto" "Gozeuuini" "Gregorio" "Guntard" "Gunteri" "Guntram" "Hadauuard" "Hardeknut" "Hardman" "Hatto" 
+	"Heinric" "Helias" "Hemmo" "Heribreht" "Heriman" "Hezelo" "Hildebrand" "Hildebreht" "Hobarni" "Hubreht" 
+	"Hubold" "Hugo" "Hunbreht" "Hunfrid" "Ieorgi" "Immo" "Ivo" "Jan" "Karel" "Kraft" 
+	"Knut" "Landbreht" "Landhold" "Leo" "Liedolf" "Liefwin" "Lietard" "Lietbold" "Lietbreht" "Lietger" 
+	"Lietric" "Lodewic" "Lothere" "Lupelo" "Marcuart" "Martino" "Mathias" "Megingoz" "Meginhard" "Meneko" 
+	"Menfrid" "Nicholaus" "Norbreht" "Odalric" "Odbreht" "Odaccar" "Odgodi" "Odmer" "Odmund" "Odo" 
+	"Odolf" "Odrad" "Odric" "Oduuald" "Offrid" "Olric" "Onolf" "Osmund" "Oswalo" "Otger" 
+	"Otto" "Otwardo" "Paulus" "Philips" "Pieter" "Poppo" "Radbod" "Radger" "Radolf" "Razo" 
+	"Reinard" "Reinbold" "Reinfrid" "Reinger" "Reingodi" "Reinheri" "Reinlof" "Reinmund" "Reinold" "Reinzo" 
+	"Richard" "Ricbreht" "Rodbreht" "Roderic" "Rodger" "Rodhard" "Rodolf" "Roduuard" "Salomon" "Sigebreht" 
+	"Sigefrid" "Sigelmi" "Sigeric" "Sigero" "Siuardi" "Stefani" "Tancred" "Thiederd" "Thiedolf" "Thietbold" 
+	"Thietbreht" "Thietfrid" "Thietger" "Thiethelm" "Thietmar" "Thiedric" "Thome" "Thuring" "Tido" "Trudo" 
+	"Ulard" "Walbreht" "Walram" "Waltheri" "Waltmar" "Wambold" "Wederic" "Wennemari" "Werenbold" "Werineri" 
+	"Werno" "Wezelo" "Wigbold" "Wibreht" "Wicardi" "Wicheri" "Wicman" "Wido" "Wigeric" "Willem" 
+	"Willibrord" "Winfrid" "Wolfger" "Wolfhard" "Wolfhelm" "Wolfhere" "Ysaac" "Zwentibold" }
+monarch_names = {
+	"Engelbreht #1" = 18
+	"Amelie #1" = -1
+	"Stéphanie #1" = -1
+	"Louis #2" = 0
+	"Lothaire #2" = 0
+	"Pierre #1" = 0
+	"Acalan #1" = 0
+	"Miztli #1" = 0
+	"Cuauhtemoc #1" = 0
+	"Topiltzin #2" = 0
+	"Opochtli #1" = 0
+	"Yaotl #1" = 0
+	"Iquehuacatzin #1" = 0
+	"Yayauhqui #1" = 0
+	"Chimalpilli #1" = 0
+	"Florens #1" = 0
+	"Bruno #1" = 0
+	"Cozahtli #1" = 0
+	"Foulques #1" = 0
+	"Bodognous #1" = 0
+	"Gevehard #1" = 0
+	"Abbo #0" = 0
+	"Adaco #0" = 0
+	"Adalbero #0" = 0
+	"Adalbold #0" = 0
+	"Adalbreht #0" = 0
+	"Adalfrid #0" = 0
+	"Adalgar #0" = 0
+	"Adalgod #0" = 0
+	"Adalhard #0" = 0
+	"Adalwin #0" = 0
+	"Adam #0" = 0
+	"Adelelm #0" = 0
+	"Adelmer #0" = 0
+	"Adelrad #0" = 0
+	"Adelric #0" = 0
+	"Adeluuard #0" = 0
+	"Adolf #0" = 0
+	"Alberno #0" = 0
+	"Albger #0" = 0
+	"Albreht #0" = 0
+	"Albric #0" = 0
+	"Aldolf #0" = 0
+	"Aldric #0" = 0
+	"Alexandri #0" = 0
+	"Alnodo #0" = 0
+	"Alold #0" = 0
+	"Alsten #0" = 0
+	"Altet #0" = 0
+	"Amelric #0" = 0
+	"Andreas #0" = 0
+	"Ansfrid #0" = 0
+	"Anshelm #0" = 0
+	"Ansuin #0" = 0
+	"Arnold #0" = 0
+	"Arnolf #0" = 0
+	"Asolf #0" = 0
+	"Avo #0" = 0
+	"Azelin #0" = 0
+	"Azo #0" = 0
+	"Balderic #0" = 0
+	"Baldeuuin #0" = 0
+	"Baltheri #0" = 0
+	"Bartholomei #0" = 0
+	"Bavo #0" = 0
+	"Benno #0" = 0
+	"Benzo #0" = 0
+	"Berengero #0" = 0
+	"Bernard #0" = 0
+	"Bernher #0" = 0
+	"Bernold #0" = 0
+	"Bernulf #0" = 0
+	"Bertold #0" = 0
+	"Bertolf #0" = 0
+	"Bertrici #0" = 0
+	"Bonefatius #0" = 0
+	"Boso #0" = 0
+	"Bovo #0" = 0
+	"Brunhard #0" = 0
+	"Burchard #0" = 0
+	"Cono #0" = 0
+	"Conrad #0" = 0
+	"Constantino #0" = 0
+	"Dodo #0" = 0
+	"Drogo #0" = 0
+	"Ecbreht #0" = 0
+	"Einulf #0" = 0
+	"Ekgehard #0" = 0
+	"Embrico #0" = 0
+	"Engelbold #0" = 0
+	"Engelfrid #0" = 0
+	"Engelram #0" = 0
+	"Eppo #0" = 0
+	"Erembold #0" = 0
+	"Eremfrid #0" = 0
+	"Erkenbold #0" = 0
+	"Erkenbreht #0" = 0
+	"Ernust #0" = 0
+	"Esulf #0" = 0
+	"Etto #0" = 0
+	"Eustaes #0" = 0
+	"Everhard #0" = 0
+	"Everwacker #0" = 0
+	"Floris #0" = 0
+	"Folcbreht #0" = 0
+	"Folcbold #0" = 0
+	"Folchard #0" = 0
+	"Folcmar #0" = 0
+	"Folcrad #0" = 0
+	"Folcric #0" = 0
+	"Folcwin #0" = 0
+	"Franko #0" = 0
+	"Fridehard #0" = 0
+	"Frideric #0" = 0
+	"Geldolf #0" = 0
+	"Gelo #0" = 0
+	"Gerbold #0" = 0
+	"Gerbrand #0" = 0
+	"Gerbreht #0" = 0
+	"Gerold #0" = 0
+	"Gerolf #0" = 0
+	"Gerungo #0" = 0
+	"Gervasij #0" = 0
+	"Gherard #0" = 0
+	"Ghiselbreht #0" = 0
+	"Godebreht #0" = 0
+	"Godefrid #0" = 0
+	"Godescalki #0" = 0
+	"Godizo #0" = 0
+	"Godzelin #0" = 0
+	"Goto #0" = 0
+	"Gozeuuini #0" = 0
+	"Gregorio #0" = 0
+	"Guntard #0" = 0
+	"Gunteri #0" = 0
+	"Guntram #0" = 0
+	"Hadauuard #0" = 0
+	"Hardeknut #0" = 0
+	"Hardman #0" = 0
+	"Hatto #0" = 0
+	"Heinric #0" = 0
+	"Helias #0" = 0
+	"Hemmo #0" = 0
+	"Heribreht #0" = 0
+	"Heriman #0" = 0
+	"Hezelo #0" = 0
+	"Hildebrand #0" = 0
+	"Hildebreht #0" = 0
+	"Hobarni #0" = 0
+	"Hubreht #0" = 0
+	"Hubold #0" = 0
+	"Hugo #0" = 0
+	"Hunbreht #0" = 0
+	"Hunfrid #0" = 0
+	"Ieorgi #0" = 0
+	"Immo #0" = 0
+	"Ivo #0" = 0
+	"Jan #0" = 0
+	"Karel #0" = 0
+	"Kraft #0" = 0
+	"Knut #0" = 0
+	"Landbreht #0" = 0
+	"Landhold #0" = 0
+	"Leo #0" = 0
+	"Liedolf #0" = 0
+	"Liefwin #0" = 0
+	"Lietard #0" = 0
+	"Lietbold #0" = 0
+	"Lietbreht #0" = 0
+	"Lietger #0" = 0
+	"Lietric #0" = 0
+	"Lodewic #0" = 0
+	"Lothere #0" = 0
+	"Lupelo #0" = 0
+	"Marcuart #0" = 0
+	"Martino #0" = 0
+	"Mathias #0" = 0
+	"Megingoz #0" = 0
+	"Meginhard #0" = 0
+	"Meneko #0" = 0
+	"Menfrid #0" = 0
+	"Nicholaus #0" = 0
+	"Norbreht #0" = 0
+	"Odalric #0" = 0
+	"Odbreht #0" = 0
+	"Odaccar #0" = 0
+	"Odgodi #0" = 0
+	"Odmer #0" = 0
+	"Odmund #0" = 0
+	"Odo #0" = 0
+	"Odolf #0" = 0
+	"Odrad #0" = 0
+	"Odric #0" = 0
+	"Oduuald #0" = 0
+	"Offrid #0" = 0
+	"Olric #0" = 0
+	"Onolf #0" = 0
+	"Osmund #0" = 0
+	"Oswalo #0" = 0
+	"Otger #0" = 0
+	"Otto #0" = 0
+	"Otwardo #0" = 0
+	"Paulus #0" = 0
+	"Philips #0" = 0
+	"Pieter #0" = 0
+	"Poppo #0" = 0
+	"Radbod #0" = 0
+	"Radger #0" = 0
+	"Radolf #0" = 0
+	"Razo #0" = 0
+	"Reinard #0" = 0
+	"Reinbold #0" = 0
+	"Reinfrid #0" = 0
+	"Reinger #0" = 0
+	"Reingodi #0" = 0
+	"Reinheri #0" = 0
+	"Reinlof #0" = 0
+	"Reinmund #0" = 0
+	"Reinold #0" = 0
+	"Reinzo #0" = 0
+	"Richard #0" = 0
+	"Ricbreht #0" = 0
+	"Rodbreht #0" = 0
+	"Roderic #0" = 0
+	"Rodger #0" = 0
+	"Rodhard #0" = 0
+	"Rodolf #0" = 0
+	"Roduuard #0" = 0
+	"Salomon #0" = 0
+	"Sigebreht #0" = 0
+	"Sigefrid #0" = 0
+	"Sigelmi #0" = 0
+	"Sigeric #0" = 0
+	"Sigero #0" = 0
+	"Siuardi #0" = 0
+	"Stefani #0" = 0
+	"Tancred #0" = 0
+	"Thiederd #0" = 0
+	"Thiedolf #0" = 0
+	"Thietbold #0" = 0
+	"Thietbreht #0" = 0
+	"Thietfrid #0" = 0
+	"Thietger #0" = 0
+	"Thiethelm #0" = 0
+	"Thietmar #0" = 0
+	"Thiedric #0" = 0
+	"Thome #0" = 0
+	"Thuring #0" = 0
+	"Tido #0" = 0
+	"Trudo #0" = 0
+	"Ulard #0" = 0
+	"Walbreht #0" = 0
+	"Walram #0" = 0
+	"Waltheri #0" = 0
+	"Waltmar #0" = 0
+	"Wambold #0" = 0
+	"Wederic #0" = 0
+	"Wennemari #0" = 0
+	"Werenbold #0" = 0
+	"Werineri #0" = 0
+	"Werno #0" = 0
+	"Wezelo #0" = 0
+	"Wigbold #0" = 0
+	"Wibreht #0" = 0
+	"Wicardi #0" = 0
+	"Wicheri #0" = 0
+	"Wicman #0" = 0
+	"Wido #0" = 0
+	"Wigeric #0" = 0
+	"Willem #0" = 0
+	"Willibrord #0" = 0
+	"Winfrid #0" = 0
+	"Wolfger #0" = 0
+	"Wolfhard #0" = 0
+	"Wolfhelm #0" = 0
+	"Wolfhere #0" = 0
+	"Ysaac #0" = 0
+	"Zwentibold #0" = 0
+
+
+	"Baltelda #0" = -1
+	"Berta #0" = -1
+	"Machtild #0" = -1
+}
+

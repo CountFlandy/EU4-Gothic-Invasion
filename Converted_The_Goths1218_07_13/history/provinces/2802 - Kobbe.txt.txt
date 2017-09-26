@@ -1,0 +1,17 @@
+#2802 - Kobbe
+owner = DAR
+controller = DAR
+culture = acholi
+religion = shamanism #Fetishism
+capital = "Kobbe"
+add_core = DAR
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+
+discovered_by = sub_saharan
+is_city = yes
+discovered_by = east_african
+discovered_by = muslim
+trade_goods = grain

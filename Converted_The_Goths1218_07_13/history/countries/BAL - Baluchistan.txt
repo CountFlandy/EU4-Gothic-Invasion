@@ -1,0 +1,17 @@
+government = iqta
+government_rank = 2
+primary_culture = baluchi
+add_accepted_culture = sindhi
+religion = sunni
+technology_group = muslim
+capital = 577	# Quetta
+
+1444.1.1 = {
+	monarch = {
+	name = "Kumbar"
+		dynasty = "Mirwari"
+		dip = 3
+		adm = 3
+		mil = 3
+	}
+}

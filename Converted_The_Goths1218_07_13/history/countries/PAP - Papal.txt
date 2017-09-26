@@ -1,0 +1,26 @@
+# Papal States
+government = papal_government
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = romagnan
+add_accepted_culture = sardinian
+religion = catholic
+capital = 118
+
+historical_rival = ACH
+1438.1.28 = {
+	monarch = {
+		name = "Gelasius II"
+		birth_date = 1409.8.29
+		dynasty = "di Ferrara"
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+1444.11.11 = {
+	capital = 118
+	add_treasury = 100
+	add_prestige = 0
+}

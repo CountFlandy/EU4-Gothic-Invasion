@@ -1,0 +1,18 @@
+#Yakut
+
+government = sbasque_group_native_council
+primary_culture = yakut
+religion = tengri_pagan_reformed
+technology_group = chinese
+capital = 1045	# Yakut
+
+
+1429.1.1 = {
+	monarch = {
+		name = "Yakitia"
+		dynasty = "Yakut"
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+}

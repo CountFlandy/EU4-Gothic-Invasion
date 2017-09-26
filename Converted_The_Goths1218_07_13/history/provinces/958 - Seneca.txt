@@ -1,0 +1,17 @@
+owner = SNC
+controller = SNC
+add_core = SNC
+
+culture = iroquois
+religion = totemism
+
+is_city = yes
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 4
+trade_goods = fur
+
+discovered_by = north_american
+

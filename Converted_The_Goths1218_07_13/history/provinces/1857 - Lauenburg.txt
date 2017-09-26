@@ -1,0 +1,24 @@
+owner = SHL
+controller = SHL
+add_core = SHL
+culture = holsteinian
+religion = norse_religion_papacy
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+1444.11.11 = {
+	hre = no
+	base_tax = 2
+	base_production = 2
+	base_manpower = 2
+	remove_core = HSA
+	remove_core = LAU
+}
+1444.11.11 = {
+	owner = SHL
+	controller = SHL
+	culture = holsteinian
+	religion = norse_religion_papacy
+}

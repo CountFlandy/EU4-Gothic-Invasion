@@ -1,0 +1,27 @@
+#1837 - Etchu
+
+owner = JAP
+controller = JAP
+add_core = HTK
+add_core = SBA
+add_core = JAP
+
+culture = togoku
+religion = shinto
+
+capital = "Kanazawa"
+trade_goods = grain
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+
+
+
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = ANU

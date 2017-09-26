@@ -1,0 +1,19 @@
+government = iqta
+government_rank = 1 #Emirate
+technology_group = muslim
+religion = shiite
+primary_culture = bedouin_arabic
+capital = 395	
+
+
+#Rulers of Qatif
+1444.1.1 = {
+	monarch = {
+		name = "Ajwad ibn Zamil"
+		dynasty = "Jabrid"
+		dip = 4
+		mil = 5
+		adm = 3
+	}
+	add_piety = 0.1
+}

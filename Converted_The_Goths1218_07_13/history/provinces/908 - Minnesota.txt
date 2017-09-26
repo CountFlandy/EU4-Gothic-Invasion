@@ -1,0 +1,18 @@
+add_core = DAK
+owner = DAK
+controller = DAK
+
+culture = dakota
+religion = totemism
+
+is_city = yes
+hre = no
+
+base_tax = 1
+base_manpower = 1
+base_production = 1
+trade_goods = unknown
+
+discovered_by = north_american
+discovered_by = high_american
+

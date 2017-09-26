@@ -1,0 +1,22 @@
+#owner = OJI
+#controller = OJI
+#add_core = OJI
+#Not Anymore
+
+culture = anishinabe
+religion = totemism 
+
+capital = "Nipigon" 
+#is_city = yes
+hre = no 
+
+trade_goods = fur
+base_tax = 1
+base_production = 1 
+base_manpower = 1 
+
+native_size = 5
+native_ferocity = 6
+native_hostileness = 1
+
+discovered_by = north_american

@@ -1,0 +1,6 @@
+culture = cree
+religion = totemism
+
+discovered_by = north_american
+discovered_by = high_american
+

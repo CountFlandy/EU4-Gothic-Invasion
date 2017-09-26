@@ -1,0 +1,26 @@
+owner = SKL
+controller = SKL
+add_core = SKL
+add_core = LVA
+culture = latvian
+religion = norse_religion_papacy
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = yes
+	base_tax = 2
+	base_production = 3
+	base_manpower = 2
+	remove_core = LIV
+	remove_core = LVA
+}
+1444.11.11 = {
+	owner = SKL
+	controller = SKL
+	culture = latvian
+	religion = norse_religion_papacy
+}

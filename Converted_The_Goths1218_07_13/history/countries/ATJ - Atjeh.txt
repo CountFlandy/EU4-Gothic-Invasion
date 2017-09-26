@@ -1,0 +1,16 @@
+government = iqta
+primary_culture = sumatran
+religion = buddhism
+technology_group = chinese
+capital = 617	# Banda Aceh
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Inayat Shah"
+		dynasty = "Inayat"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}

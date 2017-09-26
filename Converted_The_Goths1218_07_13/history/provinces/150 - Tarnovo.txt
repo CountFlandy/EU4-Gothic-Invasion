@@ -1,0 +1,34 @@
+owner = SKD
+controller = SKD
+add_core = SKD
+add_core = TRN
+remove_core = BYZ
+remove_core = BUL
+remove_core = TUR
+
+culture = vangarian
+religion = black_sea_pagan
+
+is_city = yes
+hre = no
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 4
+	base_production = 4
+	base_manpower = 1
+	remove_core = BYZ
+	remove_core = BUL
+	remove_core = TUR
+}
+1444.11.11 = {
+	owner = SKD
+	controller = SKD
+	culture = vangarian
+	religion = black_sea_pagan
+}

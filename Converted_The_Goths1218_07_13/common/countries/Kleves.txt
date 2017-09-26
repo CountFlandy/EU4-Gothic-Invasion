@@ -1,0 +1,241 @@
+# Cleves
+
+graphical_culture = westerngfx
+color = { 173 176 113 }
+
+
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+leader_names = {
+
+	"Adam" "Adalbero" "Adelgoz" "Adalwin" "Adelbreht" "Aderich" "Adolf" "Agilolf" "Albreht" "Amedeus" 
+	"Amelric" "Andres" "Anshelm" "Appo" "Aribo" "Arnolt" "Arnulf" "Azelin" "Azo" "Baldemar" 
+	"Balderich" "Baltwin" "Bartholomeus" "Berhtolt" "Beringer" "Bernhart" "Bernher" "Bernolt" "Bernwart" "Bertolf" 
+	"Bonefatius" "Boso" "Burchart" "Christan" "Chuno" "Chunrat" "Chunzelman" "Claus" "Constantin" "Diepolt" 
+	"Diepreht" "Diethart" "Diethelm" "Diether" "Dietmar" "Dietrich" "Dudo" "Eberhart" "Eckhart" "Egbert" 
+	"Egelolf" "Egino" "Eigilwart" "Emicho" "Engelbreht" "Eppo" "Erchenbreht" "Erchenbolt" "Erchenfrit" "Erhart" 
+	"Erinfrit" "Ernest" "Eticho" "Eustach" "Ezzo" "Falko" "Florens" "Franko" "Friderich" "Frischman" 
+	"Gebehart" "Gerhart" "Gerige" "Gerolt" "Gerung" "Giselbreht" "Goswin" "Gotfrit" "Gotschalch" "Gotzo" 
+	"Gregorie" "Gunther" "Guntram" "Haneman" "Hartman" "Hatto" "Heimo" "Heinrich" "Helias" "Heribreht" 
+	"Herman" "Hesso" "Hetzelo" "Hiltebrant" "Hugo" "Humbreht" "Humfrit" "Immo" "Ivo" "Johans" 
+	"Karl" "Kraft" "Landolt" "Lantbreht" "Leo" "Liutbalt" "Liutfrit" "Liutpolt" "Lothar" "Liudolf" 
+	"Lutolt" "Lutwig" "Manegolt" "Manfrit" "Markwart" "Marti" "Mathis" "Meinhart" "Michel" "Nantwig" 
+	"Nichlaus" "Norbreht" "Ortolf" "Oswalt" "Otfrit" "Otgotz" "Ottokar" "Otto" "Philippes" "Poppo" 
+	"Pilgerin" "Radulf" "Rapoto" "Razo" "Reinbolt" "Reinger" "Reinhart" "Reinher" "Reinmunt" "Reinolt" 
+	"Richart" "Rudeger" "Rudolf" "Rupreht" "Rusthein" "Rutschin" "Salomo" "Sigebreht" "Sigefrit" "Sigmunt" 
+	"Steffan" "Thoman" "Tiebalt" "Truto" "Turant" "Turing" "Udalrich" "Udelhart" "Ulrich" "Unruoch" 
+	"Uto" "Volchart" "Volcrat" "Volcwin" "Volmar" "Walram" "Walther" "Welf" "Werenher" "Wezilo" 
+	"Wigman" "Willehelm" "Winfrit" "Witcho" "Wolf" "Wolfhelm" }
+monarch_names = {
+	"Adam #0" = 0
+	"Adalbero #0" = 0
+	"Adelgoz #0" = 0
+	"Adalwin #0" = 0
+	"Adelbreht #0" = 0
+	"Aderich #0" = 0
+	"Adolf #0" = 0
+	"Agilolf #0" = 0
+	"Albreht #0" = 0
+	"Amedeus #0" = 0
+	"Amelric #0" = 0
+	"Andres #0" = 0
+	"Anshelm #0" = 0
+	"Appo #0" = 0
+	"Aribo #0" = 0
+	"Arnolt #0" = 0
+	"Arnulf #0" = 0
+	"Azelin #0" = 0
+	"Azo #0" = 0
+	"Baldemar #0" = 0
+	"Balderich #0" = 0
+	"Baltwin #0" = 0
+	"Bartholomeus #0" = 0
+	"Berhtolt #0" = 0
+	"Beringer #0" = 0
+	"Bernhart #0" = 0
+	"Bernher #0" = 0
+	"Bernolt #0" = 0
+	"Bernwart #0" = 0
+	"Bertolf #0" = 0
+	"Bonefatius #0" = 0
+	"Boso #0" = 0
+	"Burchart #0" = 0
+	"Christan #0" = 0
+	"Chuno #0" = 0
+	"Chunrat #0" = 0
+	"Chunzelman #0" = 0
+	"Claus #0" = 0
+	"Constantin #0" = 0
+	"Diepolt #0" = 0
+	"Diepreht #0" = 0
+	"Diethart #0" = 0
+	"Diethelm #0" = 0
+	"Diether #0" = 0
+	"Dietmar #0" = 0
+	"Dietrich #0" = 0
+	"Dudo #0" = 0
+	"Eberhart #0" = 0
+	"Eckhart #0" = 0
+	"Egbert #0" = 0
+	"Egelolf #0" = 0
+	"Egino #0" = 0
+	"Eigilwart #0" = 0
+	"Emicho #0" = 0
+	"Engelbreht #0" = 0
+	"Eppo #0" = 0
+	"Erchenbreht #0" = 0
+	"Erchenbolt #0" = 0
+	"Erchenfrit #0" = 0
+	"Erhart #0" = 0
+	"Erinfrit #0" = 0
+	"Ernest #0" = 0
+	"Eticho #0" = 0
+	"Eustach #0" = 0
+	"Ezzo #0" = 0
+	"Falko #0" = 0
+	"Florens #0" = 0
+	"Franko #0" = 0
+	"Friderich #0" = 0
+	"Frischman #0" = 0
+	"Gebehart #0" = 0
+	"Gerhart #0" = 0
+	"Gerige #0" = 0
+	"Gerolt #0" = 0
+	"Gerung #0" = 0
+	"Giselbreht #0" = 0
+	"Goswin #0" = 0
+	"Gotfrit #0" = 0
+	"Gotschalch #0" = 0
+	"Gotzo #0" = 0
+	"Gregorie #0" = 0
+	"Gunther #0" = 0
+	"Guntram #0" = 0
+	"Haneman #0" = 0
+	"Hartman #0" = 0
+	"Hatto #0" = 0
+	"Heimo #0" = 0
+	"Heinrich #0" = 0
+	"Helias #0" = 0
+	"Heribreht #0" = 0
+	"Herman #0" = 0
+	"Hesso #0" = 0
+	"Hetzelo #0" = 0
+	"Hiltebrant #0" = 0
+	"Hugo #0" = 0
+	"Humbreht #0" = 0
+	"Humfrit #0" = 0
+	"Immo #0" = 0
+	"Ivo #0" = 0
+	"Johans #0" = 0
+	"Karl #0" = 0
+	"Kraft #0" = 0
+	"Landolt #0" = 0
+	"Lantbreht #0" = 0
+	"Leo #0" = 0
+	"Liutbalt #0" = 0
+	"Liutfrit #0" = 0
+	"Liutpolt #0" = 0
+	"Lothar #0" = 0
+	"Liudolf #0" = 0
+	"Lutolt #0" = 0
+	"Lutwig #0" = 0
+	"Manegolt #0" = 0
+	"Manfrit #0" = 0
+	"Markwart #0" = 0
+	"Marti #0" = 0
+	"Mathis #0" = 0
+	"Meinhart #0" = 0
+	"Michel #0" = 0
+	"Nantwig #0" = 0
+	"Nichlaus #0" = 0
+	"Norbreht #0" = 0
+	"Ortolf #0" = 0
+	"Oswalt #0" = 0
+	"Otfrit #0" = 0
+	"Otgotz #0" = 0
+	"Ottokar #0" = 0
+	"Otto #0" = 0
+	"Philippes #0" = 0
+	"Poppo #0" = 0
+	"Pilgerin #0" = 0
+	"Radulf #0" = 0
+	"Rapoto #0" = 0
+	"Razo #0" = 0
+	"Reinbolt #0" = 0
+	"Reinger #0" = 0
+	"Reinhart #0" = 0
+	"Reinher #0" = 0
+	"Reinmunt #0" = 0
+	"Reinolt #0" = 0
+	"Richart #0" = 0
+	"Rudeger #0" = 0
+	"Rudolf #0" = 0
+	"Rupreht #0" = 0
+	"Rusthein #0" = 0
+	"Rutschin #0" = 0
+	"Salomo #0" = 0
+	"Sigebreht #0" = 0
+	"Sigefrit #0" = 0
+	"Sigmunt #0" = 0
+	"Steffan #0" = 0
+	"Thoman #0" = 0
+	"Tiebalt #0" = 0
+	"Truto #0" = 0
+	"Turant #0" = 0
+	"Turing #0" = 0
+	"Udalrich #0" = 0
+	"Udelhart #0" = 0
+	"Ulrich #0" = 0
+	"Unruoch #0" = 0
+	"Uto #0" = 0
+	"Volchart #0" = 0
+	"Volcrat #0" = 0
+	"Volcwin #0" = 0
+	"Volmar #0" = 0
+	"Walram #0" = 0
+	"Walther #0" = 0
+	"Welf #0" = 0
+	"Werenher #0" = 0
+	"Wezilo #0" = 0
+	"Wigman #0" = 0
+	"Willehelm #0" = 0
+	"Winfrit #0" = 0
+	"Witcho #0" = 0
+	"Wolf #0" = 0
+	"Wolfhelm #0" = 0
+
+
+	"Agatha #0" = -1
+	"Regina #0" = -1
+	"Mehtilt #0" = -1
+	"Bildrut #0" = -1
+	"Diezwib #0" = -1
+}
+

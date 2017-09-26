@@ -1,0 +1,32 @@
+government = despotic_monarchy
+technology_group = indian
+religion = jain
+primary_culture = malayalam
+capital = 1248	# Malé
+
+
+#Sultans of the Maldives
+
+1443.1.1 = {
+	monarch = {
+		name = "Hasan III"
+		dynasty = "Hilaalee"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1443.1.1 = {
+	heir = {
+		name = "Hasan"
+		monarch_name = "Hasan IV"
+		dynasty = "Hilaalee"
+		birth_Date = 1430.1.1
+		death_date = 1521.3.2
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

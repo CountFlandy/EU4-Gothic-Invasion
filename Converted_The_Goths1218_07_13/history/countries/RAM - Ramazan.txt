@@ -1,0 +1,38 @@
+#Theodosiopolis
+government = despotic_monarchy
+government_rank = 1
+primary_culture = cappadocian_greek
+add_accepted_culture = pontic_greek
+add_accepted_culture = greek
+add_accepted_culture = cretan
+religion = orthodox
+technology_group = eastern
+capital = 	2305 
+
+
+
+
+1439.1.1 = {
+	monarch = {
+		name = "Julius"
+		dynasty = "Kassiopi"
+		birth_date = 1415.1.1
+		adm = 1
+		dip = 1
+		mil = 6
+	}
+}
+
+1439.1.1 = {
+	heir = {
+		name = "Amar"
+		monarch_name = "Amar"
+		dynasty = "Kassiopi"
+		birth_date = 1439.1.1
+		death_date = 1495.3.3
+		claim = 95
+		adm = 1
+		dip = 4
+		mil = 3
+	}
+}

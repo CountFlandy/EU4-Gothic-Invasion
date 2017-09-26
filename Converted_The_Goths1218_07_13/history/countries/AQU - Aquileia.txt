@@ -1,0 +1,18 @@
+# Aquileia
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = aquilian
+religion = catholic
+capital = 1769
+1444.7.12 = {
+	monarch = {
+		name = "Albino"
+		birth_date = 1410.3.20
+		dynasty = "von Henneberg"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

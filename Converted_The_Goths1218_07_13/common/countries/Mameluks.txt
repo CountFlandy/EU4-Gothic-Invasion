@@ -1,0 +1,167 @@
+# Memphis
+
+graphical_culture = muslimgfx
+color = { 80 160 80 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	religious_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+
+
+leader_names = {
+
+	"Muammar" "Hanri" "Akbar" "Tayyib" "Malik" "Sharif" "Bashir" "Abdul-Haq" "Kemaladdin" "Rasul" 
+	"Mukhtar" "Khalid" "Ismat" "Sirhan" "Muzaffar" "Bashar" "Taimur" "Akab" "Muzaffaraddin" "Abdul-Hamid" 
+	"Sa'ud" "Isma'íl" "Imamaddin" "Nuraddin" "Abdul-Razzaq" "Tawfiq" "Majid" "Seyfullah" "Abanoub" "Abderahman" 
+	"Abdul-Aziz" "Abdul-Madjid" "Abdul-Salaam" "Abdullah" "Abianos" "Abisalom" "Abraam" "Abu-Bakr" "Adnan" "Ahmad" 
+	"Alam" "Ali" "Amr" "Ashraf" "Asim" "Badr" "Binyamin" "Bishoi" "Boutros" "Danyal" 
+	"Dawlat" "Da’oud" "Farhan" "Firuz" "Gabri’el" "Ghiyasaddin" "Habil" "Hakam" "Hammud" "Haroun" 
+	"Hisham" "Hussayn" "Ibrahim" "Ilyas" "Izzaddin" "Jalaaladdin" "Jawdat" "Jerjer" "Khalil" "Krystafer" 
+	"Latif" "Lot" "Matta" "Mehtar" "Mikail" "Mikhael" "Milad" "Mina" "Muhammad" "Murad" 
+	"Murshid" "Musa" "Nabil" "Nasir" "Nassib" "Pamin" "Qadir" "Ra'uf" "Rafiq" "Ridwan" 
+	"Sabah" "Salim" "Sha'ban" "Suhail" "Tadros" "Tajaddin" "Touma" "Usama" "Walid" "Yahya" 
+	"Yared" "Yassir" "Youkhanna" "Youssef" "Zaia" "Zakariyah" }
+monarch_names = {
+	"Muammar #1" = 0
+	"Hanri #1" = 0
+	"Akbar #1" = 0
+	"Tayyib #1" = 0
+	"Malik #1" = 0
+	"Sharif #1" = 0
+	"Bashir #1" = 0
+	"Abdul-Haq #1" = 0
+	"Kemaladdin #1" = 0
+	"Rasul #1" = 0
+	"Mukhtar #1" = 0
+	"Khalid #1" = 0
+	"Ismat #1" = 0
+	"Sirhan #1" = 0
+	"Muzaffar #1" = 0
+	"Bashar #1" = 0
+	"Taimur #1" = 0
+	"Akab #3" = 0
+	"Muzaffaraddin #1" = 0
+	"Abdul-Hamid #2" = 0
+	"Sa'ud #1" = 0
+	"Isma'íl #1" = 0
+	"Imamaddin #1" = 0
+	"Nuraddin #2" = 0
+	"Abdul-Razzaq #1" = 0
+	"Tawfiq #2" = 0
+	"Majid #1" = 0
+	"Seyfullah #1" = 0
+	"Abanoub #0" = 0
+	"Abderahman #0" = 0
+	"Abdul-Aziz #0" = 0
+	"Abdul-Madjid #0" = 0
+	"Abdul-Salaam #0" = 0
+	"Abdullah #0" = 0
+	"Abianos #0" = 0
+	"Abisalom #0" = 0
+	"Abraam #0" = 0
+	"Abu-Bakr #0" = 0
+	"Adnan #0" = 0
+	"Ahmad #0" = 0
+	"Alam #0" = 0
+	"Ali #0" = 0
+	"Amr #0" = 0
+	"Ashraf #0" = 0
+	"Asim #0" = 0
+	"Badr #0" = 0
+	"Binyamin #0" = 0
+	"Bishoi #0" = 0
+	"Boutros #0" = 0
+	"Danyal #0" = 0
+	"Dawlat #0" = 0
+	"Da’oud #0" = 0
+	"Farhan #0" = 0
+	"Firuz #0" = 0
+	"Gabri’el #0" = 0
+	"Ghiyasaddin #0" = 0
+	"Habil #0" = 0
+	"Hakam #0" = 0
+	"Hammud #0" = 0
+	"Haroun #0" = 0
+	"Hisham #0" = 0
+	"Hussayn #0" = 0
+	"Ibrahim #0" = 0
+	"Ilyas #0" = 0
+	"Izzaddin #0" = 0
+	"Jalaaladdin #0" = 0
+	"Jawdat #0" = 0
+	"Jerjer #0" = 0
+	"Khalil #0" = 0
+	"Krystafer #0" = 0
+	"Latif #0" = 0
+	"Lot #0" = 0
+	"Matta #0" = 0
+	"Mehtar #0" = 0
+	"Mikail #0" = 0
+	"Mikhael #0" = 0
+	"Milad #0" = 0
+	"Mina #0" = 0
+	"Muhammad #0" = 0
+	"Murad #0" = 0
+	"Murshid #0" = 0
+	"Musa #0" = 0
+	"Nabil #0" = 0
+	"Nasir #0" = 0
+	"Nassib #0" = 0
+	"Pamin #0" = 0
+	"Qadir #0" = 0
+	"Ra'uf #0" = 0
+	"Rafiq #0" = 0
+	"Ridwan #0" = 0
+	"Sabah #0" = 0
+	"Salim #0" = 0
+	"Sha'ban #0" = 0
+	"Suhail #0" = 0
+	"Tadros #0" = 0
+	"Tajaddin #0" = 0
+	"Touma #0" = 0
+	"Usama #0" = 0
+	"Walid #0" = 0
+	"Yahya #0" = 0
+	"Yared #0" = 0
+	"Yassir #0" = 0
+	"Youkhanna #0" = 0
+	"Youssef #0" = 0
+	"Zaia #0" = 0
+	"Zakariyah #0" = 0
+
+
+	"Neelab #0" = -1
+	"Niki #0" = -1
+	"Khandan #0" = -1
+	"Salma #0" = -1
+	"Noushin #0" = -1
+}
+ship_names = {
+	"Zaher Barqooq" "Farag Ben Barqooq"
+	"Ben Barqooq" "Muyaid Sheikh" "Ahmen Muyaid" 
+	"Zaher Tatar" "Nasser Muhamed" "Ashraf Barsbay"
+	"Aziz Gamal" "Nahr an-Nil" "Al-Farafirah"
+	"Ad-Däkhilah" "Al-Kharijah" "Al-Ali" "Al-Bahriyah"
+	Rahman Rahim Malik Quddus Salam Mu'min Muhaymin
+	Aziz Jabbar Mutakabbir Khaliq Bari Musawwir 
+	Ghaffar Qahhar Wahhab Razzaq Fattah Alim Qabid
+	Basit Khafid Rafi Mu'izz Mudhill Sami Basir Hakam Adl
+}
+

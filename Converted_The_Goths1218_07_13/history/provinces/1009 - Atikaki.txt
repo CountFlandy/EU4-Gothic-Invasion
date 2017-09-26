@@ -1,0 +1,18 @@
+owner = ASI
+controller = ASI
+add_core = ASI
+
+culture = cree
+religion = totemism
+
+is_city = yes
+hre = no
+
+base_tax = 1
+base_manpower = 1
+base_production = 1
+trade_goods = unknown
+
+discovered_by = north_american
+discovered_by = high_american
+

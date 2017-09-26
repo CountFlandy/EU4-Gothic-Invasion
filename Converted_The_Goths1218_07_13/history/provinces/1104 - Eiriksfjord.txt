@@ -1,0 +1,5 @@
+discovered_by = high_american
+discovered_by = VIN
+
+religion = norse_pagan_reformed
+culture = norse

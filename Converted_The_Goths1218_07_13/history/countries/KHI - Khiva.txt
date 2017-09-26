@@ -1,0 +1,17 @@
+#Without Honor
+government = steppe_horde
+technology_group = nomad_group
+religion = manichean
+primary_culture = khitan
+historical_rival = KHA
+capital = 1973	# Urgench
+
+1440.1.1 = {
+	monarch = {
+		name = "Kushluk"
+		dynasty ="Khitai"
+		dip = 1
+		adm = 1
+		mil = 3
+	}
+}

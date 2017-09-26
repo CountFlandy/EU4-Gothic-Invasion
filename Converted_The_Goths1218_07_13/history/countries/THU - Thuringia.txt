@@ -1,0 +1,30 @@
+# Thuringia
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = franconian
+religion = catholic
+capital = 63
+
+1434.9.3 = {
+	monarch = {
+		name = "Humbreht III"
+		birth_date = 1390.5.24
+		dynasty = "von Henneberg"
+		adm = 6
+		dip = 3
+		mil = 6
+	}
+	heir = {
+		name = "Dietrich"
+		monarch_name = "Dietrich"
+		dynasty = "von Henneberg"
+		birth_date = 1410.10.10
+		death_date = 1470.10.10
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

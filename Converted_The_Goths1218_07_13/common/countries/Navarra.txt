@@ -1,0 +1,145 @@
+# Navarre
+
+graphical_culture = westerngfx
+color = { 239 144 35 }
+historical_idea_groups = {
+	naval_ideas
+	religious_ideas
+	defensive_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+	diplomatic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	french_caracolle
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Mafalda" "Ancel" "Karlos" "Marthe" "Lothaire" "Gerberge" "Ide" "Amelie" "Adèle" "Guiges" 
+	"Gelduin" "Tiburge" "Jaspert" "Othon" "Sarrazine" "Josselin" "Charlotte" "Almodis" "Charles" "Guillaumette" 
+	"Mathilde" "Solène" "Léon" "Hamelin" "Bérengère" "Alice" "Alphonse" "Héloise" "Aléarde" "Geoffroy" 
+	"Sigismond" "Raymonde" "Belleassez" "Valeran" "Raimbaut" "Helvis" "Ermessinde" "Clotaire" "Mélisende" "Douce" 
+	"Antoine" "Bouchard" "Adelaide" "Édouard" "Emma" "Agnès" "Ogier" "Savary" "Eneko" "Gartzia" 
+	"Antso" "Fortun" "Alvar" "Diego" "Nuño" "Galindo" "Alfontso" "Aurelio" "Aznar" "Belasko" 
+	"Beltran" "Dato" "Egidio" "Erramun" "Fernando" "Gilen" "Gontzal" "Henrike" "Joanes" "Ladron" 
+	"Lope" "Luis" "Manrike" "Martín" "Mentzio" "Munio" "Ordoño" "Otxoa" "Paskoal" "Pelaio" 
+	"Piarres" "Ramiro" "Rodrigo" "Suero" "Tello" "Tibalt" "Ximeno" }
+monarch_names = {
+	"Mafalda #0" = -1
+	"Ancel #0" = 1
+	"Karlos #1" = 18
+	"Marthe #0" = -1
+	"Lothaire #1" = 18
+	"Gerberge #0" = -1
+	"Ide #0" = -1
+	"Amelie #0" = -1
+	"Adèle #0" = -1
+	"Guiges #0" = 1
+	"Gelduin #0" = 1
+	"Tiburge #0" = -1
+	"Jaspert #0" = 1
+	"Othon #0" = 1
+	"Sarrazine #0" = -1
+	"Josselin #0" = 1
+	"Charlotte #0" = -1
+	"Almodis #0" = -1
+	"Charles #0" = 1
+	"Guillaumette #0" = -1
+	"Mathilde #0" = -1
+	"Solène #0" = -1
+	"Léon #0" = 1
+	"Hamelin #0" = 1
+	"Bérengère #0" = -1
+	"Alice #0" = -1
+	"Alphonse #0" = 1
+	"Héloise #0" = -1
+	"Aléarde #0" = -1
+	"Geoffroy #0" = 1
+	"Sigismond #0" = 1
+	"Raymonde #0" = -1
+	"Belleassez #0" = -1
+	"Valeran #0" = 1
+	"Raimbaut #0" = 1
+	"Helvis #0" = -1
+	"Ermessinde #0" = -1
+	"Clotaire #0" = 1
+	"Mélisende #0" = -1
+	"Douce #0" = -1
+	"Antoine #0" = 1
+	"Bouchard #0" = 1
+	"Adelaide #0" = -1
+	"Édouard #1" = 18
+	"Emma #0" = -1
+	"Agnès #0" = -1
+	"Ogier #0" = 1
+	"Savary #0" = 1
+	"Eneko #1" = 0
+	"Gartzia #1" = 0
+	"Antso #2" = 0
+	"Fortun #4" = 0
+	"Alvar #1" = 0
+	"Diego #2" = 0
+	"Nuño #2" = 0
+	"Galindo #1" = 0
+	"Alfontso #0" = 0
+	"Aurelio #0" = 0
+	"Aznar #0" = 0
+	"Belasko #0" = 0
+	"Beltran #0" = 0
+	"Dato #0" = 0
+	"Egidio #0" = 0
+	"Erramun #0" = 0
+	"Fernando #0" = 0
+	"Gilen #0" = 0
+	"Gontzal #0" = 0
+	"Henrike #0" = 0
+	"Joanes #0" = 0
+	"Ladron #0" = 0
+	"Lope #0" = 0
+	"Luis #0" = 0
+	"Manrike #0" = 0
+	"Martín #0" = 0
+	"Mentzio #0" = 0
+	"Munio #0" = 0
+	"Ordoño #0" = 0
+	"Otxoa #0" = 0
+	"Paskoal #0" = 0
+	"Pelaio #0" = 0
+	"Piarres #0" = 0
+	"Ramiro #0" = 0
+	"Rodrigo #0" = 0
+	"Suero #0" = 0
+	"Tello #0" = 0
+	"Tibalt #0" = 0
+	"Ximeno #0" = 0
+}
+ship_names = {
+	Atlántida "Conde de Evreux" "Conde de Foix" "Conde de Guenduláin" "Conde de Lerín"
+	"Don Jimeno" "Duque de Armagnac" "Duque de Champaña"
+	"El Agramontés" "El Beaomontés" "El Bearnés" "El Cruzado Navarro" "El Montañés" "El Navarro" "El Salvador" "El Trobador" "El Viñador" "Emperador Hispánico" Europa
+	"Mar de Navarra" "Nuestra Sra de Leyre" "Príncipe de Viana"
+	"Reina Juana" "Rey Enrique" "Rey García" "Rey Sancho" "Reyno de Navarra" "Reyno de Pamplona"
+	"San Agustín" "San Andrés" "San Antonio" "San Carlos" "San Enrique" "San Esteban" "San Fermín" "San Francisco" "San Francisco Xabier" "San Gregorio" "San Juan" "San León" "San Miguel Arcángel" "San Raimundo" "San Virila"
+	"Santa Ana" "Santa Catalina" "Santa Juana" "Santa Leonor" "Santísima Trinidad" "Señor de Tudela"
+	Vasconia
+}
+

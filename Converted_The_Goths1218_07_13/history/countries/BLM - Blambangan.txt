@@ -1,0 +1,16 @@
+government = despotic_monarchy
+primary_culture = javanese
+religion = mahayana
+technology_group = chinese
+capital = 627	# Blambangan
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Menak Pentor"
+		dynasty = "Blambangan"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

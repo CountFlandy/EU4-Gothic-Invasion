@@ -1,0 +1,27 @@
+government = iqta
+primary_culture = gujarati
+religion = ismaili
+technology_group = indian
+capital = 2054	# Ahmadabad
+
+1442.1.1 = {
+	monarch = {
+		name = "Muhammad Shah II"
+		dynasty = "Muzaffarid"
+		ADM = 3
+		DIP = 2
+		MIL = 3
+	}
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad Shah II"
+		dynasty = "Muzaffarid"
+		birth_date = 1431.1.1
+		death_date = 1473.1.1
+		claim = 95
+		ADM = 2
+		DIP = 2
+		MIL = 1
+	}
+
+}

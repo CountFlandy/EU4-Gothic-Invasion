@@ -1,0 +1,20 @@
+government = tribal_kingdom
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+religion = shamanism
+primary_culture = kanuri
+capital = 1157	# Gatiga, Gazargamu
+historical_rival = YAO
+
+		
+1440.1.1 = {
+	monarch = {
+		name = "Kadai"
+		dynasty = "Sayfawa"
+		dip = 0
+		adm = 1
+		mil = 1
+	}
+}

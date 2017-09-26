@@ -1,0 +1,6 @@
+#Norse-Saxon Federation
+government = feudal_monarchy
+technology_group = western
+primary_culture = norse_saxon
+religion = norse_religion_papacy
+capital = 41	# Berlin

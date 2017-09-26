@@ -1,0 +1,26 @@
+# Severia
+government = imperial_city
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = severian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 1945
+
+1438.8.26 = {
+	monarch = {
+		name = "Yefimiy"
+		birth_date = 1401.6.1
+		dynasty = "Dregovich"
+		adm = 4
+		dip = 2
+		mil = 1
+	}
+}
+1444.11.11 = {
+	capital = 1945
+	add_treasury = 0
+	add_prestige = 0
+	elector = no
+}

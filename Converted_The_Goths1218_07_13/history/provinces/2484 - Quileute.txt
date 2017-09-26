@@ -1,0 +1,22 @@
+owner = CEN
+controller = CEN
+add_core = CEN
+
+capital = "Quileute"
+is_city = yes
+hre = no
+
+culture = chinese_american
+religion = confucianism
+
+base_tax = 7
+base_production = 4
+base_manpower = 6
+trade_goods = fish
+
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+
+discovered_by = north_american
+

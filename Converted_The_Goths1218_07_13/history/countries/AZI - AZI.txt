@@ -1,0 +1,22 @@
+# Azizid
+government = merchant_republic
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = valencian
+religion = shiite
+capital = 1750
+
+historical_rival = GEN
+
+1444.7.12 = {
+	monarch = {
+		name = "Abdul-Azi"
+		birth_date = 1410.3.29
+		dynasty = "Azidad"
+		adm = 3
+		dip = 6
+		mil = 2
+	}
+}
+

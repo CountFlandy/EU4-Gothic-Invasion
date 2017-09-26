@@ -1,0 +1,7 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = greek
+add_accepted_culture = bulgarian
+religion = orthodox
+technology_group = eastern
+capital = 150	#Athens

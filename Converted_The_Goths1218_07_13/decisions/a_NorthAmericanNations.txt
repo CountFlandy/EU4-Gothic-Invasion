@@ -1,0 +1,518 @@
+country_decisions = { 
+#Form Iroquois
+	form_iroquois_nation = { 
+		major = yes 
+		potential = { 
+			NOT = { tag = IRO } 
+			NOT = { exists = IRO }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			primary_culture = iroquois
+		}
+		allow = { 
+			NOT = { exists = IRO } 
+			primary_culture = iroquois
+			owns_core_province = 958	
+			owns_core_province = 959		
+			owns_core_province = 960 
+			owns_core_province = 961
+			owns_core_province = 964
+			stability = 1 
+			is_at_war = no 
+		}
+		effect = { 
+			change_tag = IRO #Change tag to Iroquois
+			if = {
+				limit = { 
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = { 
+					limit = { 
+						is_part_of_hre = yes
+					}
+					set_in_empire = no 
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = { 
+				name = "centralization_modifier"
+				duration = 3650 
+			}
+			add_prestige = 10
+			south_iroquoisia_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } #Is not owned by decision taking nation.
+				}
+				add_permanent_claim = IRO #Give Perma claim to Iroquois
+			}
+			iroquoisia_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = IRO #Give Perma claim to Iroquois
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+
+	}
+#Form Pueblo
+	form_pueblo_nation = { 
+		major = yes 
+		potential = { 
+			NOT = { tag = PUE } 
+			NOT = { exists = PUE }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			primary_culture = pueblo
+		}
+		allow = { 
+			NOT = { exists = PUE } 
+			primary_culture = pueblo
+			owns_core_province = 880	
+			owns_core_province = 2495	
+			owns_core_province = 881
+			owns_core_province = 878
+			stability = 1 
+			is_at_war = no 
+		}
+		effect = { 
+			change_tag = PUE #Change tag to pueblo
+			if = {
+				limit = { 
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = { 
+					limit = { 
+						is_part_of_hre = yes
+					}
+					set_in_empire = no 
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = { 
+				name = "centralization_modifier"
+				duration = 3650 
+			}
+			add_prestige = 10
+			new_mexico_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } #Is not owned by decision taking nation.
+				}
+				add_permanent_claim = PUE #Give Perma claim to pueblo
+			}
+			colorado_plateau_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = PUE #Give Perma claim to pueblo
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+
+	}
+#Form Creek
+	form_creek_nation = { 
+		major = yes 
+		potential = { 
+			NOT = { tag = CRE } 
+			NOT = { exists = CRE }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			primary_culture = creek
+		}
+		allow = { 
+			NOT = { exists = CRE } 
+			primary_culture = creek
+			owns_core_province = 930	
+			owns_core_province = 925	
+			owns_core_province = 931
+			owns_core_province = 924
+			owns_core_province = 2532
+			stability = 1 
+			is_at_war = no 
+		}
+		effect = { 
+			change_tag = CRE #Change tag to Creek
+			if = {
+				limit = { 
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = { 
+					limit = { 
+						is_part_of_hre = yes
+					}
+					set_in_empire = no 
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = { 
+				name = "centralization_modifier"
+				duration = 3650 
+			}
+			add_prestige = 10
+			upper_american_georgia_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } #Is not owned by decision taking nation.
+				}
+				add_permanent_claim = CRE #Give Perma claim to Creek
+			}
+			alabama_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = CRE #Give Perma claim to Creek
+			}
+			american_georgia_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = CRE #Give Perma claim to Creek
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+
+	}
+#Form Cherokee
+	form_cherokee_nation = { 
+		major = yes 
+		potential = { 
+			NOT = { tag = CHE } 
+			NOT = { exists = CHE }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			primary_culture = cherokee
+		}
+		allow = { 
+			NOT = { exists = CHE } 
+			primary_culture = cherokee
+			owns_core_province = 936	
+			owns_core_province = 935		
+			owns_core_province = 2548 
+			owns_core_province = 934
+			owns_core_province = 2527
+			stability = 1 
+			is_at_war = no 
+		}
+		effect = { 
+			change_tag = CHE #Change tag to cherokee
+			if = {
+				limit = { 
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = { 
+					limit = { 
+						is_part_of_hre = yes
+					}
+					set_in_empire = no 
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = { 
+				name = "centralization_modifier"
+				duration = 3650 
+			}
+			add_prestige = 10
+			south_appalachia_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } #Is not owned by decision taking nation.
+				}
+				add_permanent_claim = CHE #Give Perma claim to cherokee
+			}
+			appalachia_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = CHE #Give Perma claim to cherokee
+			}
+			kentucky_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = CHE #Give Perma claim to cherokee
+			}
+			}
+		ai_will_do = { 
+			factor = 1
+		}
+
+	}
+#Form Maya
+	maya_nation = {
+		major = yes
+		potential = {
+			is_random_new_world = no
+			OR = {
+				ai = no
+				num_of_cities = 6
+			}
+			OR = {
+				primary_culture = mayan
+				primary_culture = highland_mayan
+				primary_culture = putun
+				primary_culture = yucatec
+			}
+			religion = mesoamerican_religion
+			NOT = { exists = MAY }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }			
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			is_religion_reformed = yes
+			owns_core_province = 842 #Petén
+			owns_core_province = 846 #Sotuta
+			owns_core_province = 2633 #Mani
+			owns_core_province = 2652 #Ecab
+			owns_core_province = 2636 #Chacuyal
+			owns_core_province = 2632 #Xicallanco
+		}
+		effect = {
+			change_tag = MAY
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			yucatan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MAY
+			}
+			east_yucatan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MAY
+			}
+			add_prestige = 25
+			change_government = despotic_monarchy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}	
+#Form Aztec
+	form_aztec_nation = {
+		major = yes
+		potential = {
+			is_random_new_world = no
+			OR = {
+				ai = no
+				num_of_cities = 6
+			}
+			OR = {
+				primary_culture = aztek
+				primary_culture = tecos
+				primary_culture = purepecha
+				primary_culture = totonac
+			}
+			religion = nahuatl
+			NOT = { exists = AZT }
+			NOT = { tag = AZT }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }			
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			is_religion_reformed = yes
+			owns_core_province = 852 # Mexico
+			owns_core_province = 853 # Huastec
+			owns_core_province = 2626 # Tullucan
+			owns_core_province = 2628 # Tepeacac
+			owns_core_province = 850 # Tlaxcala
+			owns_core_province = 2624 # Patzcuaro
+		}
+		effect = {
+			change_tag = AZT
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			mexico_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AZT
+			}
+			michoacan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = AZT
+			}
+			add_prestige = 25
+			change_government = despotic_monarchy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}	
+#Form Zaptopec	
+	form_zaptopec_nation = {
+		major = yes
+		potential = {
+			is_random_new_world = no
+			OR = {
+				ai = no
+				num_of_cities = 6
+			}
+			OR = {
+				primary_culture = zapotek
+				primary_culture = mixtec
+				primary_culture = tlapanec
+			}
+			religion = nahuatl
+			NOT = { exists = ZAP }
+			NOT = { tag = ZAP }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }			
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			is_religion_reformed = yes
+			owns_core_province = 844 # Zaptopec
+			owns_core_province = 2649 # Tehuantepec
+			owns_core_province = 2631 # Mixe
+			owns_core_province = 2630 # Tochtepec
+			owns_core_province = 847 # Mixtec
+			owns_core_province = 849 # Tlapanec
+		}
+		effect = {
+			change_tag = ZAP
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			oaxaca_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ZAP
+			}
+			guerrero_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ZAP
+			}
+			add_prestige = 25
+			change_government = despotic_monarchy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}	
+	
+}

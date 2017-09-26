@@ -1,0 +1,19 @@
+owner = SYR
+controller = SYR
+add_core = SYR
+
+culture = al_suryah_arabic
+religion = sunni
+
+is_city = yes
+hre = no
+
+base_tax = 5
+base_production = 5
+base_manpower = 1
+
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

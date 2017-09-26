@@ -1,0 +1,15 @@
+government = despotic_monarchy
+primary_culture = oromo
+religion = coptic
+technology_group = east_african
+capital = 2758		# Eneara
+
+1444.1.1 = {
+	monarch = {
+		name = "Kaba Siyon"
+		dynasty = "Hinnare"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

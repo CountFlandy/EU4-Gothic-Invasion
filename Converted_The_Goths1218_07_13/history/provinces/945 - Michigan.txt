@@ -1,0 +1,11 @@
+owner = XXX
+controller = XXX
+remove_core = FOX
+
+culture = mesquakie
+religion = totemism
+
+trade_goods = unknown
+
+discovered_by = north_american
+discovered_by = high_american

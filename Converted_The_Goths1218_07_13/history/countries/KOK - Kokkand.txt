@@ -1,0 +1,16 @@
+government = iqta
+technology_group = muslim
+religion = sunni
+primary_culture = palestinian
+capital = 379
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Shahrukh"
+		dynasty = "Akbar"
+		dip = 2
+		adm = 4
+		mil = 2
+	}
+}

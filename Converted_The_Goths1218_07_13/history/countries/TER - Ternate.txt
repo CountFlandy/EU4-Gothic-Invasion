@@ -1,0 +1,25 @@
+government = despotic_monarchy
+primary_culture = moluccan
+religion = pacific_pagan
+technology_group = chinese
+capital = 649	# Ternate
+
+1377.1.1 = {
+	monarch = {
+		name = "Komala Pulu"
+		dynasty = "Gapi"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+
+1432.1.1 = {
+	monarch = {
+		name = "Marhum"
+		dynasty = "Gapi"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}

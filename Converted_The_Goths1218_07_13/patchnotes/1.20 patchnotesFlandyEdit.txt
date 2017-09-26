@@ -1,0 +1,75 @@
+- You can now start a golden era that lasts for 50 years whenever you have 3 objectives in an age. This can only be done once.
+- Countries in the Eastern Religion group and countries with horde Government can now establish Tributary States. The Tributary State subject will be expected to give Tribute every year in the form of Ducats, Monarch power or Manpower.
+- Tributary States can now accept or refuse sending tribute. Trust increases if accepted, decreases if refused. A message is sent to the Overlord if refused.
+- Tributary States can call their Overlord in defensive wars, though accepting the call is optional.
+- Tributary States don't get the "Subject Nation" penalty modifier.
+- Confucian countries now have a Harmony value. Harmony affect Tolerance of True Faith, development cost and legitimacy and increases yearly but is reduced if you convert provinces to Confucianism and when Harmonizing with other religions.
+- Confucian countries can now Harmonize with other religions within their group and religion groups. Once a religion has been Harmonized into Confucian teachings, that religion will be treated as a Syncretic religion with no maluses.
+- Manchu-culture nations can now recruit banners from Manchu culture states.  Banners don't cost manpower, but cost corruption to recruit, and money to reinforce.  They also give a discipline bonus.
+
+###################
+# Free Features
+###################
+- Devastation: Provinces now have devastation counter that goes from 0 to 100%.  Scorched Earth & looting now increases this value instead of having separate modifiers. Unrest slowly increases it in a province as well.
+- Moved religious locks from before the year 1650 to be valid from script in Age of Discovery & Age of Reformation only.
+- Strengthen Government now increases absolutism by +2.
+
+###################
+# Gamebalance
+###################
+- Mercenaries now get priority in entering the battle inside their unit type (e.g. mercenary infantry gets placed in the middle first)
+- Capital State now also have +5% Instition Spread.
+- Decisions & other scripts tweaked to use absolutism.
+- Manually increasing development now also decreases devastation.
+- Happy Cossacks Estates give +10% Cavalry Ratio now.
+- There is now a +5% bonus to colonising on the same continent as your capital.
+- The Eight Banners idea for Manchu increases the amount of banners you can raise by 25% for those that have MoH.
+- Devastation now have a minor impact on friendly and hostile movement speed.
+- You can now scorch hostile territory, and now scorching only adds a moderate amount of devastation, but also adds a -50% hostile movement penalty for 5 years.
+
+###################
+# Interface
+###################
+- Tooltip for spy network size in your own country's diplomacy view will now list all the active spy networks you have.
+- Discovered spies now tell you when they are effective again in the tooltip..
+- Transfer Trade Power treaty now explicitly says the country will be forced out of their Trade League (if any).
+
+###################
+# Usermodding
+###################
+- Split local_movement_speed into local_friendly_movement_speed & local_hostile_movement_speed.
+
+###################
+# Script
+###################
+- It is no longer possible to lose Prussian Monarchy via the Noble Estate disaster.
+- Pagans can no longer take their conversion to X decisions if they are subjects.
+- Some existing year checks now instead change for current age in decisions.
+- Soba is now an inland center of trade.
+- Forming Austria now gives permanent claims on Inner Austria and Austria Proper.
+- Semien, Damot, Ennarea, Kaffa, Janjiro, Welayta, Shewa and Medri Bahri will now all use Ethiopia's DLC units for those that have them.
+- Hadiya will now use the Somali DLC units for those that have them.
+- Dongola and Beja will now use the Nubian DLC units for those that have them.
+- A number of sea zone names adjusted to better fit their actual location.
+- Jeddah is now a coastal centre of trade.
+- Jenne is now an inland center of trade.
+- Thesaloniki is now a Coastal Center of Trade.
+- Regensburg is now an Inland Center of Trade.
+- Harer is no longer a Center of Trade.
+- Magdeburg is now an inland Center of Trade.
+- Updated Consulate of the Sea for new Trade Centres.
+- Iron and Copper can now appear in more provinces in the Americas.
+- Updated triggers for colonial nation naming to now more closely match their geographical locations.
+- Kyoto now starts with the Heian-kyo permanent province modifier.
+- Owari now starts with the Jingu permanent province modifier.
+- Musashi now starts as a Coastal Center of Trade.
+
+###################
+# Bugfixes
+###################
+- Golden Horde and Great Horde now both use the Golden Horde Unit Sprites.
+- The nobility estate disaster will no longer permanently remove the Ottoman government.
+- Unit view will no longer reset when units are being merged by army template builder elsewhere in the world.
+- Fixed typo in global trade institution spread modifiers that made it not spread as quickly as it should in high trade power provinces.
+- Exclusion criteria for kind hearted personality will no longer look to the ruler if it is being applied to an heir or consort.
+- The Printing Press institution will no longer spawn at 100% in more than one place at the same time when it's born.

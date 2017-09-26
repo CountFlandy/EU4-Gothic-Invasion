@@ -1,0 +1,19 @@
+government = tribal_despotism
+primary_culture = bilala
+religion = shamanism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 2288	# Niani
+historical_rival = KBO
+
+1444.1.1 = {
+	monarch = {
+		name = "Kêda"
+		dynasty = "Mahamat"
+		dip = 2
+		adm = 1
+		mil = 4
+	}
+} 

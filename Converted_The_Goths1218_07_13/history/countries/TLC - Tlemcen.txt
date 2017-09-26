@@ -1,0 +1,16 @@
+government = iqta 
+technology_group = muslim
+religion = shiite
+primary_culture = algerian
+add_accepted_culture = berber
+capital = 336 # Tlemcen
+
+1400.1.1 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Tifan"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}

@@ -1,0 +1,197 @@
+# Knights Hospitaller
+
+graphical_culture = westerngfx
+color = { 180 180 180 }
+historical_idea_groups = {
+	naval_ideas
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	spy_ideas
+	quality_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Widukind" "Walther" "Enric" "Payen" "Brwt" "Folcaud" "Alajos" "Berenguié" "Eduardo" "Rhirid" 
+	"Vesian" "Francés" "Leon" "Pèire" "Sanç" "Ugues" "Utile" "Massimo" "Kresimir" "Baudoïn" 
+	"Manfred" "Adalbert" "Adam" "Adolf" "Albrecht" "Almerich" "Amadeus" "Andreas" "Anselm" "Arnold" 
+	"Arnulf" "Augustin" "Baldemar" "Baldewin" "Berengar" "Bernhard" "Berthold" "Bruno" "Burchard" "Caspar" 
+	"Diether" "Dietmar" "Dietpold" "Dietrich" "Dietwin" "Eberhard" "Eckhard" "Ehrenfried" "Eginolf" "Ekbert" 
+	"Emelrich" "Emich" "Engelbrecht" "Erich" "Ernst" "Ezzo" "Folkhard" "Folkmar" "Franz" "Friedrich" 
+	"Gebhard" "Georg" "Gerhard" "Gerlach" "Giselbert" "Gottfried" "Gotthard" "Gottschalk" "Gotzelo" "Guntram" 
+	"Günzel" "Hartmann" "Hartwig" "Heinrich" "Herbert" "Hermann" "Hesso" "Hugo" "Humbert" "Jakob" 
+	"Johann" "Karl" "Karloman" "Konrad" "Kuno" "Lambert" "Leopold" "Lothar" "Ludolf" "Ludwig" 
+	"Luitpold" "Lutbert" "Markward" "Mathias" "Meinhard" "Nikolaus" "Norbert" "Ordulf" "Otto" "Philipp" 
+	"Poppo" "Rudger" "Reinhard" "Rudolf" "Ruprecht" "Siegfried" "Sieghard" "Siegmund" "Stefan" "Theodorich" 
+	"Thietmar" "Udo" "Ulrich" "Viktor" "Waldemar" "Walram" "Welf" "Wenzel" "Werner" "Wigerich" 
+	"Wilhelm" "Wolfgang" "Wolfram" }
+monarch_names = {
+	"Widukind #1" = 18
+	"Walther #1" = 0
+	"Enric #1" = 0
+	"Payen #1" = 0
+	"Brwt #1" = 0
+	"Folcaud #1" = 0
+	"Alajos #1" = 0
+	"Berenguié #1" = 0
+	"Eduardo #1" = 0
+	"Rhirid #1" = 0
+	"Vesian #1" = 0
+	"Francés #1" = 0
+	"Leon #1" = 0
+	"Pèire #1" = 0
+	"Sanç #1" = 0
+	"Ugues #1" = 0
+	"Utile #1" = 0
+	"Massimo #1" = 0
+	"Kresimir #1" = 0
+	"Baudoïn #2" = 0
+	"Manfred #1" = 0
+	"Adalbert #0" = 0
+	"Adam #0" = 0
+	"Adolf #0" = 0
+	"Albrecht #0" = 0
+	"Almerich #0" = 0
+	"Amadeus #0" = 0
+	"Andreas #0" = 0
+	"Anselm #0" = 0
+	"Arnold #0" = 0
+	"Arnulf #0" = 0
+	"Augustin #0" = 0
+	"Baldemar #0" = 0
+	"Baldewin #0" = 0
+	"Berengar #0" = 0
+	"Bernhard #0" = 0
+	"Berthold #0" = 0
+	"Bruno #0" = 0
+	"Burchard #0" = 0
+	"Caspar #0" = 0
+	"Diether #0" = 0
+	"Dietmar #0" = 0
+	"Dietpold #0" = 0
+	"Dietrich #0" = 0
+	"Dietwin #0" = 0
+	"Eberhard #0" = 0
+	"Eckhard #0" = 0
+	"Ehrenfried #0" = 0
+	"Eginolf #0" = 0
+	"Ekbert #0" = 0
+	"Emelrich #0" = 0
+	"Emich #0" = 0
+	"Engelbrecht #0" = 0
+	"Erich #0" = 0
+	"Ernst #0" = 0
+	"Ezzo #0" = 0
+	"Folkhard #0" = 0
+	"Folkmar #0" = 0
+	"Franz #0" = 0
+	"Friedrich #0" = 0
+	"Gebhard #0" = 0
+	"Georg #0" = 0
+	"Gerhard #0" = 0
+	"Gerlach #0" = 0
+	"Giselbert #0" = 0
+	"Gottfried #0" = 0
+	"Gotthard #0" = 0
+	"Gottschalk #0" = 0
+	"Gotzelo #0" = 0
+	"Guntram #0" = 0
+	"Günzel #0" = 0
+	"Hartmann #0" = 0
+	"Hartwig #0" = 0
+	"Heinrich #0" = 0
+	"Herbert #0" = 0
+	"Hermann #0" = 0
+	"Hesso #0" = 0
+	"Hugo #0" = 0
+	"Humbert #0" = 0
+	"Jakob #0" = 0
+	"Johann #0" = 0
+	"Karl #0" = 0
+	"Karloman #0" = 0
+	"Konrad #0" = 0
+	"Kuno #0" = 0
+	"Lambert #0" = 0
+	"Leopold #0" = 0
+	"Lothar #0" = 0
+	"Ludolf #0" = 0
+	"Ludwig #0" = 0
+	"Luitpold #0" = 0
+	"Lutbert #0" = 0
+	"Markward #0" = 0
+	"Mathias #0" = 0
+	"Meinhard #0" = 0
+	"Nikolaus #0" = 0
+	"Norbert #0" = 0
+	"Ordulf #0" = 0
+	"Otto #0" = 0
+	"Philipp #0" = 0
+	"Poppo #0" = 0
+	"Rudger #0" = 0
+	"Reinhard #0" = 0
+	"Rudolf #0" = 0
+	"Ruprecht #0" = 0
+	"Siegfried #0" = 0
+	"Sieghard #0" = 0
+	"Siegmund #0" = 0
+	"Stefan #0" = 0
+	"Theodorich #0" = 0
+	"Thietmar #0" = 0
+	"Udo #0" = 0
+	"Ulrich #0" = 0
+	"Viktor #0" = 0
+	"Waldemar #0" = 0
+	"Walram #0" = 0
+	"Welf #0" = 0
+	"Wenzel #0" = 0
+	"Werner #0" = 0
+	"Wigerich #0" = 0
+	"Wilhelm #0" = 0
+	"Wolfgang #0" = 0
+	"Wolfram #0" = 0
+
+
+	"Ursula #0" = -1
+	"Jutte #0" = -1
+	"Helene #0" = -1
+	"Isentrude #0" = -1
+	"Richara #0" = -1
+}
+ship_names = {
+	"The Blessed Gerard"
+	"Raymond du Puy de Provence"
+	"Auger de Balben"
+	"Arnaud de Comps"
+	"Gilbert d'Aissailly"
+	"Gastone de Murols"
+	"Gilbert of Syria"
+	"Roger de Moulins"
+	"Hélion de Villeneuve"
+	"Hermangard d'Asp"
+	"Garnier de Naplous"
+	"Geoffroy de Donjon"
+	"Alfonse of Portugal"
+	"Geoffrey le Rat"
+}
+

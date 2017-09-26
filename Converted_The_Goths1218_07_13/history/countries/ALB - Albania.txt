@@ -1,0 +1,31 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = albanian
+religion = orthodox
+technology_group = eastern
+capital = 4175 # Lezhe
+
+1444.1.1 = {
+	monarch = {
+		name = "Gjon"
+		dynasty = "Kastrioti"
+		birth_date = 1405.1.1		
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Gjon"
+		monarch_name = "Gjon II"
+		dynasty = "Kastrioti"
+		birth_date = 1420.1.1
+		death_date = 1481.1.1
+		claim = 100
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}

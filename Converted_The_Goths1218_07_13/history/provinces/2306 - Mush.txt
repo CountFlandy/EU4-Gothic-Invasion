@@ -1,0 +1,18 @@
+owner = SOP
+controller = SOP
+add_core = SOP
+
+culture = armenian
+religion = apostolic
+
+is_city = yes
+hre = no
+
+base_tax = 7
+base_production = 7
+base_manpower = 6
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

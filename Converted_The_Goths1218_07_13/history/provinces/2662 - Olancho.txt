@@ -1,0 +1,14 @@
+owner = MIS
+controller = MIS
+add_core = MIS
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = unknown
+
+religion = mesoamerican_religion
+culture = miskito
+
+discovered_by = mesoamerican
+discovered_by = south_american

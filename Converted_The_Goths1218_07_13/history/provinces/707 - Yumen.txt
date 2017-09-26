@@ -1,0 +1,10 @@
+owner = HMI
+controller = HMI
+add_core = HMI
+remove_core = OIR
+1444.11.11 = {
+	owner = HMI
+	controller = HMI
+	culture = oirats
+	religion = tengri_pagan_reformed
+}

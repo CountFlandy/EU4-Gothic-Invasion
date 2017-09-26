@@ -1,0 +1,232 @@
+# Volga Bulgaria
+graphical_culture = muslimgfx
+color = { 255 255 153 }
+
+
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	quantity_ideas
+	expansion_ideas
+	offensive_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	muslim_cavalry_archers
+	shaybani
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+leader_names = {
+
+	"Kuvrat" "Ilkay" "Ornag" "Tingiz" "Apskhih" "Tähtani" "Çeçki" "Maturkka" "Dukum" "Sarä" 
+	"Gulçeçek" "Tura" "Batulia" "Yerneslu" "Vetam" "Batbayan" "Shurkka" "Vyshata" "Tähtaman" "Tekçe" 
+	"Ipekel" "Iliya" "Peksen" "Sarica" "Sviatoslav" "Lyukha" "Vinekh" "Sibel" "Savintik" "Okhsun" 
+	"Kätyarikka" "Bozçin" "Yildiz" "Mutlu" "Gremislava" "Almish" "Umay" "Dometa" "Ipek" "Irge" 
+	"Sartäç" "Këlnissa" "Dizeng" "Kordil" "Balamber" "Oshi" "Çilen" "Boyan" "Mala" "Savtilek" 
+	"Këlyamal" "Savkëlti" "Songul" "Khinialon" "Chepa" "Sirin" "Batir" "Belkermak" "Dengizikh" "Sarikel" 
+	"Timërpälat" "Kälaç" "Akgul" "Krovat" "Tuk" "Tukiy" "Toktu" "Asli" "Gunduz" "Aydar" 
+	"Pagan" "Praksa" "Okhsi" "Omurtag" "Gulay" "Tervel" "Taridin" "Samur" "Tarasiy" "Vakrim" 
+	"Tokhtaman" "Patiyer" "Paykëlti" "Rostislav" "Sarkhan" "Elemag" "Vsevolod" "Odolgan" "Lärkka" "Gundes" 
+	"Savin" "Asparukh" "Yartilek" "Tsog" "Kharaton" "Yençepi" "Alzek" "Çeçtilet" "Onegavon" "Goleda" 
+	"Esin" "Karaton" "Vasiliy" "Yefimiy" "Isbul" "Rugila" "Tiradin" "Kormisosh" "Uighurtai" "Guyug" 
+	"Okhotur" "Godarz" "Anzi" "Araslan" "Bars" "Bataul" "Batoya" "Bayan" "Bezmer" "Bulger" 
+	"Buzan" "Chinialush" "Dristar" "Drong" "Ellak" "Ernakh" "Eskhakh" "Gostun" "Guar" "Hudbad" 
+	"Iani" "Irnek" "Islivan" "Isperikh" "Ispor" "Kano" "Karan" "Kardam" "Khudbard" "Kormesiy" 
+	"Kotrag" "Krum" "Kuber" "Kubrat" "Kurt" "Kutrigur" "Labertam" "Magotin" "Malamir" "Mugel" 
+	"Okors" "Organ" "Organa" "Ostro" "Pakhtiyar" "Paväl" "Rassate" "Sabin" "Sandil" "Sandilkh" 
+	"Sevar" "Shilki" "Sondoke" "Tatra" "Telec" "Telerig" "Timër" "Timëreç" "Tsul" "Umor" 
+	"Uturgur" "Venda" "Yani" "Yavantey" "Yeçtirek" "Zabergan" "Zenti" "Irkhan" }
+monarch_names = {
+	"Kuvrat #1" = 21
+	"Ilkay #0" = -1
+	"Ornag #0" = 1
+	"Tingiz #0" = 1
+	"Apskhih #0" = 1
+	"Tähtani #0" = -1
+	"Çeçki #0" = -1
+	"Maturkka #0" = -1
+	"Dukum #0" = 1
+	"Sarä #0" = -1
+	"Gulçeçek #0" = -1
+	"Tura #0" = -1
+	"Batulia #0" = 1
+	"Yerneslu #0" = 1
+	"Vetam #0" = 1
+	"Batbayan #0" = 1
+	"Shurkka #0" = -1
+	"Vyshata #0" = 1
+	"Tähtaman #1" = 21
+	"Tekçe #0" = -1
+	"Ipekel #0" = -1
+	"Iliya #0" = 1
+	"Peksen #0" = -1
+	"Sarica #0" = -1
+	"Sviatoslav #0" = 1
+	"Lyukha #0" = -1
+	"Vinekh #0" = 1
+	"Sibel #0" = -1
+	"Savintik #0" = -1
+	"Okhsun #0" = 1
+	"Kätyarikka #0" = -1
+	"Bozçin #0" = -1
+	"Yildiz #0" = -1
+	"Mutlu #0" = -1
+	"Gremislava #0" = -1
+	"Almish #0" = 1
+	"Umay #0" = -1
+	"Dometa #0" = 1
+	"Ipek #0" = -1
+	"Irge #0" = -1
+	"Sartäç #0" = 1
+	"Këlnissa #0" = -1
+	"Dizeng #0" = 1
+	"Kordil #0" = 1
+	"Balamber #0" = 1
+	"Oshi #0" = 1
+	"Çilen #0" = -1
+	"Boyan #0" = 1
+	"Mala #0" = -1
+	"Savtilek #0" = -1
+	"Këlyamal #0" = -1
+	"Savkëlti #0" = -1
+	"Songul #0" = -1
+	"Khinialon #0" = 1
+	"Chepa #1" = 21
+	"Sirin #0" = -1
+	"Batir #0" = 1
+	"Belkermak #0" = 1
+	"Dengizikh #0" = 1
+	"Sarikel #0" = -1
+	"Timërpälat #0" = 1
+	"Kälaç #0" = 1
+	"Akgul #0" = -1
+	"Krovat #0" = 1
+	"Tuk #0" = 1
+	"Tukiy #0" = 1
+	"Toktu #0" = 1
+	"Asli #0" = -1
+	"Gunduz #0" = -1
+	"Aydar #0" = 1
+	"Pagan #0" = 1
+	"Praksa #0" = 1
+	"Okhsi #0" = 1
+	"Omurtag #0" = 1
+	"Gulay #0" = -1
+	"Tervel #0" = 1
+	"Taridin #0" = 1
+	"Samur #0" = -1
+	"Tarasiy #0" = 1
+	"Vakrim #0" = 1
+	"Tokhtaman #0" = 1
+	"Patiyer #0" = -1
+	"Paykëlti #0" = -1
+	"Rostislav #0" = 1
+	"Sarkhan #0" = 1
+	"Elemag #0" = 1
+	"Vsevolod #0" = 1
+	"Odolgan #0" = 1
+	"Lärkka #0" = -1
+	"Gundes #0" = -1
+	"Savin #0" = 1
+	"Asparukh #0" = 1
+	"Yartilek #0" = -1
+	"Tsog #0" = 1
+	"Kharaton #0" = 1
+	"Yençepi #0" = 1
+	"Alzek #2" = 21
+	"Çeçtilet #0" = -1
+	"Onegavon #0" = 1
+	"Goleda #0" = 1
+	"Esin #0" = -1
+	"Karaton #0" = 1
+	"Vasiliy #0" = 1
+	"Yefimiy #0" = 1
+	"Isbul #0" = 1
+	"Rugila #0" = 1
+	"Tiradin #0" = 1
+	"Kormisosh #0" = 1
+	"Uighurtai #1" = 0
+	"Guyug #1" = 0
+	"Okhotur #1" = 0
+	"Godarz #1" = 0
+	"Anzi #0" = 0
+	"Araslan #0" = 0
+	"Bars #0" = 0
+	"Bataul #0" = 0
+	"Batoya #0" = 0
+	"Bayan #0" = 0
+	"Bezmer #0" = 0
+	"Bulger #0" = 0
+	"Buzan #0" = 0
+	"Chinialush #0" = 0
+	"Dristar #0" = 0
+	"Drong #0" = 0
+	"Ellak #0" = 0
+	"Ernakh #0" = 0
+	"Eskhakh #0" = 0
+	"Gostun #0" = 0
+	"Guar #0" = 0
+	"Hudbad #0" = 0
+	"Iani #0" = 0
+	"Irnek #0" = 0
+	"Islivan #0" = 0
+	"Isperikh #0" = 0
+	"Ispor #0" = 0
+	"Kano #0" = 0
+	"Karan #0" = 0
+	"Kardam #0" = 0
+	"Khudbard #0" = 0
+	"Kormesiy #0" = 0
+	"Kotrag #0" = 0
+	"Krum #0" = 0
+	"Kuber #0" = 0
+	"Kubrat #0" = 0
+	"Kurt #0" = 0
+	"Kutrigur #0" = 0
+	"Labertam #0" = 0
+	"Magotin #0" = 0
+	"Malamir #0" = 0
+	"Mugel #0" = 0
+	"Okors #0" = 0
+	"Organ #0" = 0
+	"Organa #0" = 0
+	"Ostro #0" = 0
+	"Pakhtiyar #0" = 0
+	"Paväl #0" = 0
+	"Rassate #0" = 0
+	"Sabin #0" = 0
+	"Sandil #0" = 0
+	"Sandilkh #0" = 0
+	"Sevar #0" = 0
+	"Shilki #0" = 0
+	"Sondoke #0" = 0
+	"Tatra #0" = 0
+	"Telec #0" = 0
+	"Telerig #0" = 0
+	"Timër #0" = 0
+	"Timëreç #0" = 0
+	"Tsul #0" = 0
+	"Umor #0" = 0
+	"Uturgur #0" = 0
+	"Venda #0" = 0
+	"Yani #0" = 0
+	"Yavantey #0" = 0
+	"Yeçtirek #0" = 0
+	"Zabergan #0" = 0
+	"Zenti #0" = 0
+	"Irkhan #0" = 0
+}
+

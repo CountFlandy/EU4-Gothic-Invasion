@@ -1,0 +1,2 @@
+religion = mesoamerican_religion
+discovered_by = high_american

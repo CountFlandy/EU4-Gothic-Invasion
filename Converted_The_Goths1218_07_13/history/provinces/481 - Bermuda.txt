@@ -1,0 +1,3 @@
+culture = carib
+religion = carribean_pagan
+discovered_by = high_american

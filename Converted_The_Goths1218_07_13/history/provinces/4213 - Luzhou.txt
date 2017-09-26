@@ -1,0 +1,27 @@
+#4213 - Luzhou
+
+owner = MNG
+controller = MNG
+add_core = MNG
+add_core = CXI
+add_core = SHU
+
+culture = sichuanese
+religion = confucianism
+
+capital = "Luzhou"
+is_city = yes
+hre = no
+
+trade_goods = grain
+base_tax = 2 
+base_production = 2
+base_manpower = 2
+
+
+
+
+discovered_by = chinese
+discovered_by = nomad_group
+
+

@@ -1,0 +1,33 @@
+owner = STR
+controller = STR
+add_core = STR
+add_core = KAR
+
+culture = pontic_greek
+religion = orthodox
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 10
+	base_production = 12
+	base_manpower = 5
+	remove_core = TUR
+}
+1444.11.11 = {
+	owner = STR
+	controller = STR
+	culture = pontic_greek
+	religion = orthodox
+
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
+}

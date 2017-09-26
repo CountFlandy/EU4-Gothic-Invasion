@@ -1,0 +1,24 @@
+#1050 - Deren
+
+owner = MCH
+controller = MCH
+add_core = MCH
+add_core = MYR
+
+culture = manchu
+religion = tengri_pagan_reformed
+
+capital = "Deren"
+is_city = yes
+hre = no
+
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+trade_goods = fur
+
+
+
+
+discovered_by = chinese
+discovered_by = nomad_group

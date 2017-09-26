@@ -1,0 +1,18 @@
+#Annex Tibet
+government = theocratic_government
+government_rank = 3
+primary_culture = tibetan
+religion = vajrayana
+technology_group = chinese
+capital = 677 # Lhasa
+
+
+
+1443.1.1 = {
+	monarch = {
+		name = "Trakpa Chunge"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

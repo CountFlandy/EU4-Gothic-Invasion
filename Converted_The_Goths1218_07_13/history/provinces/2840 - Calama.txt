@@ -1,0 +1,2 @@
+religion = inti
+discovered_by = high_american

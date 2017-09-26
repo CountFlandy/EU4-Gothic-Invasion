@@ -1,0 +1,30 @@
+government = despotic_monarchy
+primary_culture = malayan
+religion = jain
+technology_group = chinese
+capital = 596	# Malacca
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Ibrahim"
+		dynasty = "Srivijaya"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Muzaffar Shâh"
+		monarch_name = "Muzaffar Shâh"
+		dynasty = "Srivijaya"
+		birth_date = 1420.1.1
+		death_date = 1495.1.1
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}

@@ -1,0 +1,16 @@
+government = tribal_kingdom
+government_rank = 1
+primary_culture = assamese
+religion = buddhism
+technology_group = indian
+capital = 2040
+
+1434.1.1 = {
+	monarch = {
+		name = "Jayadhvaj Pal"
+		dynasty = "Chutiya"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}

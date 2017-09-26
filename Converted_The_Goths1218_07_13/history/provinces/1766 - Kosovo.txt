@@ -1,0 +1,28 @@
+owner = TEM
+controller = TEM
+add_core = TEM
+culture = serbian
+religion = orthodox
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+1444.11.11 = {
+	hre = no
+	base_tax = 6
+	base_production = 6
+	base_manpower = 4
+	remove_core = SER
+}
+1444.11.11 = {
+	owner = TEM
+	controller = TEM
+	culture = serbian
+	religion = orthodox
+
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}
+}

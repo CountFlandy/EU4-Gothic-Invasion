@@ -1,0 +1,73 @@
+# Trapalanda
+
+graphical_culture = westerngfx
+color = { 151 106 191 }
+
+historical_idea_groups = {
+	administrative_ideas
+	defensive_ideas
+	exploration_ideas
+	innovativeness_ideas
+	trade_ideas
+	quality_ideas
+	maritime_ideas
+	economic_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	austrian_tercio
+	austrian_grenzer
+	french_bluecoat
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+leader_names = {
+	Spot Star Spirit Blaze Lucky Chief Rain Stormy Duke Traveler "Clever Hans" Dreamer Midnight Twilight Arion Carlos Triumph Misty Honey Lady Annie Willow Buttermilk Silhouette "Lady Wonder" Rainbow Epona Denise Charisma
+}
+monarch_names = {
+	"Spot #0" = 1
+	"Star #0" = 1
+	"Spirit #0" = 1
+	"Blaze #0" = 1
+	"Lucky #0" = 1
+	"Chief #0" = 1
+	"Rain #0" = 1
+	"Stormy #0" = 1
+	"Duke #0" = 1
+	"Traveler #0" = 1
+	"Dreamer #0" = 1
+	"Midnight #0" = 1
+	"Twilight #0" = 1
+	"Arion #0" = 1
+	"Carlos #0" = 1
+	"Triumph #0" = 1
+	"Misty #0" = -1
+	"Honey #0" = -1
+	"Lady #0" = -1
+	"Annie #0" = -1
+	"Willow #0" = -1
+	"Buttermilk #0" = -1
+	"Silhouette #0" = -1
+	"Rainbow #0" = -1
+	"Epona #0" = -1
+	"Denise #0" = -1
+	"Charisma #0" = -1
+	
+}
+ship_names = {
+	Cloverfield Traveler Silverhaven Rainbow Courage Swiftness Seahorse Hippocampus
+}
+

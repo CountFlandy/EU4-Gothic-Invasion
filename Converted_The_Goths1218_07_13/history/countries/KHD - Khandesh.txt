@@ -1,0 +1,32 @@
+government = despotic_monarchy
+government_rank = 1
+technology_group = indian
+religion = jain
+primary_culture = malvi
+capital = 527	# Burhanpur
+
+
+1441.4.28 = {
+	monarch = {
+		name = "Miran Mubarak Khan I"
+ 		dynasty = "Faruqi"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+
+}
+
+1441.4.28 = {
+	heir = {
+		name = "'Adil Khan"
+		monarch_name = "'Adil Khan II"
+		dynasty = "Faruqi"
+		birth_date = 1430.1.1
+		death_date = 1470.1.1
+		claim = 95
+		ADM = 2
+		DIP = 4
+		MIL = 3
+	}
+}

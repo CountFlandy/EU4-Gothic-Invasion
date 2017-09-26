@@ -1,0 +1,17 @@
+#Odoyev
+government_rank = 1
+government = feudal_monarchy
+primary_culture = russian
+religion = slavic_pagan_reformed
+technology_group = eastern
+capital = 4116	# Upper Oka
+
+1427.1.1 = {
+	monarch = {
+		name = "Ivan"
+		dynasty = "Rurikovich"
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}

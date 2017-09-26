@@ -1,0 +1,20 @@
+# Toledo
+government = iqta
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = moorish
+religion = shiite
+capital = 219
+historical_rival = NAV
+
+1444.7.12 = {
+	monarch = {
+		name = "Wannaqo"
+		birth_date = 1433.1.26
+		dynasty = "Ummayad"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

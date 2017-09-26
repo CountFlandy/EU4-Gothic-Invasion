@@ -1,0 +1,17 @@
+#982 - Unamakik
+owner = VIN
+controller = VIN
+add_core = VIN
+culture = norse
+religion = norse_pagan_reformed
+capital = "Unamakik"
+trade_goods = fish
+hre = no
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+
+
+discovered_by = VIN
+discovered_by = north_american

@@ -1,0 +1,32 @@
+# Venice
+government = merchant_republic
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = venetian
+religion = catholic
+capital = 112
+
+historical_rival = GRE
+
+1433.11.16 = {
+	monarch = {
+		name = "Francesco II"
+		birth_date = 1382.7.22
+		dynasty = "Lanthieri"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco III"
+		dynasty = "Lanthieri"
+		birth_date = 1430.3.9
+		death_date = 1510.3.9
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

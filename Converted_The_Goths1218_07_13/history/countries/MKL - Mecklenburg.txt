@@ -1,0 +1,30 @@
+# Rugen
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = pommeranian
+religion = norse_religion_papacy
+capital = 47
+
+1444.1.1 = {
+	monarch = {
+		name = "Drego"
+		birth_date = 1413.8.2
+		dynasty = "Vulimi"
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	heir = {
+		name = "Zak"
+		monarch_name = "Zdislav"
+		dynasty = "Vulimi"
+		birth_date = 1429.9.6
+		death_date = 1495.1.1
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

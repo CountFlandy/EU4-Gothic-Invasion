@@ -1,0 +1,17 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = kannada
+religion = hinduism
+technology_group = indian
+capital = 533	# Mysore
+
+
+1399.1.1 = {
+	monarch = {
+		name = "Ganga Raja"
+		dynasty = "Ummatur"
+		ADM = 2
+		DIP = 1
+		MIL = 3
+	}
+}

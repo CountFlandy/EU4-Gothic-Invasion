@@ -1,0 +1,17 @@
+# No previous file for Galam
+owner = FUL
+controller = FUL
+add_core = FUL
+culture = fulani 
+religion = shamanism #Fetishism
+capital = "Galam"
+trade_goods = gold
+hre = no
+is_city = yes
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+
+
+discovered_by = sub_saharan

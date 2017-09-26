@@ -1,0 +1,9 @@
+owner = XXX
+controller = XXX
+remove_core = CHY
+
+culture = nakota
+religion = totemism
+
+discovered_by = north_american
+discovered_by = high_american

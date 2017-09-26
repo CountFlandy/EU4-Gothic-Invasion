@@ -1,0 +1,16 @@
+government = iqta
+primary_culture = kanauji
+religion = hinduism
+technology_group = indian
+capital = 522	# Delhi
+add_accepted_culture = panjabi
+
+1435.1.1 = {
+	monarch = {
+		name = "Aladdin IV"
+		dynasty = "Sayyid"
+		ADM = 1
+		DIP = 1
+		MIL = 1
+	}
+}

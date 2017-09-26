@@ -1,0 +1,26 @@
+# Vladimir
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = russian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 307
+1431.11.3 = {
+	monarch = {
+		name = "Sudislav"
+		birth_date = 1408.2.14
+		dynasty = "Khovansky"
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+
+}
+1444.11.11 = {
+	capital = 307
+	add_treasury = 11
+	add_prestige = 12
+	elector = no
+}

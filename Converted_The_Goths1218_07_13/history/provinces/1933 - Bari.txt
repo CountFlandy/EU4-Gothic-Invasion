@@ -1,0 +1,30 @@
+owner = CRO
+controller = CRO
+add_core = ACH
+remove_core = NAP
+
+culture = griko
+religion = orthodox
+
+is_city = yes
+hre = no
+
+add_local_autonomy = -22
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 3
+	base_production = 3
+	base_manpower = 5
+	remove_core = NAP
+}
+1444.11.11 = {
+	owner = CRO
+	controller = CRO
+	culture = griko
+	religion = orthodox
+}

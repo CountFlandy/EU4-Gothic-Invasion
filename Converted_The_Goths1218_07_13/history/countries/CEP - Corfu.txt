@@ -1,0 +1,19 @@
+#Corfu
+government = feudal_monarchy
+government_rank = 1
+technology_group = eastern
+primary_culture = epirote
+add_accepted_culture = cretan
+add_accepted_culture = thessalan
+religion = orthodox
+capital = 142
+
+1429.1.1 = {
+	monarch = {
+		name = "Karlo II"
+		dynasty ="Kassiopi"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

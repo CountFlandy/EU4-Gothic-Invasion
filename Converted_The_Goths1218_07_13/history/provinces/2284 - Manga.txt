@@ -1,0 +1,15 @@
+# No previous file for Manga
+
+owner = KBO
+controller = KBO
+add_core = KBO
+is_city = yes
+culture = kanuri 
+religion = shamanism
+capital = "Manga"
+trade_goods = grain
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 2
+discovered_by = sub_saharan

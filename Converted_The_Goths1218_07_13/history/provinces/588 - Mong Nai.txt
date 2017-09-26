@@ -1,0 +1,22 @@
+#588 - Mong Nai
+
+owner = HSE
+controller = HSE
+add_core = HSE
+culture = shan
+religion = buddhism
+capital = "Mong Nai"
+trade_goods = cotton
+hre = no
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+is_city = yes
+
+
+
+
+discovered_by = chinese
+discovered_by = indian
+
+

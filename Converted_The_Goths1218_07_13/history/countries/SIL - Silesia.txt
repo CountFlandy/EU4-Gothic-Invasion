@@ -1,0 +1,17 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = schlesian
+religion = norse_religion_papacy
+capital = 2970	
+
+1441.1.1 = {
+	monarch = {
+		name = "Vladimir I"
+		dynasty = "Vulimi"
+		birth_date = 1430.5.3
+		adm = 5
+		dip = 1
+		mil = 4
+	}
+}

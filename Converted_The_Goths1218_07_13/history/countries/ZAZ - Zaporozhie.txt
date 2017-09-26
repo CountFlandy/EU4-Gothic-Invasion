@@ -1,0 +1,6 @@
+#Zaprozhie
+government = despotic_monarchy
+technology_group = eastern
+religion = black_sea_pagan
+primary_culture = goths
+capital = 283	# Zaporozhia

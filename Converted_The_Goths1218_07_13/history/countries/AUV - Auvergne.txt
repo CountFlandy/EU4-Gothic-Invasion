@@ -1,0 +1,19 @@
+# Auvergne
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = auvergnese
+religion = catholic
+capital = 199
+1441.12.25 = {
+	monarch = {
+		name = "Arnault"
+		birth_date = 1402.3.25
+		dynasty = "Karling"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+
+}

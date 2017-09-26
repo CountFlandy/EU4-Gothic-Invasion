@@ -1,0 +1,25 @@
+owner = KAT
+controller = KAT
+add_core = KAT
+culture = gujarati
+religion = jain
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 6
+	base_production = 6
+	base_manpower = 5
+	remove_core = GUJ
+}
+1444.11.11 = {
+	owner = KAT
+	controller = KAT
+	culture = gujarati
+	religion = jain
+}

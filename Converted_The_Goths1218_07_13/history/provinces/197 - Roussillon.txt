@@ -1,0 +1,35 @@
+owner = TOU
+controller = TOU
+add_core = TOU
+add_core = FOI
+remove_core = ARA
+remove_core = FRA
+remove_core = CAT
+
+culture = occitain
+religion = catholic
+
+is_city = yes
+hre = no
+
+add_local_autonomy = -22
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 6
+	base_production = 6
+	base_manpower = 3
+	remove_core = FRA
+	remove_core = ARA
+	remove_core = CAT
+}
+1444.11.11 = {
+	owner = TOU
+	controller = TOU
+	culture = occitain
+	religion = catholic
+}

@@ -1,0 +1,193 @@
+country_decisions = {
+#Scandanavia
+	scandinavian_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = SCA }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			culture_group = scandinavian
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 10
+					adm_tech = 20
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 12
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 1		# Uppland
+			owns_core_province = 6		# Skane
+			owns_core_province = 7		# Vastergotland
+			owns_core_province = 12		# Sjaelland
+			owns_core_province = 15		# Jylland
+			owns_core_province = 17		# Akershus
+		}
+		effect = {
+			change_tag = SCA
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			scandinavia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SCA
+			}	
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 5
+			
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#Iceland
+	icelandic_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			owns = 370
+			owns = 371
+			NOT = { has_country_flag = formed_iceland } #Only once
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				ai = no
+				NOT = { num_of_cities = 4 }
+			}
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			NOT = { tag = PAP }
+			NOT = { tag = TUR }
+			NOT = { tag = BYZ }
+			NOT = { exists = ICE }
+			is_colonial_nation = no		
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			NOT = { num_of_cities = 4 }
+			owns_core_province = 370
+			owns_core_province = 371
+		}
+		effect = {
+			hidden_effect = {
+				every_province = {
+					limit = {
+						is_core = ROOT
+						NOT = { owned_by = ROOT }
+					}
+					remove_core = ROOT
+					if = {
+						limit = { ROOT = { tag = NOR } }
+						set_province_flag = norwegian_core
+					}
+					if = {
+						limit = { ROOT = { tag = DAN } }
+						set_province_flag = danish_core
+					}
+					if = {
+						limit = { ROOT = { tag = SWE } }
+						set_province_flag = swedish_core
+					}					
+				}
+			}		
+			change_tag = ICE
+			set_country_flag = formed_iceland
+			if = {
+				limit = {
+					capital_scope = { NOT = { area = subarctic_islands_area } }
+				}
+				set_capital = 370
+			}
+			if = {
+				limit = { NOT = { primary_culture = icelandic } }
+				change_primary_culture = icelandic
+			}
+			every_owned_province = {
+				limit = { area = subarctic_islands_area }
+				add_local_autonomy = -100
+			}
+			370 = {
+				add_base_tax = 1
+				add_base_production = 1
+			}
+			371 = {
+				add_base_tax = 1
+				add_base_production = 1
+			}			
+			hidden_effect = {
+				every_province = {
+					if = {
+						limit = {
+							has_province_flag = norwegian_core
+						}
+						add_core = NOR
+						clr_province_flag = norwegian_core					
+					}
+					if = {
+						limit = {
+							has_province_flag = danish_core
+						}
+						add_core = DAN
+						clr_province_flag = danish_core					
+					}
+					if = {
+						limit = {
+							has_province_flag = swedish_core
+						}
+						add_core = SWE
+						clr_province_flag = swedish_core					
+					}					
+				}
+			}			
+		}
+		ai_will_do = {
+			factor = 1
+			#modifier = {
+				#factor = 0
+				#capital_scope = { NOT = { area = subarctic_islands_area } }
+			#}
+		}
+	}
+	
+}

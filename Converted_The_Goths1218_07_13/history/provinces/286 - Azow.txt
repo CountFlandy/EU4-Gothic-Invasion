@@ -1,0 +1,26 @@
+owner = STR
+controller = STR
+add_core = STR
+add_core = GOH
+add_core = CRI
+culture = goths
+religion = black_sea_pagan
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 2
+	base_production = 1
+	base_manpower = 1
+	remove_core = GEN
+}
+1444.11.11 = {
+	owner = STR
+	controller = STR
+	culture = goths
+	religion = black_sea_pagan
+}

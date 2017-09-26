@@ -1,0 +1,30 @@
+government = steppe_horde
+primary_culture = oirats
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 2191	# Kobdo
+
+
+1420.1.1 = {
+	monarch = {
+		name = "Erdeni Batur"
+		dynasty = "Choros"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1443.1.1 = {
+	heir = {
+		name = "Sengge"
+		monarch_name = "Sengge"
+		dynasty = "Choros"
+		birth_date = 1440.1.1
+		death_date = 1481.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

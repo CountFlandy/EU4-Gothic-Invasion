@@ -1,0 +1,462 @@
+country_decisions = {
+
+	moroccan_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = MOR }
+			NOT = { tag = TUN }
+			NOT = { tag = TLC }
+			NOT = { tag = ALG }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			primary_culture = moroccan
+			NOT = { religion = jewish }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 5	#Any big Moroccan tag will try to usurp the title
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = MOR }
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			owns_core_province = 343 #Fez
+			owns_core_province = 344 #Marrekech
+			owns_core_province = 348 #Sus
+			owns_core_province = 334 #Tangiers
+		}
+		effect = {
+			change_tag = MOR
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			marrekesh_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MOR
+			}
+			western_morocco_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MOR
+			}
+			southern_morocco_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MOR
+			}
+			northern_morocco_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MOR
+			}
+			add_prestige = 25
+			set_capital = 344 #Marrekech
+			change_primary_culture = moroccan 
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+	algiers_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = MOR }
+			NOT = { tag = TUN }
+			NOT = { tag = TLC }
+			NOT = { tag = ALG }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			primary_culture = algerian
+			NOT = { religion = jewish }	
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = ALG }
+					ai = yes
+					num_of_cities = 5
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = ALG }
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			primary_culture = algerian
+			owns_core_province = 338 #Algiers
+			owns_core_province = 2461 #Dahra
+			owns_core_province = 336 #Tlemcen
+			owns_core_province = 339 #Kabylia
+		}
+		effect = {
+			change_tag = ALG
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			change_primary_culture = algerian
+			algiers_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ALG
+			}
+			hautes_plaines_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ALG
+			}
+			kabylia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ALG
+			}
+			if = {
+				limit = {
+					is_tribal = yes	#Desert tribes settling down.
+				}
+				change_government = despotic_monarchy
+			}
+			add_prestige = 25
+			set_capital = 338 #Algiers
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+	tunisian_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = MOR }
+			NOT = { tag = TUN }
+			NOT = { tag = TLC }
+			NOT = { tag = ALG }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			primary_culture = tunisian
+			NOT = { religion = jewish }
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = TUN }
+					ai = yes
+					num_of_cities = 5
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = TUN }
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			owns_core_province = 341 #Tunis
+			owns_core_province = 2473 #Souss
+			owns_core_province = 2454 #Kef
+			}
+		effect = {
+			change_tag = TUN
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			change_primary_culture = tunisian
+			tunisia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TUN
+			}
+			if = {
+				limit = {
+					is_tribal = yes
+				}
+				change_government = despotic_monarchy #Desert tribes settling down.
+			}
+			add_prestige = 25
+			set_capital = 341 #Tunis
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+	tripoli_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = MOR }
+			NOT = { tag = TUN }
+			NOT = { tag = TLC }
+			NOT = { tag = ALG }
+			NOT = { tag = TRP }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			primary_culture = tripolian
+			NOT = { religion = jewish }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = TRP }
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			owns_core_province = 354 #Tripoli
+			owns_core_province = 2451 #Thubaqt
+			owns_core_province = 355 #Sirt
+			owns_core_province = 353 #Djerba
+			
+		}
+		effect = {
+			change_tag = TRP
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			change_primary_culture = tripolian
+			tripolitania_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TRP
+			}
+			if = {
+				limit = {
+					is_tribal = yes #Desert tribes settling down.
+				}
+				change_government = despotic_monarchy
+			}
+			add_prestige = 25
+			set_capital = 354 #Tripoli
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+	tamazgha_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = MOR }
+			NOT = { tag = TUN }
+			NOT = { tag = TLC }
+			NOT = { tag = ALG }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = TMZ }
+			NOT = { exists = TMZ }
+			primary_culture = berber
+			NOT = { religion_group = muslim }
+			OR = { 
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 5	#Any big Moroccan tag will try to usurp the title
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = TMZ }
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+			owns_core_province = 343 #Fez
+			owns_core_province = 344 #Marrekech
+			owns_core_province = 334 #Tangiers
+			owns_core_province = 346 #Tafilalt
+			owns_core_province = 354 #Tripoli
+			owns_core_province = 355 #Sirt
+			owns_core_province = 353 #Djerba
+			owns_core_province = 341 #Tunis
+			owns_core_province = 2473 #Souss
+			owns_core_province = 338 #Algiers
+			owns_core_province = 2461 #Dahra
+			owns_core_province = 336 #Tlemcen
+			owns_core_province = 339 #Kabylia
+			
+			stability = 1
+		}
+		effect = {
+			change_tag = TMZ
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			maghreb_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TMZ
+			}
+			cyrenaica_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TMZ
+			}
+			if = {
+				limit = {
+					is_tribal = yes #Desert tribes settling down.
+				}
+				change_government = despotic_monarchy
+			}
+			add_prestige = 25
+			set_capital = 341 #Marrekech
+			change_primary_culture = berber
+			#if = {
+				#limit = { has_custom_ideas = no }
+				#country_event = { id = ideagroups.1 } #Swap Ideas
+			#}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}	
+}

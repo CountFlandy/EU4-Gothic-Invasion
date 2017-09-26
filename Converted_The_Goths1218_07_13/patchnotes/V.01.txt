@@ -1,0 +1,26 @@
+V.01
+
+NEW ADDITIONS
+-New Nation: Brimar replacing Oldenberg!
+-New Nation: Holsetaland replacing Holstein!
+-New Nation: Bornholm (cores only) (featuring a special ruler)
+-New Nation: Lithaen replacing Lithuania!
+-New Nation: Rauostokk, in pomerania
+-Semi New Nation: Danzig
+-Semi New Nation: Mazovia
+-Semi New Nation: Aachea
+
+CHANGES
+-Rhineland Culture Group merged with French Group
+-Norman moved from French to Scandanavian Group
+-Catalan moved to Occitain Group
+-Danzig Given cores on all of Danzig Culture
+-Added Mazovian Cores on Norse-Polish culture
+-Added Mazovia as Flykirates Vassal
+-Aachea added in southern italy, replacing Naples as the greek italian nation. Naples moved to Neopolatian culture
+-Added Polish cores on Norse-Polish cultured land
+
+BUG FIXES
+-Fixed Nantes Culture
+-Squashed strange bug where Jutland owned half of denmark for some reason
+-Finally removed the extra 2 Gotlands

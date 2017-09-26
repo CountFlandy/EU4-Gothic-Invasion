@@ -1,0 +1,26 @@
+#Cyrenaica
+government = despotic_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = cyrenaican
+add_accepted_culture = cretan
+religion = orthodox
+clear_scripted_personalities = yes
+capital = 356
+1444.1.1 = {
+	monarch = {
+		name = "Kastor"
+		birth_date = 1390.6.21
+		dynasty = "Pathogrean"
+		adm = 5
+		dip = 2
+		mil = 6
+	}
+}
+
+1444.11.11 = {
+	capital = 356
+	add_treasury = 40
+	add_prestige = 40
+}

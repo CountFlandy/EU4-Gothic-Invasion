@@ -1,0 +1,31 @@
+government = despotic_monarchy
+primary_culture = malayan
+religion = mahayana
+technology_group = chinese
+capital = 2394	# Kedah
+
+
+
+1422.1.1 = {
+	monarch = {
+		name = "Ataullah Muhammad Shâh"
+		dynasty = "Kedah"
+		adm = 3
+		dip =3
+		mil = 3
+	}
+}
+
+1430.1.1 = {
+	heir = {
+		name = "Muhammad Jiwa Zainal Adilin"
+		monarch_name = "Muhammad Jiwa Zainal Adilin"
+		dynasty = "Kedah"
+		birth_date = 1430.1.1
+		death_Date = 1506.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}

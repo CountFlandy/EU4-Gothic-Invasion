@@ -1,0 +1,19 @@
+#367 - The Azores
+owner = GEN
+controller = GEN
+add_core = GEN
+remove_core = POR
+
+culture = ligurian
+religion = catholic
+
+capital = "The Azores"
+
+trade_goods = fish
+
+hre = no
+is_city = yes
+
+base_tax = 3
+base_production = 2
+base_manpower = 2

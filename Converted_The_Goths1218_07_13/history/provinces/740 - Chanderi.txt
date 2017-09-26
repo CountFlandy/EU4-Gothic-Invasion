@@ -1,0 +1,25 @@
+owner = BND
+controller = BND
+add_core = BND
+culture = avadhi
+religion = hinduism
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 5
+	base_production = 5
+	base_manpower = 3
+	remove_core = MLW
+}
+1444.11.11 = {
+	owner = BND
+	controller = BND
+	culture = avadhi
+	religion = hinduism
+}

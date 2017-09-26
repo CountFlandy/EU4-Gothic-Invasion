@@ -1,0 +1,17 @@
+government = despotic_monarchy
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = malayalam
+capital = 537	# Padmanabhapuram
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Mootha"
+		dynasty = "Cheraman"
+		DIP = 3
+		ADM = 3
+		MIL = 0
+	}
+}

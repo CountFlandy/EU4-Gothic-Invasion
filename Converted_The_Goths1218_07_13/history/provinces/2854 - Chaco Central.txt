@@ -1,0 +1,17 @@
+owner = CHN
+controller = CHN
+add_core = CHN
+
+is_city = yes
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = unknown
+
+religion = south_american_pagan
+culture = chacoan
+
+discovered_by = south_american
+

@@ -1,0 +1,29 @@
+ government = tribal_federation
+primary_culture = uyghur
+religion = vajrayana
+technology_group = chinese
+capital = 739	# kashgar
+
+1434.1.1 = {
+	monarch = {
+		name = "Sayyid"
+		dynasty = "Uyghur"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Mirza Abu Bakr"
+		monarch_name = "Mirza Abu Bakr"
+		dynasty = "Uyghur"
+		birth_date = 1440.1.1
+		death_date = 1478.5.4
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,4 @@
+culture = nakota
+discovered_by = high_american
+
+

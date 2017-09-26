@@ -1,0 +1,18 @@
+owner = RAM
+controller = RAM
+add_core = RAM
+
+culture = cappadocian_greek
+religion = orthodox
+
+is_city = yes
+hre = no
+
+base_tax = 6
+base_production = 6
+base_manpower = 2
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

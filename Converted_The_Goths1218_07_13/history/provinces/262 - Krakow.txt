@@ -1,0 +1,25 @@
+owner = POL
+controller = POL
+add_core = POL
+add_core = KRA
+
+culture = polish
+religion = slavic_pagan_reformed
+
+is_city = yes
+hre = yes
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}
+

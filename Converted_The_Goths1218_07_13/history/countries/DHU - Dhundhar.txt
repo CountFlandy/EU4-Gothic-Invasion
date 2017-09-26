@@ -1,0 +1,31 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = rajput
+religion = hinduism
+technology_group = indian
+capital = 519	# Jaipur
+
+1439.1.1 = {
+	monarch = {
+		name = "Uddharana"
+		dynasty = "Kachhawa"
+		DIP = 2
+		MIL = 3
+		ADM = 4
+	}
+}
+
+1439.1.1 = {
+	heir = {
+		name = "Chandra Sena"
+		monarch_name = "Chandra Sena"
+		dynasty = "Kachhawa"
+		birth_date = 1430.1.1
+		death_date = 1503.2.3
+		claim = 95
+		DIP = 1
+		MIL = 3
+		ADM = 2
+	}
+
+}

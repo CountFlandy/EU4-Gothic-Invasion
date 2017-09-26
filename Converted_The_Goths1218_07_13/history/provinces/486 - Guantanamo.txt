@@ -1,0 +1,17 @@
+owner = TAI
+controller = TAI
+add_core = TAI
+
+is_city = yes
+hre = no
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+trade_goods = unknown
+
+
+discovered_by = south_american
+
+culture = arawak
+religion = carribean_pagan

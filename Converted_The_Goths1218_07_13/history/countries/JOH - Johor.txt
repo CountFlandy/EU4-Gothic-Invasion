@@ -1,0 +1,17 @@
+government = despotic_monarchy
+primary_culture = malayan
+religion = jain
+technology_group = chinese
+capital = 597	# Johor
+
+# Melaka Dynasty
+
+1420.1.1 = {
+	monarch = {
+		name = "Alauddin Riayat Shâh II"
+		dynasty = "Melaka"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

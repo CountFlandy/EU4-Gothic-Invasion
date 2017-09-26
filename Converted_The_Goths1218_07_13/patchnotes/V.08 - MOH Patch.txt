@@ -1,0 +1,148 @@
+Mandate of Heaven Compatch/Ideas guy Patch
+
+NEW ADDITIONS
+
+	Ideas
+		- Added French ideas (FRA only), Ming ideas (MNG only), Burgundy ideas (BUR only), Cumbric ideas (CUM only), Scottish ideas (SCO only), Hungarian ideas (HUN only)
+		- Added Milan ideas (MLO only), Bohemia ideas (BOH only), Palatinate ideas (PAL only), Novgorod ideas (NOV only), Savoy (SAV only), Saxony (SAX only), Granada ideas (GRA only)
+		- Added Papal ideas (PAP only), Shawnee ideas (SHA only), Kurland ideas (KUR only), Provence ideas (PRO only), Wallachian ideas (WAL only), Lithuanian ideas (LIT only)
+		- Added Croatian ideas (CRO only), Cyprus ideas (CYP only), Aztec ideas (AZT only), Pskov ideas (PSK only), Krakow ideas (KRA only), Danzig ideas, (DNZ only), Bosnian ideas (BOS only)
+		- Added Tarascan ideas (TAR only), Added Bythnia ideas (KAR only), Montenegro ideas (MON only), Athens ideas (ATH only), Gotland ideas (GOT only), Castile ideas (CAS only)
+		- Added Persian ideas (PER only), Bavarian ideas (BAV only), Aragonese ideas (ARA only), Afghanistan ideas (AFG only), VIJ ideas (VIJ only), Najid ideas (NAJ only)
+		- Added Hejaz ideas (HED only), added Theodoro ideas (FEO only), Gothic ideas (GOH only), Ostrogothic ideas (OST only), Crimean ideas (CRI only), Jaunpur ideas (JNP only)
+		- Added Kara-Khitai ideas (KHI only), Alania ideas (CIR only), Armenian ideas (ARM only), Pommeranian ideas (POM only), Bulgarian ideas (BUL only), Teutonic ideas (TEU only)
+		- Added Finnish ideas (FIN only), Silesian ideas (SIL only), Naxian ideas (NAX only), Holsetaland ideas (SHL only), Baden ideas (BAD only), Luxembourg ideas (LUX only)
+		- Added Ayutthaya ideas (AYU only), Korean ideas (KOR only), Maratha ideas (MAR only), Assam ideas (ASS only), Switzerland ideas (SWI only), Nepal ideas (NPL only)
+		- Added Mali ideas (MAL only), Kongo ideas (KON only), Mogadishu ideas (MDI only), Majapahit ideas (MAJ only), Dahomey ideas (DAH only), Kanem Bornu ideas (KBO only)
+		- Added Ajuuraan ideas (AJU only), Air ideas (AIR only), Mossi ideas (MSI only), Albanian ideas (ALB only), Ashanti ideas (ASH only), Pecheng ideas (KAZ only)
+		- Added Welsh ideas (WLS only), Lan Xang ideas (LXA only), Khemer ideas (KHM only), Transylvanian ideas (TRA only), Sukhothai ideas (SUK only), Ceylon ideas (CEY only)
+		- Added Thuringia ideas (THU only), Catalonia ideas (CAT only), Hessen ideas (HES only), Baluchistan ideas (BAL only), Orleans ideas (ORL only), Benin ideas (BEN only), 
+		- Added Songhai ideas (SON only), Galacia ideas (GAL only), Tirhut ideas (TRT only), 
+		- Adjusted balance of various ideas previously added, and made comments marking the ideas that may need further adjusting
+		- Overhauled existing Genoese ideas, Hashshashin ideas, Jomsvikings ideas, Templar ideas, 
+
+	Culture
+		- Hormuzi is now a culture, replacing Bedouuin in Hormuz
+
+CHANGES
+
+	Countries
+		- Persia now exists in 1444 (future plans include a decision to pick one of 3 rulers, and a custom republic government)
+		- Afghanistan now exists in 1444, being a Zunist Pagan (Future plans include a muslim uprising)
+		- Timuruids no longer exist, their campaign ended after Timur died and the empire exploded 
+		- Moved around various cores/owners of provinces in the middle east
+		- Haasa no longer exists in 1444, but has cores
+		- Najid is now a theocracy
+		- Pommerania now has cores on all of Hinterpommern, and Hinterpommern is now Pommeranian culture
+
+	General
+		- Updated various triggers
+		- Updated Units
+		- Updated Trade regions (yay!!)
+		- Overrode my changes to TradeGoods. (I'll change them again later, when we get to trade goods)
+		- Updated Trade regions
+		- Somehow our beloved Communist Republic was not in game. This has been solved by order of the revolution!
+		- Went through all the provinces that had remains of the old converter code, and stripped it out
+		- Changed Pontus starting dynasty to Komnenoi
+
+	Graphics
+		- Savoy now uses the proper new flag
+		- Just copy/pasted the whole flag folder into the mod one. Didn't want to look for the tags.
+
+	Decisions
+		- Forming Tibet STILL DOES NOT require any Buddhist religion! (Gogogo obscure Flandy strat AnyNation -> Tibet -> Other Tag because he can!)
+
+	Game Balance
+		- Updated defines to include the changes
+		- HRE mechanics; HRE_VOTE_TOO_SMALL = -5(15), HRE_VOTE_BIG_COUNTRY = 15 (25), HRE_VOTE_VERY_BIG_COUNTRY = 25 (50), GRANT_FREECITY_INFLUENCE = 2 (0), GRANT_ELECTORATE_INFLUENCE = 2 (0)
+		- PO_TAKE_MANDATE_PRESTIGE = 50 (From 25)
+		- AUTODIPLO_TARGET_SUBJECTS_HOPELESS_LIMIT = -190 (from -200)
+		- AUTODIPLO_TARGET_ALLIES_IMPROVECAP = 100 (from 80)
+		- ALLOW_ESTATE_IN_CAPITAL = 0 (From 1. Changed because recent changes to states makes this feel unfair)
+		- PS_BUY_NATIVE_ADVANCEMENT = 400 (From 500)
+		- BREAK_MARRIAGE_PRESTIGE_PENALTY = -10 (from -5)
+		- GOLD_MINE_SIZE_PRIMITIVES = 20 (from 4. It's now half of not primitive)
+		- REBEL_RELOCATION_DISTANCE_MAX = 400 (from 200. To encourage less having to island hop to kill rebels. hopefully this won't work against my goal.)
+		- CAV_SUPPRESSION = 0.30 (from .25)
+		- ONLY_INFANTRY_MERCS = 0 (From 1)
+		- DEVELOPMENT_CAP_BASE = 40 (From Mod's 50, Vanilla's 10.)
+		- SACRIFICE_COOLDOWN = 1 (0 from mod, 3 from vanilla)
+		- MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE = 200.0 (150)
+		- MAX_PAPAL_INFLUENCE = 200.0 (From mod's 300)
+		- Primitive Nations and vassal nations DEV cost has been changed from .50 to .75 (will change later, I'm sure)
+		- Genoa given control over Azores
+		- France annexed Burgundy. It's planned to represent French Feudalism later in the mod. For now, it'll be represented by autonomy
+
+	Disasters
+		- Overrote all the existing disasters the mod had worked on, and implimented them with Vanilla disasters.
+		- Disabled the Disasters that are for the following nations; Denmark, Ottomans, Sweden, Russia/Moscovy, England, Castile/Spain. (Left the French Revolution, and French wars of Religion.)
+		- The Empire of China disaster was changed to also account for Korean culture
+
+	Governments
+		- Updated the Governments to take into account for the 1.20 changes
+		- Removed Absolute Monarchy (RIP Old Friend)
+		- Revolutionary Empire Government gives 4 states instead of 3
+		- Added Noble Republic to Nation Designer
+		- Noble Republic gets .5 Army Tradition modifier instead of tolerance of heretics
+		- Republican Dictatorship now can Royal Marriage again.
+		- Monastic Order's now can have 2 states, as opposed to vanilla's 1. They also received an extra tolerance of their own faith.
+		- Enabled Battle Pope again	
+		- Added Ranks 2/3 for Siberian and regular Native Councils
+		- English Monarchy changed to 2 max states, from 1
+		- Imperial Cities now have +15% dev as opposed to +10%
+		- Adjusted Vassal Daimyo's to get the bonuses of Rank 2 Independent Daimyo
+		- Greek Republics rank modifiers were changed! Rank 1 gets Fort Defense +10% and +5% global Manpower Modifier. Rank 2 gets 10% Fort Defense, 5% Global Manpower Modifier, and 5% force limit. Rank 3 is the same as rank 2
+	Culture
+		- Removed Western Steppe, combined it with Central Steppe
+		- Added Manchu Banners
+		- Removed Macronesian culture, it served no real purpose. The Cannaries were made Berber/Jewish, while the Azores and Maderia made Ligurian/Catholic
+		- Anyone in the Scandanavian culture group can raid coasts now
+
+	Ideas
+		- Brought the newly made (Mod) ideas into line with vanilla a little, making them less OP
+		- Added the new Japanese, Communist, and other (indian?) ideas
+		- Adjusted existing Japanese ideas to be in line with the new ones.
+		- Berber ideas are now properly updated for the new Berber Culture Group
+		- Polish Winged Hussars are 15% cav ratio, and not 10
+		- Updated various ideas that were changed
+		- Nubian ideas updated for their new culture group
+		- Nubian ideas "Desert Calv" now also give cav_to_inf_ratio = 0.05
+
+	Countries
+		- Just copy/pasted the whole damn folder over the existing one and didn't override the old ones. Fuck looking for those strange names
+		- Just copy/pasted the whole damn folder over the existing history folder and didn't override the old ones. Fuck looking for those strange names
+		- IDGAF who is a tributary to Ming in 1444. Ming wont exist when I get to Asia anyways
+		- Northumberland's religion was changed to norse, to give a revolter state in the british isles a chance
+		- Removed any data from 1445 onwards. Our history is not the same of the history of the mod, and so it must be purged
+		- 
+	Religion
+		- Updated Coptic's color
+		- Added Shinto Incidents
+		- Updated religions finally, so using new mechanics shouldn't crash the game (hopefully?)
+		- Changed various religion modifiers for balance sake
+		- All religions who had local_missionary_strength = 0.02 as a province modifier had it removed, and replaced with a province modifier revelant to the religion that's positive instead
+		- 
+
+	Events
+		- Added the new EVENT DOCUMENTS to the mod. Changes to existing events have yet to be changed.
+		- Updated japan.txt 
+		- Removed the two events I already made, because its easier to just remove my work than to sift through all the events and fix them
+		- 
+	Map
+		- Removed the Ireland-wales straight :( (It'll return when I overhaul those, one day.)
+		- Regions/Areas/SuperRegions shouldn't need to be changed.
+
+	Localisation
+		- Added (all that I found) localisations from the patch
+		- Began the organization of localisation because I can't find a damn thing in Paradox's files
+
+	Misc
+		- Went through all of the Arabian and Middle eastern and Persian provinces and removed the old files
+
+
+	BUG FIXES
+		- Fixed ALL province names to be the same as Vanilla, no more loading provinces twice! No more strange province bugs! World Hunger solved! Well, maybe not the last one
+		- Fixed various bugs in North America that caused mass migrations to nowhere that left every province empty. Really, no one lived there
+		- Fixed religion icons not working properly, or sometimes at all
+		- Fixed strange bug that randomized flags across all nations, resulting in the Aztecs having Papal states flag, Ottomans having Hungarys flag, Ming having Manchurias flag, and other oddities
+		- 

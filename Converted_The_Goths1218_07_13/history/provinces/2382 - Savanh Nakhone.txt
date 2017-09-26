@@ -1,0 +1,21 @@
+#2382 - Savanh Nakhone
+
+owner = LXA
+controller = LXA
+add_core = LXA
+
+culture = lao
+religion = buddhism
+
+capital = "Luang Namtha"
+trade_goods = copper
+hre = no
+
+base_tax = 3 
+base_production = 3
+base_manpower = 2
+
+is_city = yes
+
+discovered_by = chinese
+discovered_by = indian

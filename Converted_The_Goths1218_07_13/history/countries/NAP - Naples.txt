@@ -1,0 +1,19 @@
+# Naples
+government = merchant_republic
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = neapolitan
+religion = catholic
+capital = 121
+
+1444.7.12 = {
+	monarch = {
+		name = "Orestes"
+		birth_date = 1413.12.6
+		dynasty = "von Luxemburg"
+		adm = 4
+		dip = 1
+		mil = 1
+	}
+}

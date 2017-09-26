@@ -1,0 +1,26 @@
+owner = OKA
+controller = OKA
+add_core = OKA
+
+culture = russian
+religion = slavic_pagan_reformed
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = yes
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1444.11.11 = {
+	owner = OKA
+	controller = OKA
+	culture = russian
+	religion = slavic_pagan_reformed
+}

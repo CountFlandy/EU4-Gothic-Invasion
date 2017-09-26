@@ -1,0 +1,17 @@
+#Bithynia
+government = feudal_monarchy
+government_rank = 1
+primary_culture = pontic_greek
+add_accepted_culture = cretan
+add_accepted_culture = cappadocian_greek
+add_accepted_culture = greek
+religion = orthodox
+technology_group = eastern
+capital = 317
+
+1444.1.1 = {
+	primary_culture = pontic_greek
+	add_accepted_culture = greek
+	religion = orthodox
+	technology_group = eastern
+}

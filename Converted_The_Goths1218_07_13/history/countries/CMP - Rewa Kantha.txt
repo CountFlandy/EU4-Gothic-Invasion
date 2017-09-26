@@ -1,0 +1,32 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = gujarati
+religion = jain
+technology_group = indian
+capital = 2056	# Rewa Kantha
+
+
+
+1440.1.1 = {
+	monarch = {
+		name = "Patai Rawal"
+		dynasty = "Chauhan"
+		DIP = 3
+		MIL = 4
+		ADM = 2
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Prithviraj"
+		monarch_name = "Patai Rawal"
+		dynasty = "Chauhan"
+		birth_date = 1440.1.1
+		death_date = 1523.2.22
+		claim = 95
+		DIP = 3
+		MIL = 4
+		ADM = 2
+	}
+}

@@ -1,0 +1,29 @@
+government = despotic_monarchy
+primary_culture = rajput
+religion = jain
+technology_group = indian
+capital = 514	# Jodphur
+
+1438.1.1 = {
+	monarch = {
+		name = "Jodha"
+		dynasty = "Rathore"
+		DIP = 2
+		MIL = 4
+		ADM = 4
+	}
+}
+
+1440.1.1 = {
+	heir = {
+		name = "Satal"
+		monarch_name = "Satal"
+		dynasty = "Rathore"
+		birth_date = 1440.1.1
+		death_date = 1498.1.1
+		claim = 95
+		DIP = 0
+		MIL = 3
+		ADM = 1
+	}
+}

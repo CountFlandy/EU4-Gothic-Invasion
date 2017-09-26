@@ -1,0 +1,9 @@
+owner = XXX
+controller = XXX
+remove_core = PAW
+culture = siouan
+religion = totemism
+trade_goods = unknown
+
+discovered_by = north_american
+discovered_by = high_american

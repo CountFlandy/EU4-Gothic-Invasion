@@ -1,0 +1,1479 @@
+Validation Error Log
+----------------------------------------------------------
+
+At <mod>\decisions\Estates.txt [country_decisions\curtail_estate_dhimmi] (Line 133, column 2):
+The string curtail_estate_dhimmi_title was not found in localization.
+
+At <mod>\decisions\Estates.txt [country_decisions\curtail_estate_dhimmi] (Line 133, column 2):
+The string curtail_estate_dhimmi_desc was not found in localization.
+
+At <mod>\decisions\JapaneseNation.txt [country_decisions\sword_hunt_decision] (Line 151, column 2):
+The string sword_hunt_decision_title was not found in localization.
+
+At <mod>\decisions\JapaneseNation.txt [country_decisions\sword_hunt_decision] (Line 151, column 2):
+The string sword_hunt_decision_desc was not found in localization.
+
+At <mod>\decisions\ReligiousConversion.txt [country_decisions\join_the_counter_reformation\potential\NOT\has_idea] (Line 9, column 12):
+"liberty_egalite_fraternity" is not a valid Idea.
+
+At <mod>\common\subject_types\00_subject_types.txt [colony] (Line 382, column 1):
+The string colony was not found in localization.
+
+At <mod>\common\subject_types\00_subject_types.txt [client_march] (Line 363, column 1):
+The string client_march was not found in localization.
+
+At <mod>\common\subject_types\00_subject_types.txt [client_vassal] (Line 345, column 1):
+The string client_vassal was not found in localization.
+
+At <mod>\common\subject_types\00_subject_types.txt [personal_union] (Line 307, column 1):
+The string personal_union was not found in localization.
+
+At <mod>\common\subject_types\00_subject_types.txt [daimyo_vassal] (Line 235, column 1):
+The string daimyo_vassal was not found in localization.
+
+At <mod>\common\subject_types\00_subject_types.txt [march\modifier_subject\expiration_message_overlord] (Line 230, column 3):
+"MARCHTOOLARGE" is not a valid LocalizationKey.
+
+At <mod>\common\subject_types\00_subject_types.txt [march\modifier_subject\expiration_message_subject] (Line 231, column 3):
+"MARCHTOOLARGEUS" is not a valid LocalizationKey.
+
+At <mod>\common\subject_types\00_subject_types.txt [march] (Line 188, column 1):
+The string march was not found in localization.
+
+At <mod>\common\subject_types\00_subject_types.txt [vassal] (Line 142, column 1):
+The string vassal was not found in localization.
+
+At <mod>\common\colonial_regions\00_colonial_regions.txt [colonial_canada\names\name] (Line 212, column 3):
+The string COLONIAL_CANADA_Nouvelle_Écosse was not found in localization.
+
+At <mod>\common\colonial_regions\00_colonial_regions.txt [colonial_canada\names\name] (Line 134, column 3):
+The string COLONIAL_CANADA_Nouvelle_Écosse was not found in localization.
+
+At <mod>\common\trade_companies\00_trade_companies.txt [trade_company_moluccas\names\name] (Line 201, column 3):
+"TRADE_COMPANY_MOLUCCAS_Indonesia_Trade_Company" is not a valid LocalizationKey.
+
+At <mod>\common\disasters\english_civil_war.txt [english_civil_war\on_start] (Line 80, column 2):
+"english_civil_war.1" is not a valid CountryEventId.
+
+At <mod>\common\disasters\english_civil_war.txt [english_civil_war\on_end] (Line 81, column 2):
+"english_civil_war.100" is not a valid CountryEventId.
+
+At <mod>\common\disasters\english_civil_war.txt [english_civil_war\on_monthly\random_events\100] (Line 98, column 4):
+"english_civil_war.10" is not a valid CountryEventId, ProvinceEventId, or 0.
+
+At <mod>\common\disasters\english_civil_war.txt [english_civil_war\on_monthly\random_events\100] (Line 97, column 4):
+"english_civil_war.9" is not a valid CountryEventId, ProvinceEventId, or 0.
+
+At <mod>\common\disasters\english_civil_war.txt [english_civil_war\on_monthly\random_events\100] (Line 96, column 4):
+"english_civil_war.8" is not a valid CountryEventId, ProvinceEventId, or 0.
+
+At <mod>\common\disasters\english_civil_war.txt [english_civil_war\on_monthly\random_events\100] (Line 95, column 4):
+"english_civil_war.7" is not a valid CountryEventId, ProvinceEventId, or 0.
+
+At <mod>\common\disasters\english_civil_war.txt [english_civil_war\on_monthly\random_events\100] (Line 94, column 4):
+"english_civil_war.6" is not a valid CountryEventId, ProvinceEventId, or 0.
+
+At <mod>\common\disasters\english_civil_war.txt [english_civil_war\on_monthly\random_events\100] (Line 93, column 4):
+"english_civil_war.5" is not a valid CountryEventId, ProvinceEventId, or 0.
+
+At <mod>\common\disasters\english_civil_war.txt [english_civil_war\on_monthly\random_events\100] (Line 92, column 4):
+"english_civil_war.4" is not a valid CountryEventId, ProvinceEventId, or 0.
+
+At <mod>\common\disasters\english_civil_war.txt [english_civil_war\on_monthly\random_events\100] (Line 91, column 4):
+"english_civil_war.3" is not a valid CountryEventId, ProvinceEventId, or 0.
+
+At <mod>\common\disasters\english_civil_war.txt [english_civil_war\on_monthly\random_events\100] (Line 90, column 4):
+"english_civil_war.2" is not a valid CountryEventId, ProvinceEventId, or 0.
+
+At <mod>\events\AoWEvents.txt [country_event\trigger\FROM] (Line 376, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: [ThisCountry] cannot be correct because of left: FROM points to <null>.
+However, a Country was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event\trigger\FROM] (Line 376, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope ProvinceTrigger were found.
+Left: [ThisProvince] cannot be correct because of left: FROM points to <null>.
+However, a Province was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event\trigger\FROM] (Line 376, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope GlobalTrigger were found.
+Left: [ThisGlobal] cannot be correct because of left: FROM points to <null>.
+However, a Global was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event\option\FROM] (Line 385, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope CountryCommand were found.
+Left: [ThisCountry] Right: [CountryCommand] cannot be correct because of left: FROM points to <null>.
+However, a Country was expected.
+This event  must be called from somewhere else, which it is not.
+Left: [ThisProvince] Right: [ProvinceCommand] cannot be correct because of left: FROM points to <null>.
+However, a Province was expected.
+This event  must be called from somewhere else, which it is not.
+Left: [ThisState] Right: [StateCommand] cannot be correct because of left: FROM points to <null>.
+However, a State was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event] (Line 318, column 1):
+The event is set to be triggered only, but it is never called.
+
+At <mod>\events\AoWEvents.txt [country_event\trigger\FROM] (Line 327, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: [ThisCountry] cannot be correct because of left: FROM points to <null>.
+However, a Country was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event\trigger\FROM] (Line 327, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope ProvinceTrigger were found.
+Left: [ThisProvince] cannot be correct because of left: FROM points to <null>.
+However, a Province was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event\trigger\FROM] (Line 327, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope GlobalTrigger were found.
+Left: [ThisGlobal] cannot be correct because of left: FROM points to <null>.
+However, a Global was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event\option\FROM] (Line 336, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope CountryCommand were found.
+Left: [ThisCountry] Right: [CountryCommand] cannot be correct because of left: FROM points to <null>.
+However, a Country was expected.
+This event  must be called from somewhere else, which it is not.
+Left: [ThisProvince] Right: [ProvinceCommand] cannot be correct because of left: FROM points to <null>.
+However, a Province was expected.
+This event  must be called from somewhere else, which it is not.
+Left: [ThisState] Right: [StateCommand] cannot be correct because of left: FROM points to <null>.
+However, a State was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event\trigger\FROM] (Line 304, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: [ThisCountry] cannot be correct because of left: FROM points to <null>.
+However, a Country was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event\trigger\FROM] (Line 304, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope ProvinceTrigger were found.
+Left: [ThisProvince] cannot be correct because of left: FROM points to <null>.
+However, a Province was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event\trigger\FROM] (Line 304, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope GlobalTrigger were found.
+Left: [ThisGlobal] cannot be correct because of left: FROM points to <null>.
+However, a Global was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event\option\FROM] (Line 313, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope CountryCommand were found.
+Left: [ThisCountry] Right: [CountryCommand] cannot be correct because of left: FROM points to <null>.
+However, a Country was expected.
+This event  must be called from somewhere else, which it is not.
+Left: [ThisProvince] Right: [ProvinceCommand] cannot be correct because of left: FROM points to <null>.
+However, a Province was expected.
+This event  must be called from somewhere else, which it is not.
+Left: [ThisState] Right: [StateCommand] cannot be correct because of left: FROM points to <null>.
+However, a State was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\AoWEvents.txt [country_event\option\FROM] (Line 278, column 3):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope CountryCommand were found.
+Left: [ThisCountry] Right: [CountryCommand] cannot be correct because of left: FROM points to <null>.
+However, a Country was expected.
+This event  must be called from somewhere else, which it is not.
+Left: [ThisProvince] Right: [ProvinceCommand] cannot be correct because of left: FROM points to <null>.
+However, a Province was expected.
+This event  must be called from somewhere else, which it is not.
+Left: [ThisState] Right: [StateCommand] cannot be correct because of left: FROM points to <null>.
+However, a State was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\CentralAfrican.txt [country_event\trigger\capital_scope\OR] (Line 704, column 4):
+Since there is only one item within the OR clause, it is redundant and unnecessary.
+
+At <mod>\events\CentralAfrican.txt [country_event\option\every_owned_province\limit\OR] (Line 559, column 5):
+Since there is only one item within the OR clause, it is redundant and unnecessary.
+
+At <mod>\common\scripted_triggers\00_scripted_triggers.txt [heir_has_bad_mil_personality\OR] (Line 194, column 2):
+Since there is only one item within the OR clause, it is redundant and unnecessary.
+* called from <mod>\events\Confucianism.txt [country_event\mean_time_to_happen\modifier\OR\heir_has_bad_mil_personality] (Line 823, column 5)
+
+At <mod>\events\Confucianism.txt [country_event] (Line 167, column 1):
+At most 1 instance(s) of a "immediate" entry are allowed, but there are 2 instances.
+
+At <mod>\events\ConsortEvents.txt [country_event\mean_time_to_happen\modifier\OR\consort_has_personality] (Line 4293, column 5):
+"silver_tounge_personality" is not a valid RulerPersonality.
+
+At <mod>\common\scripted_effects\00_scripted_effects.txt [save_origin_of_consort_effect\if\random_owned_province\save_event_target_as] (Line 154, column 4):
+This event target origin_of_consort was inferred to have type Country at <mod>\common\scripted_effects\00_scripted_effects.txt [save_origin_of_consort_effect\if\random_country\save_event_target_as] (Line 144, column 4) but here has type Province
+* called from <mod>\events\ConsortEvents.txt [country_event\immediate\hidden_effect\save_origin_of_consort_effect] (Line 3815, column 4)
+
+At <mod>\common\scripted_effects\00_scripted_effects.txt [save_origin_of_consort_effect\if\random_owned_province\save_event_target_as] (Line 165, column 4):
+This event target origin_of_consort was inferred to have type Country at <mod>\common\scripted_effects\00_scripted_effects.txt [save_origin_of_consort_effect\if\random_country\save_event_target_as] (Line 144, column 4) but here has type Province
+* called from <mod>\events\ConsortEvents.txt [country_event\immediate\hidden_effect\save_origin_of_consort_effect] (Line 3815, column 4)
+
+At <mod>\events\ConsortEvents.txt [country_event\immediate\if] (Line 3265, column 3):
+The required "limit" entry was not found.
+
+At <mod>\events\ConsortEvents.txt [country_event\immediate\if] (Line 3272, column 3):
+The required "limit" entry was not found.
+
+At <mod>\events\ConsortEvents.txt [country_event\immediate\if] (Line 3276, column 3):
+The required "limit" entry was not found.
+
+At <mod>\events\ConsortEvents.txt [country_event\immediate\if] (Line 3280, column 3):
+The required "limit" entry was not found.
+
+At <mod>\events\ConsortEvents.txt [country_event\option] (Line 3319, column 2):
+The required "name" entry was not found.
+
+At <mod>\events\Coptic.txt [country_event\desc\trigger\NOT\TAG] (Line 168, column 23):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\Coptic.txt [country_event\desc\trigger\TAG] (Line 164, column 15):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\Coptic.txt [country_event\desc\trigger\NOT\TAG] (Line 21, column 23):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\Coptic.txt [country_event\desc\trigger\TAG] (Line 17, column 15):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\Coptic.txt [province_event\option\ai_chance\modifier\is_at_war] (Line 1602, column 5):
+Invalid node "is_at_war" in scope MtthModifier (value is: yes)
+
+At <mod>\events\CorruptionEvents.txt [country_event\option\every_owned_province\limit\trade_goods] (Line 358, column 14):
+"ROOT" is not a valid TradeGood or MaybeEventTargetProvince.
+MaybeEventTargetProvince: cannot be because ROOT points to <CountryCommand>, not Province.
+
+At <mod>\events\Devotion.txt [province_event\option\owner\if\limit\owner] (Line 1803, column 6):
+Invalid node "owner" in scope CountryTrigger (value is: <a complex type>)
+
+At <mod>\events\disaster_eng_civil_war.txt [country_event\title] (Line 690, column 2):
+"anglo_saxon_civil_war.12.t" is not a valid LocalizationKey.
+
+At <mod>\events\disaster_eng_civil_war.txt [country_event\desc] (Line 691, column 2):
+"anglo_saxon_civil_war.12.d" is not a valid Key or NamingInfo.
+
+At <mod>\events\disaster_eng_civil_war.txt [country_event\option\name] (Line 713, column 3):
+"anglo_saxon_civil_war.11.b" is not a valid LocalizationKey.
+
+At <mod>\events\disaster_eng_civil_war.txt [country_event\option\name] (Line 708, column 3):
+"anglo_saxon_civil_war.11.a" is not a valid LocalizationKey.
+
+At <mod>\events\disaster_eng_civil_war.txt [country_event\title] (Line 667, column 2):
+"anglo_saxon_civil_war.11.t" is not a valid LocalizationKey.
+
+At <mod>\events\disaster_eng_civil_war.txt [country_event\desc] (Line 668, column 2):
+"anglo_saxon_civil_war.11.d" is not a valid Key or NamingInfo.
+
+At <mod>\events\disaster_eng_civil_war.txt [country_event\option\name] (Line 681, column 3):
+"anglo_saxon_civil_war.11.b" is not a valid LocalizationKey.
+
+At <mod>\events\disaster_eng_civil_war.txt [country_event\option\name] (Line 676, column 3):
+"anglo_saxon_civil_war.11.a" is not a valid LocalizationKey.
+
+At <mod>\events\Elections.txt [country_event\option\tooltip\FROM] (Line 313, column 4):
+No direct match found for FROM (is the casing correct?). However, other possible matches in scope CountryCommand were found.
+Left: [ThisCountry] Right: [CountryCommand] cannot be correct because of left: FROM points to <null>.
+However, a Country was expected.
+This event  must be called from somewhere else, which it is not.
+Left: [ThisProvince] Right: [ProvinceCommand] cannot be correct because of left: FROM points to <null>.
+However, a Province was expected.
+This event  must be called from somewhere else, which it is not.
+Left: [ThisState] Right: [StateCommand] cannot be correct because of left: FROM points to <null>.
+However, a State was expected.
+This event  must be called from somewhere else, which it is not.
+
+At <mod>\events\Fetishist.txt [country_event\title] (Line 976, column 2):
+"fetishist_flavor.21.t" is not a valid LocalizationKey.
+
+At <mod>\events\Fetishist.txt [country_event\desc] (Line 977, column 2):
+"fetishist_flavor.21.t" is not a valid Key or NamingInfo.
+
+At <mod>\events\Fetishist.txt [country_event\option\name] (Line 1154, column 3):
+"fetishist_flavor.21.t" is not a valid LocalizationKey.
+
+At <mod>\events\Fetishist.txt [country_event\title] (Line 546, column 2):
+"fetishist_flavor.11.t" is not a valid LocalizationKey.
+
+At <mod>\events\Fetishist.txt [country_event\desc] (Line 547, column 2):
+"fetishist_flavor.11.t" is not a valid Key or NamingInfo.
+
+At <mod>\events\Fetishist.txt [country_event\option\name] (Line 726, column 3):
+"fetishist_flavor.11.t" is not a valid LocalizationKey.
+
+At <mod>\events\Fetishist.txt [country_event\desc\desc] (Line 216, column 3):
+"fetishist_flavor.5.d.d" is not a valid LocalizationKey.
+
+At <mod>\common\scripted_effects\00_scripted_effects.txt [add_meritocracy_effect\if\limit\is_emperor_of_china] (Line 367, column 4):
+Invalid node "is_emperor_of_china" in scope ProvinceTrigger (value is: yes)
+* called from <mod>\events\Fetishist.txt [province_event\option\add_meritocracy_effect] (Line 3536, column 3)
+
+At <mod>\common\scripted_effects\00_scripted_effects.txt [add_meritocracy_effect\if\add_meritocracy] (Line 369, column 3):
+Invalid node "add_meritocracy" in scope ProvinceIfClause (value is: 5)
+* called from <mod>\events\Fetishist.txt [province_event\option\add_meritocracy_effect] (Line 3536, column 3)
+
+At <mod>\events\Fetishist.txt [province_event\trigger\owner\OR\AND\NOT\horde_unity] (Line 1495, column 14):
+"0.75" is not a valid PInt, MaybeEventTargetCountry, or Tag.
+
+At <mod>\events\FlavorBUR.txt [country_event\immediate\hidden_effect\if\define_ruler\claim] (Line 2108, column 6):
+"strong" is not a valid Int.
+
+At <mod>\events\FlavorBUR.txt [country_event\option\every_subject_country\BUR\release] (Line 2160, column 12):
+"PREV" is not a valid Tag.
+
+At <mod>\events\flavorDAN.txt [country_event\trigger\is_vassal] (Line 1180, column 3):
+"SHL" is not a valid Bool.
+
+At <mod>\events\flavorDAN.txt [country_event\desc\trigger\owned_by] (Line 1040, column 4):
+Invalid node "owned_by" in scope CountryTrigger (value is: ROOT)
+
+At <mod>\events\FlavorENG.txt [country_event\option\FRA\add_opinion\modifier] (Line 227, column 5):
+"eng_no_anglo_saxon_in_france" is not a valid OpinionModifier.
+
+At <mod>\events\FlavorFRA.txt [country_event\option\FROM\add_truce_with] (Line 1687, column 4):
+"ROOT" is not a valid Tag.
+
+At <mod>\events\FlavorFRA.txt [country_event\option\add_truce_with] (Line 1689, column 3):
+"FROM" is not a valid Tag.
+
+At <mod>\events\flavorHOL.txt [country_event\mean_time_to_happen\modifier\NOT\legitimacy] (Line 1083, column 12):
+"0.25" is not a valid PInt, MaybeEventTargetCountry, or Tag.
+
+At <mod>\events\flavorHOL.txt [country_event\mean_time_to_happen\modifier\NOT\legitimacy] (Line 1079, column 12):
+"0.5" is not a valid PInt, MaybeEventTargetCountry, or Tag.
+
+At <mod>\events\flavorJAP.txt [country_event\mean_time_to_happen\modifier\spy_ideas] (Line 2872, column 4):
+"0" is not a valid PositiveInt.
+
+At <mod>\events\flavorMAL.txt [country_event\option\tooltip\every_province\limit\OR] (Line 182, column 6):
+The right sides of a "province_id" clause may not be identical.
+There were 2 duplicates.
+	[I3596|L184|C7]: province_id = 1112
+	[I3630|L185|C7]: province_id = 1112
+
+At <mod>\events\flavorMAL.txt [province_event\option\every_province\limit\OR] (Line 87, column 5):
+The right sides of a "province_id" clause may not be identical.
+There were 2 duplicates.
+	[I1555|L89|C6]: province_id = 1112
+	[I1588|L90|C6]: province_id = 1112
+
+At <mod>\events\flavorMAL.txt [province_event\option\every_province\hidden_effect\if\country_event] (Line 106, column 6):
+Invalid node "country_event" in scope ProvinceIfClause (value is: <a complex type>)
+
+At <mod>\events\flavorMAL.txt [province_event\option\every_province\limit\OR] (Line 113, column 5):
+The right sides of a "province_id" clause may not be identical.
+There were 2 duplicates.
+	[I2138|L115|C6]: province_id = 1112
+	[I2171|L116|C6]: province_id = 1112
+
+At <mod>\events\flavorMAL.txt [province_event\option\every_province\limit\OR] (Line 133, column 5):
+The right sides of a "province_id" clause may not be identical.
+There were 2 duplicates.
+	[I2604|L135|C6]: province_id = 1112
+	[I2637|L136|C6]: province_id = 1112
+
+At <mod>\events\flavorMCA.txt [country_event\trigger\legitimacy] (Line 321, column 3):
+"0.5" is not a valid PInt, MaybeEventTargetCountry, or Tag.
+
+At <mod>\events\flavorMER.txt [country_event\trigger\TAG] (Line 48, column 3):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\flavorMLO.txt [country_event\option\define_advisor] (Line 288, column 3):
+At most 1 instance(s) of a "discount" entry are allowed, but there are 2 instances.
+
+At <mod>\events\flavorMLO.txt [country_event\option\define_advisor] (Line 276, column 3):
+At most 1 instance(s) of a "discount" entry are allowed, but there are 2 instances.
+
+At <mod>\events\flavorMNG.txt [country_event\option\every_known_country\limit\has_discovered] (Line 267, column 5):
+"MNG" is not a valid Province.
+
+At <mod>\events\flavorNOR.txt [country_event\option\every_known_country\limit\is_in_trade_league_with] (Line 696, column 14):
+"HSA" is not a valid MaybeEventTarget(Country).
+
+At <mod>\events\flavorORI.txt [country_event\trigger\TAG] (Line 436, column 3):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\FlavorRUS.txt [country_event\trigger\OR] (Line 360, column 3):
+Since there is only one item within the OR clause, it is redundant and unnecessary.
+
+At <mod>\events\FlavorSPA.txt [country_event\option\custom_tooltip] (Line 2476, column 3):
+"flavor_spa.16.tt" is not a valid LocalizationKey.
+
+At <mod>\events\FlavorSPA.txt [country_event\trigger\has_idea] (Line 1611, column 3):
+"spanish_inquisition" is not a valid Idea.
+
+At <mod>\events\FlavorTUR.txt [country_event\trigger\has_idea] (Line 182, column 3):
+"timariot_system" is not a valid Idea.
+
+At <mod>\events\flavorTUS.txt [country_event] (Line 798, column 1):
+The event is set to be triggered only, but it is never called.
+
+At <mod>\events\HaremEvents.txt [country_event\desc\trigger\is_capital] (Line 554, column 4):
+Invalid node "is_capital" in scope CountryTrigger (value is: 151)
+
+At <mod>\events\HaremEvents.txt [country_event\desc\trigger\OR\NOT\is_capital] (Line 546, column 13):
+Invalid node "is_capital" in scope CountryTrigger (value is: 151)
+
+At <mod>\events\institutions.txt [province_event\option\spawn_rebels] (Line 1847, column 3):
+The required "type" entry was not found.
+
+At <mod>\events\Japan.txt [province_event\option\hidden_effect\if\FROM\free_vassal] (Line 66, column 6):
+"PREV" is not a valid Tag, MaybeEventTargetCountry, or Random.
+MaybeEventTargetCountry: cannot be because PREV points to ProvinceCommand.
+	However, a Country was expected.
+
+At <mod>\events\MayaReligion.txt [country_event\mean_time_to_happen\modifier\has_idea] (Line 429, column 4):
+"comets" is not a valid Idea.
+
+At <mod>\events\RandomEvents.txt [country_event] (Line 5179, column 1):
+The event is set to be triggered only, but it is never called.
+
+At <mod>\events\RandomEvents.txt [country_event\mean_time_to_happen\modifier\OR\has_idea] (Line 2365, column 5):
+"comets" is not a valid Idea.
+
+At <mod>\events\RandomEvents.txt [country_event\option\if\add_estate_loyalty\loyalty] (Line 1707, column 5):
+"-2.5" is not a valid Int.
+
+At <mod>\events\RandomEvents.txt [country_event\option\if\add_estate_loyalty\loyalty] (Line 1690, column 5):
+"-2.5" is not a valid Int.
+
+At <mod>\events\RandomProvinceEvents.txt [province_event\option\controller\country_event\id] (Line 1117, column 36):
+"747" is not a valid CountryEventId or ProvinceEventId.
+
+At <mod>\events\RandomProvinceEvents.txt [province_event\option\controller\country_event\id] (Line 961, column 36):
+"747" is not a valid CountryEventId or ProvinceEventId.
+
+At <mod>\events\Religious.txt [country_event\trigger\has_idea] (Line 63, column 3):
+"liberty_egalite_fraternity" is not a valid Idea.
+
+At <mod>\common\decrees\00_china.txt [boost_officer_corps_decree\ai_will_do\modifier\is_in_important_war] (Line 147, column 4):
+Invalid node "is_in_important_war" in scope <anon> (value is: yes)
+
+At <mod>\common\decrees\00_china.txt [improve_defence_effort_decree\ai_will_do\modifier\is_in_important_war] (Line 128, column 4):
+Invalid node "is_in_important_war" in scope <anon> (value is: yes)
+
+At <mod>\common\state_edicts\advancement_effort.txt [edict_advancement_effort\ai_will_do\modifier\all_province_in_state\AND\NOT\current_institution] (Line 37, column 7):
+Invalid node "current_institution" in scope ProvinceTrigger (value is: 95)
+
+At <mod>\common\state_edicts\advancement_effort.txt [edict_advancement_effort\ai_will_do\modifier\all_province_in_state\AND\current_institution] (Line 35, column 6):
+Invalid node "current_institution" in scope ProvinceTrigger (value is: 1)
+
+At <mod>\common\state_edicts\advancement_effort.txt [edict_advancement_effort\ai_will_do\modifier\all_province_in_state\OR\NOT\current_institution] (Line 26, column 7):
+Invalid node "current_institution" in scope ProvinceTrigger (value is: 1)
+
+At <mod>\common\state_edicts\advancement_effort.txt [edict_advancement_effort\ai_will_do\modifier\all_province_in_state\OR\current_institution] (Line 24, column 6):
+Invalid node "current_institution" in scope ProvinceTrigger (value is: 95)
+
+At <mod>\common\state_edicts\centralisation_edict.txt [edict_centralization_effort\ai_will_do\modifier\all_province_in_state\local_autonomy_above_min] (Line 30, column 5):
+Invalid node "local_autonomy_above_min" in scope ProvinceTrigger (value is: 10)
+
+At <mod>\common\state_edicts\centralisation_edict.txt [edict_centralization_effort\ai_will_do\modifier\all_province_in_state\NOT\local_autonomy_above_min] (Line 23, column 6):
+Invalid node "local_autonomy_above_min" in scope ProvinceTrigger (value is: 10)
+
+At <mod>\common\state_edicts\edict_of_absolutism.txt [edict_of_absolutism\allow\custom_trigger_tooltip\has_country_flag] (Line 9, column 4):
+Invalid node "has_country_flag" in scope StateTriggerTooltip (value is: edict_of_absolutism)
+
+At <mod>\common\state_edicts\feudal_de_jure_law.txt [edict_feudal_de_jure_law\allow\custom_trigger_tooltip\has_country_flag] (Line 9, column 4):
+Invalid node "has_country_flag" in scope StateTriggerTooltip (value is: feudal_de_jure_law)
+
+At <mod>\common\state_edicts\promote_military_recruitment.txt [edict_promote_military_recruitment\ai_will_do\modifier\owner] (Line 21, column 4):
+Invalid node "owner" in scope <anon> (value is: <a complex type>)
+
+At <mod>\common\state_edicts\religion_enforced_edict.txt [edict_religion_enforced\allow\custom_trigger_tooltip\has_country_flag] (Line 9, column 4):
+Invalid node "has_country_flag" in scope StateTriggerTooltip (value is: religion_enforced_edict)
+
+At <mod>\common\imperial_reforms\00_hre.txt [renovatio] (Line 119, column 1):
+The string renovatio_member was not found in localization.
+
+At <mod>\common\imperial_reforms\00_hre.txt [renovatio] (Line 119, column 1):
+The string desc_renovatio_member was not found in localization.
+
+At <mod>\common\imperial_reforms\00_hre.txt [renovatio] (Line 119, column 1):
+The string renovatio_emperor was not found in localization.
+
+At <mod>\common\imperial_reforms\00_hre.txt [renovatio] (Line 119, column 1):
+The string desc_renovatio_emperor was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [centralizing_top_government_decision] (Line 30, column 1):
+The string centralizing_top_government_decision_member was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [centralizing_top_government_decision] (Line 30, column 1):
+The string desc_centralizing_top_government_decision_member was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [centralizing_top_government_decision] (Line 30, column 1):
+The string desc_centralizing_top_government_decision_emperor was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [military_governors_decision] (Line 23, column 1):
+The string military_governors_decision_member was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [military_governors_decision] (Line 23, column 1):
+The string desc_military_governors_decision_member was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [military_governors_decision] (Line 23, column 1):
+The string desc_military_governors_decision_emperor was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [reform_land_tax_decision] (Line 16, column 1):
+The string reform_land_tax_decision_member was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [reform_land_tax_decision] (Line 16, column 1):
+The string desc_reform_land_tax_decision_member was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [reform_land_tax_decision] (Line 16, column 1):
+The string desc_reform_land_tax_decision_emperor was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [seaban_decision] (Line 8, column 1):
+The string seaban_decision_member was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [seaban_decision] (Line 8, column 1):
+The string desc_seaban_decision_member was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [seaban_decision] (Line 8, column 1):
+The string desc_seaban_decision_emperor was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [establish_gaituguiliu_decision] (Line 1, column 1):
+The string establish_gaituguiliu_decision_member was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [establish_gaituguiliu_decision] (Line 1, column 1):
+The string desc_establish_gaituguiliu_decision_member was not found in localization.
+
+At <mod>\common\imperial_reforms\01_china.txt [establish_gaituguiliu_decision] (Line 1, column 1):
+The string desc_establish_gaituguiliu_decision_emperor was not found in localization.
+
+At <mod>\common\parliament_issues\harmonization_of_laws.txt [harmonization_of_laws\effect\random_subject_country\add_opinion\who] (Line 20, column 5):
+"FROM" is not a valid MaybeEventTargetCountryProvince, Tag, or Emperor.
+MaybeEventTargetCountryProvince: cannot be because ThisCountry: cannot be because FROM points to <null>.
+		However, a Country was expected.
+		This is not a valid place to use FROM.
+	ThisProvince: cannot be because FROM points to <null>.
+		However, a Province was expected.
+		This is not a valid place to use FROM.
+
+At <mod>\common\parliament_issues\offices_to_vassals.txt [offices_to_vassals\effect\random_subject_country\add_opinion\who] (Line 20, column 5):
+"FROM" is not a valid MaybeEventTargetCountryProvince, Tag, or Emperor.
+MaybeEventTargetCountryProvince: cannot be because ThisCountry: cannot be because FROM points to <null>.
+		However, a Country was expected.
+		This is not a valid place to use FROM.
+	ThisProvince: cannot be because FROM points to <null>.
+		However, a Province was expected.
+		This is not a valid place to use FROM.
+
+At <mod>\common\parliament_issues\support_ruling_dynasty.txt [support_ruling_dynasty\ai_will_do\modifier\NOT\legitimacy] (Line 46, column 12):
+"0.7" is not a valid PInt, MaybeEventTargetCountry, or Tag.
+
+At <mod>\common\incidents\00_isolationism.txt [incident_spread_of_christianity\trigger\if] (Line 128, column 3):
+Invalid node "if" in scope CountryTrigger (value is: <a complex type>)
+
+At <mod>\common\incidents\00_isolationism.txt [incident_nanban\trigger\if] (Line 52, column 3):
+Invalid node "if" in scope CountryTrigger (value is: <a complex type>)
+
+At <mod>\common\incidents\00_isolationism.txt [incident_nanban\trigger\if] (Line 46, column 3):
+Invalid node "if" in scope CountryTrigger (value is: <a complex type>)
+
+At <mod>\common\ages\00_default.txt [age_of_revolutions\objectives\obj_disc_army\has_global_modifier_value\extra_shortcut] (Line 657, column 5):
+Invalid node "extra_shortcut" in scope <anon> (value is: yes)
+
+At <mod>\common\ages\00_default.txt [age_of_revolutions\abilities\ab_same_contine_lib_desire\ai_will_do\modifier\NOT\any_subject_country\same_continent] (Line 748, column 8):
+Invalid node "same_continent" in scope CountryTrigger (value is: ROOT)
+
+At <mod>\common\ages\00_default.txt [age_of_revolutions\absolutism] (Line 622, column 2):
+Invalid node "absolutism" in scope AgeDef (value is: <a complex type>)
+
+At <mod>\common\ages\00_default.txt [age_of_absolutism\absolutism] (Line 441, column 2):
+Invalid node "absolutism" in scope AgeDef (value is: <a complex type>)
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hints_timer] (Line 8847, column 1):
+The string hints_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [shinto_traditions_supported] (Line 8661, column 1):
+The string shinto_traditions_supported was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [beta_israel_community] (Line 7963, column 1):
+The string beta_israel_community was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [abatembuzy_timer] (Line 7619, column 1):
+The string abatembuzy_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [katikkiri_timer] (Line 7617, column 1):
+The string katikkiri_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [secret_society_timer] (Line 7614, column 1):
+The string secret_society_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [chose_rememberance] (Line 7612, column 1):
+The string chose_rememberance was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [increased_african_indian_trade] (Line 7594, column 1):
+The string increased_african_indian_trade was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [fc_league_reforms_timer] (Line 6972, column 1):
+The string fc_league_reforms_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [fc_league_timer] (Line 6971, column 1):
+The string fc_league_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [fc_treatyconference_timer] (Line 6970, column 1):
+The string fc_treatyconference_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [fc_calvinist_rebels] (Line 6961, column 1):
+The string fc_calvinist_rebels was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [si_bankrupt_timer] (Line 6783, column 1):
+The string si_bankrupt_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [si_liberty_desire_timer] (Line 6782, column 1):
+The string si_liberty_desire_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [si_squandering_loyalists_timer] (Line 6781, column 1):
+The string si_squandering_loyalists_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [si_competent_ruler_timer] (Line 6780, column 1):
+The string si_competent_ruler_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [si_incompetent_ruler_timer] (Line 6779, column 1):
+The string si_incompetent_ruler_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [dev_bonfire_vanities_timer] (Line 6442, column 1):
+The string dev_bonfire_vanities_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [pap_rome_loot_timer] (Line 6356, column 1):
+The string pap_rome_loot_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [pap_passetto_di_borgo_timer] (Line 6355, column 1):
+The string pap_passetto_di_borgo_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [pap_swiss_guard_timer] (Line 6354, column 1):
+The string pap_swiss_guard_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [maya_hero_twins_timer] (Line 5897, column 1):
+The string maya_hero_twins_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [maya_creation_cycle_timer] (Line 5896, column 1):
+The string maya_creation_cycle_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [sce_monster_lake_timer] (Line 5866, column 1):
+The string sce_monster_lake_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [sce_mounds_timer] (Line 5865, column 1):
+The string sce_mounds_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [sce_shortcut_timer] (Line 5864, column 1):
+The string sce_shortcut_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [sce_lost_woods_timer] (Line 5863, column 1):
+The string sce_lost_woods_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [sce_poison_rock_timer] (Line 5862, column 1):
+The string sce_poison_rock_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [sce_estevanico_timer] (Line 5861, column 1):
+The string sce_estevanico_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [sce_mutiny_timer] (Line 5860, column 1):
+The string sce_mutiny_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [attacker_evacuated_siege] (Line 5425, column 1):
+The string attacker_evacuated_siege was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [defender_evacuated_siege] (Line 5424, column 1):
+The string defender_evacuated_siege was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [supported_orangists_in_war] (Line 5313, column 1):
+The string supported_orangists_in_war was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_surya] (Line 5274, column 1):
+The string hindu_surya was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_ganga] (Line 5273, column 1):
+The string hindu_ganga was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_ganesha] (Line 5272, column 1):
+The string hindu_ganesha was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_vaishnava_4b] (Line 5271, column 1):
+The string hindu_vaishnava_4b was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_vaishnava_4a] (Line 5270, column 1):
+The string hindu_vaishnava_4a was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_vaishnava_3b] (Line 5269, column 1):
+The string hindu_vaishnava_3b was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_vaishnava_3a] (Line 5268, column 1):
+The string hindu_vaishnava_3a was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_vaishnava_2b] (Line 5267, column 1):
+The string hindu_vaishnava_2b was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_vaishnava_2a] (Line 5266, column 1):
+The string hindu_vaishnava_2a was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_vaishnava_1b] (Line 5265, column 1):
+The string hindu_vaishnava_1b was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_vaishnava_1a] (Line 5264, column 1):
+The string hindu_vaishnava_1a was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shakta_2t_b] (Line 5263, column 1):
+The string hindu_shakta_2t_b was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shakta_2t_a] (Line 5262, column 1):
+The string hindu_shakta_2t_a was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shakta_2] (Line 5261, column 1):
+The string hindu_shakta_2 was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shakta_1t_b] (Line 5260, column 1):
+The string hindu_shakta_1t_b was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shakta_1t_a] (Line 5259, column 1):
+The string hindu_shakta_1t_a was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shakta_1_rejected] (Line 5258, column 1):
+The string hindu_shakta_1_rejected was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shakta_1] (Line 5257, column 1):
+The string hindu_shakta_1 was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shaiva_5] (Line 5256, column 1):
+The string hindu_shaiva_5 was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shaiva_4] (Line 5255, column 1):
+The string hindu_shaiva_4 was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shaiva_3] (Line 5254, column 1):
+The string hindu_shaiva_3 was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shaiva_2] (Line 5253, column 1):
+The string hindu_shaiva_2 was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hindu_shaiva_1] (Line 5252, column 1):
+The string hindu_shaiva_1 was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [the_proclamation_of_year_timer] (Line 4854, column 1):
+The string the_proclamation_of_year_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [red_fort] (Line 4497, column 1):
+The string red_fort was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [suhrawardiyya_timer] (Line 4464, column 1):
+The string suhrawardiyya_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [ghulam_timer] (Line 4463, column 1):
+The string ghulam_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [mahdi_timer] (Line 4462, column 1):
+The string mahdi_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [qadiriyya_timer] (Line 4461, column 1):
+The string qadiriyya_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [chisti_timer] (Line 4460, column 1):
+The string chisti_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [ignored_hajj_timer] (Line 4459, column 1):
+The string ignored_hajj_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [tahtawi_timer] (Line 4458, column 1):
+The string tahtawi_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [ramadan_timer] (Line 4457, column 1):
+The string ramadan_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [ignored_ramadan_timer] (Line 4456, column 1):
+The string ignored_ramadan_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [per_political_fragmentation_timer] (Line 3874, column 1):
+The string per_political_fragmentation_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [per_political_turmoil_timer] (Line 3873, column 1):
+The string per_political_turmoil_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [fra_musketeers_timer] (Line 3539, column 1):
+The string fra_musketeers_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [roman_fever_timer] (Line 3527, column 1):
+The string roman_fever_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [mecca_timer] (Line 3502, column 1):
+The string mecca_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hsa_peter_ship] (Line 3412, column 1):
+The string hsa_peter_ship was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [hsa_adler_ship] (Line 3407, column 1):
+The string hsa_adler_ship was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [ikko_ikkis_timer] (Line 3381, column 1):
+The string ikko_ikkis_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_tempura_timer] (Line 3380, column 1):
+The string jap_tempura_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_kirishitan_harrassed_timer] (Line 3379, column 1):
+The string jap_kirishitan_harrassed_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_red_ship_timer] (Line 3378, column 1):
+The string jap_red_ship_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_rice_fail_timer] (Line 3377, column 1):
+The string jap_rice_fail_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_rangaku_timer] (Line 3376, column 1):
+The string jap_rangaku_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_koku_reform_timer] (Line 3375, column 1):
+The string jap_koku_reform_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_unruly_daimyo_timer] (Line 3374, column 1):
+The string jap_unruly_daimyo_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_geisha_timer] (Line 3373, column 1):
+The string jap_geisha_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_koku_tax_timer] (Line 3372, column 1):
+The string jap_koku_tax_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_hanami_timer] (Line 3371, column 1):
+The string jap_hanami_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_shrine_timer] (Line 3370, column 1):
+The string jap_shrine_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_monk_timer] (Line 3369, column 1):
+The string jap_monk_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_loyal_samurai_timer] (Line 3368, column 1):
+The string jap_loyal_samurai_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_nogaku_timer] (Line 3367, column 1):
+The string jap_nogaku_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_ronin_timer] (Line 3366, column 1):
+The string jap_ronin_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_kabuki_timer] (Line 3365, column 1):
+The string jap_kabuki_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [jap_education_literacy] (Line 3244, column 1):
+The string jap_education_literacy was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [pol_tur_tension_timer] (Line 3117, column 1):
+The string pol_tur_tension_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [pol_sejm_veto_timer] (Line 3116, column 1):
+The string pol_sejm_veto_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [pol_sejm_refuse_timer] (Line 3115, column 1):
+The string pol_sejm_refuse_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [pol_not_ending_stagnation_timer] (Line 3114, column 1):
+The string pol_not_ending_stagnation_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [choosing_a_tomb_timer] (Line 3014, column 1):
+The string choosing_a_tomb_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [possible_traitors_timer] (Line 3010, column 1):
+The string possible_traitors_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [planned_coup_timer] (Line 3008, column 1):
+The string planned_coup_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [embezzlement_timer] (Line 3006, column 1):
+The string embezzlement_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [over_budget_timer] (Line 3004, column 1):
+The string over_budget_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [anxious_parliament_timer] (Line 3002, column 1):
+The string anxious_parliament_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [premature_election_timer] (Line 3000, column 1):
+The string premature_election_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [areas_of_research_timer] (Line 2998, column 1):
+The string areas_of_research_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [a_new_constitution_timer] (Line 2996, column 1):
+The string a_new_constitution_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [sympathisers_of_old_government_timer] (Line 2994, column 1):
+The string sympathisers_of_old_government_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [military_maintenance_timer] (Line 2992, column 1):
+The string military_maintenance_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [too_many_liberties_timer] (Line 2990, column 1):
+The string too_many_liberties_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [foreign_control_timer] (Line 2988, column 1):
+The string foreign_control_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [financial_disagreements_timer] (Line 2986, column 1):
+The string financial_disagreements_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [influenced_decisions_timer] (Line 2984, column 1):
+The string influenced_decisions_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [political_chaos_timer] (Line 2982, column 1):
+The string political_chaos_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [bad_relations_timer] (Line 2980, column 1):
+The string bad_relations_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [traitor_in_parliament_timer] (Line 2978, column 1):
+The string traitor_in_parliament_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [conflicting_opinions_timer] (Line 2976, column 1):
+The string conflicting_opinions_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [heated_debates_timer] (Line 2974, column 1):
+The string heated_debates_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [parliamentary_problems_timer] (Line 2972, column 1):
+The string parliamentary_problems_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [disagreements_in_the_parliament_timer] (Line 2970, column 1):
+The string disagreements_in_the_parliament_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [budgetary_disagreements_timer] (Line 2968, column 1):
+The string budgetary_disagreements_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [spurn_habsburgs] (Line 2965, column 1):
+The string spurn_habsburgs was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [tur_janissaries_timer] (Line 2729, column 1):
+The string tur_janissaries_timer was not found in localization.
+
+At <mod>\common\event_modifiers\00_event_modifiers.txt [harsh_punishment] (Line 2123, column 1):
+The string harsh_punishment was not found in localization.
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [overlord_daimyo_isolationism_min] (Line 1317, column 1):
+The string overlord_daimyo_isolationism_min was not found in localization.
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [overlord_daimyo_isolationism_max] (Line 1313, column 1):
+The string overlord_daimyo_isolationism_max was not found in localization.
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [overlord_daimyo_different_isolationism] (Line 1309, column 1):
+The string overlord_daimyo_different_isolationism was not found in localization.
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [overlord_daimyo_at_peace_min] (Line 1301, column 1):
+The string overlord_daimyo_at_peace_min was not found in localization.
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [overlord_daimyo_at_peace_max] (Line 1297, column 1):
+The string overlord_daimyo_at_peace_max was not found in localization.
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [tutorial_colonial_range] (Line 1157, column 1):
+The string tutorial_colonial_range was not found in localization.
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [union_subject] (Line 1022, column 1):
+The string union_subject was not found in localization.
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [vassal_subject] (Line 1015, column 1):
+The string vassal_subject was not found in localization.
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [march_subject] (Line 1011, column 1):
+The string march_subject was not found in localization.
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [num_objectives_fullfilled\monthly_splendor] (Line 917, column 2):
+Invalid node "monthly_splendor" in scope <anon> (value is: 2)
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [luck\monthly_splendor] (Line 812, column 2):
+Invalid node "monthly_splendor" in scope <anon> (value is: 1)
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [base_values\monthly_splendor] (Line 473, column 2):
+Invalid node "monthly_splendor" in scope <anon> (value is: 1)
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [development\local_amount_of_banners] (Line 238, column 2):
+Invalid node "local_amount_of_banners" in scope <anon> (value is: 0.1)
+
+At <mod>\common\static_modifiers\00_static_modifiers.txt [blockaded] (Line 194, column 1):
+The string blockaded was not found in localization.
+
+At <mod>\common\triggered_modifiers\00_triggered_modifiers.txt [hre_dominant_finnish] (Line 632, column 1):
+The string hre_dominant_finnish was not found in localization.
+
+At <mod>\common\triggered_modifiers\00_triggered_modifiers.txt [hre_dominant_slavic] (Line 605, column 1):
+The string hre_dominant_slavic was not found in localization.
+
+At <mod>\common\opinion_modifiers\00_opinion_modifiers.txt [cua_refused_meeting] (Line 2682, column 1):
+The string cua_refused_meeting was not found in localization.
+
+At <mod>\common\opinion_modifiers\00_opinion_modifiers.txt [oman_agressive_trade] (Line 852, column 1):
+The string oman_agressive_trade was not found in localization.
+
+At <mod>\common\opinion_modifiers\00_opinion_modifiers.txt [consort_regent_marriage_ties] (Line 179, column 1):
+The string consort_regent_marriage_ties was not found in localization.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_peace_actor\events\usa_dlc.36] (Line 202, column 3):
+"usa_dlc.36" is not a valid CountryEventId or ProvinceEventId.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_five_year_pulse\events\seven_cities_events.1000] (Line 2521, column 3):
+"seven_cities_events.1000" is not a valid CountryEventId or ProvinceEventId.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1424, column 3):
+"colonial.18" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1423, column 3):
+"colonial.17" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1422, column 3):
+"colonial.16" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1421, column 3):
+"colonial.15" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1420, column 3):
+"colonial.14" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1419, column 3):
+"colonial.13" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1418, column 3):
+"colonial.12" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1417, column 3):
+"colonial.11" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1416, column 3):
+"colonial.10" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1415, column 3):
+"colonial.9" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1414, column 3):
+"colonial.8" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1413, column 3):
+"colonial.7" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1412, column 3):
+"colonial.6" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1411, column 3):
+"colonial.5" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1410, column 3):
+"colonial.4" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1409, column 3):
+"colonial.3" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1408, column 3):
+"colonial.2" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_colonial_pulse\random_events\100] (Line 1407, column 3):
+"colonial.1" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2696, column 3):
+"seven_cities_events.414" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2695, column 3):
+"seven_cities_events.413" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2694, column 3):
+"seven_cities_events.410" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2693, column 3):
+"seven_cities_events.409" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2692, column 3):
+"seven_cities_events.408" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2691, column 3):
+"seven_cities_events.407" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2690, column 3):
+"seven_cities_events.406" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2689, column 3):
+"seven_cities_events.405" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2688, column 3):
+"seven_cities_events.402" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2687, column 3):
+"seven_cities_events.401" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2686, column 3):
+"seven_cities_events.400" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2684, column 3):
+"seven_cities_events.309" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2683, column 3):
+"seven_cities_events.308" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2682, column 3):
+"seven_cities_events.303" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2681, column 3):
+"seven_cities_events.302" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2679, column 3):
+"seven_cities_events.223" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2678, column 3):
+"seven_cities_events.222" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2677, column 3):
+"seven_cities_events.221" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2676, column 3):
+"seven_cities_events.220" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2675, column 3):
+"seven_cities_events.219" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2674, column 3):
+"seven_cities_events.218" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2673, column 3):
+"seven_cities_events.217" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2672, column 3):
+"seven_cities_events.216" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2671, column 3):
+"seven_cities_events.215" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2670, column 3):
+"seven_cities_events.214" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2669, column 3):
+"seven_cities_events.213" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2668, column 3):
+"seven_cities_events.212" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2667, column 3):
+"seven_cities_events.211" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2666, column 3):
+"seven_cities_events.210" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2665, column 3):
+"seven_cities_events.209" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2664, column 3):
+"seven_cities_events.208" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2663, column 3):
+"seven_cities_events.207" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2662, column 3):
+"seven_cities_events.206" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2661, column 3):
+"seven_cities_events.205" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2660, column 3):
+"seven_cities_events.204" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2659, column 3):
+"seven_cities_events.203" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2658, column 3):
+"seven_cities_events.202" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2657, column 3):
+"seven_cities_events.201" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\50] (Line 2656, column 3):
+"seven_cities_events.200" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2654, column 3):
+"seven_cities_events.105" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2653, column 3):
+"seven_cities_events.104" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2652, column 3):
+"seven_cities_events.103" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2651, column 3):
+"seven_cities_events.102" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2650, column 3):
+"seven_cities_events.101" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2649, column 3):
+"seven_cities_events.100" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2647, column 3):
+"seven_cities_events.8" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2646, column 3):
+"seven_cities_events.7" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2645, column 3):
+"seven_cities_events.6" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2644, column 3):
+"seven_cities_events.5" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2643, column 3):
+"seven_cities_events.4" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2642, column 3):
+"seven_cities_events.3" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2641, column 3):
+"seven_cities_events.2" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_empty\random_events\10] (Line 2640, column 3):
+"seven_cities_events.1" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_native\random_events\10] (Line 2713, column 3):
+"seven_cities_events.310" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_native\random_events\10] (Line 2712, column 3):
+"seven_cities_events.309" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_native\random_events\10] (Line 2711, column 3):
+"seven_cities_events.308" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_native\random_events\10] (Line 2710, column 3):
+"seven_cities_events.307" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_native\random_events\10] (Line 2709, column 3):
+"seven_cities_events.306" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_native\random_events\10] (Line 2708, column 3):
+"seven_cities_events.305" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_native\random_events\10] (Line 2707, column 3):
+"seven_cities_events.304" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_native\random_events\10] (Line 2706, column 3):
+"seven_cities_events.303" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_native\random_events\10] (Line 2705, column 3):
+"seven_cities_events.301" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\on_actions\00_on_actions.txt [on_conquistador_native\random_events\10] (Line 2704, column 3):
+"seven_cities_events.300" is not a valid ProvinceEventId or 0.
+
+At <mod>\common\revolt_triggers\00_revolt_triggers.txt [AND] (Line 338, column 1):
+Invalid node "AND" in scope RevoltTriggersFile (value is: <a complex type>)
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [take_capital_force_tributary] (Line 1460, column 1):
+The string take_capital_force_tributary was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [take_capital_force_tributary] (Line 1460, column 1):
+The string take_capital_force_tributary_desc was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [force_migration] (Line 1441, column 1):
+The string force_migration was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [force_migration] (Line 1441, column 1):
+The string force_migration_desc was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [take_capital_take_mandate] (Line 1411, column 1):
+The string take_capital_take_mandate was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [take_capital_take_mandate] (Line 1411, column 1):
+The string take_capital_take_mandate_desc was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [superiority_religious_league] (Line 1332, column 1):
+The string superiority_religious_league was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [superiority_religious_league] (Line 1332, column 1):
+The string superiority_religious_league_desc was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [take_capital_support_rebels] (Line 1315, column 1):
+The string take_capital_support_rebels was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [take_capital_support_rebels] (Line 1315, column 1):
+The string take_capital_support_rebels_desc was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [take_province_ban] (Line 888, column 1):
+There may be no duplications of a PeaceOffer clause.
+There were 2 duplicates.
+	[I15824|L906|C2]: po_return_cores = yes
+	[I15800|L905|C2]: po_return_cores = yes
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [take_capital_revolution] (Line 158, column 1):
+The string take_capital_revolution was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [take_capital_revolution] (Line 158, column 1):
+The string take_capital_revolution_desc was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [fallback_wargoal] (Line 50, column 1):
+The string fallback_wargoal was not found in localization.
+
+At <mod>\common\wargoal_types\00_wargoal_types.txt [fallback_wargoal] (Line 50, column 1):
+The string fallback_wargoal_desc was not found in localization.
+
+At <mod>\events\Confucianism.txt [country_event\option\event_target:harmonization_province\change_culture] (Line 766, column 4):
+"CAPITAL" is not a valid Culture, Owner, Capital, or MaybeEventTargetCountryProvince.
+MaybeEventTargetCountryProvince: cannot be because ThisCountry: cannot be because Expected one of: THIS, ROOT, FROM, PREV, PREVPREV (and so on)
+	ThisProvince: cannot be because Expected one of: THIS, ROOT, FROM, PREV, PREVPREV (and so on)
+
+At <mod>\events\disaster_court_and_country.txt [country_event\option\event_target:city_league_demand_rights_province\spawn_rebels\type] (Line 489, column 5):
+"particulartist_rebels" is not a valid RebelType.
+
+At <mod>\events\disaster_court_and_country.txt [country_event\option\event_target:local_court_location\spawn_rebels\type] (Line 96, column 5):
+"particulartist_rebels" is not a valid RebelType.
+
+At <mod>\events\Fetishist.txt [country_event\immediate\hidden_effect\if\limit\NOT\has_saved_event_target] (Line 2509, column 23):
+Event target is not any of Country
+
+At <mod>\events\Fetishist.txt [country_event\immediate\hidden_effect\if\limit\NOT\has_saved_event_target] (Line 1964, column 23):
+Event target is not any of Country
+
+At <mod>\events\institutions.txt [country_event\option\event_target:trade_company_province\area] (Line 2203, column 4):
+At most 1 instance(s) of a "limit" entry are allowed, but there are 2 instances.
+
+At <mod>\events\institutions.txt [country_event\option\event_target:slaver_province\spawn_rebels] (Line 1784, column 4):
+The required "type" entry was not found.
+
+At <mod>\events\PersonalityEvents.txt [country_event\immediate\hidden_effect\random_neighbor_country\limit\NOT\event_target:invitee_1\TAG] (Line 3342, column 41):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\PersonalityEvents.txt [country_event\immediate\hidden_effect\random_neighbor_country\limit\NOT\event_target:invitee_1\TAG] (Line 3350, column 41):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\PersonalityEvents.txt [country_event\immediate\hidden_effect\random_neighbor_country\limit\NOT\event_target:invitee_2\TAG] (Line 3351, column 41):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\PersonalityEvents.txt [country_event\immediate\hidden_effect\random_country\limit\NOT\event_target:adoptive_country_1\TAG] (Line 3073, column 50):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\PersonalityEvents.txt [country_event\immediate\hidden_effect\random_country\limit\NOT\event_target:adoptive_country_1\TAG] (Line 3097, column 50):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\PersonalityEvents.txt [country_event\immediate\hidden_effect\if\random_neighbor_country\limit\NOT\event_target:adoptive_country_1\TAG] (Line 3085, column 51):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\PersonalityEvents.txt [country_event\immediate\hidden_effect\if\random_neighbor_country\limit\NOT\event_target:adoptive_country_1\TAG] (Line 3110, column 51):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\PersonalityEvents.txt [country_event\immediate\hidden_effect\random_country\limit\NOT\event_target:adoptive_country_2\TAG] (Line 3098, column 50):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\PersonalityEvents.txt [country_event\immediate\hidden_effect\if\random_neighbor_country\limit\NOT\event_target:adoptive_country_2\TAG] (Line 3111, column 51):
+No direct match found for TAG (is the casing correct?). However, other possible matches in scope CountryTrigger were found.
+Left: ["tag"] Right: [Tag]
+Left: ["tag"] Right: [MaybeEventTargetCountryProvince]
+
+At <mod>\events\ChineseFactions.txt [country_event\immediate\hidden_effect\random_owned_province\random_core_country\save_event_target_as] (Line 3107, column 6):
+No users of this event target low_mandate_separatism_country
+
+At <mod>\events\ChineseFactions.txt [country_event\immediate\hidden_effect\random_owned_province\random_core_country\save_event_target_as] (Line 3125, column 6):
+No users of this event target low_mandate_separatism_country_2
+
+At <mod>\events\ChineseFactions.txt [country_event\immediate\hidden_effect\random_owned_province\random_core_country\save_event_target_as] (Line 3143, column 6):
+No users of this event target low_mandate_separatism_country_3
+
+At <mod>\events\ChineseFactions.txt [country_event\immediate\hidden_effect\random_neighbor_country\random_owned_province\save_event_target_as] (Line 2963, column 6):
+No users of this event target chinese_border_province
+
+At <mod>\events\ChineseFactions.txt [country_event\immediate\hidden_effect\random_subject_country\save_event_target_as] (Line 2734, column 5):
+No users of this event target unruly_subject
+
+At <mod>\events\Confucianism.txt [country_event\immediate\hidden_effect\random_owned_province\save_event_target_as] (Line 190, column 5):
+No users of this event target zoroastrian_province
+
+At <mod>\events\Confucianism.txt [country_event\immediate\hidden_effect\random_owned_province\save_event_target_as] (Line 86, column 5):
+No users of this event target islamic_province
+
+At <mod>\events\Confucianism.txt [country_event\immediate\hidden_effect\random_owned_province\save_event_target_as] (Line 22, column 5):
+No users of this event target pagan_province
+
+At <mod>\events\ConsortEvents.txt [country_event\immediate\hidden_effect\random_owned_province\save_event_target_as] (Line 4310, column 5):
+No users of this event target poor_province
+
+At <mod>\events\Coptic.txt [country_event\immediate\hidden_effect\361\save_event_target_as] (Line 1248, column 4):
+No users of this event target cairo_province
+
+At <mod>\events\CorruptionEvents.txt [country_event\immediate\hidden_effect\random_owned_province\save_event_target_as] (Line 350, column 5):
+No users of this event target trade_goods_province
+
+At <mod>\events\CorruptionEvents.txt [country_event\immediate\hidden_effect\random_owned_province\save_event_target_as] (Line 263, column 5):
+No users of this event target culture_province
+
+At <mod>\events\disaster_court_and_country.txt [country_event\immediate\hidden_effect\random_owned_province\random_core_country\save_event_target_as] (Line 192, column 6):
+No users of this event target separatists_wanted_country
+
+At <mod>\events\Fetishist.txt [country_event\immediate\hidden_effect\random_country\save_event_target_as] (Line 3224, column 5):
+No users of this event target freyja_enemy
+
+At <mod>\events\Fetishist.txt [country_event\immediate\hidden_effect\random_owned_province\save_event_target_as] (Line 1455, column 5):
+No users of this event target wrath_of_mwari
+
+At <mod>\events\flavorBRAPRU.txt [country_event\immediate\hidden_effect\50\save_event_target_as] (Line 1671, column 11):
+No users of this event target berlin_province
+
+At <mod>\events\flavorBRAPRU.txt [country_event\immediate\hidden_effect\1759\save_event_target_as] (Line 1319, column 5):
+No users of this event target potsdam_province
+
+At <mod>\events\flavorBRAPRU.txt [country_event\immediate\hidden_effect\random_neighbor_country\save_event_target_as] (Line 1222, column 5):
+No users of this event target some_neighbor_country
+
+At <mod>\events\flavorDAN.txt [country_event\immediate\hidden_effect\6\save_event_target_as] (Line 1255, column 5):
+No users of this event target scanian_target
+
+At <mod>\events\flavorDAN.txt [country_event\immediate\hidden_effect\SHL\save_event_target_as] (Line 1194, column 5):
+No users of this event target count_of_holstein
+
+At <mod>\events\flavorJAP.txt [country_event\immediate\hidden_effect\save_event_target_as] (Line 35, column 4):
+No users of this event target onin_defensive_war_leader
+
+At <mod>\events\flavorJAP.txt [country_event\immediate\hidden_effect\random_known_country\save_event_target_as] (Line 45, column 5):
+No users of this event target onin_offensive_war_leader
+
+At <mod>\events\flavorNOR.txt [country_event\immediate\hidden_effect\if\22\save_event_target_as] (Line 1315, column 6):
+No users of this event target hamar_or_standin
+
+At <mod>\events\HaremEvents.txt [country_event\immediate\hidden_effect\random_owned_province\save_event_target_as] (Line 629, column 5):
+No users of this event target heir_governorship_province
+
+At <mod>\events\ideagroups.txt [country_event\immediate\hidden_effect\random_neighbor_country\save_event_target_as] (Line 1754, column 5):
+No users of this event target infidel_neighbor
+
+At <mod>\events\Shinto.txt [country_event\immediate\hidden_effect\random_neighbor_country\save_event_target_as] (Line 318, column 5):
+No users of this event target saved_neighbor
+
+At <mod>\events\Shinto.txt [country_event\immediate\hidden_effect\random_owned_province\save_event_target_as] (Line 112, column 5):
+No users of this event target pirate_coast_province
+
+At <mod>\events\TributaryEvents.txt [country_event\immediate\hidden_effect\random_subject_country\random_country\save_event_target_as] (Line 1749, column 6):
+No users of this event target overlord_rival
+
+At <mod>\events\TributaryEvents.txt [country_event\immediate\hidden_effect\random_owned_province\save_event_target_as] (Line 618, column 5):
+No users of this event target ningbo_province
+
+----------------------------------------------------------
+End of Validation Error Log

@@ -1,0 +1,208 @@
+# England
+
+graphical_culture = westerngfx
+color = { 191 16 16 }
+
+historical_idea_groups = {	plutocracy_ideas	naval_ideas	exploration_ideas	trade_ideas	economic_ideas	religious_ideas	offensive_ideas	defensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry	chevauchee	western_longbow	gaelic_mercenary	gaelic_free_shooter	french_caracolle	irish_charge	anglofrench_line	french_dragoon	british_redcoat	british_hussar	british_square	mixed_order_infantry	open_order_cavalry	napoleonic_square	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Almòdis" "Florènç" "Richènda" "Gautier" "Petronilha" "Adèla" "Berta" "Azalaïs" "Julian" "Eufrosina" 
+	"Ugues" "Agata" "Deodat" "Aliç" "Adalmode" "Lúcia" "Bertran" "Tièrri" "Rosèla" "Cuetzpalli" 
+	"Sanç" "Josselin" "Marquisa" "Bernat" "Ermengarda" "Barnard" "Francés" "Simoun" "Assalhida" "Alienòr" 
+	"Francesa" "Felipa" "Caterina" "Rosa" "Berard" "Lop" "Joana" "Gersenda" "Guigues" "Miquel" 
+	"Estefania" "Laura" "Ferrand" "Gisla" "Agnès" "Guilhèm" "Carles" "Elena" "Borel" "Centolh" 
+	"Marta" "Emma" "Rainaud" "Verounica" "Enric" "Joan" "Leóunora" "Michels" "Ives" "Flòra" 
+	"Brunissenda" "Peranudet" "Raolf" "Loui" "Filomena" "Emmanuèl" "Isabèu" "Eufèmia" "Loïsa" "Tiborg" 
+	"Jacme" "Guitart" "Arsenda" "Ermessentz" "Berenguela" "Adeltrudis" "Alfons" "Azelma" "Adalaïda" "Ermengaud" 
+	"Geneviva" "Brandimena" "Aimeric" "Alaïs" "Godafres" "Guilheumina" "Tibaud" "Guigone" "Blanca" "Garcenda" 
+	"Clara" "Bòna" "Ermessinde" "Elienòr" "Carlòta" "Rainers" "Mascarose" "Folcaud" "Foulques" "Hugh" 
+	"Mascaròsa" "Ponç" "Duran" "Peironèla" "Æthelstan" "Blasi" "Melisènda" "Gui" "Gilbèrt" "Bothere" 
+	"Æthelwine" "Cearl" "Rædwulf" "Sigemund" "Ordwulf" "Ealdræd" "Æthelberht" "Theodric" "Adam" "Alan" 
+	"Alfred" "Anselm" "Arnold" "Arthur" "Aubrey" "Edmund" "Edward" "Eric" "Fulk" "Geoffrey" 
+	"Gerald" "Gilbert" "Godfrey" "Guy" "Henry" "Humphrey" "Jocelyn" "Lionel" "Mark" "Maurice" 
+	"Ralph" "Randolph" "Reginald" "Richard" "Robert" "Roger" "Theobald" "Waleran" "Walter" "William" }
+monarch_names = {
+	"Almòdis #0" = -1
+	"Florènç #0" = 1
+	"Richènda #0" = -1
+	"Gautier #0" = 1
+	"Petronilha #0" = -1
+	"Adèla #0" = -1
+	"Berta #0" = -1
+	"Azalaïs #0" = -1
+	"Julian #0" = 1
+	"Eufrosina #0" = -1
+	"Ugues #0" = 1
+	"Agata #0" = -1
+	"Deodat #1" = 18
+	"Aliç #0" = -1
+	"Adalmode #0" = -1
+	"Lúcia #0" = -1
+	"Bertran #0" = 1
+	"Tièrri #0" = 1
+	"Rosèla #0" = -1
+	"Cuetzpalli #0" = 1
+	"Sanç #0" = 1
+	"Josselin #0" = 1
+	"Marquisa #0" = -1
+	"Bernat #0" = 1
+	"Ermengarda #0" = -1
+	"Barnard #0" = 1
+	"Francés #0" = 1
+	"Simoun #0" = 1
+	"Assalhida #0" = -1
+	"Alienòr #0" = -1
+	"Francesa #0" = -1
+	"Felipa #0" = -1
+	"Caterina #0" = -1
+	"Rosa #0" = -1
+	"Berard #0" = 1
+	"Lop #0" = 1
+	"Joana #0" = -1
+	"Gersenda #0" = -1
+	"Guigues #0" = 1
+	"Miquel #0" = 1
+	"Estefania #0" = -1
+	"Laura #0" = -1
+	"Ferrand #0" = 1
+	"Gisla #0" = -1
+	"Agnès #0" = -1
+	"Guilhèm #0" = 1
+	"Carles #0" = 1
+	"Elena #0" = -1
+	"Borel #0" = 1
+	"Centolh #0" = 1
+	"Marta #0" = -1
+	"Emma #0" = -1
+	"Rainaud #0" = 1
+	"Verounica #0" = -1
+	"Enric #0" = 1
+	"Joan #0" = 1
+	"Leóunora #0" = -1
+	"Michels #0" = 1
+	"Ives #2" = 30
+	"Flòra #0" = -1
+	"Brunissenda #0" = -1
+	"Peranudet #0" = 1
+	"Raolf #0" = 1
+	"Loui #0" = 1
+	"Filomena #0" = -1
+	"Emmanuèl #0" = 1
+	"Isabèu #0" = -1
+	"Eufèmia #0" = -1
+	"Loïsa #0" = -1
+	"Tiborg #0" = -1
+	"Jacme #0" = 1
+	"Guitart #0" = 1
+	"Arsenda #0" = -1
+	"Ermessentz #0" = -1
+	"Berenguela #0" = -1
+	"Adeltrudis #0" = -1
+	"Alfons #0" = 1
+	"Azelma #0" = -1
+	"Adalaïda #0" = -1
+	"Ermengaud #0" = 1
+	"Geneviva #0" = -1
+	"Brandimena #0" = -1
+	"Aimeric #0" = 1
+	"Alaïs #0" = -1
+	"Godafres #0" = 1
+	"Guilheumina #0" = -1
+	"Tibaud #0" = 1
+	"Guigone #0" = -1
+	"Blanca #0" = -1
+	"Garcenda #0" = -1
+	"Clara #0" = -1
+	"Bòna #0" = -1
+	"Ermessinde #0" = -1
+	"Elienòr #0" = -1
+	"Carlòta #0" = -1
+	"Rainers #0" = 1
+	"Mascarose #0" = -1
+	"Folcaud #0" = 1
+	"Foulques #0" = 1
+	"Hugh #1" = 18
+	"Mascaròsa #0" = -1
+	"Ponç #0" = 1
+	"Duran #0" = 1
+	"Peironèla #0" = -1
+	"Æthelstan #0" = 1
+	"Blasi #1" = 18
+	"Melisènda #0" = -1
+	"Gui #0" = 1
+	"Gilbèrt #0" = 1
+	"Bothere #3" = 0
+	"Æthelwine #1" = 0
+	"Cearl #1" = 0
+	"Rædwulf #1" = 0
+	"Sigemund #3" = 0
+	"Ordwulf #1" = 0
+	"Ealdræd #1" = 0
+	"Æthelberht #1" = 0
+	"Theodric #1" = 0
+	"Adam #0" = 0
+	"Alan #0" = 0
+	"Alfred #0" = 0
+	"Anselm #0" = 0
+	"Arnold #0" = 0
+	"Arthur #0" = 0
+	"Aubrey #0" = 0
+	"Edmund #0" = 0
+	"Edward #0" = 0
+	"Eric #0" = 0
+	"Fulk #0" = 0
+	"Geoffrey #0" = 0
+	"Gerald #0" = 0
+	"Gilbert #0" = 0
+	"Godfrey #0" = 0
+	"Guy #0" = 0
+	"Henry #0" = 0
+	"Humphrey #0" = 0
+	"Jocelyn #0" = 0
+	"Lionel #0" = 0
+	"Mark #0" = 0
+	"Maurice #0" = 0
+	"Ralph #0" = 0
+	"Randolph #0" = 0
+	"Reginald #0" = 0
+	"Richard #0" = 0
+	"Robert #0" = 0
+	"Roger #0" = 0
+	"Theobald #0" = 0
+	"Waleran #0" = 0
+	"Walter #0" = 0
+	"William #0" = 0
+}
+ship_names = {
+	Achille Adventure Ajax Albemarle Alexander "Anne Gallant" Antelope "Ark Royal" Assurance Audacious
+	Bear Bellerophon Bonaventure Boyne Britannia Buckingham
+	Charles Christ Constant Convertine Culloden Cumberland
+	Defence Defiance Destiny Dragon Dreadnought
+	"Edward Howard" Elizabeth Eltham Essex Expedition
+	Foresight Foudroyant
+	"Gabriel Royal" Garland George Gibraltar Gloucester Goliath "Grace Dieu" Grafton "Grand Mistress" "Great Barbara" "Great Bark" "Great Elizabeth" "Great Harry" "Great Nicholas" Guernsey
+	Haarlem "Happy Entrance" Hector "Henrietta Maria" Hope
+	James "John Baptist"
+	"Katherine Forteleza" Kent
+	Leander Leopard Lion
+	Majestic Margaret Mary "Mary Rose" Mercury Merhonour Michael Minion Minotaur 
+	Nonpareil Nonsuch Northumberland Nottingham
+	Orion
+	Peter Providence "Prince Frederick"
+	"Queen Charlotte"
+	Rainbow "Red Lion" Regent Renown Repulse Revenge "Royal Anne" "Royal Charles" "Royal Prince" 
+	"Scourge of Malice" Sovereign "Sovereign o the Seas" "St Andrew" "St Esprit" "St George" "St Matthew" Suffolk Superb Swallow Swiftsure 
+	Theseus Tigre Tramontana Triumph
+	Unicorn Union
+	Vanguard Victory
+	Warspite Worcester
+}
+

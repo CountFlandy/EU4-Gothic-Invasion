@@ -1,0 +1,22 @@
+# Ostyak
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = ostyaki
+religion = finnish_pagan_reformed
+capital = 1072
+1430.6.27 = {
+	monarch = {
+		name = "Sviatopolk"
+		birth_date = 1400.2.14
+		dynasty = "Khovansky"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1444.11.11 = {
+	capital = 1072
+	elector = no
+}

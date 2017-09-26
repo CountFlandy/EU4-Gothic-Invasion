@@ -1,0 +1,15 @@
+government = theocratic_government
+technology_group = muslim
+primary_culture = bedouin_arabic
+religion = sunni
+capital = 392 # Deraiyah
+
+1399.1.1 = {
+	monarch = {
+		name = "Watban"
+		dynasty = "Sa'ud"
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}

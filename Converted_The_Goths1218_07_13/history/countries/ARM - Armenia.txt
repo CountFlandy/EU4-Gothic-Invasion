@@ -1,0 +1,33 @@
+# Armenia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = armenian
+religion = apostolic
+historical_rival = IRQ
+capital = 2205
+
+1416.6.11 = {
+	monarch = {
+		name = "Melek II"
+		birth_date = 1411.8.26
+		dynasty = "Altoonian"
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+}
+1429.7.9 = {
+	heir = {
+		name = "Vakhtank"
+		monarch_name = "Vakhtank"
+		dynasty = "Altoonian"
+		birth_date = 1429.7.9
+		death_date = 1478.3.6
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

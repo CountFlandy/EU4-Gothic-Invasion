@@ -1,0 +1,27 @@
+owner = PER
+controller = PER
+add_core = PER
+
+culture = persian
+religion = zoroastrian
+
+capital = "Esfahan"
+is_city = yes
+hre = no
+
+trade_goods = spices
+base_tax = 7
+base_production = 6
+base_manpower = 4
+
+fort_15th = yes
+
+add_permanent_province_modifier = {
+	name = inland_center_of_trade_modifier
+	duration = -1
+}
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

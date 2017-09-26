@@ -1,0 +1,18 @@
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 1
+technology_group = western
+religion = catholic
+primary_culture = ulm_culture
+capital = 1872	# Ulm
+
+1444.1.1 = {
+	monarch = {
+		name = "Henrik the Ulmighty"
+		dynasty = "von Kaiserslautern"
+		adm = 5
+		dip = 4
+		mil = 5
+		
+	}
+}

@@ -1,0 +1,2 @@
+culture = huron
+discovered_by = high_american

@@ -1,0 +1,207 @@
+# Leinster
+
+graphical_culture = westerngfx
+color = { 51 95 40 }
+historical_idea_groups = { 
+	naval_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+
+historical_units = { 
+	western_medieval_infantry
+	western_medieval_knights
+	gaelic_galloglaigh
+	gaelic_mercenary
+	gaelic_free_shooter
+	irish_charge
+	anglofrench_line
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Gilla-Comgáin" "Énna" "Crimthann" "Nath-Í" "Áengus" "Eógan" "Muiredach" "Fáelán" "Echu" "Brandub" 
+	"Rónán" "Crundmáel" "Élothach" "Áed" "Coirpre" "Cináed" "Muirchertach" "Fedelmid" "Áedán" "Tewdwr" 
+	"Gwilym" "Teilo" "Neirin" "Ffriog" "Angelbert" "Thibault" "Clotaire" "Raoul" "Boson" "Raynaud" 
+	"Géraud" "Adalgod" "Barend" "Róen" "Éamonn" "Éicnechán" "Énri" "Óengus" "Ólchobar" "Ailill" 
+	"Ainmere" "Amalgaid" "Amlaíb" "Ardgar" "Art" "Artgal" "Artúr" "Augaire" "Báetán" "Blathmac" 
+	"Bran" "Brian" "Bróen" "Carlus" "Cathal" "Cathalán" "Cellach" "Cennétig" "Cenn-Fáelad" "Cerball" 
+	"Colmán" "Conall" "Conchobar" "Congalach" "Conn" "Constantín" "Cormac" "Dabíd" "Demmán" "Diarmait" 
+	"Domnall" "Donnchad" "Donncuan" "Dúnchad" "Dúngal" "Dúnlaing" "Echmarcach" "Fáelbe" "Fergal" "Fergus" 
+	"Feidlimid" "Fedlimid" "Fiachnae" "Fingen" "Finn" "Finnsnechtae" "Flaithbertach" "Flann" "Fogartach" "Gabrán" 
+	"Gilla-Íosa" "Gilla-Brígte" "Gilla-Coluim" "Gilla-Críst" "Gilla-na-Náem" "Gilla-Pátraic" "Gilla-Ruad" "Iacob" "Indrechtach" "Liam" 
+	"Lóeguire" "Loingsech" "Lorcán" "Lugaid" "Lochlann" "Máel-Brígte" "Máel-Ciaráin" "Máél-Dúin" "Máel-Íosa" "Máel-Máedóc" 
+	"Máel-Martain" "Máel-Mórda" "Máel-Pátraic" "Máel-Ruanaid" "Máel-Sechlainn" "Máel-Sechnaill" "Mathgamain" "Matudán" "Murchad" "Niall" 
+	"Pátraic" "Pilib" "Ricard" "Ruaidrí" "Ruarc" "Seán" "Selbach" "Seoán" "Túathal" "Tadg" 
+	"Tigernán" "Toirrdelbach" "Tomás" "Ualgarg" "Ualtar" "Uilliam" }
+monarch_names = {
+	"Gilla-Comgáin #1" = 18
+	"Énna #1" = 0
+	"Crimthann #1" = 0
+	"Nath-Í #1" = 0
+	"Áengus #1" = 0
+	"Eógan #1" = 0
+	"Muiredach #1" = 0
+	"Fáelán #1" = 0
+	"Echu #1" = 0
+	"Brandub #1" = 0
+	"Rónán #1" = 0
+	"Crundmáel #1" = 0
+	"Élothach #1" = 0
+	"Áed #1" = 0
+	"Coirpre #1" = 0
+	"Cináed #1" = 0
+	"Muirchertach #3" = 0
+	"Fedelmid #1" = 0
+	"Áedán #1" = 0
+	"Tewdwr #1" = 0
+	"Gwilym #1" = 0
+	"Teilo #1" = 0
+	"Neirin #1" = 0
+	"Ffriog #1" = 0
+	"Angelbert #1" = 0
+	"Thibault #3" = 0
+	"Clotaire #1" = 0
+	"Raoul #1" = 0
+	"Boson #1" = 0
+	"Raynaud #1" = 0
+	"Géraud #1" = 0
+	"Adalgod #1" = 0
+	"Barend #1" = 0
+	"Róen #1" = 0
+	"Éamonn #0" = 0
+	"Éicnechán #0" = 0
+	"Énri #0" = 0
+	"Óengus #0" = 0
+	"Ólchobar #0" = 0
+	"Ailill #0" = 0
+	"Ainmere #0" = 0
+	"Amalgaid #0" = 0
+	"Amlaíb #0" = 0
+	"Ardgar #0" = 0
+	"Art #0" = 0
+	"Artgal #0" = 0
+	"Artúr #0" = 0
+	"Augaire #0" = 0
+	"Báetán #0" = 0
+	"Blathmac #0" = 0
+	"Bran #0" = 0
+	"Brian #0" = 0
+	"Bróen #0" = 0
+	"Carlus #0" = 0
+	"Cathal #0" = 0
+	"Cathalán #0" = 0
+	"Cellach #0" = 0
+	"Cennétig #0" = 0
+	"Cenn-Fáelad #0" = 0
+	"Cerball #0" = 0
+	"Colmán #0" = 0
+	"Conall #0" = 0
+	"Conchobar #0" = 0
+	"Congalach #0" = 0
+	"Conn #0" = 0
+	"Constantín #0" = 0
+	"Cormac #0" = 0
+	"Dabíd #0" = 0
+	"Demmán #0" = 0
+	"Diarmait #0" = 0
+	"Domnall #0" = 0
+	"Donnchad #0" = 0
+	"Donncuan #0" = 0
+	"Dúnchad #0" = 0
+	"Dúngal #0" = 0
+	"Dúnlaing #0" = 0
+	"Echmarcach #0" = 0
+	"Fáelbe #0" = 0
+	"Fergal #0" = 0
+	"Fergus #0" = 0
+	"Feidlimid #0" = 0
+	"Fedlimid #0" = 0
+	"Fiachnae #0" = 0
+	"Fingen #0" = 0
+	"Finn #0" = 0
+	"Finnsnechtae #0" = 0
+	"Flaithbertach #0" = 0
+	"Flann #0" = 0
+	"Fogartach #0" = 0
+	"Gabrán #0" = 0
+	"Gilla-Íosa #0" = 0
+	"Gilla-Brígte #0" = 0
+	"Gilla-Coluim #0" = 0
+	"Gilla-Críst #0" = 0
+	"Gilla-na-Náem #0" = 0
+	"Gilla-Pátraic #0" = 0
+	"Gilla-Ruad #0" = 0
+	"Iacob #0" = 0
+	"Indrechtach #0" = 0
+	"Liam #0" = 0
+	"Lóeguire #0" = 0
+	"Loingsech #0" = 0
+	"Lorcán #0" = 0
+	"Lugaid #0" = 0
+	"Lochlann #0" = 0
+	"Máel-Brígte #0" = 0
+	"Máel-Ciaráin #0" = 0
+	"Máél-Dúin #0" = 0
+	"Máel-Íosa #0" = 0
+	"Máel-Máedóc #0" = 0
+	"Máel-Martain #0" = 0
+	"Máel-Mórda #0" = 0
+	"Máel-Pátraic #0" = 0
+	"Máel-Ruanaid #0" = 0
+	"Máel-Sechlainn #0" = 0
+	"Máel-Sechnaill #0" = 0
+	"Mathgamain #0" = 0
+	"Matudán #0" = 0
+	"Murchad #0" = 0
+	"Niall #0" = 0
+	"Pátraic #0" = 0
+	"Pilib #0" = 0
+	"Ricard #0" = 0
+	"Ruaidrí #0" = 0
+	"Ruarc #0" = 0
+	"Seán #0" = 0
+	"Selbach #0" = 0
+	"Seoán #0" = 0
+	"Túathal #0" = 0
+	"Tadg #0" = 0
+	"Tigernán #0" = 0
+	"Toirrdelbach #0" = 0
+	"Tomás #0" = 0
+	"Ualgarg #0" = 0
+	"Ualtar #0" = 0
+	"Uilliam #0" = 0
+
+
+	"Taileflaith #0" = -1
+	"Lasairfíona #0" = -1
+	"Dervorgilla #0" = -1
+	"Aíbinn #0" = -1
+	"Sisuile #0" = -1
+}
+ship_names = {
+	Aoife
+	Ciara Connacht
+	Eithne Emer
+	Leinster
+	Munster
+	Niamh
+	Orla
+	Roisin
+	Ulster
+}
+

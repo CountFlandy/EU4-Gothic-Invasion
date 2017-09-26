@@ -1,0 +1,16 @@
+owner = ONE
+controller = ONE
+add_core = ONE
+
+culture = iroquois
+religion = totemism
+
+is_city = yes
+hre = no
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+trade_goods = iron
+
+discovered_by = north_american

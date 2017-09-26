@@ -1,0 +1,25 @@
+# Chernigov
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = byelorussian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 289
+1444.7.13 = {
+	monarch = {
+		name = "Yeremey"
+		birth_date = 1413.3.1
+		dynasty = "Suzdal"
+		adm = 3
+		dip = 4
+		mil = 0
+	}
+}
+1444.11.11 = {
+	capital = 289
+	add_treasury = 0
+	add_prestige = 0
+	elector = yes
+}

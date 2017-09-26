@@ -1,0 +1,33 @@
+government = despotic_monarchy
+primary_culture = javanese
+technology_group = chinese
+religion = mahayana
+capital = 628	# Surabaya
+
+
+# Majapahit
+
+1429.1.1 = {
+	monarch = {
+		name = "Suhita"
+		dynasty = "Rajasanagara"
+		adm = 1
+		dip = 2
+		mil = 1
+		female = yes
+	}
+}
+
+1429.1.1 = {
+	heir = {
+		name = "Kertawijaya"
+		monarch_name = "Kertawijaya"
+		dynasty = "Rajasanagara"
+		birth_date = 1429.1.1
+		death_date = 1451.1.1
+		claim = 95
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}

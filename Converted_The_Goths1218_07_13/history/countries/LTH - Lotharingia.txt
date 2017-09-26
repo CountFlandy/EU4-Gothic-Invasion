@@ -1,0 +1,19 @@
+#Lotharingia
+government = feudal_monarchy
+government_rank = 2
+primary_culture = rhine_rhenish
+religion = catholic
+technology_group = western
+capital = 189	# Lothringen
+
+
+1400.1.1 = {
+	monarch = {
+		name = "Lothar IX"
+		dynasty = "Karling"
+		birth_date = 1400.1.1
+		adm = 5
+		dip = 2
+		mil = 6
+	}
+}

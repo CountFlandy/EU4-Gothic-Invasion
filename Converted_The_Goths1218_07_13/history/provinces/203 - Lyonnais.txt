@@ -1,0 +1,33 @@
+owner = PRO
+controller = PRO
+add_core = PRO
+add_core = AUV
+remove_core = FRA
+remove_core = DAU
+
+culture = auvergnese
+religion = catholic
+
+is_city = yes
+hre = no
+
+add_local_autonomy = -32
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 6
+	base_production = 6
+	base_manpower = 4
+	remove_core = FRA
+	remove_core = DAU
+}
+1444.11.11 = {
+	owner = PRO
+	controller = PRO
+	culture = auvergnese
+	religion = catholic
+}

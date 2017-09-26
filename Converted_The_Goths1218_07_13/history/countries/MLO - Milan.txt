@@ -1,0 +1,30 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = lombard
+religion = catholic
+technology_group = western
+capital = 104 # Milano
+
+historical_rival = SAV
+
+1395.5.11 = {
+	monarch = {
+		name = "Gian Galeazzo I"
+		dynasty = "Reto"
+		birth_date = 1380.10.16
+		adm = 5
+		dip = 3
+		mil = 3
+	}
+	queen = { 
+		country_of_origin = MLO
+		name = "Caterina"
+		dynasty = "Reto"
+		birth_date = 1392.7.12
+		female = yes
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}
+

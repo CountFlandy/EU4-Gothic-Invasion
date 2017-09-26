@@ -1,0 +1,26 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = ionian
+add_accepted_culture = cappadocian_greek
+add_accepted_culture = cretan
+add_accepted_culture = pontic_greek
+religion = orthodox
+technology_group = eastern
+capital = 2298
+
+1443.1.1 = {
+	monarch = {
+		name = "Aman"
+		dynasty = "Lycia"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1444.11.11 = { 
+	primary_culture = ionian
+	add_accepted_culture = cappadocian_greek
+	religion = orthodox
+	technology_group = eastern
+}

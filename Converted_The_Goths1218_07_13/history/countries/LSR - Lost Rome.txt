@@ -1,0 +1,22 @@
+#Lost Rome
+
+government = feudal_monarchy
+primary_culture = lostroman
+religion = hellenic_pagan
+technology_group = north_american
+unit_type = western
+capital = 2536 #Miami
+
+1444.11.11 = {
+	monarch = {
+		name = "Caligula"
+		dynasty = "Ceasar"
+		adm = 1
+		dip = 6
+		mil = 1
+		
+	}
+
+
+
+}

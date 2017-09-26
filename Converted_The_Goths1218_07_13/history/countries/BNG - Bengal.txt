@@ -1,0 +1,26 @@
+government = despotic_monarchy
+primary_culture = bengali
+religion = jain
+technology_group = indian
+capital = 563	# Pandua
+
+1435.1.1 = {
+	monarch = {
+		name = "Nasir-ud-Din Mahmud"
+		dynasty = "Ilyas Shahi"
+		ADM = 3
+		DIP = 2
+		MIL = 2
+	}
+	heir = {
+		name = "Barbak"
+		monarch_name = "Rukun-ud-Din Barbak"
+		dynasty = "Ilyas Shahi"
+		birth_date = 1430.1.1
+		death_date = 1497.2.12
+		claim = 95
+		ADM = 4
+		DIP = 4
+		MIL = 5
+	}
+}

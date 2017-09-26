@@ -1,0 +1,16 @@
+owner = PTN
+controller = PTN
+add_core = PTN
+
+is_city = yes
+hre = no
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = unknown
+
+religion = south_american_pagan
+culture = patagonian
+
+discovered_by = south_american

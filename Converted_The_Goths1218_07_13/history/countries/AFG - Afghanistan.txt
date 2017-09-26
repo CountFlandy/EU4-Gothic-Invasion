@@ -1,0 +1,16 @@
+government = despotic_monarchy
+technology_group = muslim
+religion = zun_pagan_reformed
+primary_culture = afghani
+capital = 448	#Gazni
+
+#Kingdom of the Mughal prince Hakim
+1430.1.12 = {
+	monarch = {
+		name = "Hakim"
+		dynasty = ""
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

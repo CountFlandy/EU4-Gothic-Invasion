@@ -1,0 +1,389 @@
+# Holstein
+
+graphical_culture = westerngfx
+color = { 152 112 112 }
+
+
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	swiss_landsknechten
+	dutch_maurician
+	french_caracolle
+	anglofrench_line
+	french_dragoon
+	french_bluecoat
+	french_cuirassier
+	french_impulse
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+leader_names = {
+
+	"Rycheza" "Madara" "Athela" "Othelindis" "Ansgar" "Zbigniew" "Agnes" "Wlodek" "Banzleib" "Ansis" 
+	"Gertruda" "Bertold" "Domawuj" "Gerberga" "Helene" "Viric" "Volkwin" "Bogislaw" "Giselmar" "Wigebert" 
+	"Adalgar" "Magone" "Mieszko" "Hrothwina" "Drivinalds" "Harthgate" "Lembert" "Bertha" "Ida" "Thiedburga" 
+	"Suanhilde" "Mechthild" "Irminburg" "Asig" "Dobieslaw" "Bohuslava" "Frederuna" "Mathilde" "Kunigunde" "Wienke" 
+	"Vizbule" "Irmgard" "Vladislava" "Marian" "Tobe" "Przemysl" "Gunta" "Agnieszka" "Addila" "Gelder" 
+	"Warin" "Gertrud" "Adelheid" "Austra" "Henneke" "Bezprzym" "Rusinš" "Adalgod" "Reginbern" "Liudger" 
+	"Juries" "Giselher" "Enda" "Warinechin" "Geilana" "Jadwiga" "Immed" "Ryszard" "Cobbo" "Grzymislawa" 
+	"Diedke" "Detleff" "Wiltrud" "Dzidra" "Casimir" "Aron" "Rodelinda" "Heideke" "Glismod" "Esiko" 
+	"Gisela" "Ziedonis" "Oda" "Dragomira" "Hildegard" "Erik" "Bisina" "Reinbern" "Szymon" "Bertram" 
+	"Ludwig" "Henryk" "Bertrada" "Diederik" "Luitgard" "Brun" "Alebrand" "Wulfhild" "Miroslaw" "Gevert" 
+	"Stanislava" "Varis" "Günther" "Wislawa" "Imma" "Bithild" "Wilbrand" "Adalbero" "Reineke" "Zygmunt" 
+	"Dedo" "Theodwin" "Ance" "Odo" "Sigbert" "Richardis" "Tenis" "Rameks" "Jaspar" "Gunzelin" 
+	"Drosmis" "Wlencing" "Weybrecht" "Vojtech" "Radegund" "Aina" "Reginlint" "Erp" "Marbold" "Jutta" 
+	"Meinwerk" "Gödke" "Bernhard" "Benno" "Engelhard" "Bruno" "Gosschalk" "Hasala" "Leuderic" "Gerold" 
+	"Norbert" "Engelbert" "Gehrke" "Heilwig" "Adaldag" "Adalbert" "Sigward" "Arnd" "Widukind" "Eggerd" 
+	"Alof" "Sigfrid" "Hulderic" "Eilika" "Luder-Udo" "Unwan" "Theodoric" "Waltard" "Everd" "Wichmann" 
+	"Wolter" "Arnold" "Ordulf" "Theodrada" "Hadwig" "Goswin" "Radke" "Kersta" "Dago" "Dzintars" 
+	"Humfried" "Burchard" "Hoger" "Skaidrite" "Cyprian" "Zintis" "Rudite" "Jumara" "Mikelis" "Jautrite" 
+	"Tymmeke" "Abo" "Willichin" "Imetra" "Indra" "Helgi" "Meluke" "Vade" "Reinmar" "Liawizo" 
+	"Ase" "Leili" "Waldemar" "Varibuls" "Modris" "Liva" "Donar" "Balduin" "Thimo" "Guntis" 
+	"Rudolf" "Waldered" "Wichbert" "Vieco" "Dekla" "Lãsma" "Boddic" "Helvi" "Aija" "Adolf" 
+	"Hilja" "Laima" "Herberd" "Elmede" "Valda" "Auseklis" "Daiga" "Bedrich" "Hartwig" "Adalbrand" 
+	"Volrad" "Bernd" "Cord" "Jãnis" "Cissa" "Rudigar" "Imake" "Detmar" "Ilga" "Vilnis" 
+	"Nirglands" "Irbe" "Balthasar" "Saulvedis" "Valdis" "Brencis" "Tryggve" "Zaiga" "Meldra" "Floribert" 
+	"Branislava" "Ludmila" "Hermann" "Egilmar" "Albrecht" "Sarmite" "Wulff" "Ekbert" "Liemar" "Hinrich" 
+	"Austris" "Aelle" "Lech" "Wenzel" "Vairis" "Halina" "Rasa" "Kamila" "Agris" "Dainis" 
+	"Teiksma" "Vikele" "Altfrid" "Theoderic" "Thankmar" "Karol" "Baide" "Ingrid" "Patulne" "Freawine" 
+	"Witta" "Darta" "Przybyslaw" "Dagmar" "Withgils" "Walbert" "Luder" "Mscislaw" "Urszula" "Wratislaw" 
+	"Dethard" "Gintarë" "Gero" "Dzintra" "Zdislav" "Miervaldis" "Witikind" "Zdenek" "Liga" "Laimdots" 
+	"Wicho" "Lucjan" "Modra" "Ewald" "Otto" "Uffe" "Beneke" "Claus" "Frederik" "Ghert" 
+	"Hengest" "Hinrik" "Isidor" "Jochim" "Johann" "Kersten" "Köpke" "Laurentz" "Ludolf" "Marquard" 
+	"Mathias" "Merten" "Philipp" "Steffen" "Udo" "Wecta" "Werneke" }
+monarch_names = {
+	"Rycheza #0" = -1
+	"Madara #0" = -1
+	"Athela #0" = -1
+	"Othelindis #0" = -1
+	"Ansgar #0" = 1
+	"Zbigniew #0" = 1
+	"Agnes #0" = -1
+	"Wlodek #0" = 1
+	"Banzleib #0" = 1
+	"Ansis #0" = 1
+	"Gertruda #0" = -1
+	"Bertold #0" = 1
+	"Domawuj #0" = 1
+	"Gerberga #0" = -1
+	"Helene #0" = -1
+	"Viric #0" = 1
+	"Volkwin #1" = 39
+	"Bogislaw #0" = 1
+	"Giselmar #0" = 1
+	"Wigebert #0" = 1
+	"Adalgar #0" = 1
+	"Magone #0" = -1
+	"Mieszko #0" = 1
+	"Hrothwina #0" = -1
+	"Drivinalds #0" = 1
+	"Harthgate #1" = 30
+	"Lembert #0" = 1
+	"Bertha #0" = -1
+	"Ida #0" = -1
+	"Thiedburga #0" = -1
+	"Suanhilde #0" = -1
+	"Mechthild #0" = -1
+	"Irminburg #0" = -1
+	"Asig #1" = 21
+	"Dobieslaw #0" = 1
+	"Bohuslava #0" = -1
+	"Frederuna #0" = -1
+	"Mathilde #0" = -1
+	"Kunigunde #0" = -1
+	"Wienke #0" = -1
+	"Vizbule #0" = -1
+	"Irmgard #0" = -1
+	"Vladislava #0" = -1
+	"Marian #0" = 1
+	"Tobe #0" = 1
+	"Przemysl #0" = 1
+	"Gunta #0" = -1
+	"Agnieszka #0" = -1
+	"Addila #0" = -1
+	"Gelder #0" = 1
+	"Warin #0" = 1
+	"Gertrud #0" = -1
+	"Adelheid #0" = -1
+	"Austra #0" = -1
+	"Henneke #0" = 1
+	"Bezprzym #0" = 1
+	"Rusinš #0" = 1
+	"Adalgod #0" = 1
+	"Reginbern #0" = 1
+	"Liudger #0" = 1
+	"Juries #0" = 1
+	"Giselher #0" = 1
+	"Enda #0" = -1
+	"Warinechin #0" = 1
+	"Geilana #0" = -1
+	"Jadwiga #0" = -1
+	"Immed #0" = 1
+	"Ryszard #0" = 1
+	"Cobbo #0" = 1
+	"Grzymislawa #0" = -1
+	"Diedke #0" = -1
+	"Detleff #0" = 1
+	"Wiltrud #0" = -1
+	"Dzidra #0" = -1
+	"Casimir #0" = 1
+	"Aron #0" = 1
+	"Rodelinda #0" = -1
+	"Heideke #0" = 1
+	"Glismod #0" = -1
+	"Esiko #0" = 1
+	"Gisela #0" = -1
+	"Ziedonis #0" = 1
+	"Oda #0" = -1
+	"Dragomira #0" = -1
+	"Hildegard #0" = -1
+	"Erik #0" = 1
+	"Bisina #0" = -1
+	"Reinbern #1" = 45
+	"Szymon #0" = 1
+	"Bertram #0" = 1
+	"Ludwig #0" = 1
+	"Henryk #0" = 1
+	"Bertrada #0" = -1
+	"Diederik #0" = 1
+	"Luitgard #0" = -1
+	"Brun #0" = 1
+	"Alebrand #0" = 1
+	"Wulfhild #0" = -1
+	"Miroslaw #0" = 1
+	"Gevert #0" = 1
+	"Stanislava #0" = -1
+	"Varis #0" = 1
+	"Günther #0" = 1
+	"Wislawa #0" = -1
+	"Imma #0" = -1
+	"Bithild #0" = -1
+	"Wilbrand #2" = 30
+	"Adalbero #0" = 1
+	"Reineke #0" = 1
+	"Zygmunt #0" = 1
+	"Dedo #0" = 1
+	"Theodwin #0" = 1
+	"Ance #0" = -1
+	"Odo #0" = 1
+	"Sigbert #0" = 1
+	"Richardis #0" = -1
+	"Tenis #0" = 1
+	"Rameks #0" = 1
+	"Jaspar #0" = 1
+	"Gunzelin #0" = 1
+	"Drosmis #0" = 1
+	"Wlencing #0" = 1
+	"Weybrecht #0" = 1
+	"Vojtech #0" = 1
+	"Radegund #0" = -1
+	"Aina #0" = -1
+	"Reginlint #0" = -1
+	"Erp #0" = 1
+	"Marbold #0" = 1
+	"Jutta #0" = -1
+	"Meinwerk #0" = 1
+	"Gödke #0" = 1
+	"Bernhard #0" = 1
+	"Benno #0" = 1
+	"Engelhard #0" = 1
+	"Bruno #0" = 1
+	"Gosschalk #0" = 1
+	"Hasala #0" = -1
+	"Leuderic #0" = 1
+	"Gerold #0" = 1
+	"Norbert #0" = 1
+	"Engelbert #0" = 1
+	"Gehrke #0" = 1
+	"Heilwig #0" = -1
+	"Adaldag #0" = 1
+	"Adalbert #0" = 1
+	"Sigward #0" = 1
+	"Arnd #0" = 1
+	"Widukind #0" = 1
+	"Eggerd #0" = 1
+	"Alof #0" = -1
+	"Sigfrid #0" = 1
+	"Hulderic #0" = 1
+	"Eilika #0" = -1
+	"Luder-Udo #0" = 1
+	"Unwan #0" = 1
+	"Theodoric #0" = 1
+	"Waltard #0" = 1
+	"Everd #0" = 1
+	"Wichmann #3" = 21
+	"Wolter #0" = 1
+	"Arnold #0" = 1
+	"Ordulf #0" = 1
+	"Theodrada #0" = -1
+	"Hadwig #0" = -1
+	"Goswin #0" = 1
+	"Radke #0" = 1
+	"Kersta #0" = -1
+	"Dago #1" = 24
+	"Dzintars #0" = 1
+	"Humfried #0" = 1
+	"Burchard #0" = 1
+	"Hoger #0" = 1
+	"Skaidrite #0" = -1
+	"Cyprian #0" = 1
+	"Zintis #0" = 1
+	"Rudite #0" = -1
+	"Jumara #0" = -1
+	"Mikelis #0" = 1
+	"Jautrite #0" = -1
+	"Tymmeke #0" = 1
+	"Abo #0" = 1
+	"Willichin #0" = 1
+	"Imetra #0" = -1
+	"Indra #0" = -1
+	"Helgi #0" = -1
+	"Meluke #0" = 1
+	"Vade #0" = 1
+	"Reinmar #0" = 1
+	"Liawizo #0" = 1
+	"Ase #0" = 1
+	"Leili #0" = -1
+	"Waldemar #0" = 1
+	"Varibuls #0" = 1
+	"Modris #0" = 1
+	"Liva #0" = -1
+	"Donar #0" = 1
+	"Balduin #0" = 1
+	"Thimo #0" = 1
+	"Guntis #0" = 1
+	"Rudolf #0" = 1
+	"Waldered #0" = 1
+	"Wichbert #0" = 1
+	"Vieco #0" = 1
+	"Dekla #0" = -1
+	"Lãsma #0" = -1
+	"Boddic #0" = 1
+	"Helvi #0" = -1
+	"Aija #0" = -1
+	"Adolf #0" = 1
+	"Hilja #0" = -1
+	"Laima #0" = -1
+	"Herberd #0" = 1
+	"Elmede #0" = -1
+	"Valda #0" = -1
+	"Auseklis #0" = 1
+	"Daiga #0" = -1
+	"Bedrich #0" = 1
+	"Hartwig #0" = 1
+	"Adalbrand #0" = 1
+	"Volrad #0" = 1
+	"Bernd #0" = 1
+	"Cord #0" = 1
+	"Jãnis #0" = 1
+	"Cissa #0" = 1
+	"Rudigar #0" = 1
+	"Imake #0" = -1
+	"Detmar #0" = 1
+	"Ilga #0" = -1
+	"Vilnis #0" = 1
+	"Nirglands #0" = 1
+	"Irbe #0" = -1
+	"Balthasar #0" = 1
+	"Saulvedis #0" = 1
+	"Valdis #0" = 1
+	"Brencis #0" = 1
+	"Tryggve #0" = 1
+	"Zaiga #0" = -1
+	"Meldra #0" = -1
+	"Floribert #0" = 1
+	"Branislava #0" = -1
+	"Ludmila #0" = -1
+	"Hermann #0" = 1
+	"Egilmar #0" = 1
+	"Albrecht #0" = 1
+	"Sarmite #0" = -1
+	"Wulff #0" = 1
+	"Ekbert #0" = 1
+	"Liemar #0" = 1
+	"Hinrich #0" = 1
+	"Austris #0" = 1
+	"Aelle #0" = 1
+	"Lech #0" = 1
+	"Wenzel #0" = 1
+	"Vairis #0" = 1
+	"Halina #0" = -1
+	"Rasa #0" = -1
+	"Kamila #0" = -1
+	"Agris #0" = 1
+	"Dainis #0" = 1
+	"Teiksma #0" = -1
+	"Vikele #0" = -1
+	"Altfrid #0" = 1
+	"Theoderic #0" = 1
+	"Thankmar #0" = 1
+	"Karol #0" = 1
+	"Baide #0" = -1
+	"Ingrid #0" = -1
+	"Patulne #0" = -1
+	"Freawine #0" = 1
+	"Witta #0" = 1
+	"Darta #0" = -1
+	"Przybyslaw #0" = 1
+	"Dagmar #0" = -1
+	"Withgils #0" = 1
+	"Walbert #0" = 1
+	"Luder #0" = 1
+	"Mscislaw #0" = 1
+	"Urszula #0" = -1
+	"Wratislaw #0" = 1
+	"Dethard #0" = 1
+	"Gintarë #0" = -1
+	"Gero #0" = 1
+	"Dzintra #0" = -1
+	"Zdislav #0" = 1
+	"Miervaldis #0" = 1
+	"Witikind #0" = 1
+	"Zdenek #0" = 1
+	"Liga #0" = -1
+	"Laimdots #0" = 1
+	"Wicho #0" = 1
+	"Lucjan #0" = 1
+	"Modra #0" = -1
+	"Ewald #0" = 1
+	"Otto #1" = 0
+	"Uffe #1" = 0
+	"Beneke #0" = 0
+	"Claus #0" = 0
+	"Frederik #0" = 0
+	"Ghert #0" = 0
+	"Hengest #0" = 0
+	"Hinrik #0" = 0
+	"Isidor #0" = 0
+	"Jochim #0" = 0
+	"Johann #0" = 0
+	"Kersten #0" = 0
+	"Köpke #0" = 0
+	"Laurentz #0" = 0
+	"Ludolf #0" = 0
+	"Marquard #0" = 0
+	"Mathias #0" = 0
+	"Merten #0" = 0
+	"Philipp #0" = 0
+	"Steffen #0" = 0
+	"Udo #0" = 0
+	"Wecta #0" = 0
+	"Werneke #0" = 0
+}
+

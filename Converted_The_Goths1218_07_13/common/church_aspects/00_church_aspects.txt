@@ -1,0 +1,526 @@
+organised_through_bishops_aspect = {
+	effect = {
+		development_cost = -0.05
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+priests_may_marry_aspect = {
+	effect = {
+		stability_cost_modifier = -0.10
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+		modifier = {
+			factor = 2
+			unrest = 4
+			NOT = { stability = 0 }
+		}
+	}
+}
+
+adult_baptism_aspect = {
+	effect = { 
+		global_missionary_strength = 0.01
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+	}
+}
+
+holy_sacraments_aspect = {
+	effect = { 
+		discipline = 0.025
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+saints_accept_prayers_aspect = {
+	effect = { 
+		land_morale = 0.05
+		naval_morale = 0.05
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+icons_images_aspect = {
+	effect = { 
+		prestige = 0.5
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { prestige = -40 }
+		}
+	}
+}
+
+legalised_divorces_aspect = {
+	effect = {
+		legitimacy = 0.25
+		devotion = 0.25
+		horde_unity = 0.25
+		republican_tradition = 0.1
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { legitimacy = 60 }
+		}
+	}
+}
+
+heretics_deported_aspect = {
+	effect = {
+		global_colonial_growth = 15
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			num_of_colonies = 1
+		}
+		modifier = {
+			factor = 2
+			num_of_colonists = 2
+		}
+	}
+}
+
+parish_registers_aspect = {
+	effect = {
+		manpower_recovery_speed = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			is_at_war = yes
+			NOT = { manpower_percentage = 0.9 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { manpower_percentage = 0.5 }
+		}
+	}
+}
+
+individual_creeds_aspect = {
+	effect = { 
+		idea_cost = -0.05
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+allow_usury_aspect = {
+	effect = { 
+		production_efficiency = 0.1
+	}
+	ai_will_do = {
+		factor = 17
+		modifier = {
+			factor = 0.5
+			treasury = 500
+		}
+		modifier = {
+			factor = 0
+			treasury = 2500
+		}
+	}
+}
+
+translated_bibles_aspect = {
+	effect = {
+		global_unrest = -1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			unrest = 2
+		}
+		modifier = {
+			factor = 2
+			num_of_rebel_controlled_provinces = 1
+		}	
+	}
+}
+
+
+#End of Traditional Protestant Aspects
+
+#Begin norse_protestant Modifiers
+
+norse_production = {
+	effect = {
+		development_cost = -0.05
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+odin_marriage_blessing = {
+	effect = {
+		stability_cost_modifier = -0.10
+		heir_chance = 0.5
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+		modifier = {
+			factor = 2
+			unrest = 4
+			NOT = { stability = 0 }
+		}
+	}
+}
+
+norse_unity = {
+	effect = { 
+		global_missionary_strength = 0.02
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+	}
+}
+
+norse_beserker = {
+	effect = { 
+		discipline = 0.025
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+ragnarok_is_near = {
+	effect = { 
+		land_morale = 0.05
+		naval_morale = 0.05
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+norse_legends = {
+	effect = { 
+		prestige = 0.5
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { prestige = -40 }
+		}
+	}
+}
+
+odin_smiles_on_thee = {
+	effect = {
+		legitimacy = 0.25
+		devotion = 0.25
+		horde_unity = 0.25
+		republican_tradition = 0.1
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { legitimacy = 60 }
+		}
+	}
+}
+
+hardened_settlers = {
+	effect = {
+		global_colonial_growth = 15
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			num_of_colonies = 1
+		}
+		modifier = {
+			factor = 2
+			num_of_colonists = 2
+		}
+	}
+}
+
+allow_women_warriors = {
+	effect = {
+		manpower_recovery_speed = 0.1
+		free_leader_pool = 1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			is_at_war = yes
+			NOT = { manpower_percentage = 0.9 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { manpower_percentage = 0.5 }
+		}
+	}
+}
+
+norse_adaptation = {
+	effect = { 
+		embracement_cost = -0.30
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+end_slave_raiding = {
+	effect = { 
+		production_efficiency = 0.1
+	}
+	ai_will_do = {
+		factor = 17
+		modifier = {
+			factor = 0.5
+			treasury = 500
+		}
+		modifier = {
+			factor = 0
+			treasury = 2500
+		}
+	}
+}
+
+worship_odin_daily = {
+	effect = {
+		global_unrest = -2
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			unrest = 2
+		}
+		modifier = {
+			factor = 2
+			num_of_rebel_controlled_provinces = 1
+		}	
+	}
+}
+
+#Begin norse_wincest aspects
+
+homes_for_families = { #Build Homes for our large families
+	effect = {
+		development_cost = -0.05
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+odin_approves_of_practice = { #Odin approves of initiation orgies
+	effect = {
+		stability_cost_modifier = -0.15
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+		modifier = {
+			factor = 2
+			unrest = 4
+			NOT = { stability = 0 }
+		}
+	}
+}
+
+orgy_initiation = { #Every new member of our religion must participate in an orgy infront of Odin and the ruler of their nation
+	effect = { 
+		global_missionary_strength = 0.02
+		global_unrest = -1
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+	}
+}
+
+wincest_beserker = { #Beserkers for the ruler
+	effect = { 
+		discipline = 0.025
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+for_the_state = { #Everyone will die for their state
+	effect = { 
+		manpower_recovery_speed = 0.5
+		recover_army_morale_speed = 0.05
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+put_on_codpiece = { #Everyone must wear a codpiece
+	effect = { 
+		prestige = 0.5
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { prestige = -40 }
+		}
+	}
+}
+
+flip_off_flykir = { #The Flykir should not lead the faith! Each ruler has the right to lead their own nation unopposed!
+	effect = {
+		legitimacy = 0.25
+		devotion = 0.25
+		horde_unity = 0.25
+		republican_tradition = 0.1
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { legitimacy = 60 }
+		}
+	}
+}
+
+fuck_constantly = { #When we're not being productive in our daily lives, we must be having sex. More children means more people do die for our cause, and more orgies!
+	effect = {
+		global_colonial_growth = 15
+		heir_chance = 0.5
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			num_of_colonies = 1
+		}
+		modifier = {
+			factor = 2
+			num_of_colonists = 2
+		}
+	}
+}
+
+odin_sends_blessing_wincest = { #Odin sends word that our wars are just! We must succeed!
+	effect = {
+		manpower_recovery_speed = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			is_at_war = yes
+			NOT = { manpower_percentage = 0.9 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { manpower_percentage = 0.5 }
+		}
+	}
+}
+
+share_church_secrets = { #Unlike the fithly Flykir we share all secrets with our people! 
+	effect = { 
+		idea_cost = -0.05
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+more_slaves = { #More slaves from our raids means we can make more goods to sell!
+	effect = { 
+		production_efficiency = 0.1
+	}
+	ai_will_do = {
+		factor = 17
+		modifier = {
+			factor = 0.5
+			treasury = 500
+		}
+		modifier = {
+			factor = 0
+			treasury = 2500
+		}
+	}
+}
+
+let_people_rest = { #We've fought for so long, it is time to give our people a chance to rest so we can rebuild our ranks!
+	effect = {
+		global_manpower_modifier = 0.1
+		infantry_cost = -0.1
+	}
+	ai_will_do = {
+		factor = 2
+		is_at_war = yes
+	}
+}

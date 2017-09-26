@@ -1,0 +1,30 @@
+government = feudal_monarchy
+primary_culture = telegu
+add_accepted_culture = tamil
+religion = jain
+technology_group = indian
+capital = 1947
+
+1444.1.1 = {
+	monarch = {
+		name = "Asaf Jah I"
+		dynasty = "Asaf Jahi"
+		DIP = 4
+		ADM = 3
+		MIL = 5
+	}
+}
+
+1444.2.1 = {
+	heir = {
+		name = "Nasr Jang"
+		monarch_name = "Nasr Jang"
+		dynasty = "Asaf Jahi"
+		birth_date = 1444.1.31
+		death_date = 1446.1.1
+		claim = 95
+		ADM = 2
+		DIP = 1
+		MIL = 2
+	}
+}

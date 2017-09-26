@@ -1,0 +1,8 @@
+#Union of the Lowlands
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 25
+technology_group = western
+religion = catholic
+primary_culture = flemish
+capital = 90	# Aachen

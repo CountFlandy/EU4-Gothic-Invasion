@@ -1,0 +1,17 @@
+government = noble_republic
+technology_group = chinese
+religion = mahayana
+primary_culture = filipino
+capital = 652	# Lanao
+
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Barahaman" 
+		dynasty = "Dumalondong"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

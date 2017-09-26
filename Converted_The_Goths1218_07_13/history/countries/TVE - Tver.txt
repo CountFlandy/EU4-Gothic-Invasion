@@ -1,0 +1,25 @@
+# Tver
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rostovite
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 294
+1444.7.13 = {
+	monarch = {
+		name = "Iziaslav"
+		birth_date = 1414.10.25
+		dynasty = "Totma"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1444.11.11 = {
+	capital = 294
+	add_treasury = 0
+	add_prestige = 0
+	elector = no
+}

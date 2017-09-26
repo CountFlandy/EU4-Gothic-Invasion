@@ -1,0 +1,29 @@
+government = feudal_monarchy
+government_rank = 1
+religion = catholic
+primary_culture = catalan
+technology_group = western
+historical_friend = TOU
+capital = 213	# Barcelona
+
+1432.7.8 = {
+	monarch = {
+		name = "Karlo"
+		birth_date = 1430.6.26
+		dynasty = "Reto"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	heir = {
+		name = "Karlos"
+		monarch_name = "Karlos II"
+		dynasty = "Reto"
+		birth_date = 1432.7.6
+		death_date = 1499.1.23
+		claim = 100
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

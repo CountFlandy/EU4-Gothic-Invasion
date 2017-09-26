@@ -1,0 +1,19 @@
+# Mossi
+government = tribal_kingdom
+government_rank = 1
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = mali
+religion = shamanism
+capital = 2266
+
+1444.7.13 = {
+	monarch = {
+		name = "Tecolotl"
+		birth_date = 1417.2.4
+		dynasty = "of Hohenburg"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

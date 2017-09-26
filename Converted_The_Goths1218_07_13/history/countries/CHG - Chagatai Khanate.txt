@@ -1,0 +1,15 @@
+government = steppe_horde
+primary_culture = kirgiz
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 715
+
+1429.1.1 = {
+	monarch = {
+		name = "Esen Buqa"
+		dynasty = "Genghisid"
+		adm = 2
+		dip = 1
+		mil = 5
+	}
+}

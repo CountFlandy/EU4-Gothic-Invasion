@@ -1,0 +1,274 @@
+country_decisions = { 
+#Vangaria
+	form_vangarian_kingdom = { 
+		major = yes 
+		potential = { 
+			OR = {
+			religion = "norse_pagan_reformed"
+			religion = "norse_religion_papacy"
+			religion = "norse_protestant"
+			religion = "norse_wincest"
+			} 
+			NOT = { tag = VAN } 
+			NOT = { exists = VAN }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = TEM }
+			NOT = { tag = BUL }
+			culture_group = vangarian_greek
+		}
+		allow = { 
+			NOT = { exists = VAN } 
+			adm_tech = 7 
+			OR = { 
+				religion = "norse_pagan_reformed"
+				religion = "norse_religion_papacy"
+				religion = "norse_protestant"
+				religion = "norse_wincest"
+			}
+			owns_core_province = 151		
+			owns_core_province = 150		
+			owns_core_province = 148
+			owns_core_province = 3001
+			owns_core_province = 1756
+			owns_core_province = 161
+			owns_core_province = 316
+			owns_core_province = 1853
+			owns_core_province = 268
+			#owns_core_province = 2296 -- Add as missions later?
+			#owns_core_province = 146
+			stability = 1 
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+		}
+		effect = { 
+			change_tag = VAN #Change tag to Vangaria
+			if = {
+				limit = { 
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = { 
+					limit = { 
+						is_part_of_hre = yes
+					}
+					set_in_empire = no 
+				}
+			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = { 
+				name = "centralization_modifier"
+				duration = 3650 
+			}
+			add_prestige = 25 
+			change_government = vangarian_monarchy
+			change_primary_culture = vangarian
+			thrace_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } #Is not owned by decision taking nation.
+				}
+				add_permanent_claim = VAN #Give Perma claim to Vangaria
+			}
+			macedonia_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = VAN #Give Perma claim to Vangaria
+			}
+			bulgaria_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #is owned by decision taking nation.
+				}
+				add_permanent_claim = VAN #Give Perma claim to Vangaria
+			}
+			wallachia_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } #Is not owned by decision taking nation.
+				}
+				add_permanent_claim = VAN #Give Perma claim to Vangaria
+			}
+			moldavia_area = { 
+				limit = {
+					NOT = { owned_by = ROOT } #Is owned by decision taking nation.
+				}
+				add_permanent_claim = VAN #Give Perma claim to Vangaria
+			}
+			if = {
+				limit = {
+					NOT = { has_global_flag = vangarian_reconquest }
+				}
+				151 = {
+					change_culture = vangarian
+					change_religion = root
+					rename_capital = Miklagard
+					add_base_tax = 4
+					add_base_production = 4
+					add_base_manpower = 3
+					}
+				set_global_flag = vangarian_reconquest
+				}
+		
+			capital_scope = { 
+				change_culture = vangarian #Change culture to Vangarian
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+
+	}
+#Wallachia
+	form_wallachia_duchy = { 
+		major = yes 
+		potential = { 
+			NOT = { num_of_cities = 4 }
+			OR = {
+				owns_core_province = 2998
+				owns_core_province = 160
+				owns_core_province = 161
+			}
+			NOT = { tag = WAL } 
+			NOT = { exists = WAL }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+		}
+		allow = { 
+			NOT = { exists = WAL } 
+			NOT = { num_of_cities = 4 } 
+			owns_core_province = 160		
+			owns_core_province = 161		
+			owns_core_province = 2998 		
+		}
+		effect = { 
+			change_tag = WAL #Change tag to Serbia
+			if = {
+				limit = { 
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = { 
+					limit = { 
+						is_part_of_hre = yes
+					}
+					set_in_empire = no 
+				}
+			}
+			wallachia_area = { 
+				limit = { 
+					NOT = { owned_by = ROOT } #Is not owned by decision taking nation.
+				}
+				add_permanent_claim = WAL #Give Perma claim to Serbia
+			}
+			change_primary_culture = wallachian
+			160 = {
+				change_culture = wallachian
+			}
+			161 = {
+			change_culture = wallachian			
+			}
+			2998 = {
+			change_culture = wallachian
+			}
+
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+
+	}	
+#Romania
+	romanian_norse_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			NOT = { exists = RMN }
+			OR = {
+				primary_culture = audgian
+				primary_culture = draculish
+				}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				religion_group = pagan
+				religion_group = christian
+			}
+			adm_tech = 7
+			owns_core_province = 158	# Transylvania
+			owns_core_province = 159	# Silistria
+			owns_core_province = 160	# Oltenia
+			owns_core_province = 161	# Wallachia
+			owns_core_province = 268	# Moldova
+			owns_core_province = 1756	# Bessarabia
+			owns_core_province = 2405	# Bender
+			owns_core_province = 4128	# Kiralyfold
+			owns_core_province = 1952	# Maramaros
+			owns_core_province = 4127	# Turda
+			owns_core_province = 1951	# Hunyad
+			
+		}
+		effect = {
+			change_tag = RMN
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 2
+					}
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			every_owned_province = {
+				limit = {
+					has_owner_culture = yes
+				}
+				change_culture = romanian
+			}
+			change_primary_culture = romanian
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+}

@@ -1,0 +1,16 @@
+government = feudal_monarchy
+primary_culture = panjabi
+religion = hinduism
+technology_group = indian
+capital = 506	# Multan
+
+
+1437.1.1 = {
+	monarch = {
+		name = "Qutbudin"
+		dynasty = "Langa"
+		ADM = 0
+		DIP = 0
+		MIL = 3
+	}
+}

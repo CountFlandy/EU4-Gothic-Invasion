@@ -1,0 +1,29 @@
+#1054 - Ilimsk
+
+culture = tungus
+religion = tengri_pagan_reformed
+capital = "Mukhtuya"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 10
+native_ferocity = 1
+native_hostileness = 3
+
+
+
+discovered_by = nomad_group
+discovered_by = BRT
+discovered_by = STU
+discovered_by = VAH
+discovered_by = TYU
+discovered_by = YUA
+discovered_by = OSY
+discovered_by = KET
+discovered_by = KUZ
+discovered_by = ORD
+discovered_by = BAA
+discovered_by = TNK
+discovered_by = YKT

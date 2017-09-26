@@ -1,0 +1,21 @@
+# No previous file for Katsina
+
+government = tribal_kingdom
+primary_culture = hausa
+religion = shamanism
+technology_group = sub_saharan
+unlock_cult = yemoja_cult
+unlock_cult = roog_cult
+unlock_cult = nyame_cult
+capital = 1149	
+
+
+1430.1.1 = {
+	monarch = {
+		name = "Sanau I"
+		dynasty = "Azna"
+		dip = 2
+		adm = 1
+		mil = 2
+	}
+} 

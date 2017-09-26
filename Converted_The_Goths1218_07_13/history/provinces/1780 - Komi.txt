@@ -1,0 +1,18 @@
+#1780 - Komi
+owner = OSY
+add_core = OSY
+controller = OSY
+culture = ostyaki
+religion = finnish_pagan_reformed 
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = fur 
+base_manpower = 3
+capital = "Yarensk"
+
+
+
+discovered_by = nomad_group
+discovered_by = eastern
+discovered_by = western

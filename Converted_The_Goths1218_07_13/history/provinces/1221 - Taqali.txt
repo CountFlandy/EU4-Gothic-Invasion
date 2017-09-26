@@ -1,0 +1,16 @@
+#1221 - Kordofan
+owner = ALO
+controller = ALO
+add_core = ALO
+culture = acholi
+religion = shamanism #Fetishism
+capital = "Al-Ubayyid"
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+discovered_by = east_african
+discovered_by = sub_saharan
+discovered_by = muslim
+is_city = yes
+trade_goods = slaves

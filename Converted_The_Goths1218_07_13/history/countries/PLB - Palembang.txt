@@ -1,0 +1,17 @@
+government = despotic_monarchy
+primary_culture = sumatran
+religion = buddhism
+technology_group = chinese
+capital = 622	# Palembang
+
+
+
+1444.1.1 = {
+	monarch = {
+		name = "Tsalenggathu" # Fictional
+		dynasty = "Palembang"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}

@@ -1,0 +1,30 @@
+owner = BOU
+controller = BOU
+add_core = BOU
+remove_core = FRA
+
+culture = auvergnese
+religion = catholic
+
+is_city = yes
+hre = no
+
+add_local_autonomy = -50
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 6
+	base_production = 7
+	base_manpower = 3
+	remove_core = FRA
+}
+1444.11.11 = {
+	owner = BOU
+	controller = BOU
+	culture = auvergnese
+	religion = catholic
+}

@@ -1,0 +1,10 @@
+owner = ZUN
+controller = ZUN
+add_core = ZUN
+remove_core = OIR
+1444.11.11 = {
+	owner = ZUN
+	controller = ZUN
+	culture = oirats
+	religion = tengri_pagan_reformed
+}

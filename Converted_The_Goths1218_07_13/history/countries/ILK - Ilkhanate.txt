@@ -1,0 +1,5 @@
+government = steppe_horde
+primary_culture = khitan
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 410	# Baghdad

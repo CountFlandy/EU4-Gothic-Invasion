@@ -1,0 +1,27 @@
+owner = SMI
+controller = SMI
+add_core = SMI
+
+culture = sapmi
+religion = finnish_pagan_reformed
+
+is_city = yes
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	hre = no
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+	remove_core = NOR
+}
+1444.11.11 = {
+	owner = SMI
+	controller = SMI
+	culture = sapmi
+	religion = finnish_pagan_reformed
+}

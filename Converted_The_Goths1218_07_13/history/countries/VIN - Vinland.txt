@@ -1,0 +1,31 @@
+# Vinland
+government = despotic_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = north_american
+unit_type = western
+primary_culture = norse
+religion = norse_pagan_reformed
+capital = 981
+
+1444.7.12 = {
+	monarch = {
+		name = "Erik"
+		birth_date = 1416.7.25
+		dynasty = "Eriksson"
+		adm = 5
+		dip = 4
+		mil = 2
+	}
+	heir = {
+		name = "Erik"
+		monarch_name = "Erik II"
+		dynasty = "Eriksson"
+		birth_date = 1432.12.19
+		death_date = 1502.3.3
+		claim = 95
+		adm = 5
+		dip = 5
+		mil = 1
+	}
+}

@@ -1,0 +1,26 @@
+owner = SCO
+controller = SCO
+add_core = SCO
+
+culture = scottish
+religion = lollard
+
+is_city = yes
+hre = no
+
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+
+1444.11.11 = {
+	base_tax = 8
+	base_production = 5
+	base_manpower = 6
+}
+1444.11.11 = {
+	owner = SCO
+	controller = SCO
+	culture = scottish
+	religion = lollard
+}

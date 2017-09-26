@@ -1,0 +1,15 @@
+government = steppe_horde
+primary_culture = nogaybak
+religion = tengri_pagan_reformed
+technology_group = nomad_group
+capital = 465	# Saraycik
+
+1428.1.1 = {
+	monarch = {
+		name = "Vakkas"
+		dynasty = "Genghisid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

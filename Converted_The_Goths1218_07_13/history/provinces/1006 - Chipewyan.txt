@@ -1,0 +1,20 @@
+owner = CHW
+controller = CHW
+add_core = CHW
+
+is_city = yes
+hre = no
+
+culture = chipewyan
+religion = totemism
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+trade_goods = unknown
+
+
+
+discovered_by = north_american
+discovered_by = high_american
+

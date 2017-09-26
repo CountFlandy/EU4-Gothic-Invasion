@@ -1,0 +1,33 @@
+# Flanders
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = flemish
+religion = catholic
+historical_rival = BRB
+historical_rival = HAI
+capital = 90
+
+
+1434.8.12 = {
+	monarch = {
+		name = "Flandy"
+		birth_date = 1392.2.13
+		dynasty = "Van Vladderen"
+		adm = 4
+		dip = 1
+		mil = 6
+	}
+	heir = {
+		name = "Flandy"
+		monarch_name = "Flandy II"
+		dynasty = "Van Vladderen"
+		birth_date = 1434.6.28
+		death_date = 1447.2.6
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 5
+	}
+}

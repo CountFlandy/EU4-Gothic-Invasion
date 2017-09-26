@@ -1,0 +1,138 @@
+# Mossi
+
+graphical_culture = muslimgfx
+color = { 130 189 86 }
+historical_idea_groups = {	trade_ideas	defensive_ideas	offensive_ideas	spy_ideas	diplomatic_ideas	economic_ideas	religious_ideas	innovativeness_ideas}
+
+historical_units = {
+	african_spearmen
+	african_abyssinian_light_cavalry
+	bantu_tribal_warfare
+	ethiopian_mountain_warfare
+	ethiopian_gunpowder_warfare
+	westernized_ethiopian
+	ethiopian_guerilla_warfare
+	african_somali_cavalry
+	african_abyssinian_cavalry
+	african_mossi_horsemen
+	african_hussar
+	african_dragoon
+}
+
+
+
+leader_names = {
+
+	"Ohtli" "Itzcoatl" "Tecolotl" "Acolmiztli" "Tlahco" "Cuicatl" "Patli" "Ixtlilxochitl" "Yayauhqui" "Kukuray" 
+	"Daffi" "Tabouri" "Doucouri" "Bomou" "Kayna" "Bannu" "Dabo" "Fädazu" "Kambine" "Bilali" 
+	"Bunama" "Lawalo" "Latal" "Nare-Maghan" "Sundjata" "Lahilatul" "Mari-djata" "Allakoi" "Musa" "Djigui" 
+	"Barmandana" "Kalabi" "Bomba" "Dauman" "Namadi" "Kani" "Abubakari" "Akoi" "Alayaman" "Badä" 
+	"Bamari" "Bassi" "Birama" "Bisi" "Biyu" "Bonga" "Cisse" "Dankaran" "Demba" "Daoud" 
+	"Diara" "Düru" "Faga-Laye" "Fatta" "Fuluku" "Gane" "Gao" "Kabayo" "Kanafa" "Kassa" 
+	"Kaya" "Kinkin" "Kusoy" "Ishaq" "Lahiltoul" "M'Bali" "Manding-Bory" "Maghan" "Majan" "Mamadi" 
+	"Mamoudou" "Nintasanay" "Ouali" "Ouati" "Reidja" "Sakoura" "Salman" "Sandaki" "Soumaba" "Soumaoro" 
+	"Soundiata" "Sulayman" "Takoi" "Tib" "Tunka" "Watara" "Yabaghte" "Yama" "Yasiboy" "Zakoi" 
+	"Zenku" }
+monarch_names = {
+	"Ohtli #0" = -1
+	"Itzcoatl #0" = 1
+	"Tecolotl #1" = 21
+	"Acolmiztli #0" = 1
+	"Tlahco #0" = -1
+	"Cuicatl #0" = -1
+	"Patli #0" = -1
+	"Ixtlilxochitl #0" = 1
+	"Yayauhqui #0" = 1
+	"Kukuray #3" = 0
+	"Daffi #1" = 0
+	"Tabouri #1" = 0
+	"Doucouri #1" = 0
+	"Bomou #1" = 0
+	"Kayna #1" = 0
+	"Bannu #2" = 0
+	"Dabo #4" = 0
+	"Fädazu #1" = 0
+	"Kambine #1" = 0
+	"Bilali #0" = 0
+	"Bunama #0" = 0
+	"Lawalo #0" = 0
+	"Latal #0" = 0
+	"Nare-Maghan #0" = 0
+	"Sundjata #0" = 0
+	"Lahilatul #0" = 0
+	"Mari-djata #0" = 0
+	"Allakoi #0" = 0
+	"Musa #0" = 0
+	"Djigui #0" = 0
+	"Barmandana #0" = 0
+	"Kalabi #0" = 0
+	"Bomba #0" = 0
+	"Dauman #0" = 0
+	"Namadi #0" = 0
+	"Kani #0" = 0
+	"Abubakari #0" = 0
+	"Akoi #0" = 0
+	"Alayaman #0" = 0
+	"Badä #0" = 0
+	"Bamari #0" = 0
+	"Bassi #0" = 0
+	"Birama #0" = 0
+	"Bisi #0" = 0
+	"Biyu #0" = 0
+	"Bonga #0" = 0
+	"Cisse #0" = 0
+	"Dankaran #0" = 0
+	"Demba #0" = 0
+	"Daoud #0" = 0
+	"Diara #0" = 0
+	"Düru #0" = 0
+	"Faga-Laye #0" = 0
+	"Fatta #0" = 0
+	"Fuluku #0" = 0
+	"Gane #0" = 0
+	"Gao #0" = 0
+	"Kabayo #0" = 0
+	"Kanafa #0" = 0
+	"Kassa #0" = 0
+	"Kaya #0" = 0
+	"Kinkin #0" = 0
+	"Kusoy #0" = 0
+	"Ishaq #0" = 0
+	"Lahiltoul #0" = 0
+	"M'Bali #0" = 0
+	"Manding-Bory #0" = 0
+	"Maghan #0" = 0
+	"Majan #0" = 0
+	"Mamadi #0" = 0
+	"Mamoudou #0" = 0
+	"Nintasanay #0" = 0
+	"Ouali #0" = 0
+	"Ouati #0" = 0
+	"Reidja #0" = 0
+	"Sakoura #0" = 0
+	"Salman #0" = 0
+	"Sandaki #0" = 0
+	"Soumaba #0" = 0
+	"Soumaoro #0" = 0
+	"Soundiata #0" = 0
+	"Sulayman #0" = 0
+	"Takoi #0" = 0
+	"Tib #0" = 0
+	"Tunka #0" = 0
+	"Watara #0" = 0
+	"Yabaghte #0" = 0
+	"Yama #0" = 0
+	"Yasiboy #0" = 0
+	"Zakoi #0" = 0
+	"Zenku #0" = 0
+
+
+	"Aoua #0" = -1
+}
+ship_names = {
+	Kiringa Timbuktu "Koumbi Saleh" Gao
+	Jenne "Sundiata Keita" "Kankan Musa"
+	"Kouroukan Fouga" "Wali Keita" "Quati Keita"
+	"Khalifa Keita" Sakura
+}
+

@@ -1,0 +1,27 @@
+# Rostov
+government = imperial_city
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rostovite
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 4147
+
+1409.4.14 = {
+	monarch = {
+		name = "Yeremey"
+		birth_date = 1402.11.12
+		dynasty = "Paskevich"
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+
+1444.11.11 = {
+	capital = 293
+	add_treasury = 0
+	add_prestige = 0
+	elector = no
+}

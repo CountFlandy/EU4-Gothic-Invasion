@@ -1,0 +1,25 @@
+#1014 - Bungo
+
+owner = OTM
+controller = OTM
+add_core = OTM
+
+culture = kyushuan
+religion = shinto
+
+capital = "Funai"
+trade_goods = fish
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 2
+is_city = yes
+
+
+
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+

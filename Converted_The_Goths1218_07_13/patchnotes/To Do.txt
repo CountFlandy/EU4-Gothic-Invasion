@@ -1,0 +1,204 @@
+TO DO:
+
+	Major
+		- Overhaul every provence that was converted (DEV, visibility, cores, autonomy, ect)
+		- Fix religion
+		- Finish ideas
+		- Fix localisation
+
+	Overhauls
+		- Overhaul Asia (Major)
+		- Overhaul Pacific Region (Major)
+		- Overhaul Eastern Europe
+		- Add Flavor overall to Europe (MAJOR)
+		- Set Autonomy and forts for every territory (M.A.J.O.R.)
+		- Re-do Regions/Areas
+
+	Flags
+		- Give BEL a new flag 
+		- Give IME a flag 
+		- Give Sopron (ALS) a flag
+		- Give Memphis (MAM) a flag
+		- Give Fatimids (FAT) a flag
+		- Give Lycia (MEN) a Flag 
+		- Give Flykirate a better flag
+		- Change BEL's flag 
+		- Give Jordan a flag
+		- Give Palestine a flag
+		- Give Moldova a flag
+		- Give the East Africans Non-Sunni flags
+		- Give Vangarian a flag
+		- Give Numidia (NMB) a flag
+		- Give Turkish/Greek states proper FLAGS
+		- Give Vinland (VIN) a flag
+		- Remove Muslim Indian flag and replace with new ones
+		- Give Anatolia (ANO) a flag
+		- Give Dakota (DAK) a flag
+		- Give Algonquin (AGO) a flag
+		- Give CHW a flag
+		- Give CTW a flag
+		- Give LSR (Lost Rome) a flag
+		- Give CEN and JEN a flag
+		- Give Ismaili religion a flag
+		- New flag for England
+		- Give KHI a better flag
+		- Add flags for YUA, KET, TYU, STU, VAH, ORD, KUZ, TNK, YKT
+		- Add flags for RHO, TRN, KVN, and ION
+		- Add flags for COO, APP CRW TUT MSK TSK, SNC, CAY, ONO, ONE, MOH, ANC, PUP Natives
+		- Add flag for SKD LTH SGF and NGF
+		- Adjust SHY's new flag
+		- Adjust ACH's new flag
+		- Adjust PMC's New Flag
+		- Give FRS, a flag
+		- Give AAC, EGY a new flag
+		- Give PLS, KVS, KBL, TIA a flag
+		- Give Iroquois minors flags
+		- Give GBR a better Flag
+		- Add flag for ATL
+		- Find a flag for ARE (Arabian Caliphate/Empire)
+		- Find a flag for ILK
+		- Find a flag for the Netherlands/Lowlands Nations
+		- Find a better flag for united British Isles
+		- Find a flag for MAP, JIV, TAI, MIS, CHN, PTN, HET, HUP
+
+	Names
+		- Get better name for IME (Norse-Georgian)
+		- Give Greek Somalia (GRS) a propper name
+
+	Religion
+		- Flavor for Polynesian Paganism
+		- Flavor for Animism
+		- Flavor for Totemist Pagan Religion
+		- Flavor for Kemetic Pagans
+		- Flavor for Carribean Paganism
+		- Flavor for Gothic Paganity
+		- Modifiers for Gothic Paganity should reflect constant war, but they should NOT Accept ANY other religions, and should be unstable
+		- Give new heretic names to religions listed needing new ones
+		- Port new Shinto/Confucist mechanics to mod (Adapt Shinto to Zoroastrian?)
+		- Give Gothic Paganity powerful modifiers for the first 50 years, then it becomes incresingly harder to survive?
+		- Give Finnish Dieties modifiers
+		- Balance the new Buddhism Bonuses
+	
+	Formable's
+		- Add Decision to form Greater Navarra (Vasconia?) https://en.wikipedia.org/wiki/Vascones
+		- Add Decision to form Russian HRE (FINISH THE AREA FIRST STUPID) Federation of Russian Princes
+		- Add Decision to form Nubia (Nubia, Beja, Acholi cultures) (GO OVER THE AREA ONE MORE TIME)
+		- Add Decision to form the Lowlands (FIND A NAME FIRST STUPID)
+		- Add Decision to form Poland-Slovakia
+		- Add Decision to form Kievian-Rus (KVS) (FINISH THE AREA FIRST STUPID)
+		- Add Decision to form Westphalia for Norse-Saxons (FIND A NAME FIRST STUPID)
+		- Add Decision to form Hannover for Norse-Saxons (FIND A BETTER NAME FIRST?)
+		- Add decision to form Scotland?
+		- Slav Formables (FINISH THE AREA FIRST STUPID)
+		- Finish Form Egypt Decision (Event/Code needed to convert cultures)
+		- Finish Form Jerusalem Decision (Event needed) 
+		- Finish Form Ireland Decision (Event/Code needed to accept Irish cultures)
+		- Add decision to form the Grand Celtic Alliance (Find name first, exclude cumbria)
+		- Add decision for Cumbria to form its own nation (FIND NAME FIRST STUPID)
+		- Add decision for Jewish religion nations to form Israel
+		- Greek Formables
+		- Add Decision to form Kuba-Luba
+		- Add Decision to form Sibir
+		- Add decision to unite North Africa (Muslim)
+		- Re-purpose decision to form Ruth, Russia (and its other decisions), Sokoto, Rome, Manchu, Qing, Persia, Malaya, Germany, Tibet, Shan, Mughals, Indian Nations, 
+		- Every Culture needs to have a nation named after them that's formable or releaseable
+		- Formable Bohemia
+
+	Additions
+
+		- Create new territory in yam al (above OSY) and give them sea access
+		- Create new territory in nenets (russia) and create tribe there
+		- Densify Tibet, Greece, Livonian Order, and Siberia
+		- Add isle of Mann (England)
+		- Add island thats part of Yamal (Russia)
+		- Split up Nenets (Russia)
+		- Split up Ungava (Canada)
+		- Split up Weagamow (Canada)
+		- Split up Nunavut (canada)
+		- Split up Rocky Mountains (USA)
+		- Split up Great Basin (USA)
+		- Split up Northern Canadian wastelands (Canada)
+		- Split up Siberia (Russia)
+		- Overhaul African Wastelands 
+
+	New Nation
+		- Create Russian successor states out of remaining tags
+		- Add nation for Chichimean culture group
+	Events	
+		- Event to remove Greek Aliance as the main Greek nation on death
+		- Create Mamluke rebellion event
+		- Event for Volga (VLB) to explain the setup
+		- Create Flykirate event chain disbanding the norse religion
+		- Event Chain to let Greek Alliance centralize and remove the minor greek cultures? 
+		- Give Persia event(s) to choose which religion it picks
+		- Add event to spawn Taiwan
+		- In flavorAZT.txt change Temples of Cholula to only trigger once
+
+	Changes
+		- Give FLY 6 extra accepted cultures (minor?)
+		- Re-Balance nation colors
+		- Add historival rivalrys between nations (Minor)
+		- Add truce between Ladakh and Tibet for 4 more years
+		- Add vassals for Tibet? (Bhutan or Nepal?)
+		- Balance Institutions (They tend to spawn in Ming?) #Wait until DEV gets updated
+		- Nerf Ming
+		- Nerf Flykirate
+		- Nerf Volga
+		- Check balance of Miklagard
+		- Change Sikh color (too close to Hindu)
+
+	Balance
+		- Check over newly modified ideas for balance
+	Flavor
+		- Add Flavor to the New Governments (Fatimid_government, norse_papacy, greek_republic, norse_republic, vangarian_monarchy, vangarian_republic, sunni_caliph.)
+	Localisation
+		- Make a better localisation for all formables
+		- Add Localisation for Kemetic Dieties
+		- Change referneces from Spain to Hispania
+		- Change Localisation for Great Britian for something more Anglo related
+		- Look up better names for the New Nations
+		- Change name of Netherlands to something about Flemish-Wallonians
+		- Update Naples ideas localisation
+	Graphics
+		- Get icons for new Dieties
+	FIX
+		- Forming Romania crashes game (Check on all nation formations)
+		- Fix receiving TI in random places (Western, Eastern, Muslim...)
+		- Fix the Americas you goof
+		- Go through each territory and make sure nations have proper vision of it
+		- Actually disable RNW
+
+IDEAS
+	- Make natives have formables
+	- give decisions to natives to adopt a european style government through flavor
+	- Split up Greek Culture?
+	- Remove Rhinish culture?
+	- Fix NativeCouncils not having names at Kingdom rank
+	- Piasa event around Illinois?
+	- Wendigo around Algonquian
+	- plains natives are the "hordes of america?"
+	- Squatting reference in Slavic Formables events
+
+WHAT WE NEED
+
+	- Native Americans need more specifics
+	- More Accurate Steppe and Siberian culture groups
+	- More accurate chinese cultures?
+	- More accurate Indian cultures
+	- More accurate divergence cultures
+	- More accurate culture/religion/nation names
+
+
+
+
+
+
+
+
+WORK ON FIGURING OUT TI BUG:
+- Its not hre = no/yes
+- its not removing the discover dates
+- REMOVED TECH GROUP CHANGES
+- Removed un-needed files
+- Not changing location of remove_cores and add_cores
+- Removing Africa from places HRE can add to did not change it

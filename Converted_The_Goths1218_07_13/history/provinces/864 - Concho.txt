@@ -1,0 +1,5 @@
+culture = chichimecan
+religion = nahuatl
+discovered_by = high_american
+
+

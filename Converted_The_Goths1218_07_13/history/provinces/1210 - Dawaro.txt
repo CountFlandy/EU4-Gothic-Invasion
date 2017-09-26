@@ -1,0 +1,24 @@
+owner = ENA
+controller = ENA
+add_core = ENA
+culture = oromo
+religion = coptic
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+1444.11.11 = {
+	hre = no
+	base_tax = 3
+	base_production = 3
+	base_manpower = 2
+	remove_core = ADA
+	remove_core = ETH
+}
+1444.11.11 = {
+	owner = ENA
+	controller = ENA
+	culture = oromo
+	religion = coptic
+}

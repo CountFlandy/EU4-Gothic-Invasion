@@ -1,0 +1,25 @@
+# Kiev
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = ruthenian
+religion = slavic_pagan_reformed
+clear_scripted_personalities = yes
+capital = 280
+1444.7.13 = {
+	monarch = {
+		name = "Roman"
+		birth_date = 1420.2.24
+		dynasty = "iz Mykytyn"
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}
+1444.11.11 = {
+	capital = 280
+	add_treasury = 0
+	add_prestige = 0
+	elector = no
+}

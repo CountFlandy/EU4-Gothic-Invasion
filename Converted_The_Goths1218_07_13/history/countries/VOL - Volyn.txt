@@ -1,0 +1,21 @@
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+religion = slavic_pagan_reformed
+primary_culture = volhynian
+capital = 279	# Volhynia
+1412.5.11 = {
+	monarch = {
+		name = "Rodislav"
+		birth_date = 1408.1.14
+		dynasty = "Dregovich"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1444.11.11 = {
+capital = 279
+elector = no
+}

@@ -1,0 +1,21 @@
+owner = PUP
+controller = PUP
+add_core = PUP
+
+culture = pueblo
+religion = totemism
+
+capital = "Teypana"
+is_city = yes
+hre = no
+
+base_tax = 3
+base_production = 1
+base_manpower = 1 
+trade_goods = unknown
+
+native_size = 15 
+native_ferocity = 3 
+native_hostileness = 5 
+
+discovered_by = north_american 

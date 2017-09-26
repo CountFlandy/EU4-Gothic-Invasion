@@ -1,0 +1,18 @@
+# Jolof
+government = tribal_kingdom
+government_rank = 1
+mercantilism = 0.1
+technology_group = sub_saharan
+primary_culture = mali
+religion = shamanism
+capital = 1116
+1444.7.13 = {
+	monarch = {
+		name = "Bérété"
+		birth_date = 1414.4.5
+		dynasty = "Diawara"
+		adm = 4
+		dip = 0
+		mil = 3
+	}
+}

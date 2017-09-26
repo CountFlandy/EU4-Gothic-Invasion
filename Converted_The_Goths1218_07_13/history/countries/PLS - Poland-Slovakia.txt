@@ -1,0 +1,10 @@
+# Poland-Slovakia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = polish
+add_accepted_culture = slovak
+religion = slavic_pagan_reformed
+capital = 2959
+historical_rival = NOV

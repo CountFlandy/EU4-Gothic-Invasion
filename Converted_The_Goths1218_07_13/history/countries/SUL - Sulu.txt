@@ -1,0 +1,16 @@
+government = despotic_monarchy
+technology_group = chinese
+religion = buddhism
+primary_culture = filipino
+capital = 651	# Jolo
+
+
+1430.1.1 = {
+	monarch = {
+		name = "Sharif"
+		dynasty = "Adinda"
+		dip = 3
+		adm = 3
+		mil = 1
+	}
+}

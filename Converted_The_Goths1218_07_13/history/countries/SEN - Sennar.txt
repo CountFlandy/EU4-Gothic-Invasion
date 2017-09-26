@@ -1,0 +1,33 @@
+# Sennar
+government = despotic_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = east_african
+primary_culture = beja
+add_accepted_culture = acholi
+religion = shamanism
+capital = 1209
+
+1412.8.3 = {
+	monarch = {
+		name = "Chrysanthos"
+		birth_date = 1391.7.3
+		dynasty = "Karmalikes"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1416.9.5 = {
+	heir = {
+		name = "Polykarpos"
+		monarch_name = "Polykarpos II"
+		dynasty = "Karmalikes"
+		birth_date = 1416.9.5
+		death_date = 1494.4.4
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}

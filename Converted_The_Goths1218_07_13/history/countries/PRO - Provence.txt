@@ -1,0 +1,31 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = arpitan
+religion = catholic
+technology_group = western
+capital = 201 # Aix-en-Provence
+
+
+1399.8.1 = {
+	monarch = {
+		name = "Louis II"
+		dynasty = "Reto"
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+
+1403.9.25 = {
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis III"
+		dynasty = "Reto"
+		birth_date = 1403.9.25
+		death_date = 1495.5.3
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

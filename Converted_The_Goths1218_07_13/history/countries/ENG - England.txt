@@ -1,0 +1,35 @@
+# England
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = western
+primary_culture = anglo_saxon
+religion = catholic
+capital = 236
+
+1437.2.23 = {
+	monarch = {
+		name = "Deodat"
+		birth_date = 1393.12.24
+		dynasty = "Tudor"
+		adm = 6
+		dip = 2
+		mil = 4
+	}
+	heir = {
+		name = "Bertran"
+		monarch_name = "Bertran"
+		dynasty = "Tudor"
+		birth_date = 1426.8.10
+		death_date = 1476.6.12
+		claim = 90
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+1444.11.11 = {
+	capital = 236
+	add_treasury = 100
+	add_prestige = 0
+}
